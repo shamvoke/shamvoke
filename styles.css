@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    margin: 150px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #333;
+}
+
+.about h2,
+.toolbox h2,
+.current h2,
+.connect h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.about p,
+.toolbox ul,
+.current ul,
+.connect p {
+    margin-bottom: 15px;
+}
+
+.connect a {
+    color: #007bff;
+}
