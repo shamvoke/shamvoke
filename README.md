@@ -42,7 +42,7 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 
 🌐 Contributing to open-source projects and collaborating with like-minded developers to make a positive impact on the tech community.
 
-🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)
+🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)  - A Digital Creative Agency
 
 ## Let's Connect! 🌍
 
