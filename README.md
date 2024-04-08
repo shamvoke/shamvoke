@@ -15,7 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-```markdown
 # Hey there! 👋
 
 Welcome to the awesome world of Sham Voke! 🎉
@@ -51,5 +50,3 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course)? Feel free to reach out via shamvoke@gmail.com or connect with me on [Webmeka](https://www.webmeka.com/).
 
 🚀 Excited to embark on this coding journey together and create some truly amazing things! 😊
-
-```
