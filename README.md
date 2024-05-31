@@ -19,7 +19,7 @@ Welcome to the awesome world of Sham Voke! 🎉
 I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
 <div align="center">
-![Sham Voke's desktop stickers](img/shamvoke.jpg)
+![Sham Voke's desktop stickers](/img/shamvoke.jpg)
 </div>
 ## About Me
 
