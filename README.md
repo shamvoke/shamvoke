@@ -17,6 +17,7 @@ Here are some ideas to get you started:
 Welcome to the awesome world of Sham Voke! 🎉
 
 I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
+![Image Alt Text](img/shamvoke.jpg)
 
 ## About Me
 
