@@ -27,9 +27,9 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 
 ## My Tech Toolbox 🧰
 
-⚡ **Languages:** HTML, CSS, JavaScript, Python
+⚡ **Languages:** HTML, CSS, JAVASCRIPT, ~~Python~~
 
-💻 **Frameworks & Libraries:** React.js, Svelte, Node.js
+💻 **Frameworks & Libraries:** Svelte, Node.js, ~~React.js~~, Next.js
 
 🛠️ **Tools:** Git, VS Code, Docker, Linux (Arch KDE FTW!), Photoshop
 
@@ -45,6 +45,6 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 
 ## Let's Connect! 🌍
 
-📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course)? Feel free to reach out via shamvoke@webmeka.com 💬
+📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course:)? Feel free to reach out via shamvoke@webmeka.com 💬
 
 🚀 Excited to embark on this coding journey together and create some truly amazing things! 😊
