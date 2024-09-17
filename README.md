@@ -1,9 +1,7 @@
 # Hi there 👋
 
 <!--
-**shamvoke/shamvoke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
+**shamvoke/shamvoke**
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -19,7 +17,7 @@ Welcome to the awesome world of Sham Voke! 🎉
 I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
 ![Sham Voke's desktop stickers](img/shamvoke.jpg)
-## About Me
+## About Me ✨
 
 👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
 
@@ -47,6 +45,6 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 
 ## Let's Connect! 🌍
 
-📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course)? Feel free to reach out via shamvoke@gmail.com
+📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course)? Feel free to reach out via shamvoke@webmeka.com 💬
 
 🚀 Excited to embark on this coding journey together and create some truly amazing things! 😊
