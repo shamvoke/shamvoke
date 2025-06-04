@@ -2,17 +2,9 @@
 
 <!--
 **shamvoke/shamvoke**
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
-Welcome to the awesome world of Sham Voke! 🎉
+Welcome to the awesome world of ![Static Badge](https://img.shields.io/badge/SHAM-VOKE-blue) 
+
 
 I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
@@ -41,10 +33,10 @@ I'm Voke, a passionate web developer based in Nairobi, constantly exploring the 
 
 🌐 Contributing to open-source projects and collaborating with like-minded developers to make a positive impact on the tech community.
 
-🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)  - A Digital Creative Agency
+🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)   - A Digital Creative Agency
 
 ## Let's Connect! 🌍
 
-📫 Want to collaborate on a project, discuss the latest tech trends, or just grab a cup of coffee (virtually, of course:)? Feel free to reach out via shamvoke@webmeka.com 💬
+📫 Want to collaborate on a project, 💬 discuss the latest tech trends, or just grab a cup of coffee (virtually, of course:)? Feel free to reach out via:  <a href="https://wa.me/254714597644" title="Whatsapp"><img alt="whatsapp"  src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" height="30" align="center"/></a> <a href="mailto:shamvoke@webmeka.com" title="Email"><img alt="Email" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" align="center"/></a> <a href="https://www.linkedin.com/in/shamulwa/"><img  alt="LinkedIn" title="LinkedIn" src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" align="center" /></a>
 
 🚀 Excited to embark on this coding journey together and create some truly amazing things! 😊
