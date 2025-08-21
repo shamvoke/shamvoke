@@ -13,7 +13,7 @@ sitemap:
             {%- if page.layout == "main" -%}
                 <changefreq>weekly</changefreq>
                 <priority>1</priority>
-                <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+                <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
             {%- else -%}
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -28,7 +28,7 @@ sitemap:
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+            <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         </url>
         {%- endif -%}
     {%- endfor -%}
