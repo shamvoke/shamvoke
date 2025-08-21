@@ -1,0 +1,6 @@
+baseurl: ""
+url: "" 
+google_analytics: "G-EBDRYQY434"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"

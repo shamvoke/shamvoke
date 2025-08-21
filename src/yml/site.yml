@@ -1,0 +1,27 @@
+name: shamvoke
+title: shamvoke | The official blog of shamvoke
+description: Shamvoke.com is my digital corner, a mix of thoughts, creations and explorations at the intersection of tech, creativity and life. It is a space where I share experiments in web development, design, personal projects and the curious ideas that keep me inspired.
+tags:
+  - shamvoke
+  - tech
+  - blog
+  - Linux
+  - jekyll
+  - youtube
+  - technology
+  - netlify
+  - web development
+  - programming
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+email: shamvoke@webmeka.com
+# Commentbox id
+commentbox_project_id: 5764025115738112-proj
+# Contact Form Setting
+formspree_form_id: xkgzlbqz

@@ -1,0 +1,22 @@
+services:
+  web:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app
+      - gem_cache:/app/vendor/bundle
+      - node_modules:/app/node_modules
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    command: >
+      sh -c "
+        npm install &&
+        bundle config set --local path 'vendor/bundle' &&
+        bundle install &&
+        bundle exec jekyll build &&
+        gulp
+      "
+volumes:
+  gem_cache:
+  node_modules:

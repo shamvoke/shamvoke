@@ -1,0 +1,112 @@
+# Site Settings
+name: shamvoke
+title: shamvoke | The official blog of shamvoke
+description: Shamvoke.com is my digital corner, a mix of thoughts, creations and explorations at the intersection of tech, creativity and life. It is a space where I share experiments in web development, design, personal projects and the curious ideas that keep me inspired.
+tags:
+  - shamvoke
+  - tech
+  - blog
+  - Linux
+  - jekyll
+  - youtube
+  - technology
+  - netlify
+  - web development
+  - programming
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+email: shamvoke@webmeka.com
+# Commentbox id
+commentbox_project_id: 5764025115738112-proj
+# Contact Form Setting
+formspree_form_id: xkgzlbqz
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: shamvoke
+facebook_username: share/17911CWaJV/
+twitter_username: webmeka
+instagram_username: webmeka
+youtube_username: shamvoke
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: false
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: ""
+url: "" 
+google_analytics: "G-EBDRYQY434"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_youtube_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'docs/',
+  'vendor/',
+  'LICENSE',
+  'CHANGELOG.md',
+  'jekflix.gemspec',
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: blog
