@@ -1,34 +1,46 @@
 ---
 layout: null
+sitemap:
+  exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
+
+    {%- for page in site.pages -%}
+        {%- unless page.url contains "feed" or page.published == false -%}
         <url>
             <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
-            {% if page.layout == 'main' %}
+            {%- if page.layout == "main" -%}
                 <changefreq>weekly</changefreq>
                 <priority>1</priority>
                 <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-            {% else %}
+            {%- else -%}
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
-            {% endif %}
+            {%- endif -%}
         </url>
-    {% endfor %}
-    {% for post in site.posts %}
+        {%- endunless -%}
+    {%- endfor -%}
+
+    {%- for post in site.posts -%}
+        {%- if post.published != false -%}
         <url>
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
         </url>
-    {% endfor %}
-    {% for author in site.authors %}
+        {%- endif -%}
+    {%- endfor -%}
+
+    {%- for author in site.authors -%}
+        {%- if author.published != false -%}
         <url>
             <loc>{{ author.url | prepend: site.baseurl | prepend: site.url }}</loc>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
-    {% endfor %}
+        {%- endif -%}
+    {%- endfor -%}
+
 </urlset>
