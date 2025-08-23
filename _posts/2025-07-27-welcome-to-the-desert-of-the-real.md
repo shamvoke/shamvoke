@@ -1,7 +1,7 @@
 ---
 date: 2025-07-27 12:58:07
 layout: post
-title: Welcome to the desert of the real
+title: This is a sample blog post title
 subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

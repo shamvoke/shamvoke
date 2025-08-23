@@ -1,7 +1,7 @@
 ---
 date: 2025-08-27 17:19:37
 layout: post
-title: Do you believe that a spider can dance?
+title: This is a sample blog post title
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 category: travel

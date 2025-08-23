@@ -1,7 +1,7 @@
 ---
 date: 2025-08-15 16:49:09
 layout: post
-title: How to turn your dog into a Jedi master
+title: This is a sample blog post title
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
