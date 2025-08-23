@@ -21,7 +21,7 @@
       }
 
       &:hover > svg {
-        fill: $themeColor;
+        fill: $shamColor;
       }
     }
 
@@ -55,15 +55,15 @@
       align-items: center;
       flex-direction: column;
       background-color: #fff;
-      color: $themeColor;
+      color: $shamColor;
       padding: 0 rem(15px);
-      border: 1px solid $themeColor;
+      border: 1px solid $shamColor;
       border-radius: 5px;
       transition: all 0.3s;
 
       @include media(">=sm") {
         font-size: rem(17px);
-        border: 2px solid $themeColor;
+        border: 2px solid $shamColor;
       }
 
       &:hover {
@@ -74,7 +74,7 @@
       .arrow {
         width: rem(14px);
         height: rem(14px);
-        fill: $themeColor;
+        fill: $shamColor;
         margin-right: rem(10px);
       }
 

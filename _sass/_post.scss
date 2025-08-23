@@ -167,7 +167,7 @@
   }
 
   a {
-    color: $themeColor;
+    color: $shamColor;
     text-decoration: none;
 
     &:hover {
@@ -394,7 +394,7 @@
   width: 100%;
   height: 38px;
   padding: rem(30px) 0;
-  border-bottom: 1px solid $themeColor;
+  border-bottom: 1px solid $shamColor;
   background-color: #fff;
   transition: bottom 0.5s;
 
@@ -402,7 +402,7 @@
     position: relative;
     flex: 1;
     height: rem(10px);
-    background-color: $themeColor;
+    background-color: $shamColor;
     opacity: 0.2;
   }
 
@@ -461,7 +461,7 @@
     float: left;
     display: block;
     height: rem(5px);
-    background-color: $themeColor;
+    background-color: $shamColor;
   }
 
   .remaining {
@@ -499,9 +499,9 @@
   width: 100%;
   padding: rem(10px);
   transition: bottom 0.5s;
-  background-color: rgba(0, 0, 0, 0.85);
+  // background-color: rgba(0, 0, 0, 0.85);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   @include media(">=sm") {
     padding: rem(15px);
@@ -527,7 +527,7 @@
     button {
       background-color: transparent;
       border: 0;
-      color: #fff;
+      color: $vokeColor;
       cursor: pointer;
       display: inline-block;
       font-size: rem(13px);
@@ -540,10 +540,10 @@
     }
 
     svg {
-      fill: #fff;
-      width: rem(22px);
-      height: rem(22px);
-      transform: rotate(-90deg);
+      fill: $vokeColor;
+      width: rem(32px);
+      height: rem(32px);
+      transform: rotate(180deg);
       border: 1px solid #fff;
       border-radius: 50%;
       padding: 5px;
@@ -551,8 +551,8 @@
       vertical-align: middle;
 
       @include media(">=sm") {
-        width: rem(28px);
-        height: rem(28px);
+        width: rem(38px);
+        height: rem(38px);
       }
     }
 
@@ -665,7 +665,7 @@
 
     span {
       padding: rem(3px) rem(10px);
-      background-color: $themeColor;
+      background-color: $shamColor;
       border-radius: rem(5px);
       color: #fff;
     }
