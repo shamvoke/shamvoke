@@ -66,8 +66,8 @@ function server(done) {
   browserSync({
     server: {
       baseDir: '_site',
-      open: false
-    }
+    },
+    open: false
   });
   done();
 }
