@@ -4,5 +4,6 @@
 Gemfile.lock
 package-json.lock
 _site
-node_modules
+/node_modules
 _drafts
+/vendor/bundle

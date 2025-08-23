@@ -5,7 +5,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Bundler, Jekyll, Gulp globally
-RUN gem install bundler jekyll && \
-    npm install -g gulp
+RUN gem install bundler
 
 WORKDIR /app
+
+RUN bundle config set path 'vendor/bundle'

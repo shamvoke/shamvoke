@@ -43,7 +43,7 @@ body {
   }
 
   .version {
-    color: #1ADBE9;
+    color: $shamColor;
     font-size: rem(10px);
     font-weight: normal;
     line-height: 1;
@@ -52,7 +52,7 @@ body {
     right: 0;
     display: block;
     transform: translateX(110%);
-    opacity: 0.3;
+    opacity: 0.7;
   }
 
   .icon-menu {
