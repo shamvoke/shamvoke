@@ -1,25 +1,29 @@
 {
-  "name": "jekflix-template",
-  "version": "3.1.2",
-  "description": "A Jekyll theme inspired by Netflix",
+  "name": "shamvoke-blog",
+  "version": "1.0.0",
+  "description": "A tech blog by Sham (Voke) — creative design, web dev, graphic design, ideas and reflections.",
   "type": "module",
   "main": "gulpfile.js",
-  "homepage": "https://github.com/thiagorossener/jekflix-template.git#readme",
+  "homepage": "https://shamvoke.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiagorossener/jekflix-template.git"
+    "url": "https://github.com/shamvoke/shamvoke.git"
   },
   "keywords": [
-    "jekyll",
-    "template",
-    "theme",
-    "blog",
-    "netlify"
+    "shamvoke",
+     "tech",
+     "blog",
+     "Linux",
+     "youtube",
+     "technology",
+     "netlify",
+     "web development",
+     "programming"
   ],
-  "author": "Thiago Rossener",
+  "author": "Sham Voke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thiagorossener/jekflix-template/issues"
+    "url": "https://github.com/shamvoke/shamvoke/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
