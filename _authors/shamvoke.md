@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/profile.webp
 name: shamvoke
 display_name: sham voke
 position: The One

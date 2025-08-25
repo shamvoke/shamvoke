@@ -75,7 +75,7 @@
 
     .entry-category {
       text-transform: uppercase;
-      background-color: $shamColor;
+      background-color: $vokeTheme;
       margin-right: rem(5px);
       height: rem(20px);
       border-radius: rem(10px);
@@ -95,7 +95,7 @@
       line-height: rem(25px);
 
       &:hover {
-        color: $shamColor;
+        color: $vokeTheme;
         .entry-category {
           color: #ffffff;
         }
@@ -112,7 +112,7 @@
     height: rem(26px);
     padding: rem(5px);
     fill: $accentDark;
-    background-color: $vokeColor;
+    background-color: $shamTheme;
     border-radius: 13px;
     margin: rem(7px);
     cursor: pointer;

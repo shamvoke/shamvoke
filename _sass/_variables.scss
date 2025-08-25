@@ -7,8 +7,8 @@ $primaryDark: map-get($theme, primaryDark) !default;
 $accentDark: map-get($theme, accentDark) !default;
 $lightGray: map-get($theme, lightGray) !default;
 $texts: map-get($theme, texts) !default;
-$shamColor: map-get($theme, shamColor) !default;
-$vokeColor: map-get($theme, vokeColor) !default;
+$vokeTheme: map-get($theme, vokeTheme) !default;
+$shamTheme: map-get($theme, shamTheme) !default;
 
 // Breakpoints
 $breakpoints: (

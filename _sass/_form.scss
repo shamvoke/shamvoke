@@ -43,10 +43,10 @@
     display: block;
     padding: rem(14px) rem(39px) rem(14px) rem(39px);
     color: #ffffff;
-    background: $shamColor;
+    background: $vokeTheme;
     font-size: rem(18px);
     width: 100%;
-    border: 1px solid darken($vokeColor, 30%);
+    border: 1px solid darken($shamTheme, 30%);
     border-width: 1px 1px 3px;
     margin-top: rem(50px);
     margin-bottom: rem(10px);
@@ -55,7 +55,7 @@
     outline: none;
 
     &:hover {
-      background: darken($shamColor, 20%);
+      background: darken($vokeTheme, 20%);
     }
 
     @include media(">=sm") {

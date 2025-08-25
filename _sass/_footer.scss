@@ -60,11 +60,11 @@ footer {
     color: #808080;
     
     &:hover {
-      fill: $vokeColor;
+      fill: $shamTheme;
     }
     
     &.creator:hover {
-    color: $shamColor;
+    color: $vokeTheme;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -118,7 +118,7 @@ footer {
   transition: all 0.3s ease;
 
   &:hover {
-    color: $shamColor;
+    color: $vokeTheme;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;

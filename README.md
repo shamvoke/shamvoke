@@ -8,7 +8,7 @@ Welcome to the awesome world of ![Static Badge](https://img.shields.io/badge/SHA
 
 I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
-![Sham Voke's desktop stickers](assets/img/shamvoke.jpg)
+![Sham Voke's desktop stickers](assets/img/shamvoke.webp)
 ## About Me ✨
 
 👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.

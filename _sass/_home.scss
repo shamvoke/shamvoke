@@ -162,7 +162,7 @@
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
-        color: $shamColor;
+        color: $vokeTheme;
         z-index: 1;
       }
 
@@ -202,7 +202,7 @@
         margin-top: rem(-40px);
         margin-left: rem(-40px);
         border: 2px solid #fff;
-        color: $shamColor;
+        color: $vokeTheme;
         z-index: 4;
 
         svg {

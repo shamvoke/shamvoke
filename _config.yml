@@ -1,5 +1,5 @@
 # Site Settings
-name: shamvoke-blog
+name: shamvoke
 title: shamvoke | The official blog of shamvoke
 description: A tech blog by Sham (Voke) — creative design, web dev, graphic design, ideas and reflections.
 tags:
@@ -109,4 +109,4 @@ exclude: [
 ]
 
 # Theme
-version: Blog
+version: Blog loading...
