@@ -16,6 +16,8 @@ show_hero: true
 menu:
   - title: Home
     url: /
+  - title: Blog
+    url: /category/blog
   - title: About
     url: /about
   - title: Contact
