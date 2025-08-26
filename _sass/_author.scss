@@ -1,5 +1,5 @@
 .author {
-  background: rgb(2,0,36);
+  background: $primaryDark;
   display: table;
   width: 100%;
   padding: rem(40px) 0;
@@ -40,7 +40,6 @@
     border-radius: 50%;
     display: block;
     margin: auto;
-    background-color: #000;
 
     @include media(">=sm") {
       width: rem(180px);

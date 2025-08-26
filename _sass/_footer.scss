@@ -5,13 +5,13 @@
   h3 {
     margin: 0 0 rem(30px);
     font-size: rem(30px);
+    color: $lightGray;
   }
 }
 
 footer {
   @include center(rem(800px));
   border-top: 1px solid lighten($primaryDark, 10%);
-  background: $primaryDark;
   padding: rem(20px) rem(25px);
   margin-top: rem(50px);
   margin-bottom: rem(120px);

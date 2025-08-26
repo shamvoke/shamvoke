@@ -26,19 +26,18 @@
 
   .icon {
     transition: all 0.3s;
-  }
-  .icon-twitter {
-    fill: $lightGray;
-  }
-  .icon-facebook {
-    fill: $lightGray;
-  }
 
-  .icon-twitter:hover {
+    &:hover {
+      fill: $vokeTheme;
+  }
+  }
+  .icon-x {
     fill: #1da1f3;
   }
-  
-  .icon-facebook:hover {
-    fill: #3b5998;
+  .icon-facebook {
+    fill: #0866FF;
+  }
+  .icon-whatsapp {
+    fill: #25D366;
   }
 }
