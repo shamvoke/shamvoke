@@ -54,7 +54,7 @@ function adjust_textarea(h) {
 Vue.use(VeeValidate);
 
 const dictionary = {
-  {{ site.translations.contact.errors.locale | default: 'en' }}: {
+  "{{ site.translations.contact.errors.locale | default: 'en' }}": {
     custom: {
       name: {
         required: "{{ site.translations.contact.errors.empty_name | default: 'Name is required' }}"

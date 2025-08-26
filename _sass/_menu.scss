@@ -34,8 +34,7 @@ aside.sidebar {
   height: 100%;
   top: 0;
   left: rem(-240px);
-  background: rgb(2,0,36);  
-  background: linear-gradient(8deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: #fff;
   z-index: 20;
 
   @include media(">=sm") {
@@ -50,8 +49,8 @@ aside.sidebar {
     margin: 0 rem(20px) 0;
     @include mainFont(400);
     font-size: rem(18px);
-    color: $lightGray;
-    border-bottom: 1px solid $lightGray;
+    color: $primaryDark;
+    border-bottom: 1px solid $primaryDark;
     line-height: 50px;
 
     @include media(">=sm") {

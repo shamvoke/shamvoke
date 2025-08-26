@@ -6,6 +6,7 @@
     border: none;
     font-weight: normal;
   }
+  
 
   input[type="text"],
   input[type="email"],
@@ -13,11 +14,12 @@
     box-sizing: border-box;
     outline: none;
     display: block;
-    color: #333333;
+    color: $lightGray;
+    background-color: $primaryDark;
     width: 100%;
     padding: 7px;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $vokeTheme;
     margin-bottom: 10px;
     font-family: inherit;
     font-size: rem(18px);
@@ -43,7 +45,7 @@
     display: block;
     padding: rem(14px) rem(39px) rem(14px) rem(39px);
     color: #ffffff;
-    background: $vokeTheme;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
     font-size: rem(18px);
     width: 100%;
     border: 1px solid darken($shamTheme, 30%);
@@ -55,7 +57,8 @@
     outline: none;
 
     &:hover {
-      background: darken($vokeTheme, 20%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
     }
 
     @include media(">=sm") {
