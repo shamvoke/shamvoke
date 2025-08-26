@@ -11,7 +11,7 @@
       <svg class="icon icon-whatsapp"><use xlink:href="#icon-whatsapp"></use></svg>
   </a>
     <a aria-label="{{ site.translations.button.share_on_x | default: 'Share on X' }}" 
-   href="https://x.com/intent/post?text=&quot;{{ page.description }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={{ page.tags | join: ',' }}"
+   href="https://x.com/intent/post?via={{ site.twitter_username | url_encode }}&hashtags={{ page.tags | join: ',' | url_encode }}&text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}"
    onclick="window.open(this.href, 'x-share', 'width=550,height=235');return false;" 
    title="{{ site.translations.button.share_on_x | default: 'Share on X' }}">
     <svg class="icon icon-x"><use xlink:href="#icon-x"></use></svg>

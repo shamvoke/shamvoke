@@ -114,12 +114,12 @@ body.light:not(.main-page) {
 
     .icon-search,
     .icon-menu {
-      fill: $primaryDark;
+      fill: $lightGray;
     }
 
     .logo a,
     .version {
-      color: #1ADBE9;
+      color: $vokeTheme;
     }
   }
 }
