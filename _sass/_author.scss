@@ -1,5 +1,5 @@
 .author {
-  background: $lightGray;
+  background: rgb(2,0,36);
   display: table;
   width: 100%;
   padding: rem(40px) 0;
@@ -40,6 +40,7 @@
     border-radius: 50%;
     display: block;
     margin: auto;
+    background-color: #000;
 
     @include media(">=sm") {
       width: rem(180px);
@@ -49,10 +50,10 @@
   }
 
   .def {
-    color: gray;
     font-size: rem(18px);
     @include mainFont(300);
     margin: rem(10px);
+    color: $accentDark;
 
     @include media(">=sm") {
       margin: 0;
@@ -65,7 +66,7 @@
     a {
       @include mainFont();
       text-decoration: none;
-      color: black;
+      color: $accentDark;
       font-size: rem(30px);
 
       @include media(">=sm") {
@@ -73,7 +74,7 @@
       }
 
       &:hover {
-        color: $texts;
+        color: $vokeTheme;
       }
     }
   }
@@ -83,6 +84,7 @@
     margin: rem(10px);
     font-size: rem(16px);
     line-height: rem(25px);
+    color: $accentDark;
 
     @include media(">=sm") {
       font-size: rem(18px);

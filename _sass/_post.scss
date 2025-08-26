@@ -1,3 +1,6 @@
+body{
+  background-color: $primaryDark;
+}
 .post {
   position: relative;
   top: rem(30px);
@@ -86,6 +89,7 @@
     line-height: 1.2;
     margin: rem(5px) auto rem(10px);
     padding-top: 0;
+    color: $lightGray;
   }
 
   p.post-subtitle {
@@ -137,7 +141,7 @@
 
   p,
   li {
-    color: $texts;
+    color: $lightGray;
 
     code {
       font-size: rem(15px);
@@ -188,6 +192,7 @@
   h6 {
     @include mainFont(700);
     margin-top: 0;
+    color: lighten($primaryDark, 50%);
     padding-top: rem(50px);
 
     @include media(">=sm") {
@@ -235,7 +240,7 @@
 
   blockquote {
     @include center(rem(730px));
-    border-left: rem(5px) solid $texts;
+    border-left: rem(5px) solid $lightGray;
     padding: 0 rem(10px);
     margin: rem(30px) auto;
     width: 90%;
@@ -248,7 +253,7 @@
 
     p {
       font-size: rem(17px);
-      color: rgba(0, 0, 0, 0.6);
+      color: lighten($primaryDark, 50%);
       margin: 0;
       @include media(">=sm") {
         font-size: rem(20px);
@@ -273,6 +278,7 @@
     letter-spacing: 0.025rem;
     margin: rem(50px) auto;
     border-collapse: collapse;
+    color: $lightGray;
 
     @include media(">=sm") {
       font-size: rem(20px);
@@ -348,6 +354,7 @@
   h2 {
     font-size: rem(24px);
     font-weight: bold;
+    color: $vokeTheme;
     border-bottom: 1px solid $lightGray;
     padding: rem(10px) 0;
     @include media(">=sm") {
@@ -370,12 +377,12 @@
 
       a {
         font-weight: normal;
-        color: $primaryDark;
+        color: $lightGray;
         text-decoration: none;
         transition: all 0.3s;
 
         &:hover {
-          color: rgba(0, 0, 0, 0.5);
+          color: $vokeTheme;
           img {
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
@@ -395,7 +402,7 @@
   height: 38px;
   padding: rem(30px) 0;
   border-bottom: 1px solid $vokeTheme;
-  background-color: #fff;
+  background-color: $primaryDark;
   transition: bottom 0.5s;
 
   .bar {
@@ -564,7 +571,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #000;
+    background-color: $primaryDark;
     padding: rem(5px);
     max-width: 35%;
     text-decoration: none;
@@ -636,7 +643,7 @@
 
     a {
       font-size: rem(14px);
-      color: $primaryDark;
+      color: $lightGray;
       display: inline-block;
       border: 1px solid $primaryDark;
       border-radius: rem(20px);
@@ -698,7 +705,7 @@
     a {
       display: flex;
       justify-content: space-between;
-      border-bottom: 1px solid darken($lightGray, 10%);
+      border-bottom: 1px solid lighten($primaryDark, 20%);
       padding: rem(10px) 0;
       text-decoration: none;
       font-size: rem(18px);

@@ -4,6 +4,7 @@
   border-top: 1px solid $lightGray;
   padding-top: rem(20px);
   margin-top: rem(10px);
+  color: $lightGray;
 
   @include media(">=sm") {
     margin-top: rem(50px);
@@ -25,6 +26,12 @@
 
   .icon {
     transition: all 0.3s;
+  }
+  .icon-twitter {
+    fill: $lightGray;
+  }
+  .icon-facebook {
+    fill: $lightGray;
   }
 
   .icon-twitter:hover {
