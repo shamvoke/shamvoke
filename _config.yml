@@ -1,16 +1,13 @@
 # Site Settings
 name: shamvoke
-title: shamvoke | The official blog of shamvoke
-description: A tech blog by Sham (Voke) — creative design, web dev, graphic design, ideas and reflections.
+title: shamvoke blog | ALL CURSORS HAVE A POINT
+description: A tech blog by Sham (Voke) — Creative Design, Web Dev, Graphic Design, Thoughts, Stories and Ideas.
 tags:
   - shamvoke
   - tech
   - blog
   - Linux
-  - jekyll
   - youtube
-  - technology
-  - netlify
   - web development
   - programming
 show_hero: true
@@ -25,7 +22,7 @@ menu:
     url: /contact
 email: shamvoke@webmeka.com
 # Commentbox id
-commentbox_project_id: 5764025115738112-proj
+commentbox_project_id: 5704915259228160-proj
 # Contact Form Setting
 formspree_form_id: xkgzlbqz
 

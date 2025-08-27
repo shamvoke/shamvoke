@@ -12,7 +12,7 @@ layout: compress
                 {{ content }}
             </section>
         {% include footer.html %}
-        <script>
+        <script defer>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", (user) => {
       if (!user) {
