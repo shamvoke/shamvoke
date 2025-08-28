@@ -54,7 +54,6 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      background-color: #fff;
       color: $vokeTheme;
       padding: 0 rem(15px);
       border: 1px solid $vokeTheme;
@@ -64,11 +63,6 @@
       @include media(">=sm") {
         font-size: rem(17px);
         border: 2px solid $vokeTheme;
-      }
-
-      &:hover {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
       }
 
       .arrow {
