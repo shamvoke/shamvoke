@@ -11,7 +11,6 @@ category: blog
 tags:
   - shamvoke
   - webdev
-  - career
   - blog
 author: shamvoke
 paginate: false
