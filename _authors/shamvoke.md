@@ -7,7 +7,7 @@ position: The One
 bio: Sham the webmeka.
 github_username: shamvoke
 facebook_username: share/17911CWaJV/
-twitter_username: webmeka
+twitter_username: 
 instagram_username: webmeka
 youtube_username: shamvoke
 ---
