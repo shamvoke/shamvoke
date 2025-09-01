@@ -4,14 +4,13 @@ layout: post
 title: Welcome to my blog!
 subtitle: Constantly exploring the realms of code and creativity. 🚀
 description: My first step into the blogosphere, but with purpose. why start a
-  blog in 2025? Lessons from WordPress, smarter builds with SSG. Write To Learn,
-  Publish To Share
+  blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
+  To Share
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg
-category: code
+category: blog
 tags:
   - shamvoke
   - webdev
-  - career
   - blog
 author: shamvoke
 paginate: false
