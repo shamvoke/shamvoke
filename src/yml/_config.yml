@@ -67,5 +67,6 @@ exclude: [
   'README.md'
 ]
 
+timezone: Africa/Nairobi
 # Theme
 version: Blog loading...
