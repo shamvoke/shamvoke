@@ -19,7 +19,7 @@ function type() {
     if (j > currentWord.length) {
       if (i === words.length - 1) {
         isDeleting = true;
-        setTimeout(type, 7000);
+        setTimeout(type, 10000);
         return;
       } else {
         isDeleting = true;
