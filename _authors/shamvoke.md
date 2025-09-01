@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.webp
+photo: https://res.cloudinary.com/deudsgjbm/image/upload/v1756729555/vokelogo_wo0rhj.png
 name: shamvoke
 display_name: sham voke
 position: The One

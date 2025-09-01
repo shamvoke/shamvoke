@@ -14,7 +14,7 @@ tags:
   - Kenya
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.webp" alt="Sham Voke" width="200">
+<img class="img-rounded" src="https://res.cloudinary.com/deudsgjbm/image/upload/v1756729555/vokelogo_wo0rhj.png" alt="Sham Voke" width="200">
 
 # About
 
