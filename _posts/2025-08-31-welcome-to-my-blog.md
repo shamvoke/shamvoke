@@ -59,7 +59,7 @@ Add **website maintenance services** and the piling costs become a deal-breaker 
 
 And now, how better to test that out than running my own blog? So here we are. **My very first blog post!** 😌
 
-![placeholder](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Large example image") 
+![placeholder](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo") 
 #### Reason Two: **Write To Learn, Publish To Share**
 I aim to share my perspective, the wins and fails, the hacks that save me time, and the rabbit holes worth falling into. It's my way of leaving a trail, like digital breadcrumbs, for myself and anyone else wandering the same path. 
 
