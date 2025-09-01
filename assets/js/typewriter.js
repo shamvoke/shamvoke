@@ -1,4 +1,4 @@
-const words = [" designer", " developer", "meka"];
+const words = [" designer ", " developer ", "meka "];
 let i = 0, j = 0;
 let currentWord = "";
 let isDeleting = false;
