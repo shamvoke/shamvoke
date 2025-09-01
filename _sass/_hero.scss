@@ -48,6 +48,16 @@
       font-size: rem(16px);
       color: rgba(255, 255, 255, 0.75);
     }
+    #typewriter {
+      border-right: 2px solid;
+      animation: blink 1s step-end infinite;
+      white-space: nowrap;
+
+      @keyframes blink {
+        50% { border-color: transparent; }
+      }
+    }
+    
 
     .title {
       font-size: rem(40px);
