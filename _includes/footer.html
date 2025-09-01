@@ -123,11 +123,9 @@ site.youtube_username | append: '",' %} {% endif %}
 ></script>
 
 <script
-  async
   src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"
 ></script>
 <script>
-  commentBox("{{ site.commentbox_project_id }}");
+  commentBox('{{ site.commentbox_project_id }}');
 </script>
-
 {% include stats.html %} {% include extra-js.html %}
