@@ -40,7 +40,7 @@
                     <ul>
                         {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
                         {% assign shuffled_array = next_posts | shuffle %}
-                        {% for post in shuffled_array limit:3 %}
+                        {% for post in shuffled_array limit:4 %}
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
                                     {% if post.optimized_image %}
@@ -150,7 +150,7 @@
                 "url": "{{ site.url }}{{site.baseurl}}/",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.png",
+                    "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.webp",
                     "width": "600",
                     "height": "315"
                 }
