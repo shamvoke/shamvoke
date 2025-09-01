@@ -1,19 +1,25 @@
 ---
 layout: page
 menu: false
-date: '2020-02-27 01:53:59'
+date: 2020-02-27 01:53:59
 title: About
-description: Some description.
 permalink: /about/
+description: About Shamvoke
+tags:
+  - shamvoke
+  - sham
+  - voke
+  - tech
+  - Nairobi
+  - Kenya
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.webp" alt="Sham Voke" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm **Sham,** a **UI/UX Designer** and **Web Developer.** 
+Constantly exploring the realms of code and creativity. 🚀
+![shamvoke wallpaper](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg)
+I aim to share my perspective, the wins and fails, the hacks that save me time, and the rabbit holes worth falling into. It's my way of leaving a trail, like digital breadcrumbs, for myself and anyone else wandering the same path.
+![shamvoke logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo") 
