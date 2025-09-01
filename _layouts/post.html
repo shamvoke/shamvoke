@@ -104,6 +104,11 @@
             {% assign author_urls = author_urls | append: '"https://www.youtube.com/' | append: author.youtube_username | append: '",' %}
         {% endif %}
         {% if page.math %}
+
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>
+            commentBox('{{ site.commentbox_project_id }}');
+        </script>
         <script>
             MathJax = {
                 tex: {
