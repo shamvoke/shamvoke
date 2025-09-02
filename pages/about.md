@@ -22,5 +22,13 @@ I'm **Sham,** a **UI/UX Designer** and **Web Developer.**
 
 Constantly exploring the realms of code and creativity. 🚀
 ![shamvoke wallpaper](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg)
-I aim to share my perspective, the wins and fails, the hacks that save me time, and the rabbit holes worth falling into. It's my way of leaving a trail, like digital breadcrumbs, for myself and anyone else wandering the same path.
-![shamvoke logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo") 
+👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
+
+🌱 I believe in the power of continuous learning and growth, constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
+
+![shamvoke logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo")
+
+Stay curious.
+
+Sham
+ 
