@@ -6,7 +6,7 @@
 Welcome to the awesome world of ![Static Badge](https://img.shields.io/badge/SHAM-VOKE-blue) 
 
 
-I'm Voke, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
+I'm Sham, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
 ![Sham Voke's desktop stickers](assets/img/shamvoke.webp)
 ## About Me ✨
