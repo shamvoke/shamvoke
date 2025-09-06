@@ -23,7 +23,7 @@ Hey there, you've probably seen this blue face around the site or on my socials.
 More than just a design element. Bree is the official <ins>brand mascot</ins> for **WEBMEKA**, a Creative Design Agency dedicated to bringing fresh energy and unique ideas to every project. Bree is the face of our team's energy and creativity.
 
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.56/build/spline-viewer.js"></script>
-<spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/YRXzrIX2A9CvY195/scene.splinecode"></spline-viewer>
+<spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/YRXzrIX2A9CvY195/scene.splinecode" style="width: 100%; height: 600px;"></spline-viewer>
 
 But Bree's story doesn't end there. On a personal level, Bree is also my <ins>creative sidekick</ins>, tagging along on my wildest ideas and late night design/code sessions.
 
