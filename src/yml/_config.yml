@@ -22,6 +22,14 @@ paginate_path: "/page/:num/"
 show_youtube_btn: true
 use_logo: false
 
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  syntax_highlighter_opts:
+    block:
+      disable: true
+
 # Content paginator
 paginate_content:
   enabled: true
