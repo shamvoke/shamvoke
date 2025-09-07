@@ -1,7 +1,7 @@
 ---
 date: 2025-09-04 17:39:00
 layout: post
-title: Meet Bree, my creative sidekick!
+title: Out of the blue, meet Bree!
 subtitle: Not every sidekick wears a cape, some just glow
 description: Hey there, you've probably seen this blue face around the site or
   on my socials. You might have even wondered what it is.  And no, that's not
