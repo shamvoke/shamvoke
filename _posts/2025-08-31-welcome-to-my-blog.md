@@ -7,7 +7,7 @@ description: My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
   To Share
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_380/v1756614159/shamvoke-bg_dcgdyh.jpg
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1756614159/shamvoke-bg_dcgdyh.jpg
 category: blog
 tags:
   - shamvoke
