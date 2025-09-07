@@ -25,11 +25,11 @@ More than just a design element. Bree is the official <ins>brand mascot</ins> fo
 
 >Bree is the face of the webmeka team's energy and creativity.
 
-#### This is Bree.
+### This is Bree.
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.56/build/spline-viewer.js"></script>
 <spline-viewer hint loading-anim-type="spinner-small-dark" url="https://prod.spline.design/YRXzrIX2A9CvY195/scene.splinecode" style="width: 100%; height: 380px;"></spline-viewer>
 
-But Bree's story doesn't end there. On a personal level, Bree is also my <ins>creative sidekick</ins>, tagging along on my wildest ideas and late-night code sessions.
+But Bree's story doesn't end there. On a personal level, Bree is also my <ins>creative sidekick</ins>, tagging along on my creative journey.
 
 ### What's next
 And now, taking things a step further. Plans are underway to make Bree even smarter by integrating **Artificial Intelligence**. The goal is to evolve from a static mascot into a dynamic, interactive presence.
