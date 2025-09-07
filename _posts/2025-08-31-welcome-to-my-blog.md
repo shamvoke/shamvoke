@@ -1,7 +1,7 @@
 ---
 date: 2025-08-31 08:54:00
 layout: post
-title: Welcome to my blog!
+title: First post, Welcome to my blog!
 subtitle: Constantly exploring the realms of code and creativity. 🚀
 description: My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
