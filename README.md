@@ -40,3 +40,7 @@ I'm Sham, a passionate web developer based in Nairobi, constantly exploring the 
 📫 Want to collaborate on a project, 💬 discuss the latest tech trends, or just grab a cup of coffee (virtually, of course:)? Feel free to reach out via: <a href="mailto:shamvoke@webmeka.com" title="Email"><img alt="Email" src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=minutemailer&logoColor=white" height="30" align="center"/></a>
 
 🚀 Excited to embark on this coding journey together and create some truly amazing things! 😊
+
+Stay curious,
+
+Sham.
