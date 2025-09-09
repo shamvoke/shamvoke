@@ -1,7 +1,7 @@
 ---
 date: 2025-09-10 01:31:00
 layout: post
-title: "BEEP CODE: If laptops could talk"
+title: "Beep code: If laptops could talk"
 subtitle: No laptops were harmed in the writing of this post
 description: Based on a true events. A dead laptop,  a curious friend, and beeps!
 category: tips
