@@ -14,7 +14,7 @@ tags:
   - beepcodes
   - ""
 author: shamvoke
-paginate: false
+paginate: true
 ---
 ### If the shoe fits, wear it...
 
