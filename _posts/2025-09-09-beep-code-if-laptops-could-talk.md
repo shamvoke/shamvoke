@@ -26,7 +26,7 @@ For me, that shoe has always been the 'tech guy' shoe. The one who's called when
 
 Funny enough, I recall my first request to repair a laptop was way before I even owned one myself. So yeah, the shoes fit, although they were definitely oversized when I first stepped into them. 😅
 
-What I find even funnier is the fact that I end up fixing most of those devices anyway. Computers, phones, you name it. So much success rate that I would have easily switched career was it not for the fact that usually, it's expected that I fix stuff for free.
+What I find even funnier is the fact that I end up fixing most of those devices anyway. Computers, phones, you name it. So much success rate that I would have easily switched careers, were it not for the fact that usually, it's expected that I fix stuff for free.
 
 #### Shamthing else.
 
@@ -48,7 +48,7 @@ Earlier last week, I got the tech support call. On the other end? a friend in di
 
 He had the laptop delivered to me. I plug it in, press the power button, the fan spins, but the screen never lights up. Meanwhile, the laptop is beeping like crazy! Beep, beep... pause... beep... beep. That could only mean one thing: **Hardware issue.**
 
-At this point, I didn't even want to investigate which piece of hardware was acting up. No way I was opening this <del>one million dollar</del> laptop up. So I decided to take it back, with a solid advice *"Issue is a faulty hardware, take it to a repair shop"*
+At this point, I didn't even bother to investigate which piece of hardware was acting up. **No** way I was opening this <del>one million dollar</del> laptop up. So I decided to take it back, with a solid advice *"Issue is a faulty hardware, take it to a repair shop"*
 
 ### Curiosity.
 
