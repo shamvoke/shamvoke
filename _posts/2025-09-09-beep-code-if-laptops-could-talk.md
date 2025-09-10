@@ -18,7 +18,6 @@ paginate: false
 For me, that shoe has always been the 'tech guy' shoe. The one who's called whenever a gadget acts up. A friend will call in panic, their laptop is 'dead', and suddenly I am tech support.
 
 #### First, let me tell you shamthing!
-
 > Whenever I get called for a dead laptop, my first question is usually, "Did it commit suicide?" - _All pun intended, for devices that died on their own._ 
 
 Funny enough, I recall my first request to repair a laptop was way before I even owned one myself. So yeah, the shoes fit, although they were definitely oversized when I first stepped into them. 😅
@@ -30,9 +29,9 @@ What i find even funnier is the fact that i end up fixing most of those devices 
 ### Shoes off.
 There was this one time I agreed to do a simple iPhone battery replacement for a friend. Easy, right? Swap the battery, screw it back together, good as new.
 
-Except, somewhere between step one and done, I managed to tear the display cable clean off. Suddenly, what started as a free favor turned into me hunting for a replacement screen... lesson learned at a cost.
+Except, somewhere between step one and done, I managed to tear the display cable clean off. Suddenly, what started as a free favor turned into me hunting for a replacement screen... lesson learned, at a cost.
 
-That was the day I almost hung up the 'tech guy' shoes for good. Almost.
+That was the day I almost hung up the tech guy's shoes for good. Well, almost.
 
 ### The call.
 Earlier last week, I got the tech support call. On the other end? a friend in distress and a laptop that had officially given up on life. Sticking to my usual bit, I asked "So, did it commit suicide?" He laughed, then admitted he had no idea what went down. According to him, it was perfectly fine the last time he used it, but now it just wouldn't boot up, as if it decided to quit without notice.
