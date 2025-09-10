@@ -3,7 +3,7 @@ date: 2025-09-10 01:31:00
 layout: post
 title: What if laptops could talk.
 subtitle: No laptops were harmed in the writing of this post
-description: Based on a true events. A dead laptop,  a curious friend, beeps and
+description: Based on a true events. A dead laptop, a curious friend, beeps and
   a pair of shoes! Join me as we decode the secret language of laptops
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757464342/vokevoke_ancah4.jpg
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1757464342/vokevoke_ancah4.jpg
