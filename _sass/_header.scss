@@ -21,10 +21,14 @@ body {
     margin: 0;
     height: rem(32px);
     line-height: rem(32px);
-
+ 
     a {
       display: block;
-      color: $accentDark;
+      background-image: linear-gradient(to right, $shamTheme, $vokeTheme);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: $vokeTheme;
       text-decoration: none;
       font-size: rem(32px);
       position: relative;
