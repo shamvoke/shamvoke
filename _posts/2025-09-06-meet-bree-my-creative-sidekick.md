@@ -10,10 +10,9 @@ image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757252001/bree_lu4nrr
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757252001/bree_lu4nrr.jpg
 category: blog
 tags:
-  - bree
-  - design
-  - logo
-  - ""
+  - Bree
+  - Design
+  - Logo
 author: shamvoke
 paginate: false
 ---

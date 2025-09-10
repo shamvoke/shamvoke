@@ -10,8 +10,8 @@ optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c
 category: tips
 tags:
   - Tech
-  - tips
-  - beepcodes
+  - Tips
+  - Beepcodes
 author: shamvoke
 paginate: false
 ---

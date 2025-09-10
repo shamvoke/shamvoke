@@ -10,9 +10,9 @@ image: https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1756614159/shamvoke-bg_dcgdyh.jpg
 category: blog
 tags:
-  - shamvoke
-  - webdev
-  - blog
+  - Design
+  - Webdev
+  - Blog
 author: shamvoke
 paginate: false
 ---
