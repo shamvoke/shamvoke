@@ -7,7 +7,7 @@ description: Based on a true events. A dead laptop, a curious friend, beeps and
   a pair of shoes! Join me as we decode the secret language of laptops
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757464342/vokevoke_ancah4.jpg
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1757464342/vokevoke_ancah4.jpg
-category: blog
+category: tips
 tags:
   - Tech
   - tips
