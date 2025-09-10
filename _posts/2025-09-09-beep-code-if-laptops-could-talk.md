@@ -1,5 +1,5 @@
 ---
-date: 2025-09-10 05:21:00
+date: 2025-09-10 16:26:00
 layout: post
 title: What if laptops could talk.
 subtitle: No laptops were harmed in the writing of this post
@@ -14,7 +14,7 @@ tags:
   - beepcodes
   - ""
 author: shamvoke
-paginate: true
+paginate: false
 ---
 ### If the shoe fits, wear it...
 
