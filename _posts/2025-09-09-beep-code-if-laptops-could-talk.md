@@ -12,7 +12,6 @@ tags:
   - Tech
   - tips
   - beepcodes
-  - ""
 author: shamvoke
 paginate: false
 ---
