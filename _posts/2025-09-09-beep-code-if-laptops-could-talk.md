@@ -3,7 +3,7 @@ date: 2025-09-09 16:26:00
 layout: post
 title: Beep code, If laptops could talk.
 subtitle: No laptops were harmed in the writing of this post
-description: Based on true events. A dead laptop, a curious friend, real beeps and
+description: Based on real life events. A dead laptop, a curious friend, real beeps and
   a pair of shoes! Join me in decoding the secret language of laptops. Common knowledge?
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757464342/vokevoke_ancah4.jpg
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1757464342/vokevoke_ancah4.jpg

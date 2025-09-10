@@ -14,17 +14,17 @@ tags:
   - Kenya
 ---
 
-<img class="img-rounded" src="https://res.cloudinary.com/deudsgjbm/image/upload/v1756729555/vokelogo_wo0rhj.png" alt="Sham Voke" width="200">
+<img class="img-rounded" src="https://res.cloudinary.com/deudsgjbm/image/upload/v1757517157/shamvokeprofile1_hj2zzg.jpg" alt="Sham Voke" width="200">
 
-# About
+# About Me
 
-I'm **Sham,** a **UI/UX Designer** and **Web Developer.** 
+I'm **Sham,** a <u>UI/UX Designer</u> and <u>Web Developer</u> based in Kenya 🇰🇪
 
-Constantly exploring the realms of code and creativity. 🚀
+_Constantly exploring the realms of code and creativity._ 🚀
 ![shamvoke wallpaper](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg)
-👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
+👨‍💻 With a fervent love for <u>clean code</u> and <u>elegant designs</u>, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
 
-🌱 I believe in the power of continuous learning and growth, constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
+🌱 I believe in the power of continuous <u>learning and growth</u>, constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
 
 ![shamvoke logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo")
 
