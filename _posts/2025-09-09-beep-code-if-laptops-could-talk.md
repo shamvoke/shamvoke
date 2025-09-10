@@ -48,7 +48,7 @@ Earlier last week, I got the tech support call. On the other end? a friend in di
 
 He had the laptop delivered to me. I plug it in, press the power button, the fan spins, but the screen never lights up. Meanwhile, the laptop is beeping like crazy! Beep, beep... pause... beep... beep. That could only mean one thing: **Hardware issue.**
 
-At this point, I didn't even bother to investigate which piece of hardware was acting up. **No** way I was opening this <del>one million dollar</del> laptop up. So I decided to take it back, with a solid advice *"Issue is a faulty hardware, take it to a repair shop"*
+At this point, I didn't even bother to investigate which piece of hardware was acting up. **No** way I was opening this <del>one million dollar</del> laptop up. So I decided to take it back, with a solid advice *"The Issue is a faulty hardware, take it to a repair shop"*
 
 ### Curiosity.
 
