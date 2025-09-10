@@ -4,6 +4,8 @@ layout: post
 title: Only If laptops could talk.
 subtitle: No laptops were harmed in the writing of this post
 description: Based on a true events. A dead laptop,  a curious friend, and beeps!
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1757464342/vokevoke_ancah4.jpg
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1757464342/vokevoke_ancah4.jpg
 category: tips
 tags:
   - Tech
@@ -22,7 +24,7 @@ For me, that shoe has always been the 'tech guy' shoe. The one who's called when
 
 Funny enough, I recall my first request to repair a laptop was way before I even owned one myself. So yeah, the shoes fit, although they were definitely oversized when I first stepped into them. 😅
 
-What i find even funnier is the fact that i end up fixing most of those devices anyway. Computers, phones, you name it. So much success rate that i would have easily switched career was it not for the fact that usually, it's expected that i fix stuff for free.
+What I find even funnier is the fact that I end up fixing most of those devices anyway. Computers, phones, you name it. So much success rate that I would have easily switched career was it not for the fact that usually, it's expected that I fix stuff for free.
 #### Shamthing else.
 > Of course, I have to admit the said friends have skills I can only admire. I just happen to have a knack for troubleshooting.
 
