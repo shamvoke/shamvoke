@@ -5,7 +5,7 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Process PAGES -->
+
     {%- for page in site.pages -%}
         {%- unless page.sitemap.exclude == 'yes' or page.url contains "/assets/" or page.url contains "feed.xml" or page.url contains "404.html" -%}
         <url>
@@ -15,7 +15,7 @@ sitemap:
             {%- elsif page.date -%}
                 <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
             {%- endif -%}
-            <!-- Identify homepage by URL, not layout -->
+
             {%- if page.url == "/" or page.url == "" -%}
                 <priority>1.0</priority>
                 <changefreq>daily</changefreq>
@@ -27,7 +27,6 @@ sitemap:
         {%- endunless -%}
     {%- endfor -%}
 
-    <!-- Process POSTS -->
     {%- for post in site.posts -%}
         {%- unless post.published == false or post.sitemap.exclude == 'yes' -%}
         <url>
@@ -39,7 +38,6 @@ sitemap:
         {%- endunless -%}
     {%- endfor -%}
 
-    <!-- Process COLLECTIONS (e.g., authors) -->
     {%- for doc in site.authors -%}
         {%- unless doc.published == false or doc.sitemap.exclude == 'yes' -%}
         <url>
