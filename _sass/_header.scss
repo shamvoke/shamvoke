@@ -24,7 +24,7 @@ body {
  
     a {
       display: block;
-      background-image: linear-gradient(to right, $shamTheme, $vokeTheme);
+      background-image: linear-gradient(to right, #{$shamTheme}, #{$vokeTheme});
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -57,6 +57,7 @@ body {
     display: block;
     transform: translateX(110%);
     opacity: 0.7;
+    -webkit-text-fill-color: initial;
   }
 
   .icon-menu {
