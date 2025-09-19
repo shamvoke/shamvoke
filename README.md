@@ -27,6 +27,8 @@ I'm Sham, a passionate web developer based in Nairobi, constantly exploring the 
 
 ## What I'm Currently Up To
 
+AM ALWAYS UPTO SHAMTHING!
+
 🔭 Exploring the latest advancements in front-end development and diving deeper into the world of UI/UX design.
 
 📚 Learning about serverless architecture and how it can revolutionize the way we build and deploy web applications.
