@@ -19,12 +19,12 @@ paginate: false
 Yeah, I know. The old 'I use Arch btw' That seems to annoy everyone. But honestly,  I get it. After using Arch Linux for over 4 years now.
 
 ### Windows.
-See, years ago, I was a Windows user. And not your normal user, considered myself a **power user**. Well, I loved my OS. Digging into *nearly* every Windows feature. Started customizing my own installation, someone would notice and request that I do similar customization on their pc. Even got paid a couple of times to do such setups.
+See, years ago, I was a Windows user. And not your normal user, I considered myself a **power user**. Well, I loved my OS. Digging into *nearly* every Windows feature. Started customizing my own installation, someone would notice and request that I do similar customization on their pc. Even got paid a couple of times to do such setups.
 
 ### TouTube
-Created a YouTube channel and started uploading my custom edits, so much love. My "**make your Windows OS look like Mac OS**" video got a **million views!** 
+Created a YouTube channel and started uploading my custom edits, so much love. My [make your Windows OS look like Mac OS](https://youtu.be/VCNGyRawkss?si=_cPN9RkEimKFdI5a) video got a **million views!** 
 
-The customizations were fire, but... It didn't take long to notice that the extra software installed for the customization would **bloat the system**. Way too extra. Some, like Rainmeter, had to always be running! Noticed a similar trend in the comment section "*How do I undo this?*", "*How to uninstall?*" 
+The customizations were fire, but... It didn't take long to notice that the extra software installed for the customization would **bloat the system**. Way too extra. Some, like [Rainmeter](https://www.rainmeter.net/), had to always be running! Noticed a similar trend in the comment section "*How do I undo this?*", "*How to uninstall?*" 
 
 ### First switch
 At this point, I personally stopped using any customization that required extra software _( turns out, not much)_ 
@@ -48,7 +48,7 @@ If someone is smart enough to __remove__ the code that bills you to use a softwa
 
 > I wasn't just using cracked software, I was running a cracked version of Windows 10 itself, with a full suite of cracked tools stacked on top.
 
-Too many smart people **had access** to my system.
+Too many smart people **had access** to my system!
 
 ### Second switch.
 The message was loud and clear: I had to switch my content again!
@@ -63,8 +63,9 @@ The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look li
 
 For the 5 years I have used Linux, almost a year was spent switching from one Linux distro to the next. I later learned this is called **"Distro hopping"**
 
-All that changed the day I installed Arch Linux!
+All that changed the day I installed [Arch Linux!](https://archlinux.org)
 ![Arch linux screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1758721330/Screenshot_20250924_141314_xb2ksn.webp "A screenshot of my current Arch desktop")
+_A screenshot of my current Arch desktop_
 
 > I opened a YouTube channel for Windows, but for Arch? I swear I'm about to open a church and start preaching arch Linux 🤣
 
