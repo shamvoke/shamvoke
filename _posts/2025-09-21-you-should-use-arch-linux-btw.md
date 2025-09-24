@@ -6,6 +6,9 @@ subtitle: Why be a pirate, in an ocean full of open-source code!?
 description: You should use Arch linux, BTW.
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
 category: blog
+tags:
+  - Arch-linux
+  - WindowsYouTube
 author: shamvoke
 paginate: false
 ---
