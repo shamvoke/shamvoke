@@ -16,8 +16,6 @@ tags:
 author: shamvoke
 paginate: false
 ---
-
-
 Yeah, I know. The old 'I use Arch btw' That seems to annoy everyone. But honestly,  I get it. After using Arch Linux for over 4 years now.
 
 ### Windows.
