@@ -35,7 +35,7 @@ And for my audience? To avoid more bloated systems, I decided to change the cont
 
 > For this, you don't even need to be a super user; Just download your cracked copy, disable your anti-virus, read and follow the instructions in README.txt, and you are done.
 
-The new content was an instant hit, amassing views like crazy. At this point, your boy should be heading to the bank😅 However, YouTube was ready to teach me a lesson I hadn't learned yet... 
+The new content was an instant hit, amassing views like crazy. At this point, <del>your boy should be heading to the bank</del>😅 However, YouTube was ready to teach me a lesson I hadn't learned yet... 
 
 ### Aye, Pirate.
 Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software was against their community guidelines. I have to agree with YouTube on this one, **pay the developer!**
