@@ -77,9 +77,7 @@
         {% endif %}
 
         {% include subscription.html %}
-        <button class="iine-button" data-slug="/test"></button>
         {% include share.html %}
-        <button class="iine-button" data-slug="/test"></button>
         {% include author.html %}
         {% include comments.html %}
         {% include footer.html %}
@@ -163,5 +161,6 @@
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
         </script>
+        <script defer src="https://shamvoke.com/assets/js/iine.js"></script>
     </body>
 </html>
