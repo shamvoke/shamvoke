@@ -57,7 +57,7 @@ My last 3 uploads on YouTube (5 years ago) were my attempt to give my audience c
 
 Letting the designer in me shine with videos like **"Windows 11 concept"** _(Windows 11 hadn't been released at the time)_ 
 
-The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 was released, I had **already moved to Linux!**
+The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 got released, I had **already moved to Linux!**
 
 ### Sham goes Linux
 
