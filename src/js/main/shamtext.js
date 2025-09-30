@@ -17,4 +17,4 @@ function updateText() {
     }
 }
 updateText();
-setInterval(updateText, 8000);
+setInterval(updateText, 6000);
