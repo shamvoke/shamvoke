@@ -33,12 +33,12 @@ And for my audience? To avoid more bloated systems, I decided to change the cont
 
 **The problem?** As a power user, every software I had installed was premium. _And none were paid for..._
 
-> For this, you don't even need to be a super user; Just download your cracked copy, disable your anti-virus, read and follow the instructions in README.txt, and you are done.
+> For this, you don't even need to be a super user; Just download your cracked copy, disable your anti-virus? Read and follow the instructions in README.txt, and you are done.
 
 The new content was an instant hit, amassing views like crazy. At this point, <del>your boy should be heading to the bank</del>😅 However, YouTube was ready to teach me a lesson I hadn't learned yet... 
 
 ### Aye, Pirate.
-Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software was against their community guidelines. I have to agree with YouTube on this one, **pay the developer!**
+Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software is against their community guidelines. I have to agree with YouTube on this one, **pay the developer!**
 
 ### Cracked software.
 My thinking **at the time** was, since I can't afford the software... and the developer getting paid was the least of my concern, then there is no harm in using a cracked version, right?
@@ -57,7 +57,7 @@ My last 3 uploads on YouTube (5 years ago) were my attempt to give my audience c
 
 Letting the designer in me shine with videos like **"Windows 11 concept"** _(Windows 11 hadn't been released at the time)_ 
 
-The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 was released, I had **already moved to Linux!**
+The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 got released, I had **already moved to Linux!**
 
 ### Sham goes Linux
 
