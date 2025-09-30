@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const shamText = [
+  const shamTexts = [
     "➤ All cursors have a point! Let that click.",
     "➤ Crafting pixels into art, one design at a time.",
     "➤ Kindness is free, sprinkle that stuff everywhere.",
@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "➤ Every click tells a story — what’s yours?"
   ];
 
-  const randomText = shamText[Math.floor(Math.random() * shamText.length)];
+  const randomText = shamTexts[Math.floor(Math.random() * shamTexts.length)];
   document.getElementById("shamtext").textContent = randomText;
 });
