@@ -16,7 +16,5 @@ function updateText() {
         textElement.textContent = randomPhrase;
     }
 }
-
 updateText();
-
 setInterval(updateText, 8000);
