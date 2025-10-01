@@ -4,8 +4,8 @@ layout: post
 title: A maze game for the curious, Shamaze3D.
 subtitle: 🌀 Find your way out, or get lost in the fun!!!
 description: Shamaze3D is a web-based 3D maze game that'll test your sense of
-  direction, your patience, and maybe even your sanity. Built with Three.js and
-  Box2dWeb. Play the game or play with the code...
+  direction, your patience, and maybe even your sanity. Play the game or play
+  with the code...
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1759281057/sham-maze_1_lbfngy.jpg
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1759281057/sham-maze_1_lbfngy.jpg
 category: code
