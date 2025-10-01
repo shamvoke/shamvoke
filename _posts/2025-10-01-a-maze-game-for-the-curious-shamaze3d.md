@@ -1,5 +1,5 @@
 ---
-date: 2025-10-01 03:27:00
+date: 2025-10-01 04:48:00
 layout: post
 title: A maze game for the curious, Shamaze3D.
 subtitle: 🌀 Find your way out, or get lost in the fun!!!
