@@ -60,9 +60,6 @@ You can play Shamaze3D right now in your browser. However, if you're feeling adv
 👉 [Play Shamaze3D here](https://sham-maze3d.netlify.app/)\
 👉 [Fork the GitHub repo here](https://github.com/shamvoke/shamaze3D)
 
-#### Download Shamaze3D APK
-
-<a href="https://github.com/shamvoke/shamaze3D/releases/download/beta/Shamaze3D_4.2.1.apk" class="download-btn">⬇️ Download</a>
 
 
 **All work with no play makes Sham a dull boy!**
