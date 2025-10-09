@@ -51,7 +51,7 @@ It's not timed... but your pride is on the line 😎
 * 🧱 [three.js](https://threejs.org/) for 3D rendering.
 * 🌀 [box2d.js](https://github.com/kripken/box2d.js) for physics-based collision detection.
 
-![Shamaze3D](https://res.cloudinary.com/deudsgjbm/image/upload/v1759283951/splash3_cignja.webp "Shamaze3D screenshot")
+![Shamaze3D](https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_0.5,f_auto,q_auto/v1759283951/splash3_cignja.webp "Shamaze3D screenshot")
 
 ### Fork It, Play It, Break It
 
