@@ -61,9 +61,6 @@ You can play Shamaze3D right now in your browser. However, if you're feeling adv
 👉 [Fork the GitHub repo here](https://github.com/shamvoke/shamaze3D)
 
 
-
-**All work with no play makes Sham a dull boy!**
-
 Stay curious,
 
 Sham.
