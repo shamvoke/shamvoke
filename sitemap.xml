@@ -4,10 +4,10 @@ sitemap:
   exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     {%- for page in site.pages -%}
-        {%- unless page.sitemap.exclude == 'yes' or page.url contains "/assets/" or page.url contains "feed.xml" or page.url contains "404.html" -%}
+        {%- unless page.sitemap.exclude == 'yes' or page.url contains "/assets/" or page.url contains "feed.xml" or page.url contains "404.html" or page.url contains "sitemap.xml" or page.url contains "search.json" or page.url contains "message-sent" or page.url contains "/page" -%}
         <url>
             <loc>{{ page.url | absolute_url }}</loc>
             {%- if page.last_modified_at -%}
@@ -18,7 +18,7 @@ sitemap:
 
             {%- if page.url == "/" or page.url == "" -%}
                 <priority>1.0</priority>
-                <changefreq>daily</changefreq>
+                <changefreq>weekly</changefreq>
             {%- else -%}
                 <priority>0.7</priority>
                 <changefreq>monthly</changefreq>

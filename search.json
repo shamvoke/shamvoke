@@ -1,3 +1,5 @@
 ---
 layout: search
+sitemap:
+  exclude: 'yes'
 ---
