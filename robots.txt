@@ -1,3 +1,10 @@
 # robotstxt.org/
 
 User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /404.html
+
+Sitemap: https://shamvoke.com/sitemap.xml
+
+Host: shamvoke.com
