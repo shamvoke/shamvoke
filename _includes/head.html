@@ -15,7 +15,7 @@
     {% if page.image %}
         {% assign image = page.image %}
     {% else %}
-        {% assign image = "/assets/img/blog-image.webp" | prepend: site.baseurl | prepend: site.url %}
+        {% assign image = site.url | append: site.baseurl | append: '/assets/img/blog-image.webp' %}
     {% endif %}
 
     {% assign description = '' %}
@@ -52,7 +52,6 @@
         <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% endif %}
 
-    <link rel="preload" as="style" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
     <meta property="og:url" content="{{ url }}">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:image" content="{{ image }}">
@@ -85,7 +84,10 @@
 
     {% include extra-css.html %}
 
-    <script>
-        document.querySelector('html').classList.remove('no-js');
-    </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.documentElement.classList.remove('no-js');
+    });
+   </script>
+
 </head>
