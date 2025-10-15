@@ -25,7 +25,7 @@ Lets explore how easy / complex the task is.
 
 
 ## The Windows way.
-On a clean install of Windows, the process begins in the browser, usually **Edge browser** as it comes preinstalled. Followed by a series of google searches: _"Download Google chrome" "Download vlc" "Download Discord"_ and so on. Each search leads to a different website, each offering a different installer. Then comes the little clicking ceremony of "Next ➡️ Next ➡️ Agree ➡️ Skip ➡️ Install." Repeat this till you have all your software installed. 
+On a clean install of Windows, the process begins in the browser, usually **Edge browser** as it comes preinstalled. Followed by a series of google searches: _"Download Google chrome" "Download vlc" "Download Discord"_ and so on. Each search leads to a different website, each offering a different installer. Then comes the little clicking ceremony of **"Next ➡️ Next ➡️ Agree ➡️ Skip ➡️ Install."** Repeat this till you have all your software installed. 
 
 **Updates?** You still have to head back to each website to download new updates, unless your app supports auto update.  
 
