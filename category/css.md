@@ -1,6 +1,6 @@
 ---
 layout: category
-title: CSS
+title: Web dev
 slug: css
-description: A category for CSS related posts.
+description: A category for web development and design related posts.
 ---
