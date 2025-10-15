@@ -10,7 +10,7 @@ image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
 category: Linux
 tags:
-  - Arch-linux
+  - Archlinux
   - Windows
   - YouTube
 author: shamvoke
