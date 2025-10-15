@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Work
+title: Linux
 slug: work
-description: A category for work related posts.
+description: A category for Linux related posts.
 ---
