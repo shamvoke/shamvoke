@@ -8,7 +8,7 @@ description: From cracked software and YouTube copyright strikes to discovering
   to fully embracing Arch Linux.
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
-category: blog
+category: Linux
 tags:
   - Arch-linux
   - Windows

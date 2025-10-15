@@ -8,7 +8,7 @@ description: Ever noticed how installing software on Windows feels like
   me as we explore how both OS handles installation and updates
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1760515332/linuxVsWindows_amdvbi.webp
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1760515332/linuxVsWindows_amdvbi.webp
-category: work
+category: Linux
 tags:
   - archlinux
   - paru
