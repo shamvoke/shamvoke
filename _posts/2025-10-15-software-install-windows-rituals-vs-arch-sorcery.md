@@ -18,20 +18,20 @@ paginate: false
 ---
 Picture this,  a clean install of <ins>windows 11</ins> Vs a clean install of <ins>Arch Linux</ins>. The first order of the day is to install your favorite software. _(Unless you're on Windows, where your first quest is to install drivers)_
 
-For this blog post, I'll assume our top favorite software are:
+For this post, we'll use these 5 apps:
 `Google Chrome, VLC, Spotify, Discord and Docker.`
 
 Lets explore how easy / complex the task is.
 
 
 ## The Windows way.
-On a clean install of Windows, the process begins in the browser, usually **Edge browser** as it comes preinstalled. Followed by a series of google searches: _"Download Google chrome" "Download vlc" "Download Discord"_ and so on. Each search leads to a different website, each offering a different installer. Then comes the little clicking ceremony of **"Next ➡️ Next ➡️ Agree ➡️ Skip ➡️ Install."** Repeat this till you have all your software installed. 
+On a clean install of Windows, the process begins in the browser, usually **Edge browser** as it comes preinstalled. Followed by a series of google searches: _"Download Google chrome" "Download vlc" "Download Discord"_ and so on. Each search leads to a different website, each offering a different installer. Then comes the clicking ceremony of **"Next ➡️ Next ➡️ Agree ➡️ Skip ➡️ Install."** Repeat this till you have all your software installed. 
 
 **Updates?** You still have to head back to each website to download new updates, unless your app supports auto update.  
 
 **System update?** Not forgetting windows update will never touch you outdated software. 
 
-> By the end, you have your software, your sanity slightly bruised, and five new background updaters all fighting for startup space.
+> By the end, you have five new background updaters all fighting for startup space.
 
 ## The Arch way
 Now imagine the same situation on Arch Linux, fresh install.
@@ -93,7 +93,7 @@ paru -S google-chrome vlc spotify discord docker --noconfirm
 Enter your password, and watch paru do all the work.
 
 Shamthing else,
-> I used 5 packages as an example,  but you can add as many packages as you need. Installing your entire setup with a single command.
+> Used 5 packages as an example,  but you can add as many packages as you need. Installing your entire setup with a single command.
 
 Need to uninstall something? use `paru -Rns package-name`
 ```bash
