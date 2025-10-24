@@ -1,11 +1,14 @@
-# 👋
+# Hi there 👋
 
 <!--
 **shamvoke/shamvoke**
 -->
+Welcome to the awesome world of ![Static Badge](https://img.shields.io/badge/SHAM-VOKE-blue) 
+
+
 I'm Sham, a passionate web developer based in Nairobi, constantly exploring the realms of code and creativity. 🚀
 
-![OpenReadme](https://raw.githubusercontent.com/ravixalgorithm/openreadme-images/main/profiles/ba2905fcf82a.png)
+![Sham Voke's desktop stickers](assets/img/shamvoke.webp)
 ## About Me ✨
 
 👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
@@ -32,7 +35,7 @@ AM ALWAYS UPTO SHAMTHING!
 
 🌐 Contributing to open-source projects and collaborating with like-minded developers to make a positive impact on the tech community.
 
-🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)   - A Digital Creative Agency based in Nairobi, Kenya.
+🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)   - A Digital Creative Agency
 
 ## Let's Connect! 🌍
 
