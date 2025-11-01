@@ -1,6 +1,6 @@
 ---
 layout: page
-menu: false
+menu: true
 date: 2025-11-01 23:02:00
 title: privacy-policy
 permalink: /{{slug}}/
@@ -13,12 +13,11 @@ tags:
 ---
 # Privacy Policy  
 **Effective Date:** November 2025  
-**Website:** [https://shamvoke.com](https://shamvoke.com)  
-**Owner:** Shamvoke
+**Website:** [https://shamvoke.com](https://shamvoke.com)
 
 ## Introduction  
-Welcome to **Shamvoke blog** — a digital space curated by Webmeka. Your privacy matters here.  
-This policy explains what information we collect, how it’s used, and the choices you have about it.  
+Welcome to **Shamvoke blog** - a digital space curated by Webmeka. Your privacy matters here.  
+This policy explains what information we collect, how it's used, and the choices you have about it.  
 
 By visiting or interacting with [shamvoke.com](https://shamvoke.com), you agree to this policy.
 
@@ -30,7 +29,7 @@ We only collect information necessary to run this website smoothly and communica
 
 - **Contact Form:** When you use the contact form, we collect your **name** and **email address** solely to reply to your inquiry.  
 - **Comments:** When leaving a comment through **CommentBox.io**, the service may collect identifying information like your name, email, or IP address (depending on your CommentBox settings).  
-  Please review [CommentBox.io’s Privacy Policy](https://commentbox.io/privacy) for details.  
+  Please review [CommentBox.io's Privacy Policy](https://commentbox.io/privacy) for details.  
 - **Automatic Data:** Like most sites, we use **Cloudflare** to protect and optimize site performance.  
   Cloudflare may collect anonymous technical data such as IP addresses, device information, and browser type for security and analytics.  
 
@@ -95,7 +94,7 @@ To exercise any of these rights, contact us via the form on our [Contact Page](h
 ## 8. Policy Updates  
 
 This Privacy Policy may be updated from time to time.  
-The latest version will always be posted here with the “Effective Date” updated accordingly.  
+The latest version will always be posted here with the "Effective Date" updated accordingly.  
 
 ---
 
