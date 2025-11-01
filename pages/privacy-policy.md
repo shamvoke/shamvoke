@@ -1,7 +1,7 @@
 ---
 layout: page
 menu: true
-date: 2025-08-07 23:02:00
+date: 2025-10-02 23:10:00
 title: privacy-policy
 permalink: /{{slug}}/
 description: Privacy policy page for shamvoke blog
