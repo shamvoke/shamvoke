@@ -15,7 +15,7 @@ tags:
 **Website:** [https://shamvoke.com](https://shamvoke.com)
 
 ## Introduction  
-Welcome to **Shamvoke blog** - a digital space curated by Webmeka. Your privacy matters here.  
+Welcome to **Shamvoke blog** - a digital space curated by Sham. Your privacy matters here.  
 This policy explains what information we collect, how it's used, and the choices you have about it.  
 
 By visiting or interacting with [shamvoke.com](https://shamvoke.com), you agree to this policy.
