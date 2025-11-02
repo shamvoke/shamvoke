@@ -1,8 +1,8 @@
 ---
 date: 2025-10-26 21:32:00
 layout: post
-title: Top 5 Dolphin File Manager Tips for Enhanced Productivity
-subtitle: "Rule 12: Tabs are for browsers, not file managers."
+title: Top 5 Dolphin File Manager Tips.
+subtitle: Tabs are for web browsers, not file managers.
 description: Turn Dolphin into a true productivity powerhouse. from using Split
   View and toolbar tweaks to showing file sizes, linking folders, and adding
   powerful plugins like 7-Zip and KDE Connect.
