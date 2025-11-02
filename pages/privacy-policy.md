@@ -2,14 +2,13 @@
 layout: page
 menu: true
 date: 2025-09-01 23:10:00
-title: privacy-policy
-permalink: /{{slug}}/
+title: Privacy Policy Page
+permalink: /privacy-policy/
 description: Privacy policy page for shamvoke blog
 tags:
   - Privacy
   - policy
   - Privacy policy
-  - ""
 ---
 # Privacy Policy  
 **Effective Date:** November 2025  
