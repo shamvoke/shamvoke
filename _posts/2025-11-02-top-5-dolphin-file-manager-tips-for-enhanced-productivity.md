@@ -26,7 +26,7 @@ Forget opening two separate windows just to drag and drop files. Dolphin's Split
 Once you try it, the tabbed view for files feels like juggling folders
 
 ### 2. Toolbar "Show/Hide" Button
-With Dolphin's toolbar customization, you can easily add a "Show/Hide" Hidden Files button (the little eye icon) to your main toolbar.
+With Dolphin's toolbar customization, you can easily add a "Show/Hide" button (the little eye icon) to your main toolbar.
 Click it once to reveal hidden files and again to hide them. You can also use the keyboard shortcut` Ctrl + H`, but I find the eye icon way more convenient.
 
 <small>Screenshot: _Dolphin toolbar with eye icon_</small>
