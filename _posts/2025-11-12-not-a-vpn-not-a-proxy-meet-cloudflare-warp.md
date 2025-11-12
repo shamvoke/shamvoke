@@ -25,9 +25,9 @@ In the world of online privacy and performance, everyone seems to know what a VP
 
 Cloudflare WARP runs on the **WireGuard protocol**, a modern and efficient encryption technology also used by many leading VPNs. WARP routes your internet traffic through Cloudflare's global network to make your connection **faster, safer, and more private**.
 
-Unlike a traditional VPN, though, WARP's main mission isn't to hide your IP address or make you appear to be in another country, but it's to make the internet itself work better.
+Unlike a traditional VPN, though, WARP's main mission isn't to hide your IP address or make you appear to be in another country, but to make the internet itself work better.
 
-## WARP vs. VPN: The Privacy Trade-Off
+## WARP vs VPN: The Privacy Trade-Off
 
 Here's where things get interesting. A VPN (Virtual Private Network) creates an encrypted tunnel between your device and the internet, masking your IP and location in the process. WARP does the encryption part, but it **doesn't disguise your identity** from websites.
 
