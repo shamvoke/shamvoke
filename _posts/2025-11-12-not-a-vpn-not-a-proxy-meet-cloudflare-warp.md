@@ -6,7 +6,7 @@ subtitle: VPNs hide you, WARP moves you. Online privacy redefined.
 description: For me, WARP feels like the perfect balance between a VPN and a
   proxy. Secure, fast, and simple enough for everyday use. Built on the
   WireGuard protocol, it prioritizes privacy and performance over anonymity.
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1762971862/shamvoke_blog_post_vbd74m.png
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1762973492/shamvoke_blog_post_2_g6dtiy.png
 category: tips
 tags:
   - privacy
