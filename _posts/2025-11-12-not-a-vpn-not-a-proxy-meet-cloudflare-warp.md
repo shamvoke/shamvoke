@@ -45,10 +45,6 @@ A proxy simply routes your traffic through another server. The problem is, proxi
 
 WARP, on the other hand, encrypts everything system-wide. That means **all apps**, not just your browser, benefit from secure, optimized traffic.
 
-## Cloudflare's Big Play
-
-WARP started as part of Cloudflare's **1.1.1.1 DNS resolver**, a privacy-first alternative to Google's DNS. Over time, it evolved into something bigger. A global security and performance layer for everyday users.
-
 > I find the free version of WARP enough for my everyday use. 
 
 ## So, What Is Warp Really?
