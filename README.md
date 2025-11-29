@@ -35,7 +35,7 @@ AM ALWAYS UPTO SHAMTHING!
 
 🌐 Contributing to open-source projects and collaborating with like-minded developers to make a positive impact on the tech community.
 
-🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)   - A Digital Creative Agency Based In Nairobi Kenya.
+🚀 Lead Designer at [Webmeka](https://www.webmeka.com/)   - A Digital Creative Agency.
 
 ## Let's Connect! 🌍
 
