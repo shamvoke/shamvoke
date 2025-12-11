@@ -5,8 +5,7 @@ title: Ventoy, My Forever USB Companion.
 subtitle: 🌀 The title for this post should be "My Top 5 Must have ISO Images"
 description: Gone are the days of reformatting your flash drive every time you
   wanted to try a new OS. I used to rely on Rufus and balenaEtcher until I found
-  Ventoy. Here is how this tiny utility became my forever USB companion, along
-  with the five essential ISOs I carry everywhere.
+  Ventoy. Here is how this tiny utility became my forever USB companion.
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1765477505/Ventoy_My_Forever_USB_Companion_k5ocej.png
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1765477505/Ventoy_My_Forever_USB_Companion_k5ocej.png
 category: linux
