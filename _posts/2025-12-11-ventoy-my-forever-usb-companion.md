@@ -2,7 +2,7 @@
 date: 2025-11-21 20:35:00
 layout: post
 title: Ventoy, My Forever USB Companion.
-subtitle: 🌀 The title for this post should be - My Top 5 must have ISO images
+subtitle: 🌀 Or better off - My Top 5 must have ISO images
 description: Gone are the days of reformatting your flash drive every time you
   wanted to try a new OS. I used to rely on Rufus and balenaEtcher until I found
   Ventoy. Here is how this tiny utility became my forever USB companion, along
