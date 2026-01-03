@@ -2,7 +2,7 @@
 date: 2025-12-12 16:20:00
 layout: post
 title: KDE Connect; Turn your phone into a magic wand!
-subtitle: KDE Connect Has To Be Hands Down The Most Universal App I Have Ever Seen 🌀
+subtitle: KDE Connect Has To Be The Most Universal App I Have Ever Seen 🌀
 description: "Stop emailing yourself files. Discover how KDE Connect bridges the
   gap between your devices. Turning your phone into a universal clipboard, a
   wireless trackpad, and a literal magic wand for your PC. "
