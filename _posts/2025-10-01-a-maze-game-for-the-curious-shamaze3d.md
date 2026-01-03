@@ -57,7 +57,7 @@ It's not timed... but your pride is on the line 😎
 
 You can play Shamaze3D right now in your browser. However, if you're feeling adventurous, feel free to grab the code and <del>play</del> twist it into your own creation.
 
-👉 [Play Shamaze3D here](https://sham-maze3d.netlify.app/)\
+👉 [Play Shamaze3D here](https://sham-maze3d.netlify.app/)
 👉 [Fork the GitHub repo here](https://github.com/shamvoke/shamaze3D)
 
 
