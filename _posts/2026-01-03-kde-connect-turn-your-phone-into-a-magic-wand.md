@@ -59,7 +59,7 @@ Stumble upon a cool article on your phone, but want to read it on the big screen
 
 If I get a phone call, KDE Connect automatically lowers the volume on my music or pauses my video. And auto resume when the phone call ends.
 
-#### Ping Device:
+#### Ring Device:
 
 How often do you lose your phone between the couch cushions? You can trigger a loud "ring" from your computer to locate it. As long as you are on the same WiFi, you can find your lost device in seconds, even if it was on silent.
 
