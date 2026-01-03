@@ -2,7 +2,7 @@
 date: 2025-12-12 16:20:00
 layout: post
 title: KDE Connect; Turn your phone into a magic wand!
-subtitle: KDE Connect Has To Be Hands Down The Most Universal App I Have Ever Seen 🌀
+subtitle: KDE Connect Has To Be The Most Universal App I Have Ever Seen 🌀
 description: "Stop emailing yourself files. Discover how KDE Connect bridges the
   gap between your devices. Turning your phone into a universal clipboard, a
   wireless trackpad, and a literal magic wand for your PC. "
@@ -59,7 +59,7 @@ Stumble upon a cool article on your phone, but want to read it on the big screen
 
 If I get a phone call, KDE Connect automatically lowers the volume on my music or pauses my video. And auto resume when the phone call ends.
 
-#### Ping Device:
+#### Ring Device:
 
 How often do you lose your phone between the couch cushions? You can trigger a loud "ring" from your computer to locate it. As long as you are on the same WiFi, you can find your lost device in seconds, even if it was on silent.
 
