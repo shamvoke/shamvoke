@@ -6,7 +6,7 @@ subtitle: KDE Connect Has To Be Hands Down The Most Universal App I Have Ever Se
 description: "Stop emailing yourself files. Discover how KDE Connect bridges the
   gap between your devices. Turning your phone into a universal clipboard, a
   wireless trackpad, and a literal magic wand for your PC. "
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1767447844/Ventoy_1_hdbbsv.png
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1767448996/Ventoy_2_kjoxdf.png
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1767447692/Ventoy_xrtc1b.png
 category: linux
 tags:
