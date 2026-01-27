@@ -6,8 +6,8 @@ subtitle: Constantly exploring the realms of code and creativity. 🚀
 description: My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
   To Share
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/w_760,h_399,c_fill/v1756614159/shamvoke-bg_dcgdyh.jpg
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524253/01_Welcome_to_my_blog_amfyrq.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524253/01_Welcome_to_my_blog_amfyrq.webp
 category: blog
 tags:
   - Design
