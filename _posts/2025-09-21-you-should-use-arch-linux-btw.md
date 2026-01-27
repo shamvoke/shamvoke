@@ -6,8 +6,8 @@ subtitle: Why be a pirate, in an ocean full of open-source code!?
 description: From cracked software and YouTube copyright strikes to discovering
   the freedom of open source, this is my journey from being a Windows power user
   to fully embracing Arch Linux.
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1758719999/you_should_use_arch_linux_-_shamvoke_dcmngs.webp
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524254/04_You_should_use_Arch_linux_BTW_1_kh8oli.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524254/04_You_should_use_Arch_linux_BTW_1_kh8oli.webp
 category: Linux
 tags:
   - Archlinux
