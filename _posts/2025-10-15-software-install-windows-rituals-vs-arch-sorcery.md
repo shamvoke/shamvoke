@@ -6,8 +6,8 @@ subtitle: On Linux, you dont need drivers, you are the driver!
 description: Ever noticed how installing software on Windows feels like
   performing a ritual, while on Arch Linux it feels like casting a spell? Join
   me as we explore how both OS handles installation and updates
-image: /assets/img/uploads/06_windows-rituals-vs-arch-linux-sorcery.webp
-optimized_image: ""
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524255/06_Windows_rituals_vs_Arch_Linux_sorcery_icgsl0.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524255/06_Windows_rituals_vs_Arch_Linux_sorcery_icgsl0.webp
 category: Linux
 tags:
   - archlinux
