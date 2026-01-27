@@ -6,7 +6,8 @@ subtitle: VPNs hide you, WARP moves you. Online privacy redefined.
 description: For me, WARP feels like the perfect balance between a VPN and a
   proxy. Secure, fast, and simple enough for everyday use. Built on the
   WireGuard protocol, it prioritizes privacy and performance over anonymity.
-image: /assets/img/uploads/08_not-a-vpn-not-a-proxy.-meet-cloudflare-warp-.webp
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524255/08_Not_a_VPN_Not_a_Proxy._Meet_Cloudflare_WARP_nyowmt.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524255/08_Not_a_VPN_Not_a_Proxy._Meet_Cloudflare_WARP_nyowmt.webp
 category: tips
 tags:
   - privacy
