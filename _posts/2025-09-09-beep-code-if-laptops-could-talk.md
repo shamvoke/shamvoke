@@ -6,8 +6,8 @@ subtitle: No laptops were harmed in the writing of this post
 description: Based on real life events. A dead laptop, a curious friend, real
   beeps and a pair of shoes! Join me as we decode the secret language of
   laptops. Common knowledge?
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524254/03_Beep_code_If_laptops_could_talk_xsoufs.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524254/03_Beep_code_If_laptops_could_talk_xsoufs.webp
+image: /assets/img/uploads/03_beep-code-if-laptops-could-talk.webp
+optimized_image: ""
 category: tips
 tags:
   - Tech
