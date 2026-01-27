@@ -8,7 +8,7 @@ description: You crank the volume to 100% and still feel like something is
   sound, and audio that finally matches what your hardware can handle.
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769515182/PEACE_EQUILIZER_APO_odqclh.webp
 optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769515182/PEACE_EQUILIZER_APO_odqclh.webp
-category: "{{slug}}"
+category: windows
 tags:
   - Tips
   - Audio
