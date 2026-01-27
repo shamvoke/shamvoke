@@ -6,8 +6,8 @@ subtitle: 🌀 Find your way out, or get lost in the fun!!!
 description: Shamaze3D is a web-based 3D maze game that'll test your sense of
   direction, your patience, and maybe even your sanity. Play the game or play
   with the code...
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524254/05_A_maze_game_for_the_curious_Shamaze3D_xauupa.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524254/05_A_maze_game_for_the_curious_Shamaze3D_xauupa.webp
+image: /assets/img/uploads/05_a-maze-game-for-the-curious-shamaze3d.webp
+optimized_image: ""
 category: code
 tags:
   - Shamaze3D
