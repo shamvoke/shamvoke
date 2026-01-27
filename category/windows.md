@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Windows
-slug: "{{slug}}"
+slug: windows
 description: A category for Windows related posts.
 ---
