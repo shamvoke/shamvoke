@@ -6,8 +6,8 @@ subtitle: Tabs are for web browsers, not file managers.
 description: Turn Dolphin into a true productivity powerhouse. from using Split
   View and toolbar tweaks to showing file sizes, linking folders, and adding
   powerful plugins like 7-Zip and KDE Connect.
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1762118404/top_5_tips_1_lxjtrs.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/v1762117725/top_5_tips_zgeip3.webp
+image: /assets/img/uploads/07_top-5-dolphin-file-manager-tips.webp
+optimized_image: ""
 category: linux
 tags:
   - tips
