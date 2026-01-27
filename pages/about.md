@@ -18,7 +18,7 @@ tags:
 
 # About Me
 
-I'm **Sham,** a <u>UI/UX Designer</u> and <u>Web Developer</u> based in Kenya 🇰🇪
+I'm **Sham,** a <u>UI/UX Designer</u> and <u>Web Developer</u> based in Kenya.
 
 _Constantly exploring the realms of code and creativity._ 🚀
 ![shamvoke wallpaper](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614159/shamvoke-bg_dcgdyh.jpg)
