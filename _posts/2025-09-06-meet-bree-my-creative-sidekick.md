@@ -6,8 +6,8 @@ subtitle: Not every sidekick wears a cape, some just glow
 description: Hey there, you've probably seen this blue face around the site or
   on my socials. You might have even wondered what it is.  And no, that's not
   just a logo.
-image: /assets/img/uploads/02_out-of-the-blue-meet-bree.webp
-optimized_image: ""
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524254/02_Out_of_the_blue_meet_Bree_wf5f7c.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524254/02_Out_of_the_blue_meet_Bree_wf5f7c.webp
 category: blog
 tags:
   - Bree
