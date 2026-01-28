@@ -2,7 +2,7 @@
 date: 2026-01-03 12:18:00
 layout: post
 title: Peace APO, Handle Windows Audio Like a Pro.
-subtitle: Bang & Olufsen Windows tips from a Linux user. 🌀
+subtitle: " Windows tips from a Linux user. 🌀"
 description: You crank the volume to 100% and still feel like something is
   missing. This small combo of tools unlocks system wide volume control, better
   sound, and audio that finally matches what your hardware can handle.
