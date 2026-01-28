@@ -57,6 +57,10 @@ Once both are installed, Peace takes over the day-to-day interaction.
 After installing Equalizer APO and then Peace, there is very little you actually need to do.
 For most users, the magic lives in one place. And that is the main volume slider at the top of Peace.
 
+![Peace APO interface showing main slider](https://res.cloudinary.com/deudsgjbm/image/upload/v1769619236/peace_equilizer_APO_x8xzj2.webp "Peace Equalizer APO interface")
+
+> While drafting this post, I learned that **PEACE** is actually an acronym. It stands for **Peter's Equalizer APO Configuration Extension.** Interesting! - Thank you, Peter.
+
 Slide it up, and you get a clean volume boost across the entire system. No app-specific hacks. The boost applies everywhere. 
 
 Unless you are chasing very specific audio tuning, there is no need to touch advanced settings. Install once, set once, and forget about it.
