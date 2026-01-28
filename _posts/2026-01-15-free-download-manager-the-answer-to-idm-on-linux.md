@@ -3,10 +3,9 @@ date: 2026-01-15 22:33:00
 layout: post
 title: Free Download Manager, the answer to IDM on Linux.
 subtitle: IDM Who? Meet the Download Manager That Plays Everywhere
-description: "Meet Free Download Manager: free, open source, cross-platform, and
-  surprisingly fast. Can it really replace IDM? I put it to the test, from
-  download speed to torrents, browser integration, and remote control. Here's
-  what I found."
+description: "Meet FDM: free, open source, cross-platform, and surprisingly
+  fast. Can it really replace IDM? I put it to the test, from download speed to
+  torrents, browser integration, and remote control. Here's what I found."
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769631517/12_Free_Download_Manager_the_answer_to_IDM_on_Linux_kvjww9.webp
 category: tips
 tags:
