@@ -1,6 +1,15 @@
 // Based on Kouto Swiss normalize function
 // https://github.com/leny/kouto-swiss/edit/master/lib/kouto-swiss/reset/normalize.styl
 
+* {
+  touch-action: manipulation;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
