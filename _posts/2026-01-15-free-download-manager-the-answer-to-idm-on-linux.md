@@ -7,6 +7,7 @@ description: "Meet FDM: free, open source, cross-platform, and surprisingly
   fast. Can it really replace IDM? I put it to the test, from download speed to
   torrents, browser integration, and remote control. Here's what I found."
 image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769631517/12_Free_Download_Manager_the_answer_to_IDM_on_Linux_kvjww9.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769631517/12_Free_Download_Manager_the_answer_to_IDM_on_Linux_kvjww9.webp
 category: tips
 tags:
   - tech-tips
