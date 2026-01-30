@@ -51,6 +51,7 @@ Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logos de
 I recall showing that folder to a friend. He picked three logos on the spot. Three! When I could not even settle on one.
 
 He was right, objectively. They worked. One of them was even my favorite!
+![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_crop,w_500,h_270/v1769739526/webmeka_fgr8kh.webp "One of my favourites!")
 
 <small>From the client</small>
 > I knew this in a strange way. I believed that if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
@@ -62,9 +63,15 @@ If you have interacted with anything AI lately, you have seen it. The sparkle ic
 
 I stared at it and felt something shift. The shape. The energy. The implication.
 
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769742629/Untitled_design_tfgnrb.webp "Webmeka logo design creative path")
+
 The WEBMEKA Logo was hiding in plain sight! Somewhere inside that sparkling shape. Waiting to be carved out. So I took out my tool of work, ~~a magic wand~~. Well, Photoshop can do magic if you ask me. I feel like a magician with it.
 
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769742629/Untitled_design_1_wt4ovt.webp "Webmeka logo design creative path")
+
 The spell worked! That was it. The project's client (Me) confirmed it instantly. **"Yes Voke. That is the WEBMEKA Logo. SEND INVOICE ASAP!"** LOL, a happy client I was.
+
+![Official webmeka Logo plus how i see it](https://res.cloudinary.com/deudsgjbm/image/upload/v1769743751/Official_Logo_jktgay.webp "Official webmeka Logo plus how i see it")
 
  Next came the part most designers treat as routine. Export files. Deliver variations. Light background, dark background, social media sizes, profile pictures, and a few mockups. Project done.
 
