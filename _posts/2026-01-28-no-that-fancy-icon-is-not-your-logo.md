@@ -97,7 +97,7 @@ And NO, I did not convert the existing file to an SVG. Am a developer, I eat cod
 **The result?**
 This code snippet below is the official WEBMEKA Logo! paste it into any ~~online~~ [SVG viewer](https://www.svgviewer.dev/) to see the magic.
 
-```xml
+```
 <svg xmlns="http://www.w3.org/2000/svg" 
 viewBox="0 0 250 250">
   <mask id="a">
