@@ -24,7 +24,7 @@ Here is my short definition of that word before we go any further. A **frontend 
 
 
 <small>Let me tell you shamthing.</small>
-> Being a webmeka means living at the intersection of design, code, and strategy.
+> Being a webmeka means living at the intersection of design, code, and strategy. Fueled by curiosity.
 
 ---
 
@@ -41,7 +41,7 @@ Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inwa
 
 Normally, logo design comes with a timeline. A day or two. Enough time to think, but not enough time to overthink. I respected that limit.
 
-This time, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
+This time, however, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
 
 #### The client.
 See, as the client, **I did not know** what I wanted. But, (This is important) **I knew** what I did not want.
@@ -80,7 +80,7 @@ This is where the story usually ends.
 ---
 
 #### Halt, and then catch fire!
-After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the same logo files but in different variations and formats. 
+After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the sparkle-inspired logo files, but in different variations and formats. 
 
 This setup worked for a while, but then reality hit hard. _Take the profile picture for example,_ turns out most social media platforms have different size specifications for profile pictures! That meant one 'profile picture' image file could not fit all platforms.
 
@@ -139,7 +139,7 @@ With one SVG file, I do not worry about size. Ever. I open it in a text editor, 
 
 Got me thinking, in the real world, would a client allow for their logo to be crafted and delivered without a timeline? Total creative freedom?
 
-With all that ~~said~~ written, we both (Designer & Client) recommend you hire team@webmeka.com for your next Logo project. 
+With all that ~~said~~ written, we both (Designer & Client) recommend you hire [team@webmeka.com](https://webmeka.com "Webmeka website") for your next Logo project. 
 
 Stay Curious,
 
