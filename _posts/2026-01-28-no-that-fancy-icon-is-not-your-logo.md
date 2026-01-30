@@ -24,7 +24,7 @@ Here is my short definition of that word before we go any further. A **frontend 
 
 
 <small>Let me tell you shamthing.</small>
-> Being a webmeka means living at the intersection of design, code, and strategy. Fueled by curiosity.
+> Being a webmeka means living at the intersection of design, code, and strategy. Fueled by curiosity. Not a know-it-all.
 
 ---
 
