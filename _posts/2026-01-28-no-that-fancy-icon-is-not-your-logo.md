@@ -63,7 +63,7 @@ If you have interacted with anything AI lately, you have seen it. The sparkle ic
 
 I stared at it and felt something shift. The shape. The energy. The implication.
 
-![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769742629/Untitled_design_tfgnrb.webp "Webmeka logo design creative path")
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769746099/Official_Logo_1_kzfbao.webp "Webmeka logo design creative path")
 
 The WEBMEKA Logo was hiding in plain sight! Somewhere inside that sparkling shape. Waiting to be carved out. So I took out my tool of work, ~~a magic wand~~. Well, Photoshop can do magic if you ask me. I feel like a magician with it.
 
