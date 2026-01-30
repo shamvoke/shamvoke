@@ -22,16 +22,19 @@ The title sounds provocative, and it is meant to be. This post is the designer i
 ### I am a webmeka.
 Here is my short definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. That, Ladies and Gentlemen, is a **webmeka.** 🚀
 
-> [!Let me tell you shamthing.]
+
+<small>Let me tell you shamthing.</small>
 > Being a webmeka means living at the intersection of design, code, and strategy.
 
 ---
 
-At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when a client sees my design and goes **WOW!**  
-That reaction is addictive, Fam. It teaches you that design is not about decoration, it is about recognition. When someone sees it and feels something click.
+At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when a client sees my design and goes **WOW!** 
+ 
+That reaction is addictive Fam. It teaches you that design is not about decoration, it is about recognition. When someone sees it and feels something click.
 
-> [!Shamthing else.]
+<small>Shamthing else.</small>
 > You know the design is fire when the client says, "DON'T CHANGE ANYTHING! SEND INVOICE"
+
 ### The spark!
 NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."), A Creative Design Agency.
 Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
@@ -49,7 +52,7 @@ I recall showing that folder to a friend. He picked three logos on the spot. Thr
 
 He was right, objectively. They worked. One of them was even my favorite!
 
-> [!From the client]
+<small>From the client</small>
 > I knew this in a strange way. I believed that if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
 
 #### The designer.
@@ -74,10 +77,10 @@ After exporting the final design in all variations I thought I might need in the
 
 This setup worked for a while, but then reality hit hard. _Take the profile picture for example,_ turns out most social media platforms have different size specifications for profile pictures! That meant one 'profile picture' image file could not fit all platforms.
 
-> [!Worth mentioning]
+<small>Worth mentioning</small>
 > As a designer, I always admire how some logos for "Big brand" like Google, can easily adapt to different themes and color pallets outside of their brand colors and still retain their value. I wanted WEBMEKA Logo to have those powers too.
 
-==So I did something different.==
+So I did something different.
 
 #### One file to rule them all.
  What did I do? I combined my graphic design skills with my web development experience.  The result? One Logo file. And the magic? Wait for it... an <abbr title="Scalable Vector Graphics">SVG</abbr> file!
@@ -88,13 +91,19 @@ And NO, I did not convert the existing file to an SVG. Am a developer, I eat cod
 This code snippet below is the official WEBMEKA Logo! paste it into any ~~online~~ [SVG viewer](https://www.svgviewer.dev/) to see the magic.
 
 ```xml
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+<svg xmlns="http://www.w3.org/2000/svg" 
+viewBox="0 0 250 250">
   <mask id="a">
     <path fill="#fff" d="M0 0h250v250H0V0z"/>
-    <path stroke="#000" stroke-linecap="round" stroke-width="18" d="M70 70l110 110"/>
+    <path stroke="#000" stroke-linecap="round" 
+stroke-width="18" d="M70 70l110 110"/>
   </mask>
-  <g fill="none" stroke="#0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" mask="url(#a)">
-    <path d="M125 31.25l-19.79 60.63a20.85 20.85 0 0 1-13.28 13.28L31.25 125l60.63 19.79a20.85 20.85 0 0 1 13.28 13.28L125 218.75l19.79-60.63a20.85 20.85 0 0 1 13.28-13.28L218.75 125l-60.63-19.79a20.85 20.85 0 0 1-13.28-13.28z"/>
+  <g fill="none" stroke="#0ff" stroke-linecap="round" 
+stroke-linejoin="round" stroke-width="20" mask="url(#a)">
+    <path d="M125 31.25l-19.79 60.63a20.85 20.85 0 0 1-13.28
+13.28L31.25 125l60.63 19.79a20.85 20.85 0 0 1 13.28 13.28L125
+218.75l19.79-60.63a20.85 20.85 0 0 1 13.28-13.28L218.75
+125l-60.63-19.79a20.85 20.85 0 0 1-13.28-13.28z"/>
   </g>
 </svg>
 ```
