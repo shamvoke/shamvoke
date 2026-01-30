@@ -39,7 +39,7 @@ That reaction is addictive Fam. It teaches you that design is not about decorati
 NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."), A Creative Design Agency.
 Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
-Normally, logo design comes with a timeline. A day or two. Enough time to think, but not enough time to overthink. I respected that limit.
+Normally, logo design comes with a timeline. A day or two. I respected that limit. Enough time to think, but not enough time to overthink.
 
 This time, however, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
 
@@ -56,14 +56,16 @@ He was right, objectively. They worked. One of them was even my favorite!
 <small>From the client</small>
 > I knew this in a strange way. I believed that if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
 
+Something was still missing.
+
 #### The designer.
-As the designer, the logo felt close, but not inevitable. The real one felt like it was hiding somewhere in my head, waiting to be summoned.
+As the designer, the logo felt close, but not inevitable. The real one felt like it was hiding somewhere inside my head, waiting to be summoned.
 #### Then came the sparkle!
 If you have interacted with anything AI lately, you have seen it. The sparkle icon. That little ✨ shape that shows up everywhere AI goes. Mysteriously universal.
 
-I stared at it and felt something shift. The shape. The energy. The implication.
+This one time, I stared at it and felt something shift. The shape. The energy. The implication. I could see it!
 
-![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769746099/Official_Logo_1_kzfbao.webp "Webmeka logo design creative path")
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769746842/Official_Logo_1_rsndyc.png "Webmeka logo design creative path")
 
 The WEBMEKA Logo was hiding in plain sight! Somewhere inside that sparkling shape. Waiting to be carved out. So I took out my tool of work, ~~a magic wand~~. Well, Photoshop can do magic if you ask me. I feel like a magician with it.
 
@@ -92,10 +94,10 @@ So I did something different.
 #### One file to rule them all.
  What did I do? I combined my graphic design skills with my web development experience.  The result? One Logo file. And the magic? Wait for it... an <abbr title="Scalable Vector Graphics">SVG</abbr> file!
 
-And NO, I did not convert the existing file to an SVG. Am a developer, I eat code for breakfast! So I opened up my favorite text editor - [Kate.](https://kate-editor.org/ "Kate Text Editor website") I recreated the sparkle shape manually, line by line. Then I used all the SVG editing tricks up my ~~rolled up~~ sleeves to curve the WEBMEKA Logo out.
+And NO, I did not convert the existing file to an SVG. Am a developer, I eat code for breakfast! So I opened up my favorite text editor - [Kate.](https://kate-editor.org/ "Kate Text Editor website") And recreated the sparkle shape manually, line by line. Then I used all the SVG editing tricks up my ~~still rolled up~~ sleeves to curve the WEBMEKA Logo out.
 
 **The result?**
-This code snippet below is the official WEBMEKA Logo! paste it into any ~~online~~ [SVG viewer](https://www.svgviewer.dev/) to see the magic.
+This code snippet below is the official WEBMEKA Logo! paste it into any ~~offline or online~~ [SVG viewer](https://www.svgviewer.dev/) to see the magic.
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" 
@@ -117,7 +119,7 @@ stroke-linejoin="round" stroke-width="20" mask="url(#a)">
 
 **Let me explain the code above in brief,** For the curious souls reading this :)
 
-The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the base height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke width, color, and fill set to none.
+The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the Logo height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke-width, color, and the fill set to none.
 
 Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside the mask layer is a `<path>` tag, which draws a diagonal line with a width of 18px. Since that line is inside the mask layer, it gets masked out (hidden alongside everything below it), resulting in that diagonal cut of the sparkle shape below it.  Done!
 
@@ -139,7 +141,7 @@ With one SVG file, I do not worry about size. Ever. I open it in a text editor, 
 
 Got me thinking, in the real world, would a client allow for their logo to be crafted and delivered without a timeline? Total creative freedom?
 
-With all that ~~said~~ written, we both (Designer & Client) recommend you hire [team@webmeka.com](https://webmeka.com "Webmeka website") for your next Logo project. 
+With all that ~~said~~ written, we both (Designer & Client) recommend you hire  [team@webmeka.com](https://webmeka.com "Webmeka website") for your next Logo project. 
 
 Stay Curious,
 
