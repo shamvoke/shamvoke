@@ -109,21 +109,27 @@ stroke-linejoin="round" stroke-width="20" mask="url(#a)">
 ```
 
 **Let me explain the code above in brief,** For the curious souls reading this :)
-The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the base height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke width, color, and fill set to none. Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside the mask layer is a `<path>` tag, which draws a diagonal line with a width of 18px. Since that line is inside the mask layer, it gets masked out (hidden alongside everything below it), resulting in that diagonal cut of the sparkle shape below it.  Done!
+
+The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the base height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke width, color, and fill set to none.
+
+Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside the mask layer is a `<path>` tag, which draws a diagonal line with a width of 18px. Since that line is inside the mask layer, it gets masked out (hidden alongside everything below it), resulting in that diagonal cut of the sparkle shape below it.  Done!
 
 > Honestly, Kate text editor deserves its own post! It makes Notepad++ feel like a toy. Always my go-to editor when dealing with a single file. For projects with multiple files, VS Code saves the day like Superman. Look out for that Kate post in the near future.
 
 **Why the Sparkle Shape?**
+
 No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and energy. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand. 
 
 And the sparkle being a star, **I wanted WEBMEKA to be up there with the stars, where it belongs!**
 
 **Why SVG?**
+
 Because SVG is not just an image. It is code. Easy to edit even on mobile! No magic wand needed.
 
 With one SVG file, I do not worry about size. Ever. I open it in a text editor, change the values, and save. Done. Need a different color? Change the hex value. Save. Done. Need a PNG for a specific use? Export it. Done. The original SVG file stays untouched. _One file to rule them all._
 
-==As the designer, I was proud. As the client, I had my WOW moment!==
+**As the designer, I was proud. As the client, I had my WOW moment!**
+
 Got me thinking, in the real world, would a client allow for their logo to be crafted and delivered without a timeline? Total creative freedom?
 
 With all that ~~said~~ written, we both (Designer & Client) recommend you hire team@webmeka.com for your next Logo project. 
