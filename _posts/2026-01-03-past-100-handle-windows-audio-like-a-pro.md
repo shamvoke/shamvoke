@@ -6,8 +6,8 @@ subtitle: " Windows tips from a Linux user. 🌀"
 description: You crank the volume to 100% and still feel like something is
   missing. This small combo of tools unlocks system wide volume control, better
   sound, and audio that finally matches what your hardware can handle.
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524255/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524255/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj.webp
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769896371/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj_knnpor.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769896371/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj_knnpor.webp
 category: windows
 tags:
   - Tips
