@@ -20,7 +20,9 @@ paginate: false
 The title sounds provocative, and it is meant to be. This post is the designer in me stepping forward, sleeves rolled up, armed with my magic wand **(Photoshop)** ready to drive a point home! 🚀
 
 ### I am a webmeka.
-Here is my short definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. That, Ladies and Gentlemen, is a **webmeka.** 🚀
+Here is my short definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. 
+
+That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, they have built the web, they help brands grow online, they run solo agencies! My goal is to have a team of such 'webmeka' minded creatives. [team@webmeka.com](https://webmeka.com/ "webmeka creative design agency website") And together we will... - back to the Logo!
 
 
 <small>Let me tell you shamthing.</small>
@@ -28,15 +30,15 @@ Here is my short definition of that word before we go any further. A **frontend 
 
 ---
 
-At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when a client sees my design and goes **WOW!** 
+At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when a client sees a design and goes **WOW!** 
  
-That reaction is addictive Fam. It teaches you that design is not about decoration, it is about recognition. When someone sees it and feels something click.
+That reaction, teaches you that design is not about decoration, it is about communication. When someone sees it and knows/feels something click.
 
 <small>Shamthing else.</small>
 > You know the design is fire when the client says, "DON'T CHANGE ANYTHING! SEND INVOICE"
 
 ### The spark!
-NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."), A Creative Design Agency.
+NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
 Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
 Normally, logo design comes with a timeline. A day or two. I respected that limit. Enough time to think, but not enough time to overthink.
@@ -51,10 +53,10 @@ Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logos de
 I recall showing that folder to a friend. He picked three logos on the spot. Three! When I could not even settle on one.
 
 He was right, objectively. They worked. One of them was even my favorite!
-![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_crop,w_500,h_270/v1769739526/webmeka_fgr8kh.webp "One of my favourites!")
+![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_crop,w_500,h_400/v1769893361/webmeka_draft12_2_zvqo4r.webp "One of my favourites!")
 
-<small>From the client</small>
-> I knew this in a strange way. I believed that if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
+
+> I knew this for sure. That if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
 
 Something was still missing.
 
@@ -73,7 +75,14 @@ The WEBMEKA Logo was hiding in plain sight! Somewhere inside that sparkling shap
 
 The spell worked! That was it. The project's client (Me) confirmed it instantly. **"Yes Voke. That is the WEBMEKA Logo. SEND INVOICE ASAP!"** LOL, a happy client I was.
 
-![Official webmeka Logo plus how i see it](https://res.cloudinary.com/deudsgjbm/image/upload/v1769743751/Official_Logo_jktgay.webp "Official webmeka Logo plus how i see it")
+![Official webmeka Logo plus how i see it](https://res.cloudinary.com/deudsgjbm/image/upload/v1769888323/Official_Logo_2_axb9ar.webp "Official webmeka Logo plus how i see it")
+
+After all that curving, it turns out WEBMEKA exists both inside and outside the sparkle. 
+
+<video width="80%" autoplay loop muted playsinline style="display:block; margin:0 auto;">
+  <source src="https://res.cloudinary.com/deudsgjbm/video/upload/v1769888348/Webmeka_Official_Logo_wm05ih.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
  Next came the part most designers treat as routine. Export files. Deliver variations. Light background, dark background, social media sizes, profile pictures, and a few mockups. Project done.
 
