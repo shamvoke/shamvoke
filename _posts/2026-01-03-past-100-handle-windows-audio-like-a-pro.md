@@ -2,12 +2,12 @@
 date: 2026-01-03 12:18:00
 layout: post
 title: Peace APO, Handle Windows Audio Like a Pro.
-subtitle: " Windows tips from a Linux user. 🌀"
+subtitle: A guide for those who don't care about damaging their speakers or ears 🌀
 description: You crank the volume to 100% and still feel like something is
   missing. This small combo of tools unlocks system wide volume control, better
   sound, and audio that finally matches what your hardware can handle.
-image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769524255/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj.webp
-optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769524255/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj.webp
+image: https://res.cloudinary.com/deudsgjbm/image/upload/v1769896371/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj_knnpor.webp
+optimized_image: https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_600,h_315/v1769896371/11_Handle_Windows_Audio_Like_a_Pro._0A_app0nj_knnpor.webp
 category: windows
 tags:
   - Tips
@@ -25,9 +25,9 @@ Turns out, it does not have to.
 
 ### The quiet truth about Windows audio
 
-Windows is conservative with volume. That is not a bad thing; it protects speakers, headphones, and ears. But it also means that low-level audio stays low, even when you know your hardware can handle more.
+Windows is conservative with volume. That is not a bad thing; it protects speakers, headphones, and ears. But it also means that low-level audio stays low, even when you know **your hardware can handle more.**
 
-Unlike my current setup of Arch Linux + KDE, [You should use Arch linux BTW.](https://shamvoke.com/you-should-use-arch-linux-btw/) Windows does not expose a simple built-in option to push audio beyond 100% at the system level. So if you want that extra boost, you need the right tools.
+Unlike my current setup of Arch + KDE, [You should use Arch linux BTW.](https://shamvoke.com/you-should-use-arch-linux-btw/) Windows does not expose a simple built-in option to push audio beyond 100% at the system level. So if you want that extra boost, you need the right tools.
 
 That is where a small but powerful combo comes in:
 
