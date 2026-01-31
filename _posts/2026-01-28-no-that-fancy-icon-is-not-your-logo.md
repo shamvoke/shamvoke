@@ -50,9 +50,9 @@ This time, however, there was no limit. I started designing the WEBMEKA logo wit
 #### The client.
 See, as the client, **I did not know** what I wanted. But, (This is important) **I knew** what I did not want.
 
-Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logos draft designs.
+Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logo draft designs.
 
-I recall showing that folder to a friend. He picked three logos on the spot. Three! When I could not even settle on one.
+I recall showing that folder to a friend. He picked three logo on the spot. Three! When I could not even settle on one.
 
 He was right, objectively. They worked. One of them was even my favorite!
 ![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_crop,w_500,h_400/v1769893361/webmeka_draft12_2_zvqo4r.webp "One of my favourites!")
@@ -130,7 +130,7 @@ stroke-linejoin="round" stroke-width="20" mask="url(#a)">
 
 **Let me explain the code above in brief,** For the curious souls reading this :)
 
-The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the Logo height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke-width, color, and the fill set to none.
+The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the Logo height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke-width and color values, with fill set to none.
 
 Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside the mask layer is a `<path>` tag, which draws a diagonal line with a width of 18px. Since that line is inside the mask layer, it gets masked out (hidden alongside everything below it), resulting in that diagonal cut of the sparkle shape below it.  Done!
 
