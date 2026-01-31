@@ -88,6 +88,8 @@ After all that curving, it turns out WEBMEKA exists both inside and outside the 
 
  Next came the part most designers treat as routine. Export files. Deliver variations. Light background, dark background, social media sizes, profile pictures, and a few mockups. Project done.
 
+![Official webmeka Logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1769899316/webmeka-logo_f2oefa.webp "Official webmeka Logo")
+
 This is where the story usually ends.
 
 ---
