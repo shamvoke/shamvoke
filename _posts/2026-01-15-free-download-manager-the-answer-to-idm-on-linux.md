@@ -19,9 +19,9 @@ After switching from **Windows** to **Arch Linux,** I quickly learned that chang
 
 For me, one of those favorites was Internet Download Manager (IDM).
 
-<abbr title="Internet Download Manager">IDM</abbr> is one of those rare Windows tools that actually earns its reputation. It is fast, reliable, and brutally efficient at grabbing files and videos from the web. 
+<abbr title="Internet Download Manager">IDM</abbr> is one of those rare Windows tools that actually earns my respect. It is fast, reliable, and brutally efficient at 'grabbing' files and videos from the web. 
 
-So when I switched to Arch Linux, I needed a real <abbr title="Internet Download Manager">IDM</abbr> replacement. Not a toy. Not a half-baked script. Something solid.
+So, after the switch, I needed a real <abbr title="Internet Download Manager">IDM</abbr> replacement. Not a toy. Not a half-baked script. Something solid.
 
 That sent me fishing in the open source ocean.
 
@@ -67,7 +67,7 @@ That peace of mind is worth a lot.
 If you are on Windows and raw download speed is your religion, <abbr title="Internet Download Manager">IDM</abbr> is still hard to beat.
 But if you value open source software, cross-platform freedom, torrent support, and a clean conscience, Free Download Manager is an excellent alternative. 
 
-For me, after moving to Arch Linux, <abbr title="Free Download Manager">FDM</abbr> did not just fill <abbr title="Internet Download Manager">IDM's</abbr> shoes. It brought its own pair!
+For me, after moving to Arch Linux, <abbr title="Free Download Manager">FDM</abbr> did not just fill <abbr title="Internet Download Manager">IDM's</abbr> shoes. It brought its own pair of sneakers!
 [you should use Arch Linux, BTW.](https://shamvoke.com/you-should-use-arch-linux-btw/)
 
 Stay Curious,
