@@ -24,7 +24,7 @@ The title sounds provocative, and it is meant to be. This post is the designer i
 ### I am a webmeka.
 Here is my short definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. 
 
-That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, they have built the web, they help brands grow online, they run solo agencies! My goal is to have a team of such 'webmeka' minded creatives. [team@webmeka.com](https://webmeka.com/ "webmeka creative design agency website") And together we will... - back to the Logo!
+That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, millions of them, they have built the web, they help brands grow online, they run solo agencies! My goal is to have a team of such 'webmeka' minded creatives. [team@webmeka.com](https://webmeka.com/ "webmeka creative design agency website") And together we will... - back to the Logo!
 
 
 <small>Let me tell you shamthing.</small>
