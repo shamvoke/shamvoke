@@ -138,7 +138,7 @@ Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside t
 
 **Why the Sparkle Shape?**
 
-No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and energy. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand. 
+No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and creativity. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand. 
 
 And the sparkle being a star, **I wanted WEBMEKA to be up there with the stars, where it belongs!**
 
