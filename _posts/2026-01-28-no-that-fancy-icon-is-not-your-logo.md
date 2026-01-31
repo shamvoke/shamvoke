@@ -19,6 +19,8 @@ paginate: false
 ---
 The title sounds provocative, and it is meant to be. This post is the designer in me stepping forward, sleeves rolled up, armed with my magic wand **(Photoshop)** ready to drive a point home! 🚀
 
+<small>By photoshop I mean </small> [Photopea,](https://www.photopea.com/) ~~GIMP~~, [Canva 🔥,](https://www.canva.com/) PicsArt, and more!
+
 ### I am a webmeka.
 Here is my short definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. 
 
@@ -30,7 +32,7 @@ That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, they h
 
 ---
 
-At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when a client sees a design and goes **WOW!** 
+At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when the client sees a design and goes **WOW!** 
  
 That reaction, teaches you that design is not about decoration, it is about communication. When someone sees it and knows/feels something click.
 
@@ -48,7 +50,7 @@ This time, however, there was no limit. I started designing the WEBMEKA logo wit
 #### The client.
 See, as the client, **I did not know** what I wanted. But, (This is important) **I knew** what I did not want.
 
-Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logos designs.
+Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logos draft designs.
 
 I recall showing that folder to a friend. He picked three logos on the spot. Three! When I could not even settle on one.
 
@@ -67,11 +69,11 @@ If you have interacted with anything AI lately, you have seen it. The sparkle ic
 
 This one time, I stared at it and felt something shift. The shape. The energy. The implication. I could see it!
 
-![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769746842/Official_Logo_1_rsndyc.png "Webmeka logo design creative path")
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769894932/Official_Logo_3_gt6hnq.webp "Webmeka logo design creative path")
 
 The WEBMEKA Logo was hiding in plain sight! Somewhere inside that sparkling shape. Waiting to be carved out. So I took out my tool of work, ~~a magic wand~~. Well, Photoshop can do magic if you ask me. I feel like a magician with it.
 
-![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769742629/Untitled_design_1_wt4ovt.webp "Webmeka logo design creative path")
+![Webmeka logo design creative path](https://res.cloudinary.com/deudsgjbm/image/upload/v1769894932/Official_Logo_4_pqfb3d.webp "Webmeka logo design creative path")
 
 The spell worked! That was it. The project's client (Me) confirmed it instantly. **"Yes Voke. That is the WEBMEKA Logo. SEND INVOICE ASAP!"** LOL, a happy client I was.
 
