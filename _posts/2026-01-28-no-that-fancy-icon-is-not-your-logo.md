@@ -81,8 +81,8 @@ The spell worked! That was it. The project's client (Me) confirmed it instantly.
 
 After all that curving, it turns out WEBMEKA exists both inside and outside the sparkle. 
 
-<video width="60%" autoplay loop muted playsinline style="display:block; margin:0 auto;">
-  <source src="https://res.cloudinary.com/deudsgjbm/video/upload/v1769888348/Webmeka_Official_Logo_wm05ih.mp4" type="video/mp4">
+<video width="100%" autoplay loop muted playsinline style="display:block; margin:0 auto;">
+  <source src="https://res.cloudinary.com/deudsgjbm/video/upload/v1770029575/Official_Logo_1_kkjsst.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
