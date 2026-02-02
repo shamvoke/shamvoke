@@ -67,8 +67,10 @@ That peace of mind is worth a lot.
 If you are on Windows and raw download speed is your religion, <abbr title="Internet Download Manager">IDM</abbr> is still hard to beat.
 But if you value open source software, cross-platform freedom, torrent support, and a clean conscience, Free Download Manager is an excellent alternative. 
 
-For me, after moving to Arch Linux, <abbr title="Free Download Manager">FDM</abbr> did not just fill <abbr title="Internet Download Manager">IDM's</abbr> shoes. It brought its own pair of sneakers!
-[you should use Arch Linux, BTW.](https://shamvoke.com/you-should-use-arch-linux-btw/)
+Of all other alternatives I tried, one worth mentioning is [Motrix!](https://motrix.app/)
+
+For me, after moving to Arch, <abbr title="Free Download Manager">FDM</abbr> did not just fill <abbr title="Internet Download Manager">IDM's</abbr> shoes. It brought its own pair of sneakers!
+[You should use Arch Linux, BTW.](https://shamvoke.com/you-should-use-arch-linux-btw/)
 
 Stay Curious,
 
