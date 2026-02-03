@@ -2,7 +2,7 @@ const phrases = [
   "All cursors have a point! Let that click.",
   "Crafting pixels into art, one design at a time.",
   "Kindness is free, sprinkle that stuff everywhere.",
-  "Creativity is just intelligence having fun."
+  "FREE EDUCATION! FREE EDUCATION! FREE EDUCATION! FREE!"
 ];
 
 const target = document.getElementById("shamtext");
