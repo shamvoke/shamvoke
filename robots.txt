@@ -2,9 +2,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /404.html
+Disallow:
 
 Sitemap: https://shamvoke.com/sitemap.xml
-
-Host: shamvoke.com
