@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Menu, Search } from "lucide-react"
+import Sidebar from "@/components/ui/sidebar"
 import { useState } from "react"
 
 export default function Navbar() {
@@ -36,8 +37,6 @@ export default function Navbar() {
         </h1>
 
       </div>
-        
-        
 
         {/* Right side */}
         <div className="flex items-center gap-3 sm:mr-5">
@@ -60,6 +59,8 @@ export default function Navbar() {
           </button>
         </div>
       </header>
+
+      <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
 
       {/* Overlay */}
       <div

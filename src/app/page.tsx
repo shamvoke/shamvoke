@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/ui/navbar"
 import HeroSection from "@/components/hero-section"
 
 export default function Page() {

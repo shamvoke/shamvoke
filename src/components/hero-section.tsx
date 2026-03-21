@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative h-svh w-full bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/shamvoke_logo_3D.png')" }}
+      style={{ backgroundImage: "url('/shamlogo.png')" }}
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-80"
