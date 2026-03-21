@@ -8,8 +8,8 @@ type SidebarProps = {
 const menu = [
   { title: "Home", url: "/" },
   { title: "Blog", url: "/blog" },
-  { title: "Projects", url: "/projects" },
   { title: "About", url: "/about" },
+  { title: "Contact", url: "/contact" },
 ]
 
 export default function Sidebar({ open, onClose }: SidebarProps) {
