@@ -39,17 +39,17 @@ export default function Footer() {
 
       {/* Social Icons */}
       <div className="flex justify-center gap-5 mb-6">
-        <a href="https://github.com/" target="_blank">
-          <Github className="w-6 h-6 hover:text-[var(--color-shamcolor)] transition" />
+        <a href="https://github.com/shamvoke" target="_blank">
+          <Github className="w-6 h-6 hover:text-sham transition" />
         </a>
-        <a href="https://facebook.com/" target="_blank">
-          <Facebook className="w-6 h-6 hover:text-[var(--color-shamcolor)] transition" />
+        <a href="https://www.facebook.com/share/17911CWaJV/" target="_blank">
+          <Facebook className="w-6 h-6 hover:text-[#1877f2] transition" />
         </a>
-        <a href="https://twitter.com/" target="_blank">
-          <Twitter className="w-6 h-6 hover:text-[var(--color-shamcolor)] transition" />
+        <a href="https://twitter.com/shamvoke" target="_blank">
+          <Twitter className="w-6 h-6 hover:text-voke transition" />
         </a>
-        <a href="https://instagram.com/" target="_blank">
-          <Instagram className="w-6 h-6 hover:text-[var(--color-shamcolor)] transition" />
+        <a href="https://instagram.com/sham.voke" target="_blank">
+          <Instagram className="w-6 h-6 hover:text-[#e4405f] transition" />
         </a>
         <a href="https://youtube.com/@shamvoke" target="_blank">
           <Youtube className="w-6 h-6 hover:text-[#ff0a16] transition" />
@@ -62,6 +62,7 @@ export default function Footer() {
         alt="Shamvoke brand Logo"
         width={150}
         height={150}
+        quality={100}
         className="mx-auto mb-6"
         />
 
