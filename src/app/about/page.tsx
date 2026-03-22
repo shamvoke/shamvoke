@@ -13,7 +13,7 @@ export default function AboutPage() {
           alt="Sham Voke"
           width={200}
           height={200}
-          className="rounded-full mb-6 border-2 border-white/10"
+          className="rounded-full mb-6 border-2 border-voke"
           priority
         />
 
@@ -22,9 +22,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg">
-          I&apos;m <span className="font-bold text-white">Sham</span>, a{" "}
-          <span className="underline decoration-voke">UI/UX Designer</span> and{" "}
-          <span className="underline decoration-sham">Web Developer</span> based in Kenya.
+          I&apos;m <span className="font-bold text-white">Sham</span>, <span className="line-through opacity-60">a webmeka</span>. A UI/UX Designer & Web Developer based in Kenya.
         </p>
 
         <p className="italic mt-3 text-gray-400">
@@ -33,7 +31,7 @@ export default function AboutPage() {
       </div>
 
       {/* Wallpaper */}
-      <div className="relative w-full h-[300px] mb-12 rounded-xl overflow-hidden">
+      <div className="relative w-full h-[300px] ring mb-12 rounded-xl overflow-hidden">
         <Image
           src="/shamvoke-banner.webp"
           alt="Shamvoke wallpaper"
@@ -55,7 +53,7 @@ export default function AboutPage() {
 
         <p>
           🌱 I believe in the power of{" "}
-          <span className="underline decoration-voke">continuous learning and growth</span>, constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
+          <span className="bg-voke/10 text-voke px-2 py-0.5 rounded-md">continuous learning and growth</span>, constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
         </p>
 
       </div>
@@ -77,7 +75,7 @@ export default function AboutPage() {
         Stay curious.
       </p>
 
-      <p className="mt-2 font-semibold bg-gradient-to-r from-sham to-voke bg-clip-text text-transparent">
+      <p className="mt-2 font-bold bg-gradient-to-r from-sham to-voke bg-clip-text text-transparent">
         Sham
       </p>
 

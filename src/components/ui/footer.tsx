@@ -21,7 +21,7 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="max-w-[800px] mx-auto border-t border-white/10 px-6 py-6 mt-12 mb-24 text-center text-gray-400">
+    <footer className="max-w-[800px] mx-auto  border-t border-white/10 px-6 pt-6 mt-12 pb-24 text-center text-gray-400">
       
       {/* Menu */}
       <ul className="flex justify-center gap-4 mb-6">
@@ -67,7 +67,7 @@ export default function Footer() {
 
       {/* Text */}
       <p className="text-sm leading-6">
-        <span className="font-bold">Blog</span> crafted with 💙 by{" "} sham
+        Crafted with 💙 by sham
         <br />
         &copy; {year}{" "}
         <a
