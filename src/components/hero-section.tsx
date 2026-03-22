@@ -3,7 +3,7 @@ import HeroTypewriter from "@/components/ui/typewriter"
 export default function HeroSection() {
   return (
     <section
-      className="relative h-svh w-full bg-cover bg-center bg-no-repeat"
+      className="relative h-svh w-full bg-cover bg-center bg-black bg-no-repeat"
       style={{ backgroundImage: "url('/shamlogo.png')" }}
     >
       <div
@@ -31,13 +31,14 @@ export default function HeroSection() {
         </div>
 
         <div className="mt-12">
-          <a
+        <a
             href="#grid"
-            className="inline-flex items-center rounded bg-black/60 px-4 py-2 text-lg font-bold text-white transition hover:bg-white/50 hover:shadow"
-          >
+            className="inline-flex items-center rounded px-4 py-2 text-lg font-bold transition 
+                    bg-card/40 dark:bg-black/60 text-card-foreground hover:bg-card/30 hover:shadow"
+        >
             <span className="mr-2">📖</span>
-            <span>Read Now</span>
-          </a>
+            <span>Read shamthing</span>
+        </a>
         </div>
       </div>
     </section>

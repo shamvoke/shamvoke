@@ -7,7 +7,7 @@ export default function NotFound() {
       
       <div className="relative w-full h-[300px] mb-6">
         <Image
-          src="/404.gif"
+          src="/sham404.gif"
           alt="404 - Page not found"
           fill
           className="object-contain"
