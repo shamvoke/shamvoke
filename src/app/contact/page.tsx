@@ -28,13 +28,11 @@ export default function ContactSham() {
     <section className="flex justify-center px-8 py-15">
       <div className="w-full max-w-lg">
         <h2 className="text-3xl font-bold m-10 text-center text-foreground">
-          {/* CHANGED: added text-foreground */}
           Talk to me
         </h2>
 
         {submitted ? (
           <p className="text-green-500 text-center font-semibold">
-            {/* kept success color as-is */}
             Thank you! Your message has been sent.
           </p>
         ) : (
@@ -61,9 +59,6 @@ export default function ContactSham() {
               placeholder="Your name"
               required
               className="w-full px-4 py-3 bg-card text-foreground border-b border-border focus:outline-none focus:border-sham transition"
-              // CHANGED: bg-gray-900 -> bg-background
-              // CHANGED: text-white -> text-foreground
-              // CHANGED: border-blue-500 -> border-border
             />
 
             <input
@@ -72,9 +67,6 @@ export default function ContactSham() {
               placeholder="Your email"
               required
               className="w-full px-4 py-3 bg-card text-foreground border-b border-border focus:outline-none focus:border-sham transition"
-              // CHANGED: bg-gray-900 -> bg-background
-              // CHANGED: text-white -> text-foreground
-              // CHANGED: border-blue-500 -> border-border
             />
 
             <textarea
@@ -83,15 +75,11 @@ export default function ContactSham() {
               required
               rows={6}
               className="w-full px-4 py-3 bg-card text-foreground border-b border-border focus:outline-none focus:border-sham transition resize-none"
-              // CHANGED: bg-gray-900 -> bg-background
-              // CHANGED: text-white -> text-foreground
-              // CHANGED: border-blue-500 -> border-border
             />
 
             <button
               type="submit"
-              className="w-full py-3 text-primary-foreground bg-gradient-to-r from-sham to-voke font-bold rounded-md hover:uppercase hover:tracking-wider transition"
-              // CHANGED: text-white -> text-primary-foreground
+              className="w-full py-3 text-primary-foreground bg-linear-to-r from-sham to-voke font-bold rounded-md hover:uppercase hover:tracking-wider transition"
             >
               Send
             </button>

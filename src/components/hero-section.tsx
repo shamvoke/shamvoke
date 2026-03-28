@@ -3,7 +3,7 @@ import HeroTypewriter from "@/components/ui/typewriter"
 export default function HeroSection() {
   return (
     <section
-      className="relative h-svh w-full bg-cover bg-center bg-black bg-no-repeat"
+      className="relative h-svh w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/shamlogo.png')" }}
     >
       <div
@@ -14,7 +14,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#141414] via-transparent to-transparent" />
 
       <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
         

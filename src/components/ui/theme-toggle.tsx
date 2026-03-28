@@ -9,7 +9,6 @@ export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    // CHANGED: defer setMounted to next animation frame to avoid synchronous setState warning
     const id = requestAnimationFrame(() => setMounted(true))
     return () => cancelAnimationFrame(id)
   }, [])
@@ -23,10 +22,8 @@ export default function ThemeToggle() {
     >
       {theme === "dark" ? (
         <Sun className="w-7 h-7" />
-        // CHANGED: replaced 🌞 with Lucide Sun icon
       ) : (
         <Moon className="w-7 h-7 text-white" />
-        // CHANGED: replaced 🌙 with Lucide Moon icon
       )}
     </button>
   )

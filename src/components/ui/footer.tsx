@@ -21,7 +21,7 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="max-w-[800px] mx-auto border-t border-border px-6 pt-6 mt-12 pb-24 text-center text-muted-foreground">
+    <footer className="max-w-200 mx-auto border-t border-border px-6 pt-6 mt-12 pb-24 text-center text-muted-foreground">
       <ul className="flex justify-center gap-4 mb-6">
         {menu.map((item) => (
           <li key={item.title}>

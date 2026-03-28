@@ -5,7 +5,6 @@ import Image from "next/image"
 export default function AboutPage() {
   return (
     <section className="max-w-4xl mx-auto px-6 pt-20 text-muted-foreground">
-      {/* CHANGED: text-gray-300 -> text-muted-foreground */}
 
       <div className="flex flex-col items-center mt-12">
         <Image
@@ -18,22 +17,19 @@ export default function AboutPage() {
         />
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground">
-          {/* CHANGED: explicitly set text-foreground */}
           About Me
         </h1>
 
         <p className="text-lg text-foreground">
-          {/* CHANGED: text-white -> text-foreground */}
           I&apos;m <span className="font-bold text-foreground">Sham</span>, <span className="line-through opacity-60">a webmeka</span>. A UI/UX Designer & Web Developer based in Kenya.
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
-          {/* CHANGED: text-gray-400 -> text-muted-foreground */}
           Constantly exploring the realms of code and creativity 🚀
         </p>
       </div>
 
-      <div className="relative w-full h-[300px] ring mb-12 rounded-xl overflow-hidden">
+      <div className="relative w-full h-75 ring mb-12 rounded-xl overflow-hidden">
         <Image
           src="/shamvoke-banner.webp"
           alt="Shamvoke wallpaper"
@@ -42,11 +38,9 @@ export default function AboutPage() {
           priority
         />
         <div className="absolute inset-0 bg-black/40 dark:bg-black/60" />
-        {/* CHANGED: added dark:bg-black/60 for better contrast in dark mode */}
       </div>
 
       <div className="space-y-6 text-base leading-7 text-foreground">
-        {/* CHANGED: text inherits text-foreground instead of default gray */}
 
         <p>
           👨‍💻 With a fervent love for{" "}
@@ -73,11 +67,10 @@ export default function AboutPage() {
       </div>
 
       <p className="mt-8 text-lg italic text-muted-foreground">
-        {/* CHANGED: text-gray-400 -> text-muted-foreground */}
         Stay curious.
       </p>
 
-      <p className="mt-2 font-bold bg-gradient-to-r from-sham to-voke bg-clip-text text-transparent">
+      <p className="mt-2 font-bold bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
         Sham
       </p>
 

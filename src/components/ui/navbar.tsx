@@ -23,7 +23,7 @@ export default function Navbar() {
         <h1 className="m-0 h-8 leading-8 relative">
           <Link
             href="/"
-            className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-sham to-voke bg-clip-text text-transparent"
+            className="text-2xl sm:text-3xl font-bold bg-linear-to-r from-sham to-voke bg-clip-text text-transparent"
           >
             SHAMVOKE
             <span className="absolute top-0 left-full ml-2 text-[10px] opacity-70 text-voke">
@@ -48,7 +48,7 @@ export default function Navbar() {
       <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
       <div
         onClick={() => setMenuOpen(false)}
-        className={`fixed inset-0 bg-black/60 z-[17] transition-opacity duration-300 ${
+        className={`fixed inset-0 bg-black/60 z-20 transition-opacity duration-300 ${
           menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       />
