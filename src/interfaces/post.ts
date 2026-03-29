@@ -6,7 +6,7 @@ export interface Author {
 export interface Post {
   slug: string;
   title: string;
-  shamthing: string;
+  shamthing?: string;
   date: string;
   excerpt: string;
   coverImage: string;
@@ -18,5 +18,7 @@ export interface Post {
   ogImage: {
     url: string;
   };
+  category?: string
+  tags?: string[]
   content: string;
 }

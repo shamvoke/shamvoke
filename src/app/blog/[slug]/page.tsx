@@ -1,61 +1,75 @@
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/api";
-import markdownToHtml from "@/lib/markdownToHtml";
-import Image from "next/image";
-import styles from "./post-body.module.css";
+import { Metadata } from "next"
+import { notFound } from "next/navigation"
+import { getAllPosts, getPostBySlug } from "@/lib/api"
+import markdownToHtml from "@/lib/markdownToHtml"
+import Image from "next/image"
+import styles from "./post-body.module.css"
 
-type Params = {
-  params: Promise<{ slug: string }>;
-};
+type Props = {
+  params: Promise<{ slug: string }>
+}
 
 // Generate static pages for all posts at build time
 export async function generateStaticParams() {
-  const posts = getAllPosts();
-  return posts.map((post) => ({ slug: post.slug }));
+  const posts = getAllPosts()
+
+  return posts.map((post) => ({
+    slug: post.slug,
+  }))
 }
 
 // Generate SEO metadata dynamically
-export async function generateMetadata(props: Params): Promise<Metadata> {
-  const params = await props.params;
-  const post = getPostBySlug(params.slug);
+export async function generateMetadata({
+  params,
+}: Props): Promise<Metadata> {
+  const { slug } = await params
 
-  if (!post) return {};
+  try {
+    const post = getPostBySlug(slug)
 
-  return {
-    title: post.title,
-    description: post.excerpt,
-    openGraph: {
+    return {
       title: post.title,
       description: post.excerpt,
-      type: "article",
-      publishedTime: post.date,
-      images: [{ url: post.ogImage.url }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt,
-      images: [post.ogImage.url],
-    },
-  };
+      openGraph: {
+        title: post.title,
+        description: post.excerpt,
+        type: "article",
+        publishedTime: post.date,
+        images: post.ogImage?.url ? [{ url: post.ogImage.url }] : [],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.excerpt,
+        images: post.ogImage?.url ? [post.ogImage.url] : [],
+      },
+    }
+  } catch {
+    return {
+      title: "Post Not Found",
+    }
+  }
 }
 
-export default async function Post(props: Params) {
-  const params = await props.params;
-  const post = getPostBySlug(params.slug);
+export default async function PostPage({ params }: Props) {
+  const { slug } = await params
 
-  if (!post) {
-    notFound();
+  let post
+
+  try {
+    post = getPostBySlug(slug)
+  } catch {
+    notFound()
   }
 
-  const content = await markdownToHtml(post.content);
+  const content = await markdownToHtml(post.content)
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-16">
       <header className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">{post.title}</h1>
-        <div className="flex items-center gap-4 text-gray-600 mb-8">
+
+        <div className="flex items-center gap-4 text-gray-600 dark:text-gray-400 mb-8">
           <Image
             src={post.author.picture}
             alt={post.author.name}
@@ -64,7 +78,9 @@ export default async function Post(props: Params) {
             className="rounded-full"
           />
           <div>
-            <p className="font-medium">{post.author.name}</p>
+            <p className="font-medium text-black dark:text-white">
+              {post.author.name}
+            </p>
             <time>
               {new Date(post.date).toLocaleDateString("en-US", {
                 year: "numeric",
@@ -74,7 +90,13 @@ export default async function Post(props: Params) {
             </time>
           </div>
         </div>
-        <h2 className="text-sm font-light mb-4">{post.shamthing}</h2>
+
+        {post.shamthing && (
+          <p className="text-base md:text-lg font-light text-gray-700 dark:text-gray-300 mb-6">
+            {post.shamthing}
+          </p>
+        )}
+
         <div className="relative aspect-video rounded-lg overflow-hidden">
           <Image
             src={post.coverImage}
@@ -83,17 +105,22 @@ export default async function Post(props: Params) {
             priority
             className="object-cover"
           />
-          {post.coverImageCredit && (
-            <div className="absolute bottom-0 right-0 bg-black/50 text-white text-xs px-2 py-1">
+
+          {post.coverImageCredit?.name && (
+            <div className="absolute bottom-0 right-0 bg-black/60 text-white text-xs px-2 py-1 rounded-tl-md">
               Photo by{" "}
-              <a
-                href={post.coverImageCredit.imageUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                {post.coverImageCredit.name}
-              </a>
+              {post.coverImageCredit.imageUrl ? (
+                <a
+                  href={post.coverImageCredit.imageUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  {post.coverImageCredit.name}
+                </a>
+              ) : (
+                post.coverImageCredit.name
+              )}
             </div>
           )}
         </div>
@@ -104,5 +131,5 @@ export default async function Post(props: Params) {
         dangerouslySetInnerHTML={{ __html: content }}
       />
     </article>
-  );
+  )
 }

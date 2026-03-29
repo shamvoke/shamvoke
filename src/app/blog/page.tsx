@@ -1,47 +1,31 @@
-import { getAllPosts } from "@/lib/api";
-import Link from "next/link";
-import Image from "next/image";
+import { getAllPosts } from "@/lib/api"
+import PostsGrid from "@/app/blog/PostsGrid"
 
 export const metadata = {
   title: "Blog",
   description:
-    "Read my latest thoughts on web development, React, and TypeScript.",
-};
+    "Thoughts on web design, development, creativity, branding, and digital experiments from Sham Voke.",
+}
 
 export default function BlogIndex() {
-  const posts = getAllPosts();
+  const posts = getAllPosts()
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-12">Blog</h1>
+    <main className="mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <section className="mb-12 md:mb-16">
+        <p className="text-sm uppercase tracking-[0.2em] text-voke mb-3">
+          Journal
+        </p>
+        <h1 className="text-4xl md:text-5xl font-black tracking-tight text-black dark:text-white">
+          Blog
+        </h1>
+        <p className="mt-4 max-w-2xl text-base md:text-lg text-neutral-600 dark:text-neutral-400 leading-8">
+          Thoughts, experiments, ideas, and digital rabbit holes from the world
+          of code and creativity.
+        </p>
+      </section>
 
-      <div className="grid gap-8">
-        {posts.map((post) => (
-          <article key={post.slug} className="group">
-            <Link href={`/blog/${post.slug}`}>
-              <div className="relative aspect-video mb-4 overflow-hidden rounded-lg">
-                <Image
-                  src={post.coverImage}
-                  alt={post.title}
-                  fill
-                  className="object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <h2 className="text-2xl font-semibold mb-2 group-hover:text-blue-600">
-                {post.title}
-              </h2>
-              <p className="text-gray-600 mb-2">{post.excerpt}</p>
-              <time className="text-sm text-gray-500">
-                {new Date(post.date).toLocaleDateString("en-US", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
-              </time>
-            </Link>
-          </article>
-        ))}
-      </div>
+      <PostsGrid posts={posts} />
     </main>
-  );
+  )
 }

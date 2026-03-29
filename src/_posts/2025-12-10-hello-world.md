@@ -1,7 +1,7 @@
 ---
 title: "Hello World: My First Blog Post"
 excerpt: "Welcome to my new developer blog built with Next.js and markdown."
-coverImage: "/_FeaturedImages/01_WelcomeToMyBlog.webp"
+coverImage: "/_FeaturedImages/01_Welcome to my blog.webp"
 coverImageCredit:
   name: "Sham voke"
   ImageUrl: "https://shamvoke.com"
@@ -10,7 +10,12 @@ author:
   name: "Your Name"
   picture: "/shamlogo.png"
 ogImage:
-  url: "/_FeaturedImages/01_WelcomeToMyBlog.webp"
+  url: "/_FeaturedImages/01_Welcome to my blog.webp"
+category: linux
+tags:
+  - Ventoy
+  - USB
+  - boot
 ---
 
 This is the content of my first post.
