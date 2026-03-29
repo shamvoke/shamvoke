@@ -8,7 +8,7 @@ export default function Page() {
     <main className="min-h-svh">
       <HeroSection />
             {/* Blog Grid Section */}
-      <section>
+      <section className="-mt-15">
         <PostsGrid posts={posts} />
       </section>
     </main>

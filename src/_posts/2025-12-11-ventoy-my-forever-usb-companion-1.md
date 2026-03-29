@@ -1,7 +1,7 @@
 ---
 date: "2025-11-21T21:41:00Z"
 title: "Ventoy, My Forever USB Companion."
-shamthing: "🌀 With a list of My Top 5 Must have ISO Images."
+shamthing: "🌀 A list of My Top 5 Must have ISO Images."
 excerpt: "Gone are the days of reformatting your flash drive every time you
   wanted to try a new OS. I used to rely on Rufus and balenaEtcher until I found
   Ventoy. Here is how this tiny utility became my forever USB companion."
@@ -11,7 +11,7 @@ coverImageCredit:
   ImageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/09_Ventoy_My_Forever_USB_Companion.webp"
-category: linux
+category: software
 tags:
   - Ventoy
   - USB

@@ -19,20 +19,20 @@ export default function PostsGrid({ posts }: PostsGridProps) {
         >
           {post.category && (
             <div className="mb-3">
-              <span className="inline-block text-sm font-bold uppercase tracking-wide text-voke">
+              <span className="inline-block text-sm font-bold uppercase tracking-wide text-sham dark:text-voke">
                 {post.category}
               </span>
             </div>
           )}
 
-          <div className="overflow-hidden rounded-2xl border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
+          <div className="overflow-hidden  border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
             <Link href={`/blog/${post.slug}`} className="block">
               <div className="relative aspect-16/10 overflow-hidden">
                 <Image
                   src={post.coverImage}
                   alt={post.title}
                   fill
-                  className="object-cover transition duration-500 group-hover:grayscale"
+                  className="object-cover transition duration-300 group-hover:grayscale"
                 />
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />
@@ -57,7 +57,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
               </time>
 
               <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-2xl sm:text-lg font-extrabold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-voke">
+                <h2 className="text-2xl sm:text-lg font-extrabold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
                   {post.title}
                 </h2>
               </Link>

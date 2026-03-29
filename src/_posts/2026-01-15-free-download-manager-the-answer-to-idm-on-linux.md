@@ -11,7 +11,7 @@ ogImage:
 coverImageCredit:
   name: "Sham voke"
   ImageUrl: "https://shamvoke.com"
-category: tips
+category: software
 tags:
   - tech-tips
   - download-manager

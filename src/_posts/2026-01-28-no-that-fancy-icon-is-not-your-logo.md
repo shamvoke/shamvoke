@@ -12,7 +12,7 @@ coverImageCredit:
   ImageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/13.That fancy icon is not your Logo.webp"
-category: blog
+category: design
 tags:
   - design
   - brand
