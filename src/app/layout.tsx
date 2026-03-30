@@ -1,4 +1,4 @@
-import { metadata } from "next";
+import { Metadata } from "next";
 import { Titillium_Web, Caveat } from "next/font/google"
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
@@ -20,7 +20,7 @@ const caveat = Caveat({
   variable: "--font-post",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL('https://shamvoke.com'),
   title: {
     default: "shamvoke blog",
