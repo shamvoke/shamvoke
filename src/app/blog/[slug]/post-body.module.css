@@ -43,3 +43,20 @@
 .markdown code {
   @apply font-mono text-sm;
 }
+
+ .iine-button{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 15px;
+  color: #fff;
+  height: 50px;
+  background: #000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: rem(28px);
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  }

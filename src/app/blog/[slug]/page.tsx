@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
 import Image from "next/image"
+import LikeButton from "@/components/ui/likeButton"
 import styles from "./post-body.module.css"
 
 type Props = {
@@ -65,6 +66,7 @@ export default async function PostPage({ params }: Props) {
   const content = await markdownToHtml(post.content)
 
   return (
+    <>
     <article className="max-w-3xl mx-auto px-4 py-16">
       <header className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">{post.title}</h1>
@@ -109,7 +111,9 @@ export default async function PostPage({ params }: Props) {
 
           {post.category && (
             <div className="absolute bottom-0 right-0 bg-black/60 text-white text-xs px-2 py-1 rounded-tl-md">
-              {post.category}
+              <p>
+                Category: {post.category}
+              </p>
             </div>
           )}
         </div>
@@ -119,6 +123,11 @@ export default async function PostPage({ params }: Props) {
         className={styles.markdown}
         dangerouslySetInnerHTML={{ __html: content }}
       />
+      <div className="flex flex-col items-center gap-4">
+        <p className="text-gray-500 italic">Enjoyed this post? Give it a like!</p>
+        <LikeButton />
+      </div>
     </article>
+    </>
   )
 }
