@@ -92,7 +92,7 @@ export default async function PostPage({ params }: Props) {
         </div>
 
         {post.shamthing && (
-          <p className="text-base md:text-lg font-light text-gray-700 dark:text-gray-300 mb-6">
+          <p className="text-xl md:text-lg font-post text-gray-700 dark:text-gray-300 mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}

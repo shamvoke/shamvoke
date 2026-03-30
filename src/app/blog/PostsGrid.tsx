@@ -35,7 +35,6 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, (max-width: 1536px) 25vw, 16vw"
                 className="object-cover transition duration-500 group-hover:scale-105 group-hover:grayscale"
-                quality={100}
                 placeholder="blur"
                 blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 438))}`}
                 />

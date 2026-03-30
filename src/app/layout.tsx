@@ -1,17 +1,63 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { metadata } from "next";
+import { Titillium_Web, Caveat } from "next/font/google"
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import "highlight.js/styles/monokai-sublime.css";
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
+import { title } from "node:process";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'})
-
-const fontMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
+const titillium = Titillium_Web({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  weight: ["300","400","700"],
 })
+
+const caveat = Caveat({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-post",
+});
+
+export const metadata = {
+  metadataBase: new URL('https://shamvoke.com'),
+  title: {
+    default: "shamvoke blog",
+    template: "%s | shamvoke blog",
+  },
+  description: "Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.",
+  keywords: [
+    "Sham Voke",
+    "shamvoke",
+    "web development",
+    "web design",
+    "graphic design",
+    "branding",
+    "Next.js blog",
+    "creative developer",
+    "Kenyan web designer",
+    "Nairobi web developer",
+  ],
+  authors: [{ name: "Sham Voke", url: "https://shamvoke.com" }],
+  creator: "Sham Voke",
+  publisher: "Sham Voke",
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
+  openGraph: {
+    title: "shamvoke blog",
+    description: "Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.",
+    url: "https://shamvoke.com",
+    siteName: "Shamvoke blog",
+    locale: "en_US",
+    type: "website",
+  },
+}
 
 export default function RootLayout({
   children,
@@ -22,7 +68,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
+      className={cn("antialiased", "font-sans", titillium.variable, caveat.variable)}
     >
       <body>
           <ThemeProvider
