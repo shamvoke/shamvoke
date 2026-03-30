@@ -6,7 +6,6 @@ import "highlight.js/styles/monokai-sublime.css";
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils";
-import { title } from "node:process";
 
 const titillium = Titillium_Web({
   subsets: ['latin'],
@@ -56,6 +55,12 @@ export const metadata: Metadata = {
     siteName: "Shamvoke blog",
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Shamvoke blog',
+    description: 'Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.',
+    creator: '@shamvoke',
   },
 }
 

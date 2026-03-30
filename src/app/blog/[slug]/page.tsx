@@ -75,7 +75,8 @@ export default async function PostPage({ params }: Props) {
             alt={post.author.name}
             width={48}
             height={48}
-            className="rounded-full"
+            quality={75}
+            className="rounded-full ring ring-sham dark:ring-voke"
           />
           <div>
             <p className="font-medium text-black dark:text-white">
@@ -92,7 +93,7 @@ export default async function PostPage({ params }: Props) {
         </div>
 
         {post.shamthing && (
-          <p className="text-xl md:text-lg font-post text-gray-700 dark:text-gray-300 mb-2 text-sham dark:text-voke">
+          <p className="text-xl md:text-2xl font-post mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}
@@ -106,21 +107,9 @@ export default async function PostPage({ params }: Props) {
             className="object-cover"
           />
 
-          {post.coverImageCredit?.name && (
+          {post.category && (
             <div className="absolute bottom-0 right-0 bg-black/60 text-white text-xs px-2 py-1 rounded-tl-md">
-              Photo by{" "}
-              {post.coverImageCredit.imageUrl ? (
-                <a
-                  href={post.coverImageCredit.imageUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline"
-                >
-                  {post.coverImageCredit.name}
-                </a>
-              ) : (
-                post.coverImageCredit.name
-              )}
+              {post.category}
             </div>
           )}
         </div>
