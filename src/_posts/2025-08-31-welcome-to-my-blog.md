@@ -1,7 +1,7 @@
 ---
 date: "2025-08-31T08:54:00Z"
 title: "Welcome to my blog!"
-shamthing: "Constantly exploring the realms of code and creativity. 🚀"
+shamthing: "Constantly Exploring The Realms Of Code & Creativity. 🚀"
 excerpt: "My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
   To Share"

@@ -1,7 +1,7 @@
 ---
 date: "2025-09-04T17:39:00Z"
 title: "Out of the blue, meet Bree!"
-shamthing: "Not every sidekick wears a cape, some just glow"
+shamthing: "Not Every Sidekick Wears A Cape, Some Just Glow!"
 excerpt: "Hey there, you've probably seen this blue face around the site or
   on my socials. You might have even wondered what it is.  And no, that's not
   just a logo."

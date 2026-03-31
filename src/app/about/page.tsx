@@ -12,11 +12,11 @@ export default function AboutPage() {
           alt="Sham Voke"
           width={200}
           height={200}
-          className="rounded-full mb-6 border-2 border-voke"
+          className="rounded-full mb-6 border-4 border-sham dark:border-voke"
           priority
         />
 
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-foreground">
+        <h1 className="text-3xl sm:text-4xl font-sham font-bold mb-4 text-foreground">
           About Me
         </h1>
 

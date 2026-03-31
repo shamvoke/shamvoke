@@ -1,7 +1,7 @@
 ---
 date: "2026-01-15T22:33:00Z"
 title: "Free Download Manager, the answer to IDM on Linux."
-shamthing: "IDM Who? Meet the Download Manager That Plays Everywhere"
+shamthing: "IDM Who? Meet The Download Manager That Plays Everywhere!"
 excerpt: "Meet FDM: free, open source, cross-platform, and surprisingly
   fast. Can it really replace IDM? I put it to the test, from download speed to
   torrents, browser integration, and remote control. Here's what I found."

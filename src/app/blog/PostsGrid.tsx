@@ -20,7 +20,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
         >
         {post.category && (
             <div className="mb-3">
-            <span className="inline-block text-sm font-bold uppercase tracking-wide text-sham dark:text-voke">
+            <span className="inline-block text-sm font-bold font-sham uppercase tracking-wide text-sham dark:text-voke">
                 {post.category}
             </span>
             </div>
@@ -59,7 +59,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             </time>
 
             <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-2xl sm:text-lg font-extrabold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
+                <h2 className="text-2xl sm:text-lg font-sham font-extrabold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
                 {post.title}
                 </h2>
             </Link>
@@ -75,7 +75,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 {post.tags.map((tag) => (
                     <span
                     key={tag}
-                    className="inline-flex items-center rounded-full border border-black dark:border-white px-2 py-1 text-sm sm:text-xs text-black dark:text-white"
+                    className="inline-flex items-center font-post rounded-full border border-black dark:border-white px-2 py-1 text-sm sm:text-xs text-black dark:text-white"
                     >
                     #{tag.toLowerCase()}
                     </span>

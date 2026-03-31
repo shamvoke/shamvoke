@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Titillium_Web, Caveat } from "next/font/google"
+import { Titillium_Web, Caveat, Rampart_One } from "next/font/google"
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import "highlight.js/styles/monokai-sublime.css";
@@ -18,6 +18,12 @@ const caveat = Caveat({
   weight: "400",
   variable: "--font-post",
 });
+
+const rampart = Rampart_One ({
+  subsets: ["latin"],
+  variable: "--font-rampart",
+  weight: "400",
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://shamvoke.com'),
@@ -73,7 +79,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", "font-sans", titillium.variable, caveat.variable)}
+      className={cn("antialiased", "font-sans", titillium.variable, caveat.variable, rampart.variable)}
     >
       <body>
           <ThemeProvider

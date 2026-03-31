@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import SocialLinks from "@/components/ui/socials"
-import { X } from "lucide-react"
+import { X, Coffee } from "lucide-react"
 
 type SidebarProps = {
   open: boolean
@@ -38,7 +38,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         <nav className="relative flex h-full flex-col">
           {/* Header */}
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-            <h2 className="text-2xl font-bold bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
+            <h2 className="text-2xl font-bold font-sham bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
               Menu
             </h2>
 
@@ -52,10 +52,11 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
           </div>
 
           {/* Optional little tagline */}
-          <div className="px-5 pt-4 pb-2">
-            <p className="text-sm text-white/50 font-post">
-              Navigate the sham world
+          <div className="px-5 pt-4 pb-2 flex items-center gap-1">
+            <p className="text-sm text-voke/50 font-post">
+              If you like shamthing here, buy <span className="text-voke/90">yourself</span> a coffee
             </p>
+            <Coffee className="w-4 h-4 text-voke/80" />
           </div>
 
           {/* Links */}

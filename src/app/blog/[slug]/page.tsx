@@ -4,6 +4,7 @@ import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
 import Image from "next/image"
 import LikeButton from "@/components/ui/likeButton"
+import { Calendar } from "lucide-react"
 import styles from "./post-body.module.css"
 
 type Props = {
@@ -69,33 +70,22 @@ export default async function PostPage({ params }: Props) {
     <>
     <article className="max-w-3xl mx-auto px-4 py-16">
       <header className="mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">{post.title}</h1>
+        
 
-        <div className="flex items-center gap-4 text-gray-600 dark:text-gray-400 mb-8">
-          <Image
-            src={post.author.picture}
-            alt={post.author.name}
-            width={48}
-            height={48}
-            quality={75}
-            className="rounded-full ring ring-sham dark:ring-voke"
-          />
-          <div>
-            <p className="font-medium text-black dark:text-white">
-              {post.author.name}
-            </p>
-            <time>
-              {new Date(post.date).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </time>
-          </div>
+        <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
+          <Calendar className="w-5 h-5 text-voke/70" />
+          <time className="text-sm text-gray-700 dark:text-gray-300">
+            {new Date(post.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </time>
         </div>
+        <h1 className="text-2xl md:text-5xl font-sham font-bold mb-4">{post.title}</h1>
 
         {post.shamthing && (
-          <p className="text-xl md:text-2xl font-post mb-2 text-sham dark:text-voke">
+          <p className="text-xl capitalize md:text-2xl font-post mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}

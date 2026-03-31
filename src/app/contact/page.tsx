@@ -44,7 +44,7 @@ export default function ContactSham() {
   return (
     <section className="flex justify-center px-8 py-15">
       <div className="w-full max-w-lg">
-        <h2 className="text-3xl font-bold m-10 text-center text-foreground">
+        <h2 className="text-3xl font-sham font-bold m-10 text-center text-foreground">
           Talk to me
         </h2>
 

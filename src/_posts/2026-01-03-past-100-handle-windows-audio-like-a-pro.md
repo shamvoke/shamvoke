@@ -1,7 +1,7 @@
 ---
 date: "2026-01-03T12:18:00Z"
 title: "Peace APO, Handle Windows Audio Like a Pro."
-shamthing: "A guide for those who don't care about damaging their speakers or ears 🌀"
+shamthing: "A guide for those who don't care about damaging their speakers or ears! 🌀"
 excerpt: "You crank the volume to 100% and still feel like something is
   missing. This small combo of tools unlocks system wide volume control, better
   sound, and audio that finally matches what your hardware can handle."

@@ -1,7 +1,7 @@
 ---
 date: "2025-09-09T16:26:00Z"
 title: "Beep code, If laptops could talk."
-shamthing: "No laptops were harmed in the writing of this post"
+shamthing: "No Laptops Were Harmed In The Writing Of This Post"
 excerpt: "Based on real life events. A dead laptop, a curious friend, real
   beeps and a pair of shoes! Join me as we decode the secret language of
   laptops. Common knowledge?"
