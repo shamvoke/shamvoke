@@ -21,7 +21,7 @@ export default function Footer() {
           <li key={item.title}>
             <Link
               href={item.url}
-              className="text-sm transition text-muted-foreground hover:text-voke hover:uppercase hover:tracking-wider"
+              className="text-sm transition text-sham dark:text-muted-foreground hover:text-voke hover:uppercase hover:tracking-wider"
             >
               {item.title}
             </Link>
@@ -36,14 +36,14 @@ export default function Footer() {
         height={150}
         className="mx-auto mb-6"
       />
-      <p className="text-sm leading-6 text-muted-foreground">
+      <p className="text-sm leading-6 text-sham dark:text-muted-foreground">
         Crafted with 💙 by sham
         <br />
         &copy; {year}{" "}
         <a
           href="https://webmeka.com"
           target="_blank"
-          className="creator text-muted-foreground hover:text-voke transition"
+          className="creator text-sham dark:text-muted-foreground hover:text-voke transition"
         >
           WEBMEKA STUDIO | All rights reserved.
         </a>

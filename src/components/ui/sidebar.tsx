@@ -33,7 +33,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
         ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
         {/* Gradient accent */}
-        <div className="absolute inset-0 bg-linear-to-b from-sham/20 via-transparent to-voke/40 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-b from-sham/20 via-transparent to-voke/15 pointer-events-none" />
 
         <nav className="relative flex h-full flex-col">
           {/* Header */}
@@ -54,7 +54,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
           {/* Optional little tagline */}
           <div className="px-5 pt-4 pb-2 flex items-center gap-1">
             <p className="text-sm text-voke/50 font-post">
-              If you like shamthing here, buy <span className="text-voke/90">yourself</span> a coffee
+              If you like shamthing here, buy <span className="font-bold">yourself</span> a coffee
             </p>
             <Coffee className="w-4 h-4 text-voke/80" />
           </div>

@@ -68,7 +68,7 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <>
-    <article className="max-w-3xl mx-auto px-4 py-16">
+    <article className="max-w-3xl mx-auto px-4 py-20">
       <header className="mb-12">
         
 
@@ -114,7 +114,7 @@ export default async function PostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: content }}
       />
       <div className="flex flex-col items-center gap-4">
-        <p className="text-gray-500 italic">Enjoyed this post? Give it a like!</p>
+        <p className="text-sham dark:text-gray-500 font-post text-center text-xl italic">Enjoyed this post? <br /> Give it a like!</p>
         <LikeButton />
       </div>
     </article>
