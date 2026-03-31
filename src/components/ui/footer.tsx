@@ -13,8 +13,8 @@ import {
 const menu = [
   { title: "Home", url: "/" },
   { title: "Blog", url: "/blog" },
-  { title: "Projects", url: "/projects" },
   { title: "About", url: "/about" },
+  { title: "Contact", url: "/contact" },
 ]
 
 export default function Footer() {
