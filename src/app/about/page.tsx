@@ -61,7 +61,6 @@ export default function AboutPage() {
           alt="Shamvoke Logo"
           width={2340}
           height={418}
-          quality={100}
           className="opacity-80 hover:opacity-100 transition"
         />
       </div>

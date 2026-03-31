@@ -2,13 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import {
-  Github,
-  Facebook,
-  Twitter,
-  Instagram,
-  Youtube,
-} from "lucide-react"
+import SocialLinks from "@/components/ui/socials"
 
 const menu = [
   { title: "Home", url: "/" },
@@ -34,23 +28,7 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <div className="flex justify-center gap-5 mb-6">
-        <a href="https://github.com/shamvoke" target="_blank">
-          <Github className="w-6 h-6 text-muted-foreground hover:text-sham transition" />
-        </a>
-        <a href="https://www.facebook.com/share/17911CWaJV/" target="_blank">
-          <Facebook className="w-6 h-6 text-muted-foreground hover:text-[#1877f2] transition" />
-        </a>
-        <a href="https://youtube.com/@shamvoke" target="_blank">
-          <Youtube className="w-8 h-8 text-muted-foreground hover:text-[#ff0a16] transition" />
-        </a>
-        <a href="https://twitter.com/shamvoke" target="_blank">
-          <Twitter className="w-6 h-6 text-muted-foreground hover:text-voke transition" />
-        </a>
-        <a href="https://instagram.com/sham.voke" target="_blank">
-          <Instagram className="w-6 h-6 text-muted-foreground hover:text-[#e4405f] transition" />
-        </a>
-      </div>
+      <SocialLinks />
       <Image
         src="/shamlogo.png"
         alt="Shamvoke brand Logo"
