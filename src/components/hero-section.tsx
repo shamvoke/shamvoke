@@ -3,7 +3,7 @@ import HeroTypewriter from "@/components/ui/typewriter"
 export default function HeroSection() {
   return (
     <section
-      className="relative h-svh w-full bg-cover bg-center bg-no-repeat"
+      className="relative min-h-svh w-full bg-cover bg-center bg-no-repeat bg-fixed"
       style={{ backgroundImage: "url('/shamlogo.png')" }}
     >
       <div
