@@ -8,8 +8,7 @@ export default function LikeButton() {
     <button 
       className="
         iine-button 
-        inline-flex items-center gap-2 text-sham
-        dark:text-voke 
+        inline-flex items-center gap-2
         text-3xl font-bold no-underline
         transition-all duration-300 ease-in-out hover:scale-105
         [&.clicked]:text-voke
