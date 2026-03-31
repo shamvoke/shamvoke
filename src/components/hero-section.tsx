@@ -26,7 +26,7 @@ export default function HeroSection() {
           Hello Milky Way!
         </h1>
 
-        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold text-white font-post leading-relaxed dark:text-voke/80 drop-shadow sm:text-[28px]">
+        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-post leading-relaxed dark:text-voke/80 drop-shadow sm:text-[28px]">
           <HeroTypewriter/>
         </div>
 

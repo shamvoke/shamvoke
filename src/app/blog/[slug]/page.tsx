@@ -4,7 +4,8 @@ import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
 import Image from "next/image"
 import LikeButton from "@/components/ui/likeButton"
-import { Calendar } from "lucide-react"
+import { Calendar, Clock } from "lucide-react"
+import readingTime from "reading-time";
 import styles from "./post-body.module.css"
 
 type Props = {
@@ -65,6 +66,7 @@ export default async function PostPage({ params }: Props) {
   }
 
   const content = await markdownToHtml(post.content)
+   const stats = readingTime(post.content || post.excerpt);
 
   return (
     <>
@@ -73,19 +75,23 @@ export default async function PostPage({ params }: Props) {
         
 
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
-          <Calendar className="w-5 h-5 text-voke/70" />
-          <time className="text-sm text-gray-700 dark:text-gray-300">
+          <Calendar className="w-5 h-5 text-black dark:text-voke/70" />
+          <time className="text-sm text-sham dark:text-gray-300">
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
               day: "numeric",
-            })}
+            })} 
           </time>
+          <Clock className="w-5 h-5 text-black dark:text-voke/70" />
+          <span className="text-sm text-sham dark:text-gray-300">
+         {stats.text} 
+          </span>
         </div>
         <h1 className="text-2xl md:text-5xl font-sham font-bold mb-4">{post.title}</h1>
 
         {post.shamthing && (
-          <p className="text-xl capitalize md:text-2xl font-post mb-2 text-sham dark:text-voke">
+          <p className="text-lg capitalize md:text-2xl font-post mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}

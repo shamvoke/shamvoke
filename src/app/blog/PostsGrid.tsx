@@ -59,7 +59,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             </time>
 
             <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-2xl sm:text-lg font-sham font-extrabold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
+                <h2 className="text-xl sm:text-2xl font-sham sm:font-sans font-bold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
                 {post.title}
                 </h2>
             </Link>
