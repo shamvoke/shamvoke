@@ -142,13 +142,13 @@ Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside t
 
 > Honestly, Kate text editor deserves its own post! It makes Notepad++ feel like a toy. Always my go-to editor when dealing with a single file. For projects with multiple files, VS Code saves the day like Superman. Look out for that Kate post in the near future.
 
-**Why the Sparkle Shape?**
+### Why the Sparkle Shape?
 
 No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and creativity. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand. 
 
 And the sparkle being a star, **I wanted WEBMEKA to be up there with the stars, where it belongs!**
 
-**Why SVG?**
+#### Why SVG?
 
 Because SVG is not just an image. It is code. Easy to edit even on mobile! No magic wand needed.
 

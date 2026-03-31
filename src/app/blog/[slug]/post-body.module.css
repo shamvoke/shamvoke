@@ -1,62 +1,160 @@
 @reference "../../globals.css";
 
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-8;
 }
 
-.markdown p,
-.markdown ul,
-.markdown ol,
-.markdown blockquote {
-  @apply my-6;
+/* Spacing rhythm */
+.markdown > * + * {
+  @apply mt-6;
 }
 
+/* Paragraphs */
+.markdown p {
+  @apply leading-8;
+}
+
+/* Headings */
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug font-bold;
+  @apply text-3xl md:text-4xl mt-14 mb-5 leading-tight font-sham font-bold tracking-tight;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug font-bold;
+  @apply text-2xl md:text-3xl mt-10 mb-4 leading-tight font-sham font-bold tracking-tight;
 }
 
+.markdown h4 {
+  @apply text-xl md:text-2xl mt-8 mb-3 leading-snug font-sham font-semibold;
+}
+
+.markdown h1 h5 h6 {
+  @apply font-post;
+}
+
+/* Strong + emphasis */
+.markdown strong {
+  @apply font-semibold text-sham;
+}
+
+:global(.dark) .markdown strong {
+  @apply text-voke/70;
+}
+
+
+.markdown em {
+  @apply italic text-sham;
+}
+
+:global(.dark) .markdown em {
+  @apply text-voke/70;
+}
+
+/* Links */
 .markdown a {
-  @apply text-blue-600 hover:underline;
+  @apply text-sham underline underline-offset-4 decoration-2 transition-opacity hover:opacity-80;
 }
 
+:global(.dark) .markdown a {
+  @apply text-voke/70;
+}
+
+/* Lists */
 .markdown ul {
-  @apply list-disc list-outside pl-6;
+  @apply list-disc pl-6 space-y-2;
 }
 
 .markdown ol {
-  @apply list-decimal list-outside pl-6;
+  @apply list-decimal pl-6 space-y-2;
 }
 
+.markdown li {
+  @apply leading-8;
+}
+
+.markdown li > ul,
+.markdown li > ol {
+  @apply mt-2 mb-2;
+}
+
+/* Blockquotes */
 .markdown blockquote {
-  @apply border-l-4 border-gray-200 pl-4 italic text-gray-600;
+  @apply my-8 border-l-4 border-sham pl-5 italic text-gray-400;
+}
+
+:global(.dark) .markdown blockquote {
+  @apply border-voke;
+}
+
+.markdown blockquote p {
+  @apply my-0;
+}
+
+/* Horizontal rule */
+.markdown hr {
+  @apply my-10 border-0 border-t border-gray-800;
+}
+
+:global(.dark) .markdown hr {
+  @apply border-gray-200;
+}
+
+/* Inline code */
+.markdown :not(pre) > code {
+  @apply font-mono text-sm px-1.5 py-0.5 rounded-md  bg-gray-800 text-voke dark:text-sham;
+}
+
+:global(.dark) .markdown :not(pre) > code {
+  @apply bg-gray-600;
 }
 
 /* Code blocks */
 .markdown pre {
-  @apply rounded-lg my-6 overflow-x-auto;
+  @apply my-8 overflow-x-auto rounded-2xl bg-gray-800 w-90 text-gray-100 p-5 text-sm leading-7 shadow-sm;
 }
 
-.markdown code {
-  @apply font-mono text-sm;
+.markdown pre code {
+  @apply bg-transparent p-0 text-inherit text-sm;
 }
 
- .iine-button{
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0 15px;
-  color: #fff;
-  height: 50px;
-  background: #000;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: rem(28px);
-  font-weight: bold;
-  transition: background 0.3s ease, transform 0.2s ease;
-  cursor: pointer;
-  }
+/* Images */
+.markdown img {
+  @apply rounded-2xl my-8 w-90 h-auto;
+}
+
+/* Tables */
+.markdown table {
+  @apply w-full border-collapse my-8 text-left text-base;
+}
+
+.markdown thead {
+  @apply border-b border-gray-700;
+}
+
+:global(.dark) .markdown thead {
+  @apply border-gray-300;
+}
+
+.markdown th {
+  @apply py-3 px-4 font-semibold text-sham;
+}
+
+:global(.dark) .markdown th {
+  @apply text-voke;
+}
+
+.markdown td {
+  @apply py-3 px-4 border-b border-gray-800;
+}
+
+:global(.dark) .markdown td {
+  @apply border-gray-200;
+}
+
+/* Small text */
+.markdown small {
+  @apply text-sm text-sham font-post;
+}
+
+:global(.dark) .markdown small {
+  @apply text-voke;
+}
