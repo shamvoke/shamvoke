@@ -152,9 +152,9 @@
 
 /* Small text */
 .markdown small {
-  @apply text-sm text-sham font-post;
+  @apply text-sham text-lg italic;
 }
 
 :global(.dark) .markdown small {
-  @apply text-voke;
+  @apply text-gray-400;
 }
