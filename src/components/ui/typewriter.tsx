@@ -11,7 +11,7 @@ export default function HeroTypewriter() {
             "➤ All cursors have a point! Let that click.",
             "➤ Crafting pixels into art, one design at a time.",
             "➤ Kindness is free, sprinkle that stuff everywhere.",
-            "➤ FREE EDUCATION! FREE EDUCATION! FREE!"
+            "➤ Shamtimes I write blogs, shamtimes I write code."
           ],
           autoStart: true,
           loop: true,
