@@ -4,8 +4,9 @@ import Script from 'next/script'
 
 export default function LikeButton() {
   return (
-    <>
-    <button 
+     <div className="flex flex-col items-center pt-10 gap-4">
+        <p className="text-sham dark:text-gray-500 font-post text-center text-xl italic">Enjoyed this post? <br /> Give it a like!</p>
+            <button 
       className="
         iine-button 
         inline-flex items-center gap-2 text-sham dark:text-gray-500
@@ -19,6 +20,6 @@ export default function LikeButton() {
     >
     </button>
     <Script src="/js/iine.js" strategy="afterInteractive" />
-    </>
+      </div>
   );
 }

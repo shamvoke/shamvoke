@@ -119,10 +119,7 @@ export default async function PostPage({ params }: Props) {
         className={styles.markdown}
         dangerouslySetInnerHTML={{ __html: content }}
       />
-      <div className="flex flex-col items-center gap-4">
-        <p className="text-sham dark:text-gray-500 font-post text-center text-xl italic">Enjoyed this post? <br /> Give it a like!</p>
         <LikeButton />
-      </div>
     </article>
     </>
   )
