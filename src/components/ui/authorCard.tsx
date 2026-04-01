@@ -1,0 +1,34 @@
+'use client';
+
+import Image from 'next/image';
+
+export default function AuthorCard({ post }: { post: any }) {
+  return (
+    <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-6 mt-12 bg-white dark:bg-gray-900 rounded-2xl shadow-md border border-gray-200 dark:border-gray-800">
+      
+      {/* Author Picture */}
+      <div className="flex-shrink-0">
+        <Image
+          src="/shamvoke.webp"
+          alt="Sham Voke"
+          width={96}
+          height={96}
+          className="rounded-full border-2 border-sham dark:border-voke"
+        />
+      </div>
+
+      {/* Author Info */}
+      <div className="flex flex-col gap-1 text-center sm:text-left">
+        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">Sham voke</h3>
+        <p className="text-gray-600 dark:text-gray-400 italic">
+          I'm Sham, a passionate UI/UX designer & web developer based in kenya, constantly exploring the realms of code and creativity.
+        </p>
+        
+        {/* Optional flair or fun fact */}
+        <p className="mt-2 text-lg text-sham dark:text-gray-100 font-voke">
+          ✍️ I write to learn and publish to share 🌐 <br /> <span className='sm:hidden'>🎨 Creativity fueled by curiosity ✨</span>
+        </p>
+      </div>
+    </div>
+  );
+}

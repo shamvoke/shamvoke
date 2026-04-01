@@ -7,6 +7,7 @@ import LikeButton from "@/components/ui/likeButton"
 import { Calendar, Clock } from "lucide-react"
 import readingTime from "reading-time";
 import ReadGrid from "@/app/blog/[slug]/readGrid";
+import AuthorCard from "@/components/ui/authorCard";
 import styles from "./post-body.module.css"
 
 type Props = {
@@ -133,6 +134,7 @@ export default async function PostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: content }}
       />
         <LikeButton />
+        <AuthorCard />
       <div className="sm:hidden mt-12 ">
       <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
         Related Posts
