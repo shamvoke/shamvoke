@@ -15,7 +15,7 @@ export default function LikeButton() {
         [&.clicked]:text-voke
         cursor-pointer
       " 
-      data-icon="💙"
+      data-icon="heart"
       aria-hidden="true"
     >
     </button>
