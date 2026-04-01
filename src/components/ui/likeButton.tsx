@@ -10,7 +10,7 @@ export default function LikeButton() {
       className="
         iine-button 
         inline-flex items-center gap-2 text-sham dark:text-gray-500
-        text-3xl font-bold no-underline
+        no-underline
         transition-all duration-300 ease-in-out hover:scale-105
         [&.clicked]:text-voke
         cursor-pointer
