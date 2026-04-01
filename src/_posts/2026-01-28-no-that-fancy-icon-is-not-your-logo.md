@@ -37,7 +37,7 @@ That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, **mill
 ---
 
 At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when the client sees a design and goes **WOW!**
- 
+
 That reaction, teaches you that design is not about decoration, it is about communication. When someone sees it and knows/feels something click.
 
 <small>Shamthing else.</small>
@@ -48,7 +48,7 @@ That reaction, teaches you that design is not about decoration, it is about comm
 NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
 Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
-Normally, logo design comes with a timeline. A day or two. I respected that limit. Enough time to think, but not enough time to overthink.
+Normally, logo design comes with a timeline. A day or two. I respect that limit. Enough time to think, but not enough time to overthink.
 
 This time, however, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
 
@@ -87,7 +87,7 @@ The spell worked! That was it. The project's client (Me) confirmed it instantly.
 
 ![Official webmeka Logo plus how i see it](https://res.cloudinary.com/deudsgjbm/image/upload/v1769888323/Official_Logo_2_axb9ar.webp "Official webmeka Logo plus how i see it")
 
-After all that curving, it turns out WEBMEKA exists both inside and outside the sparkle. 
+After all that curving, it turns out WEBMEKA exists both inside and outside the sparkle.
 
 <video width="100%" autoplay loop muted playsinline style="display:block; margin:0 auto;">
   <source src="https://res.cloudinary.com/deudsgjbm/video/upload/v1770029575/Official_Logo_1_kkjsst.mp4" type="video/mp4">
