@@ -16,7 +16,7 @@
 
 /* Headings */
 .markdown h2 {
-  @apply text-3xl md:text-4xl mt-14 mb-5 leading-tight font-sham font-bold tracking-tight;
+  @apply text-[26px] md:text-4xl mt-14 mb-5 leading-tight font-sham font-bold tracking-tight;
 }
 
 .markdown h3 {

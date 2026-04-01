@@ -22,7 +22,7 @@ author:
 ---
 **Dolphin** is one of the most powerful and underrated file managers available, no cap. Over time, I've come across small tweaks that make my daily workflow smoother, faster, and more enjoyable. Here are my top five Dolphin tips that genuinely boost productivity.
 
-### 1. Split View
+#### 1. Split View
 
 Forget opening two separate windows just to drag and drop files. Dolphin's Split View feature lets you divide a single window into two fully functional panels. Each panel can navigate independently, so you can copy, move, or compare files side by side. No more tab juggling.
 
@@ -30,7 +30,7 @@ Forget opening two separate windows just to drag and drop files. Dolphin's Split
 ![Screenshot: Dolphin split view](https://res.cloudinary.com/deudsgjbm/image/upload/v1762108307/Screenshot_20251102_205835_vbk7ma.webp "Screenshot: Dolphin split view")
 Once you try it, the tabbed view for files feels like juggling folders
 
-### 2. Toolbar "Show/Hide" Button
+#### 2. Toolbar "Show/Hide" Button
 
 With Dolphin's toolbar customization, you can easily add a "Show/Hide" button (the little eye icon) to your main toolbar.
 Click it once to reveal hidden files and again to hide them. You can also use the keyboard shortcut`Ctrl + H`, but I find the eye icon way more convenient.
@@ -39,7 +39,7 @@ Click it once to reveal hidden files and again to hide them. You can also use th
 ![Screenshot: Dolphin toolbar with eye icon](https://res.cloudinary.com/deudsgjbm/image/upload/v1762108307/Screenshot_20251102_210032_wb0nz8.webp "Screenshot: Dolphin toolbar with eye icon")
 A tiny tweak, but once you get used to it, it's hard to live without.
 
-### 3. Show Additional File Information (Size)
+#### 3. Show Additional File Information (Size)
 
 Turn on file size information by going to `menu options > more > view > Show Additional Information > size` and enable size.  Dolphin will display file size info for files and the number of items for folders.
 
@@ -49,7 +49,7 @@ This small visual cue saves time when sorting or cleaning up directories, making
 
 > A lifesaver when working with project folders
 
-### 4. Making Use of "Linked" Folders
+#### 4. Making Use of "Linked" Folders
 
 When you drag and drop files or folders, Dolphin gives you three options: Copy, Move, or Link.
 
@@ -59,21 +59,21 @@ Choosing Link creates a shortcut that looks like the original file/folder but do
 ![Screenshot: Dolphin showing linked folders](https://res.cloudinary.com/deudsgjbm/image/upload/v1762108307/Screenshot_20251102_210348_aohpru.webp "Screenshot: Dolphin showing linked folders")
 In the above example, I have linked my music folder to a music folder in cloud storage.
 
-### 5. Dolphin Plugins (Especially 7-Zip)
+#### 5. Dolphin Plugins (Especially 7-Zip)
 
 With Dolphin, you can browse ZIP archives as if they were regular folders. But more can be done with plugins
 
 If you haven't yet, install dolphin-plugins (available in AUR). These plugins unlock extra functionality like version control, disk usage analysis, and better archive handling.
 
-My favorite plugins are 
+My favorite plugins are
 
 * 7-Zip plugin makes compressed files feel native.
 * KDE Connect addon to share files to a connected phone.
 
-<small>Screenshot: *Dolphin context menu with 7-Zip and KDE Connect options*</small> 
+<small>Screenshot: *Dolphin context menu with 7-Zip and KDE Connect options*</small>
 ![Dolphin context menu with 7-Zip and KDE Connect options](https://res.cloudinary.com/deudsgjbm/image/upload/v1762108307/Screenshot_20251102_210520_bqydkc.webp "Dolphin context menu with 7-Zip and KDE Connect optionsDolphin context menu with 7-Zip and KDE Connect options")
 
-### Final Thoughts
+#### Final Thoughts
 
 Dolphin is more than just a file manager; it's a power tool hiding in plain sight. With a few adjustments and plugins, it transforms into a highly efficient workspace. Try out these tips and you'll see how much smoother file handling on Linux can be.
 

@@ -23,27 +23,28 @@ author:
 ---
 The title sounds provocative, and it is meant to be. This post is the designer in me stepping forward, sleeves rolled up, armed with my magic wand **(Photoshop)** ready to drive a point home! 🚀
 
-<small>By photoshop I mean </small> [Photopea,](https://www.photopea.com/) ~~GIMP~~, [Canva 🔥,](https://www.canva.com/) PicsArt, and more!
+By photoshop I mean [Photopea,](https://www.photopea.com/) ~~GIMP~~, [Canva,](https://www.canva.com/)🔥 PicsArt, Photoroom, and more!
 
-### I am a webmeka.
-Here is my ~~short~~ definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch. 
+#### I am a webmeka
+
+Here is my ~~short~~ definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch.
 
 That, Ladies and Gentlemen, is a **webmeka.** 🚀 I see them everywhere, **millions of them**, they have built the web, they help brands grow online, they run solo agencies! My goal is to have a team of such 'webmeka' minded creatives. [team@webmeka.com](https://webmeka.com/ "webmeka creative design agency website") And together we will... - back to the Logo!
-
 
 <small>Let me tell you shamthing.</small>
 > Being a webmeka means living at the intersection of design, code, and strategy. Fueled by curiosity. Not a know-it-all.
 
 ---
 
-At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when the client sees a design and goes **WOW!** 
+At this point, I confidently call myself a graphic designer, not because of certificates or job titles, but because of reactions! That split second when the client sees a design and goes **WOW!**
  
 That reaction, teaches you that design is not about decoration, it is about communication. When someone sees it and knows/feels something click.
 
 <small>Shamthing else.</small>
 > You know the design is fire when the client says, "DON'T CHANGE ANYTHING! SEND INVOICE"
 
-### The spark!
+#### The spark!
+
 NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
 Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
@@ -51,7 +52,8 @@ Normally, logo design comes with a timeline. A day or two. I respected that limi
 
 This time, however, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
 
-#### The client.
+#### The client
+
 See, as the client, **I did not know** what I wanted. But, (This is important) **I knew** what I did not want.
 
 Weeks passed. The designs piled up. Literally. A folder full of WEBMEKA Logo draft designs.
@@ -61,14 +63,16 @@ I recall showing that folder to a friend. He picked three logo on the spot. Thre
 He was right, objectively. They worked. One of them was even my favorite!
 ![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_300,h_300/v1769893361/webmeka_draft12_2_zvqo4r.webp "One of my favourites!")
 
-
 > I knew this for sure. That if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
 
 Something was still missing.
 
-#### The designer.
+#### The designer
+
 As the designer, the logo felt close, but not inevitable. The real one felt like it was hiding somewhere inside my head, waiting to be summoned.
+
 #### Then came the sparkle!
+
 If you have interacted with anything AI lately, you have seen it. The sparkle icon. That little ✨ shape that shows up everywhere AI goes. Mysteriously universal.
 
 This one time, I stared at it and felt something shift. The shape. The energy. The implication. I could see it!
@@ -92,14 +96,23 @@ After all that curving, it turns out WEBMEKA exists both inside and outside the 
 
  Next came the part most designers treat as routine. Export files. Deliver variations. Light background, dark background, social media sizes, profile pictures, and a few mockups. Project done.
 
-![Official webmeka Logo](https://res.cloudinary.com/deudsgjbm/image/upload/v1769899316/webmeka-logo_f2oefa.webp "Official webmeka Logo")
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+  <mask id="a">
+    <path fill="#fff" d="M0 0h250v250H0V0z"/>
+    <path stroke="#000" stroke-linecap="round" stroke-width="18" d="M70 70l110 110"/>
+  </mask>
+  <g fill="none" stroke="#0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="18" mask="url(#a)">
+    <path d="M125 31.25l-19.79 60.63a20.85 20.85 0 0 1-13.28 13.28L31.25 125l60.63 19.79a20.85 20.85 0 0 1 13.28 13.28L125 218.75l19.79-60.63a20.85 20.85 0 0 1 13.28-13.28L218.75 125l-60.63-19.79a20.85 20.85 0 0 1-13.28-13.28z"/>
+  </g>
+</svg>
 
 This is where the story usually ends.
 
 ---
 
 #### Halt, and then catch fire!
-After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the sparkle-inspired logo files, but in different variations and formats. 
+
+After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the sparkle-inspired logo files, but in different variations and formats.
 
 This setup worked for a while, but then reality hit hard. _Take the profile picture for example,_ turns out most social media platforms have different size specifications for profile pictures! That meant one 'profile picture' image file could not fit all platforms.
 
@@ -108,7 +121,8 @@ This setup worked for a while, but then reality hit hard. _Take the profile pict
 
 So I did something different.
 
-#### One file to rule them all.
+#### One file to rule them all
+
  What did I do? I combined my graphic design skills with my web development experience.  The result? One Logo file. And the magic? Wait for it... an <abbr title="Scalable Vector Graphics">SVG</abbr> file!
 
 And NO, I did not convert the existing file to an SVG. Am a developer, I eat code for breakfast! So I opened up my favorite text editor - [Kate.](https://kate-editor.org/ "Kate Text Editor website") And recreated the sparkle shape manually, line by line. Then I used all the SVG editing tricks up my ~~still rolled up~~ sleeves to curve the WEBMEKA Logo out.
@@ -116,7 +130,7 @@ And NO, I did not convert the existing file to an SVG. Am a developer, I eat cod
 **The result?**
 This code snippet below is the official WEBMEKA Logo! paste it into any ~~offline or online~~ [SVG viewer](https://www.svgviewer.dev/) to see the magic.
 
-```
+```xml
 <svg xmlns="http://www.w3.org/2000/svg" 
 viewBox="0 0 250 250">
   <mask id="a">
@@ -142,9 +156,9 @@ Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside t
 
 > Honestly, Kate text editor deserves its own post! It makes Notepad++ feel like a toy. Always my go-to editor when dealing with a single file. For projects with multiple files, VS Code saves the day like Superman. Look out for that Kate post in the near future.
 
-### Why the Sparkle Shape?
+#### Why the Sparkle Shape?
 
-No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and creativity. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand. 
+No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and creativity. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand.
 
 And the sparkle being a star, **I wanted WEBMEKA to be up there with the stars, where it belongs!**
 
@@ -158,7 +172,7 @@ With one SVG file, I do not worry about size. Ever. I open it in a text editor, 
 
 Got me thinking, in the real world, would a client allow for their logo to be crafted and delivered without a timeline? Total creative freedom?
 
-With all that ~~said~~ written, we both (Designer & Client) recommend you hire  [team@webmeka.com](https://webmeka.com "Webmeka website") for your next Logo project. 
+With all that ~~said~~ written, we both (Designer & Client) recommend you hire  [team@webmeka.com](https://webmeka.com "Webmeka website") for your next Logo project.
 
 Stay Curious,
 

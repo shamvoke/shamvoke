@@ -38,35 +38,35 @@ Why it feels like magic
 
 Once you pair your devices, the lines between them start to blur. Here is why it has become one of the first things I install on any new setup:
 
-#### Universal Clipboard:
+#### Universal Clipboard
 
 I can copy a command or a link on my phone and Ctrl+V it immediately on my desktop. No more typing out long URLs manually.
 
-#### Wireless File Transfer:
+#### Wireless File Transfer
 
 I can right-click a file in Dolphin and send it straight to my phone. Conversely, I can "Share" a file from my Android phone directly to my PC. (**Pro tip:** best for small file sharing. _For large files, I am currently testing out_ **[LocalSend.](https://localsend.org/))**
 
-#### Multimedia Control:
+#### Multimedia Control
 
 Pause, play, and skip tracks on Spotify or VLC running on your desktop, all from your phone's notification shade. The best part is, KDE Connect <ins>can be installed on Android TV!</ins>
 
-#### Remote Input:
+#### Remote Input
 
 Touchpad not working for some reason? Or maybe you have that one key on your keyboard that just refuses to work? Your phone's screen becomes a wireless trackpad and keyboard. It's the perfect backup for broken hardware (and great for controlling movies from the couch).
 
-#### Instant Link Sharing:
+#### Instant Link Sharing
 
 Stumble upon a cool article on your phone, but want to read it on the big screen? Share it via KDE Connect, and it instantly opens in your desktop's default browser.
 
-#### Smart Pause:
+#### Smart Pause
 
 If I get a phone call, KDE Connect automatically lowers the volume on my music or pauses my video. And auto resume when the phone call ends.
 
-#### Ring Device:
+#### Ring Device
 
 How often do you lose your phone between the couch cushions? You can trigger a loud "ring" from your computer to locate it. As long as you are on the same WiFi, you can find your lost device in seconds, even if it was on silent.
 
-#### Custom commands:
+#### Custom commands
 
 (My favorite!) <ins>This is where your phone literally turns into a **magic wand**.</ins> You can define terminal commands on your computer and trigger them remotely from your phone. _Imagine you walked away, forgot to lock your PC, and someone starts snooping._ To fix that, you just take out your <del>magic wand</del> phone, open KDE Connect, select your PC, tap "Lock Screen," and boom - access denied! You can even set commands to unlock, reboot, or run a full system update with a single tap!
 
