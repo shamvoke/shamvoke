@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/03_Beep code, If laptops could talk.webp"
-category: tips
+category: "tips"
 tags:
   - Tech
   - Tips

@@ -11,7 +11,7 @@ coverImageCredit:
   ImageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/10_KDE Connect; Turn your phone into a magic wand.webp"
-category: Software
+category: "software"
 tags:
   - KDE
   - Linux

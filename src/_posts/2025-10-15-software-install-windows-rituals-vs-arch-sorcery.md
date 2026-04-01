@@ -10,7 +10,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/06_Windows rituals vs Arch Linux sorcery.webp"
-category: Linux
+category: "linux"
 tags:
   - archlinux
   - paru

@@ -11,7 +11,7 @@ coverImageCredit:
   ImageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/11_Handle Windows Audio Like a Pro.webp"
-category: windows
+category: "windows"
 tags:
   - Tips
   - Audio

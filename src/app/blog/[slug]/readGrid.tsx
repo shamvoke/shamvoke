@@ -1,0 +1,45 @@
+import Link from "next/link"
+import Image from "next/image"
+import { Post } from "@/interfaces/post"
+import { shimmer, toBase64 } from "@/lib/placeholder"
+
+type ReadGridProps = {
+  posts: Post[]
+}
+
+export default function ReadGrid({ posts }: ReadGridProps) {
+  return (
+      <div className="flex flex-col gap-6">
+        {posts.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/blog/${post.slug}`}
+            className="group flex items-start gap-4 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div className="relative w-24 h-16 shrink-0 overflow-hidden rounded-lg">
+              <Image
+                src={post.coverImage}
+                alt={post.title}
+                fill
+                sizes="100vw"
+                className="object-cover transition duration-500 group-hover:scale-105 group-hover:grayscale"
+                placeholder="blur"
+                blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 438))}`}
+              />
+            </div>
+
+            <div className="flex flex-col">
+              {post.category && (
+                <span className="text-lg font-voke font-bold capitalize text-sham dark:text-voke">
+                  {post.category}
+                </span>
+              )}
+              <h4 className="text-sm font-semibold text-black dark:text-white group-hover:text-sham dark:group-hover:text-voke">
+                {post.title}
+              </h4>
+            </div>
+          </Link>
+        ))}
+      </div>
+  )
+}

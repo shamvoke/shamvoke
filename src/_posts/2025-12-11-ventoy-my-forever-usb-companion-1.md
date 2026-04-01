@@ -11,7 +11,7 @@ coverImageCredit:
   ImageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/09_Ventoy_My_Forever_USB_Companion.webp"
-category: software
+category: "software"
 tags:
   - Ventoy
   - USB

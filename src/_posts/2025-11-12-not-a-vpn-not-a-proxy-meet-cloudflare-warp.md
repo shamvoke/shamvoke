@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/08_Not a VPN, Not a Proxy. Meet Cloudflare WARP.webp"
-category: tips
+category: "tips"
 tags:
   - privacy
   - VPN

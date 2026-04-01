@@ -14,7 +14,7 @@ export default function LikeButton() {
   return (
     <div className="flex flex-col items-center pt-10 gap-4">
       <p className="text-sham dark:text-gray-500 font-voke text-center text-xl italic">
-        Enjoyed this post? <br /> Give it a like!
+        Enjoyed This Post? <br /> Give It A Like!
       </p>
 
       <button

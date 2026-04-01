@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/04_You should use Arch linux, BTW.webp"
-category: Linux
+category: "linux"
 tags:
   - Archlinux
   - Windows

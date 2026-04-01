@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/01_Welcome to my blog.webp"
-category: blog
+category: "blog"
 tags:
   - Design
   - Webdev

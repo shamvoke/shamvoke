@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/05_A maze game for the curious, Shamaze3D.webp"
-category: code
+category: "code"
 tags:
   - Shamaze3D
   - Game

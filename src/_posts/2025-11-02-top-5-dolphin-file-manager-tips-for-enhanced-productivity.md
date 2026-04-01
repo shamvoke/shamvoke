@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/07_Top 5 Dolphin File Manager Tips.webp"
-category: linux
+category: "linux"
 tags:
   - tips
   - linux

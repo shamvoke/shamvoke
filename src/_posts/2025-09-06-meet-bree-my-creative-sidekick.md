@@ -11,7 +11,7 @@ coverImageCredit:
   imageUrl: "https://shamvoke.com"
 ogImage:
   url: "/_FeaturedImages/02_Out of the blue, meet Bree.webp"
-category: blog
+category: "blog"
 tags:
   - Bree
   - Design

@@ -1,4 +1,4 @@
-let initializedButtons = new WeakSet<HTMLButtonElement>();
+const initializedButtons = new WeakSet<HTMLButtonElement>();
 
 export function initIine() {
   const SUPABASE_URL = 'https://znobhfqvbmtsbwtggmtp.supabase.co';

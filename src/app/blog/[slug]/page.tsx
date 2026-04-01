@@ -6,13 +6,13 @@ import Image from "next/image"
 import LikeButton from "@/components/ui/likeButton"
 import { Calendar, Clock } from "lucide-react"
 import readingTime from "reading-time";
+import ReadGrid from "@/app/blog/[slug]/readGrid";
 import styles from "./post-body.module.css"
 
 type Props = {
   params: Promise<{ slug: string }>
 }
 
-// Generate static pages for all posts at build time
 export async function generateStaticParams() {
   const posts = getAllPosts()
 
@@ -21,7 +21,6 @@ export async function generateStaticParams() {
   }))
 }
 
-// Generate SEO metadata dynamically
 export async function generateMetadata({
   params,
 }: Props): Promise<Metadata> {
@@ -66,11 +65,25 @@ export default async function PostPage({ params }: Props) {
   }
 
   const content = await markdownToHtml(post.content)
-   const stats = readingTime(post.content || post.excerpt);
-
+  const stats = readingTime(post.content || post.excerpt);
+  const allOtherPosts = getAllPosts().filter(p => p.slug !== post.slug)
+  const latestPosts = [...allOtherPosts]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 8)
+  let relatedPosts = allOtherPosts.filter(
+    p => p.category && post.category && p.category === post.category
+  )
+  if (relatedPosts.length < 4) {
+    const remaining = allOtherPosts.filter(
+      p => !relatedPosts.some(r => r.slug === p.slug)
+    )
+    relatedPosts = [...relatedPosts, ...remaining.slice(0, 4 - relatedPosts.length)]
+  } else {
+    relatedPosts = relatedPosts.slice(0, 4)
+  }
   return (
-    <>
-    <article className="max-w-3xl mx-auto px-4 py-20">
+    <div className="max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row gap-12 items-start">
+    <article className="flex-1">
       <header className="mb-12">
         
 
@@ -120,7 +133,27 @@ export default async function PostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: content }}
       />
         <LikeButton />
+      <div className="sm:hidden mt-12 ">
+      <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
+        Related Posts
+      </h3>
+        <ReadGrid posts={relatedPosts} />
+      </div>
     </article>
-    </>
+    <aside className="hidden lg:block w-80 shrink-0 space-y-12 mt-33">
+      <div>
+        <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
+          Related Posts
+        </h3>
+        <ReadGrid posts={relatedPosts} />
+      </div>
+      <div>
+        <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
+          Latest Posts
+        </h3>
+        <ReadGrid posts={latestPosts} />
+      </div>
+    </aside>
+    </div>
   )
 }
