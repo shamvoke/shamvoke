@@ -28,7 +28,7 @@
 }
 
 .markdown h1 h5 h6 {
-  @apply font-post;
+  @apply font-voke;
 }
 
 /* Strong + emphasis */

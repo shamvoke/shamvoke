@@ -91,7 +91,7 @@ export default async function PostPage({ params }: Props) {
         <h1 className="text-2xl md:text-5xl font-sham font-bold mb-4">{post.title}</h1>
 
         {post.shamthing && (
-          <p className="text-lg capitalize md:text-2xl font-post mb-2 text-sham dark:text-voke">
+          <p className="text-xl capitalize md:text-2xl font-voke mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}

@@ -75,7 +75,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 {post.tags.map((tag) => (
                     <span
                     key={tag}
-                    className="inline-flex items-center font-post rounded-full border border-black dark:border-white px-2 py-1 text-sm sm:text-xs text-black dark:text-white"
+                    className="inline-flex items-center font-voke rounded-full border border-black dark:border-white px-2 py-1 text-sm sm:text-xs text-black dark:text-white"
                     >
                     #{tag.toLowerCase()}
                     </span>

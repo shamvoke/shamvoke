@@ -26,7 +26,7 @@ export default function Navbar() {
             className="text-2xl sm:text-3xl font-bold font-sham bg-linear-to-r from-sham to-voke bg-clip-text text-transparent"
           >
             SHAMVOKE
-            <span className="absolute top-0 left-full ml-2 font-post text-xs opacity-70 text-voke">
+            <span className="absolute top-0 left-full ml-2 font-voke text-xs opacity-70 text-voke">
               Blog
             </span>
           </Link>

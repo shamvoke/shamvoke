@@ -19,14 +19,12 @@ const menu = [
 export default function Sidebar({ open, onClose }: SidebarProps) {
   return (
     <>
-      {/* Backdrop */}
       <div
         onClick={onClose}
         className={`fixed inset-0 z-30 bg-black/50 backdrop-blur-sm transition-opacity duration-300
         ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
       />
 
-      {/* Sidebar */}
       <aside
         className={`fixed top-0 left-0 z-40 h-full w-72 transform border-r border-white/10
         bg-black/80 backdrop-blur-xl shadow-2xl transition-transform duration-300
@@ -51,9 +49,8 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
             </button>
           </div>
 
-          {/* Optional little tagline */}
-          <div className="px-5 pt-4 pb-2 flex items-center gap-1">
-            <p className="text-sm text-voke/50 font-post">
+          <div className="px-5 pt-4 pb-2 flex items-center gap-2">
+            <p className="text-sm text-voke/50 font-voke">
               If you like shamthing here, buy <span className="font-bold">yourself</span> a coffee
             </p>
             <Coffee className="w-4 h-4 text-voke/80" />

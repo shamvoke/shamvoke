@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --font-post: var(--font-post);
+    --font-voke: var(--font-voke);
     --font-sham: var(--font-rampart);
     --font-heading: var(--font-sans);
     --font-sans: var(--font-sans);

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Titillium_Web, Caveat, Rampart_One } from "next/font/google"
+import { Titillium_Web, Nanum_Brush_Script, Rampart_One } from "next/font/google"
 import Navbar from "@/components/ui/navbar"
 import Footer from "@/components/ui/footer"
 import "highlight.js/styles/monokai-sublime.css";
@@ -13,10 +13,10 @@ const titillium = Titillium_Web({
   weight: ["300","400","700"],
 })
 
-const caveat = Caveat({
+const nanumbrushscript = Nanum_Brush_Script({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-post",
+  variable: "--font-voke",
 });
 
 const rampart = Rampart_One ({
@@ -79,7 +79,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", "font-sans", titillium.variable, caveat.variable, rampart.variable)}
+      className={cn("antialiased", "font-sans", titillium.variable, nanumbrushscript.variable, rampart.variable)}
     >
       <body>
           <ThemeProvider

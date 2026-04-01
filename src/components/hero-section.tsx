@@ -18,7 +18,7 @@ export default function HeroSection() {
 
       <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
         
-        <div className="text-xl dark:text-voke font-post text-white/75">
+        <div className="text-xl dark:text-voke font-voke text-white/75">
           welcome
         </div>
 
@@ -26,7 +26,7 @@ export default function HeroSection() {
           Hello Milky Way!
         </h1>
 
-        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-post leading-relaxed dark:text-voke/80 drop-shadow sm:text-[28px]">
+        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-voke leading-relaxed dark:text-voke/80 drop-shadow sm:text-[28px]">
           <HeroTypewriter/>
         </div>
 

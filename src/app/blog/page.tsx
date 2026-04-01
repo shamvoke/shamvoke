@@ -13,7 +13,7 @@ export default function BlogIndex() {
   return (
     <main className="mx-auto sm:px-6 lg:px-8 py-20">
       <section className="mb-12 md:mb-16 px-8">
-        <p className="text-sm uppercase tracking-[0.2em] font-post text-sham dark:text-voke mb-3">
+        <p className="text-sm uppercase tracking-[0.2em] font-voke text-sham dark:text-voke mb-3">
           Shamthing to read...
         </p>
         <p className="mt-4 max-w-2xl text-base md:text-lg text-neutral-600 dark:text-neutral-400 leading-8">
