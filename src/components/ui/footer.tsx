@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import SocialLinks from "@/components/ui/socials"
+import ScrollToTop from "@/components/ui/scrollToTop"
 
 const menu = [
   { title: "Home", url: "/" },
@@ -49,6 +50,7 @@ export default function Footer() {
           WEBMEKA STUDIO | All rights reserved.
         </a>
       </p>
+      <ScrollToTop />
     </footer>
   )
 }
