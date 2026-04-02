@@ -12,8 +12,9 @@ export default function AboutPage() {
           alt="Sham Voke"
           width={200}
           height={200}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="rounded-full mb-6 border-4 border-sham dark:border-voke"
-          priority
+          priority={true}
         />
 
         <h1 className="text-3xl sm:text-4xl font-sham font-bold mb-4 text-foreground">
@@ -33,9 +34,10 @@ export default function AboutPage() {
         <Image
           src="/shamvoke-banner.webp"
           alt="Shamvoke wallpaper"
-          fill
+          fill={true}
           className="object-cover"
-          priority
+          priority={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute inset-0 bg-black/40 dark:bg-black/60" />
       </div>
@@ -61,7 +63,6 @@ export default function AboutPage() {
           alt="Shamvoke Logo"
           width={2340}
           height={418}
-          className="opacity-80 hover:opacity-100 transition"
         />
       </div>
 

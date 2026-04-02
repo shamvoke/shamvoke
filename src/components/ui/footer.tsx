@@ -30,13 +30,13 @@ export default function Footer() {
       </ul>
       <SocialLinks />
       <Link href="/" className="block w-fit mx-auto mb-6">
-  <Image
-    src="/shamlogo.png"
-    alt="Shamvoke brand Logo"
-    width={150}
-    height={150}
-  />
-</Link>
+        <Image
+          src="/shamlogo.png"
+          alt="Shamvoke brand Logo"
+          width={150}
+          height={150}
+        />
+      </Link>
       <p className="text-sm leading-6 text-sham dark:text-muted-foreground">
         Crafted with 💙 by sham
         <br />

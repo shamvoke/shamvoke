@@ -10,7 +10,7 @@ export default function NotFound() {
           src="/sham404.gif"
           alt="404 - Page not found"
           fill
-          unoptimized
+          unoptimized = {true}
           className="object-contain"
         />
       </div>
@@ -25,7 +25,7 @@ export default function NotFound() {
 
       <Link
         href="/"
-        className="inline-block px-6 py-2 rounded-md text-white font-bold hover:bg-voke transition bg-gradient-to-r from-sham to-voke"
+        className="inline-block px-6 py-2 rounded-md text-white font-bold hover:bg-voke transition bg-linear-to-r from-sham to-voke"
       >
         Back to Home
       </Link>

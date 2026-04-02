@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Post } from "@/interfaces/post"
-import { shimmer, toBase64 } from "@/lib/placeholder"
 
 type ReadGridProps = {
   posts: Post[]
@@ -20,11 +19,10 @@ export default function ReadGrid({ posts }: ReadGridProps) {
             <Image
               src={post.coverImage}
               alt={post.title}
-              fill
-              sizes="100vw"
+              fill={true}
               className="object-cover transition duration-500 group-hover:scale-105 group-hover:grayscale"
-              placeholder="blur"
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 438))}`}
+              loading="eager"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
 
             {post.category && (
