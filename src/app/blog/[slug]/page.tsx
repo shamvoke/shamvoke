@@ -135,7 +135,7 @@ export default async function PostPage({ params }: Props) {
       />
         <LikeButton />
         <AuthorCard />
-      <div className="sm:hidden mt-12 ">
+      <div className="lg:hidden mt-12 ">
       <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
         Related Posts
       </h3>
