@@ -10,6 +10,7 @@ export default function NotFound() {
           src="/sham404.gif"
           alt="404 - Page not found"
           fill
+          unoptimized
           className="object-contain"
         />
       </div>

@@ -49,6 +49,7 @@
     --radius-4xl: calc(var(--radius) * 2.6);
     --color-sham: var(--sham);
     --color-voke: var(--voke);
+
 }
 
 :root {
@@ -133,4 +134,10 @@
     @apply font-sans;
     scroll-behavior: smooth;
     }
+}
+
+@layer utilities {
+  .text-shamvoke {
+    @apply inline-block bg-linear-to-r from-sham to-voke bg-clip-text text-transparent;
+  }
 }

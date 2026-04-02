@@ -34,7 +34,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
 
         <nav className="relative flex h-full flex-col">
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-            <h2 className="text-2xl font-bold font-sham bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
+            <h2 className="text-2xl font-bold font-sham text-shamvoke">
               Menu
             </h2>
 

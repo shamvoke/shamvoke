@@ -15,7 +15,7 @@ export default function AuthorCard() {
         />
       </div>
       <div className="flex flex-col gap-1 text-center sm:text-left">
-        <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">Sham voke</h3>
+        <h3 className="text-xl font-bold text-shamvoke">Sham voke</h3>
         <p className="text-gray-600 dark:text-gray-400 italic">
           I&apos;m Sham, a creative developer based in Nairobi, building at the intersection of code, design, and creativity.
         </p>

@@ -23,7 +23,7 @@ export default function Navbar() {
         <h1 className="m-0 h-8 leading-8 relative">
           <Link
             href="/"
-            className="text-2xl sm:text-3xl font-bold font-sham bg-linear-to-r from-sham to-voke bg-clip-text text-transparent"
+            className="text-2xl sm:text-3xl font-bold font-sham text-shamvoke"
           >
             SHAMVOKE
             <span className="absolute top-0 left-full ml-2 font-voke text-xs opacity-70 text-voke">

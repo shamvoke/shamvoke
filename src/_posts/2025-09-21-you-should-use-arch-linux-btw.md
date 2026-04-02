@@ -46,7 +46,7 @@ The new content was an instant hit, amassing views like crazy. At this point, <d
 
 #### Aye, Pirate
 
-Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software is against their community guidelines. I have to agree with YouTube on this one, **pay the developer!**
+Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software is against their community guidelines. This I already knew... (Before you accuse me of ignorance, I read and agreed to their massive Terms & Conditions in a record time of 1.58 seconds!). I have to agree with YouTube on this one, **pay the developer!**
 
 #### Cracked software
 

@@ -21,7 +21,7 @@ export default function HeroSection() {
           welcome
         </div>
 
-        <h1 className="mt-2 w-[80vw] text-4xl font-sham font-extrabold drop-shadow sm:text-5xl bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
+        <h1 className="mt-2 w-[80vw] text-4xl font-sham font-extrabold drop-shadow sm:text-5xl text-shamvoke">
           Hello Milky Way!
         </h1>
 
