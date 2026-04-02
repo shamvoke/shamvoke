@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { useEffect } from "react"
 import SocialLinks from "@/components/ui/socials"
 import { X, Coffee } from "lucide-react"
 
@@ -17,6 +18,17 @@ const menu = [
 ]
 
 export default function Sidebar({ open, onClose }: SidebarProps) {
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = ""
+    }
+
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [open])
   return (
     <>
       <div

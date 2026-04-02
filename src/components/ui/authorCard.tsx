@@ -20,7 +20,10 @@ export default function AuthorCard() {
           I&apos;m Sham, a creative developer based in Nairobi, building at the intersection of code, design, and creativity.
         </p>
         <p className="mt-2 text-lg text-sham dark:text-gray-100 font-voke">
-          ✍️ I write to learn and publish to share ✨ <span className='hidden lg:inline'>Creativity fueled by curiosity 💡</span> <br /> <span className='lg:hidden'>🎨 Creativity fueled by curiosity 💡</span>
+          ✍️ I write to learn and publish to share ✨{" "}
+          <span className="block lg:inline">
+            🎨 Creativity fueled by curiosity 💡
+          </span>
         </p>
       </div>
     </div>
