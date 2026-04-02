@@ -33,13 +33,13 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 alt={post.title}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover transition duration-500 group-hover:scale-105 group-hover:grayscale"
+                className="object-cover transition duration-500 group-hover:scale-102 group-hover:grayscale"
                 />
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />
 
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                <div className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-voke bg-black/20 backdrop-blur-sm">
+                <div className="flex items-center justify-center w-16 h-16 rounded-full border-2 bg-black/20 backdrop-blur-sm">
                     <span className="text-voke text-sm font-semibold">Read</span>
                 </div>
                 </div>
