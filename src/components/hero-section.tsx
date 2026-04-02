@@ -7,10 +7,9 @@ export default function HeroSection() {
       style={{ backgroundImage: "url('/shamlogo.png')" }}
     >
       <div
-        className="pointer-events-none absolute inset-0 opacity-80"
+        className="pointer-events-none absolute inset-0 opacity-80 bg-fixed"
         style={{
           backgroundImage: "url('/pixels.png')",
-          backgroundAttachment: "fixed",
         }}
       />
 

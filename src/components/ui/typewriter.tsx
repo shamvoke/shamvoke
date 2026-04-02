@@ -15,8 +15,9 @@ export default function HeroTypewriter() {
           ],
           autoStart: true,
           loop: true,
-          delay: 55,
+          delay: 75,
           deleteSpeed: 50,
+          pauseFor: 2200,
         }}
       />
     </span>
