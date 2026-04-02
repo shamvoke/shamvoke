@@ -9,7 +9,7 @@ export default function Page() {
       <HeroSection />
             {/* Blog Grid Section */}
       <section className="-mt-15">
-        <PostsGrid posts={posts} />
+        <PostsGrid posts={posts.slice(0, 12)} />
       </section>
     </main>
   )
