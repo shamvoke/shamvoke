@@ -26,7 +26,7 @@ Yeah, I know. The old 'I use Arch btw' That seems to annoy everyone. But honestl
 
 See, years ago, I was a Windows user. And not your normal user, I considered myself a **power user**. Well, I loved my OS. Digging into *nearly* every Windows feature. Started customizing my own installation, someone would notice and request that I do similar customization on their pc. Even got paid a couple of times to do such setups.
 
-#### TouTube
+#### YouTube
 
 Created a YouTube channel and started uploading my custom edits, so much love. My [make your Windows OS look like Mac OS](https://youtu.be/VCNGyRawkss?si=_cPN9RkEimKFdI5a) video got a **million views!**
 
