@@ -10,7 +10,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
   return (
     <section
       id="grid"
-      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-6 "
+      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-6 -mt-15 mb-10"
     >
       {posts.map((post) => (
         <article
