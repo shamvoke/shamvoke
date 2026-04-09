@@ -33,7 +33,6 @@ export default function WebDesignSection() {
             color="#7df9ff"
             speed={1}
             chaos={0.12}
-            thickness={2}
             style={{ borderRadius: 24 }}
             className="transition-all duration-300 hover:-translate-y-1"
           >
@@ -100,7 +99,6 @@ export default function WebDesignSection() {
             color="#0019ff"
             speed={1}
             chaos={0}
-            thickness={2}
             style={{ borderRadius: 24 }}
             className="transition-all duration-300 hover:-translate-y-1"
           >
