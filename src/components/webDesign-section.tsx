@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PencilRuler, ArrowRight } from "lucide-react";
 import ElectricBorder from "@/components/ui/shamCard";
 
@@ -46,7 +47,7 @@ export default function WebDesignSection() {
 
                 {/* Icon */}
                 <div className="mt-6 flex justify-center">
-                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow-inner shadow-white/5">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
                     <PencilRuler className="h-9 w-9 text-cyan-300" />
                   </div>
                 </div>
@@ -84,7 +85,7 @@ export default function WebDesignSection() {
                 <div className="mt-10">
                   <Link
                     href="/contact"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-gradient-to-r from-sky-500/70 to-cyan-400/80 px-5 py-4 text-base font-semibold text-white shadow-lg shadow-cyan-500/10 transition-all duration-300 hover:scale-[1.01] hover:shadow-cyan-400/20"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-linear-to-r from-sham to-voke px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
                     Claim Your Spot
                     <ArrowRight className="h-4 w-4" />
@@ -102,12 +103,18 @@ export default function WebDesignSection() {
             style={{ borderRadius: 24 }}
             className="transition-all duration-300 hover:-translate-y-1"
           >
-            <div className="group relative flex flex-col h-full rounded-3xl bg-sham/80 dark:bg-white/[0.04] p-6 backdrop-blur-xl">
+            <div className="group relative flex flex-col h-full rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl">
 
               <div className="relative z-10">
                 {/* Logo-ish Header */}
                 <div className="flex items-center justify-center gap-3 text-white">
-                  <img src="/Logo.svg" className="h-12 w-12" />
+                  <Image 
+                  src="/Logo.svg" 
+                  alt="Webmeka creative design agency logo" 
+                  className="h-12 w-12"
+                  width={48} 
+                  height={48}
+                  />
                   <span className="text-2xl font-semibold tracking-tight">
                     WEBMEKA
                   </span>
@@ -147,7 +154,7 @@ export default function WebDesignSection() {
                     href="https://webmeka.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-linear-to-r from-indigo-500/70 to-violet-500/80 px-5 py-4 text-base font-semibold text-white shadow-lg shadow-violet-500/10 transition-all duration-300 hover:scale-[1.01] hover:shadow-violet-400/20"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-linear-to-r from-indigo-500/70 to-violet-500/80 px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
                     Visit Webmeka
                     <ArrowRight className="h-4 w-4" />
