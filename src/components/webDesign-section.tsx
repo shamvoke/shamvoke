@@ -19,11 +19,10 @@ export default function WebDesignSection() {
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-2xl font-semibold font-sham sm:font-sans tracking-tight text-black dark:text-white sm:text-4xl md:text-5xl">
-            Want a space on the internet that feels like yours?
+            Want your own space on the internet?
           </h2>
           <p className="mt-5 text-sm font-bold leading-7 text-black dark:text-white/60 sm:text-base">
-            From personal blogs to business websites, I help you build what
-            you need
+            From personal blogs to business websites, I help you bring your vision to life.
           </p>
         </div>
 
@@ -42,7 +41,7 @@ export default function WebDesignSection() {
 
               <div className="relative z-10">
                 {/* Badge */}
-                <span className="inline-flex rounded-xl border border-black dark:border-white/10 bg-white/6 px-4 py-2 text-sm font-medium text-black dark:text-white/85">
+                <span className="inline-flex rounded-xl border border-white/10 bg-white/6 px-4 py-2 text-sm font-medium text-white">
                   Blog Offer
                 </span>
 
@@ -126,7 +125,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Bring <span className="text-voke">your vision</span> to life. From custom UI/UX to robust e-commerce and SEO strategy tailored for brand growth. <span className="text-voke">Team Webmeka</span> has you covered. 
+                    Bespoke <span className="text-voke">Digital Solutions</span> for serious brands. From custom UI/UX to robust e-commerce and SEO strategy tailored for brand growth. <span className="text-voke">Team Webmeka</span> has you covered. 
                     <br />
                     Visit our website to see how we can help your business thrive online.
                   </p>
@@ -152,7 +151,7 @@ export default function WebDesignSection() {
                     rel="noopener noreferrer"
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-linear-to-r from-indigo-500/70 to-violet-500/80 px-5 py-4 text-base font-semibold text-white shadow-lg shadow-violet-500/10 transition-all duration-300 hover:scale-[1.01] hover:shadow-violet-400/20"
                   >
-                    Visit WebMeka
+                    Visit Webmeka
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
