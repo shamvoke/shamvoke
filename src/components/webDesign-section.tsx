@@ -65,7 +65,7 @@ export default function WebDesignSection() {
                     I will build you a custom blog setup for{" "}
                     <span className="font-semibold text-cyan-300">$80</span>.
                     <br />
-                    <span className="font-bold text-voke font-voke">A gift to my readers! Offer limited to the first 3 clients.</span>
+                    <span className="text-sm text-voke">A gift to my readers! Offer limited to the first 3 clients.</span>
                   </p>
                 </div>
 
@@ -103,7 +103,7 @@ export default function WebDesignSection() {
             style={{ borderRadius: 24 }}
             className="transition-all duration-300 hover:-translate-y-1"
           >
-            <div className="group relative flex flex-col h-full rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl">
+            <div className="group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl">
 
               <div className="relative z-10">
                 {/* Logo-ish Header */}
@@ -149,7 +149,7 @@ export default function WebDesignSection() {
                 </ul>
 
                 {/* CTA */}
-                <div className="mt-10">
+                <div className="mt-15">
                   <Link
                     href="https://webmeka.com"
                     target="_blank"
