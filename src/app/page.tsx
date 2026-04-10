@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <main className="min-h-svh">
       <HeroSection />
-      <PostsGrid posts={posts.slice(0, 6)} />
+      <PostsGrid posts={posts.slice(0, 12)} />
       <WebDesignSection />
     </main>
   )
