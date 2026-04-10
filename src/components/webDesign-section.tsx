@@ -35,9 +35,8 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0.12}
             style={{ borderRadius: 24 }}
-            className="transition-all duration-300 hover:-translate-y-1"
+            className="transition-all duration-300 hover:-translate-y-1 group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl"
           >
-            <div className="group relative h-full rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl">
 
               <div className="relative z-10">
                 {/* Badge */}
@@ -84,7 +83,7 @@ export default function WebDesignSection() {
                 {/* CTA */}
                 <div className="mt-10">
                   <Link
-                    href="/contact"
+                    href="https://wa.me/254714597644?text=Hi%2C%20I%20want%20to%20claim%20the%20%2480%20blog%20offer.%20Is%20a%20slot%20still%20available%3F"
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-linear-to-r from-sham to-voke px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
                     Claim Your Spot
@@ -92,7 +91,6 @@ export default function WebDesignSection() {
                   </Link>
                 </div>
               </div>
-            </div>
           </ElectricBorder>
 
           {/* Card 2 */}
@@ -101,9 +99,8 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0}
             style={{ borderRadius: 24 }}
-            className="transition-all duration-300 hover:-translate-y-1"
+            className="transition-all duration-300 hover:-translate-y-1 group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl"
           >
-            <div className="group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl">
 
               <div className="relative z-10">
                 {/* Logo-ish Header */}
@@ -161,7 +158,6 @@ export default function WebDesignSection() {
                   </Link>
                 </div>
               </div>
-            </div>
           </ElectricBorder>
         </div>
       </div>
