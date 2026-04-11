@@ -1,6 +1,6 @@
 import HeroSection from "@/components/hero-section"
 import { getAllPosts } from "@/lib/api"
-import WebDesignSection from "@/components/webDesign-section"
+// import WebDesignSection from "@/components/webDesign-section"
 import PostsGrid from "@/app/blog/PostsGrid"
 
 export default function Page() {
@@ -9,7 +9,7 @@ export default function Page() {
     <main className="min-h-svh">
       <HeroSection />
       <PostsGrid posts={posts.slice(0, 12)} />
-      <WebDesignSection />
+      {/* <WebDesignSection /> */}
     </main>
   )
 }

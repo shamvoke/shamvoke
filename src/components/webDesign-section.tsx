@@ -61,8 +61,8 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    I will build you a custom blog setup for{" "}
-                    <span className="font-semibold text-cyan-300">$80</span>.
+                    I will build you a custom blog setup for{" "} <span className="text-xs ">$250</span>{" "}
+                    <span className="font-semibold text-cyan-300">$80</span>
                     <br />
                     <span className="text-sm text-voke">A gift to my readers! Offer limited to the first 3 clients.</span>
                   </p>
