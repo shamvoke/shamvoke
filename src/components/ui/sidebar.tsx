@@ -13,7 +13,7 @@ type SidebarProps = {
 const menu = [
   { title: "Home", url: "/" },
   { title: "Blog", url: "/blog" },
-  // { title: "Play", url: "/maze3d" },
+  { title: "Play", url: "/maze3d" },
   { title: "About", url: "/about" },
   { title: "Contact", url: "/contact" },
 ]
