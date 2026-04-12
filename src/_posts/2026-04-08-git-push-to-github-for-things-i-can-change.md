@@ -45,7 +45,9 @@ With the engine swapped, I finally had the power to change the things that used 
 A proper **light and dark mode** switch, not just aesthetic, but intentional.
 The site responds to the user, not the other way around. It's subtle, but it changes everything.
 
-Next, I took control of the **typography**. This one is personal. On mobile, <ins>fancy fonts</ins>. On desktop, the fonts relax. Cleaner. More readable. Less noise. Why? Why not.
+Next, I took control of the **typography**. This one is personal. On mobile, <ins>fancy fonts</ins>. On desktop, the fonts relax. Cleaner. More readable. Less noise. Why? Because... why not.
+
+And talking of why not, you will notice a new **play** menu option. Clicking that will take you directly to a maze! What to do when you find yourself there? Well, _find your way out, or get lost in the fun!!!_
 
 Not to forget, a **like button** that I actually like. _See what I did there?_
 
