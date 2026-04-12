@@ -18,7 +18,7 @@ author:
   name: "Sham Voke"
   picture: "/shamvoke.webp"
 ---
-#### The site is live… but it's not alive.
+#### The site was live… but not alive.
 
 For a start, the old <ins>shamvoke blog</ins> website was build with the static site generator [Jekyll](https://jekyllrb.com/). Jekyll felt perfect. The workflow was a developer's dream: `write, commit, deploy.` It was clean. It was minimal. There were no distractions, just me and the markdown. The website did exactly what it was supposed to do. It was static, simple, and infinitely reliable.
 
