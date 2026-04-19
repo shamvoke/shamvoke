@@ -141,3 +141,18 @@
     @apply inline-block bg-linear-to-r from-sham to-voke bg-clip-text text-transparent;
   }
 }
+
+@keyframes logo-loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-logo-loop {
+  animation-name: logo-loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
