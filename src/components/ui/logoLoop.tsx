@@ -19,7 +19,7 @@ export default function LogoLoop({
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-linear-to-l from-background to-transparent" />
 
       <div
-        className="flex w-max animate-logo-loop gap-2"
+        className="flex w-max animate-logo-loop gap-2 md:gap-12"
         style={{ animationDuration: `${speed}s` }}
       >
         {items.map((src, index) => (
