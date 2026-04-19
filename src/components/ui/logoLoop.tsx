@@ -32,6 +32,7 @@ export default function LogoLoop({
               alt={`Logo ${index + 1}`}
               width={160}
               height={80}
+              loading="lazy"
               className="h-full w-full object-cover"
             />
           </div>
