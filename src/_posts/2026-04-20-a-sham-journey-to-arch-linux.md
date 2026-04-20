@@ -24,7 +24,7 @@ They say you don't choose Arch, Arch chooses you. Well, for me I didn't even kno
 
 I recall it all started with curious me following a WiFi hack guide on YouTube! <del>Curiosity killed the cat for sure.</del> What caught my attention was seeing the guy boot a full [Kali Linux OS](https://www.kali.org/) from a USB drive! **I had to try that!** I didn't become a master hacker, but I noticed something immediate: The system was fast, noticeably faster than my fully installed Windows setup. _It didn't make sense._ This was a live environment running off a USB, yet it felt smoother than what I had been using every day?
 
-Digging a bit deeper, learned I could **dual-boot** Linux with my Windows! And considering Kali Linux was clearly optimized for hacking, my first stop for a Linux install was [UBUNTU](https://ubuntu.com/). Did my first dual-boot install, but the Ubuntu "default" life wasn't for me. I became a regular on **DistroWatch**, falling down the rabbit hole of **distro-hopping**. I tried almost everything! I mean, I even tried **Deepin OS**. But there was always a catch: I hated how most distros handled software installations.
+Digging a bit deeper, learned I could **dual-boot** Linux with my Windows! And considering Kali Linux was clearly optimized for hacking, my first stop for a Linux install was [UBUNTU](https://ubuntu.com/). Did my first dual-boot install, but the Ubuntu "default" life wasn't for me. I became a regular on [**DistroWatch**](https://distrowatch.com/), falling down the rabbit hole of **distro-hopping**. I tried almost everything! I mean, I even tried **Deepin OS**. But there was always a catch: I hated how most distros handled software installations.
 
 #### The Windows Killer
 
@@ -40,7 +40,7 @@ _Or so I thought..._
 
 #### The second switch
 
-Later on, I found out Manjaro was based on Arch Linux, and once again, curiosity got the better of me. The plan was simple in my head, try Arch, experience it, then go back to my "stable Manjaro."
+Later on, I found out Manjaro is based on Arch Linux, and once again, curiosity got the better of me. The plan was simple in my head, try Arch, experience it, then go back to my "stable Manjaro."
 
 _That plan didn't go as planned._
 
