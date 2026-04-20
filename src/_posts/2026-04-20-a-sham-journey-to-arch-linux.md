@@ -32,6 +32,8 @@ Then came [Manjaro Linux.](https://manjaro.org/) This was the turning point. It 
 
 #### The Desktop Environment
 
+One thing you learn quickly in the Linux world is that _Linux itself is just a kernel_. The invisible engine under the hood. To actually interact with it, you need a **Desktop Environment** (DE). This is your cockpit, and choosing the right one is a very personal decision.
+
 At the time, I was a [GNOME](https://www.gnome.org/) devotee. I loved how minimal it felt. Clean, distraction-free, just enough to get things done. On the other hand, I couldn't stand [KDE Plasma.](https://kde.org/plasma-desktop/) It felt like too much, too many options, too many settings, too much everything.
 
 _Or so I thought..._
