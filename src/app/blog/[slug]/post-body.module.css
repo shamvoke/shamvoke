@@ -16,15 +16,15 @@
 
 /* Headings */
 .markdown h2 {
-  @apply text-[26px] md:text-4xl mt-14 mb-5 leading-tight font-sham font-bold tracking-tight;
+  @apply text-[26px] md:text-4xl mt-14 mb-2 leading-tight font-sham font-bold tracking-tight;
 }
 
 .markdown h3 {
-  @apply text-2xl md:text-3xl mt-10 mb-4 leading-tight font-sham font-bold tracking-tight;
+  @apply text-2xl md:text-3xl mt-10 mb-2 leading-tight font-sham font-bold tracking-tight;
 }
 
 .markdown h4 {
-  @apply text-xl md:text-2xl mt-8 mb-3 leading-snug font-sham font-semibold;
+  @apply text-xl md:text-2xl mt-8 mb-2 leading-snug font-sham font-semibold;
 }
 
 .markdown h1 h5 h6 {
@@ -118,7 +118,7 @@
 
 /* Images */
 .markdown img {
-  @apply rounded-2xl my-8 w-90 h-auto;
+  @apply  my-8 w-90 h-auto;
 }
 
 /* Tables */
