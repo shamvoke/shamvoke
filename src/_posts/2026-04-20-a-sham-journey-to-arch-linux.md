@@ -128,6 +128,16 @@ It became my go to for everything Arch.
 
 I've spent years breaking, re-installing, and optimizing Arch <del>so you don't have to</del>. I've finally settled on my _"perfect"_ setup.
 
+#### Notable Distros
+
+Along the journey, there are some distros that earned my respect, worth checking out:
+
+1. [**Linux Mint:**](https://linuxmint.com/) This one is so stable it almost made me switch! Based on UBUNTU but it beats UBUNTU any day and everyday! _Went back to Arch because... AUR._
+
+2. [**XeroLinux:**](https://xerolinux.xyz/) A hidden gem I found in the wild. Based on Arch. Steel solid! _Went back because... Vanilla Arch._
+
+3. [**CachyOS:**](https://cachyos.org/) A new player on the scene. Based on Arch. Rock solid. _Went back because... Vanilla Arch._
+
 _Stay tuned for my next post, where I'll drop the full, step-by-step guide on how I install my Arch Linux daily driver._ Plus a few tricks I have learned along the years!
 
 Stay Curious,
