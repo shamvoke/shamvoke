@@ -12,7 +12,6 @@ export default function AboutPage() {
           alt="Sham Voke"
           width={200}
           height={200}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="rounded-full mb-6 border-4 border-sham dark:border-voke"
           priority
         />
@@ -30,16 +29,14 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="relative w-full h-75 ring mb-12 rounded-xl overflow-hidden">
+      <div className="relative w-full h-50 sm:h-100 ring mb-12 rounded-xl overflow-hidden">
         <Image
           src="/shamvoke-banner.webp"
           alt="Shamvoke wallpaper"
           fill
           className="object-cover"
           priority
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 bg-black/40 dark:bg-black/60" />
       </div>
 
       <div className="space-y-6 text-base leading-7 text-foreground">
