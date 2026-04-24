@@ -13,6 +13,133 @@
     <meta name='keywords' content='Sham Maze 3D, Maze Game, 3D Game'>
     </meta>
     <style>
+        .welcome .splash {
+            height: 0px;
+            padding: 0px;
+            border: 130em solid #020024;
+            position: fixed;
+            left: 50%;
+            top: 100%;
+            display: block;
+            box-sizing: initial;
+            overflow: hidden;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards
+        }
+
+        .welcome #welcome {
+            background: #07fff9;
+            width: 58px;
+            height: 58px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            overflow: hidden;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, hide 2s 2.9s ease forwards
+        }
+
+        @keyframes init {
+            0% {
+                width: 0px;
+                height: 0px;
+            }
+
+            100% {
+                width: 56px;
+                height: 56px;
+                margin-top: 0px;
+                opacity: 1;
+            }
+        }
+
+        @keyframes puff {
+            0% {
+                top: 100%;
+                height: 0px;
+                padding: 0px;
+            }
+
+            100% {
+                top: 50%;
+                height: 100%;
+                padding: 0px 100%;
+            }
+        }
+
+        @keyframes borderRadius {
+            0% {
+                border-radius: 50%;
+            }
+
+            100% {
+                border-radius: 0px;
+            }
+        }
+
+        @keyframes moveDown {
+            0% {
+                top: 50%;
+                background: #07fff9;
+            }
+
+            50% {
+                top: 40%;
+            }
+
+            100% {
+                top: 100%;
+                background: #fff;
+            }
+        }
+
+        @keyframes moveUp {
+            0% {
+                top: 100%;
+            }
+
+            50% {
+                top: 40%;
+            }
+
+            100% {
+                top: 50%;
+                width: 68px;
+                height: 68px;
+            }
+        }
+
+        @keyframes moveIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes hide {
+            0% {
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+            30% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 0;
+                visibility: hidden;
+                pointer-events: none;
+            }
+        }
+    </style>
+    <style>
         @font-face {
             font-family: 'Emilys Candy';
             src: url(assets/EmilysCandy-Regular.ttf) format("truetype")
@@ -85,7 +212,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            z-index: 0;
+            z-index: 10;
             width: 100%;
             height: 100%;
             pointer-events: none;
@@ -263,6 +390,7 @@
 </head>
 
 <body><canvas id='gameCanvas'></canvas>
+    <div class='welcome'><span id='splash-overlay' class='splash'></span><span id='welcome'></span></div>
     <main id='game-ui'>
         <header>
             <div class='logo'>
