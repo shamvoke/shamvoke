@@ -122,6 +122,8 @@ A few days after publishing this post, I shared the link with AI([ChatGPT](https
 
 ![Four elements chart](https://res.cloudinary.com/deudsgjbm/image/upload/v1778351710/Four-Elements_yp8kkc.webp "The Four pillars of awareness chart")
 
+Titled "The four elements of self!?"
+
 Digging in a bit further only to find the chart online! **A new rabbit hole unlocked!**
 
 Stay Curious,
