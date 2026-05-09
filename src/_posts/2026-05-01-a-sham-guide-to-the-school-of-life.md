@@ -116,6 +116,14 @@ One moment, I'm explaining something like I've mastered it.
 
 Next moment, I'm completely lost, learning from someone I never expected to learn from...
 
+#### Edit
+
+A few days after publishing this post, I shared the link with AI([ChatGPT](https://chatgpt.com/)) to get a second opinion. _The results was this chart!_
+
+![Four elements chart](https://res.cloudinary.com/deudsgjbm/image/upload/v1778351710/Four-Elements_yp8kkc.webp "The Four pillars of awareness chart")
+
+Digging in a bit further only to find the chart online! **A new rabbit hole unlocked!**
+
 Stay Curious,
 
 Sham.
