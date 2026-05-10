@@ -12,7 +12,7 @@ export default function WebDesignSection() {
         <div className="mb-6 flex items-center justify-center gap-4">
           <span className="h-px w-16 bg-sham dark:bg-white/10 sm:w-32" />
           <p className="text-xs uppercase tracking-[0.25em] text-sham dark:text-white/45 text-center">
-            Sometimes I write blogs, Most of the time, I write code.
+            Sometimes I blog, Most of the time, I code.
           </p>
           <span className="h-px w-16 bg-sham dark:bg-white/10 sm:w-32" />
         </div>
