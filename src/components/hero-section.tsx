@@ -11,6 +11,7 @@ export default function HeroSection() {
         fill
         priority
         sizes="100vw"
+        unoptimized={true}
         className="object-cover object-center"
       />
       <div

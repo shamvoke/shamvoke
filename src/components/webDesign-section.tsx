@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { PencilRuler, ArrowRight } from "lucide-react";
+import { PencilRuler, ArrowRight, MessageCircleMore } from "lucide-react";
 import ElectricBorder from "@/components/ui/shamCard";
 
 export default function WebDesignSection() {
@@ -61,10 +61,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    I will build you a custom blog setup for{" "} <span className="text-xs ">$250</span>{" "}
-                    <span className="font-semibold text-cyan-300">$80</span>
-                    <br />
-                    <span className="text-sm text-voke">A gift to my readers! Offer limited to the first 3 clients.</span>
+                    I'll help you create a custom blog setup built around your voice, your content, and your vision.
                   </p>
                 </div>
 
@@ -76,18 +73,18 @@ export default function WebDesignSection() {
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                    Fast, clean & responsive
+                    Fast, clean, modern & responsive
                   </li>
                 </ul>
 
                 {/* CTA */}
                 <div className="mt-10">
                   <Link
-                    href="https://wa.me/254714597644?text=Hi%2C%20I%20want%20to%20claim%20the%20%2480%20blog%20offer.%20Is%20a%20slot%20still%20available%3F"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-linear-to-r from-sham to-voke px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
+                    href="https://wa.me/254714597644?text=Hi%2C%20I%27d%20like%20to%20start%20a%20blog%20website.%20Can%20we%20talk%20about%20the%20details%3F"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-sham px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
-                    Claim Your Spot
-                    <ArrowRight className="h-4 w-4" />
+                    <MessageCircleMore className="h-5 w-5 text-green-500" />
+                    Start on WhatsApp
                   </Link>
                 </div>
               </div>
@@ -127,7 +124,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Bespoke <span className="text-voke">Digital Solutions</span> for serious brands. From custom UI/UX to robust e-commerce and SEO strategy tailored for brand growth. <span className="text-voke">Team Webmeka</span> has you covered. 
+                    Bespoke <span className="text-voke">Digital Solutions</span> for serious brands. From custom UI/UX to robust e-commerce and SEO strategy tailored for brand growth. <span className="text-voke">Team WebMeka</span> has you covered. 
                     <br />
                     Visit our website to see how we can help your business thrive online.
                   </p>
@@ -151,9 +148,9 @@ export default function WebDesignSection() {
                     href="https://webmeka.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-linear-to-r from-indigo-500/70 to-violet-500/80 px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-voke px-5 py-4 text-base font-semibold text-black hover:scale-[1.01]"
                   >
-                    Visit Webmeka
+                    Visit WebMeka website
                     <ArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
