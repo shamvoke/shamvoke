@@ -1,13 +1,20 @@
+import Image from "next/image"
 import HeroTypewriter from "@/components/ui/typewriter"
 
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-svh w-full bg-cover bg-center bg-no-repeat bg-fixed"
-      style={{ backgroundImage: "url('/shamlogo.png')" }}
-    >
+      className="relative min-h-svh w-full overflow-hidden">
+      <Image
+        src="/shamlogo.png"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
+      />
       <div
-        className="pointer-events-none absolute inset-0 opacity-80 bg-fixed"
+        className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage: "url('/pixels.png')",
         }}
