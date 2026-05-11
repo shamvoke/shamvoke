@@ -15,7 +15,7 @@ export default function HeroSection() {
         className="object-cover object-center"
       />
       <div
-        className="pointer-events-none absolute inset-0"
+        className="pointer-events-none absolute opacity-58 inset-0"
         style={{
           backgroundImage: "url('/pixels.png')",
         }}
