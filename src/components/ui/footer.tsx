@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
+import Newsletter from "@/components/ui/newsletter"
 import SocialLinks from "@/components/ui/socials"
 import ScrollToTop from "@/components/ui/scrollToTop"
 
@@ -18,6 +19,7 @@ export default function Footer() {
 
   return (
     <footer className="max-w-200 mx-auto border-t border-border px-6 pt-6 mt-12 pb-24 text-center text-muted-foreground">
+      <Newsletter />
       <ul className="flex justify-center gap-4 mb-6">
         {menu.map((item) => (
           <li key={item.title}>
