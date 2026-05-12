@@ -2,7 +2,7 @@
 date: "2026-05-10T08:12:24Z"
 title: "A Sham guide to Arch Linux"
 shamthing: "Trust me, Penguins don't need to fly"
-excerpt: "Dive into the ultimate Sham's guide to Arch Linux! Skip the complexity and master your system with this step-by-step walkthrough, featuring the effortless Archinstall, custom terminal flair, and AUR mastery with Paru. Because penguins don't need to fly when they can dive this deep."
+excerpt: "Dive into Arch Linux! Skip the complexity and master your system with this step-by-step walkthrough, featuring the effortless Archinstall, custom terminal flair, and AUR mastery with Paru. Because penguins don't need to fly when they can dive this deep."
 coverImage: "/_FeaturedImages/17_A Sham Guide to Arch Linux.webp"
 coverImageCredit:
   name: "Sham voke"
