@@ -42,7 +42,7 @@ We aren't here to argue which method is the best, just as in the example above t
 - **Hardware:** a working PC, a USB flash drive, and a stable internet connection.
 
 **Mirrors**
->On the download page, you’ll see "**Mirrors**." These are just servers globally hosting duplicate copies of the ISO. Think of them as a copies of the original, if the main server updates, the mirrors update to **reflect** the changes... Mirrors they are indeed!
+>On the download page, you’ll see "**Mirrors**." These are just servers globally hosting duplicate copies of the ISO. Think of them as copies of the official Arch server, if the main server updates, the mirrors update to **reflect** the changes... Mirrors they are indeed!
 
 #### 🚀 Pre-installation
 
@@ -64,17 +64,19 @@ First we do some settings, and no, there are no settings app to launch yet. We d
 1. **Enable Flair:** This is just for looks and download speed.
 
     - Run `sudo nano /etc/pacman.conf`.
-    - Find `#Color` and remove the `#`. (This makes your terminal text colored)
+    - Find `#Color` and remove the `#`. _(This makes your terminal text colored)_
     - Add a new line: `ILoveCandy` _(This turns the progress bar into a Pac-Man character)._
     - Uncomment `ParallelDownloads` and change it to `8` for faster installs.
+    - To save your changes, press `Ctrl + O` _(the letter O, not zero)_ and then hit Enter to confirm the filename.
+    - Exit the editor by pressing `Ctrl + X` to close nano and return to the command prompt.
 
 **Screenshot**
 ![Screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1778604275/Screenshot_neqp0x.webp)
         
 2. **Update Mirrors:** We want the fastest servers. Lets install **reflector** for that
     
-    - `sudo pacman -Sy reflector`
-    - `sudo reflector --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist`
+    - `sudo pacman -Sy reflector` to install reflector
+    - `sudo reflector --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist` to update mirrors
 
 #### Step 3 - Final boss (Archinstall)
 
@@ -118,7 +120,7 @@ At this point, **you are done**, no further input required from you.
 
 Archinstall will start downloading the packages for installation.
 
-After installation is complete, it will prompt you whether you want to chroot, choose `no`
+After installation is complete, you will be prompted whether you want to chroot, choose `no`
 
 Now you can click `reboot` to boot to your new system!
 
@@ -133,7 +135,7 @@ First, you'll want to install some packages. Good new is, you have access to the
 Installing packages from AUR can be... a bit of a job. Thats why we are going to use a `AUR helper`
 My favourite is [**paru.**](https://github.com/morganamilo/paru)
 
-To install paru, run: (Note I added `rust` as it's required to install paru)
+To install paru, run: (Note I added `rust` as it is required to install paru)
 
 ```bash
 sudo pacman -S --needed base-devel rust
@@ -172,7 +174,7 @@ While the packages are downloading, head over to `System settings` and setup you
 
 #### Next
 
-Now feel free to try out diffrent options. Like installing with `linux-zen` kernel, a diffrent Desktop Enviroment from kDE, with ZRAM on, and the vast options you could explore!
+Feel free to try out diffrent options. Like installing with `linux-zen` kernel, a diffrent Desktop Enviroment from kDE, with ZRAM on, and the vast options you could explore!
 
 Stay Curious,
 
