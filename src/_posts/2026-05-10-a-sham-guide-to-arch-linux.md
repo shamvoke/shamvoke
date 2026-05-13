@@ -97,12 +97,12 @@ Let's cover each of those options one by one:
 | Drive                    | Choose your target disk _(check sizes carefully!)_|
 | Disk Layout              | Choose `Best effort partition layout` and choose `Separate /home folder`|
 | File System              | Choose `XFS` (My preference) or `EXT4`|
-| Encryption password      | Optional _(SKIP)_ or Set your password |
+| Encryption password      | Optional _(SKIP)_ or _I only use the user account password_ |
 | Boot loader              | Choose GRUB. _It's the classic for a reason._|
-| Swap                     | I prefer to set-up a `swapfile` after _SKIP_|
+| Swap                     | I prefer to set-up a `swapfile` after install. _SKIP_|
 | Hostname                 | Name your PC _this appears in your terminal & when connected to other devices_|
 | Root password            | Enter password for your `root` user.|
-| User Account             | Create your user and make sure to `Yes` to **sudo** privileges|
+| User Account             | Create your user and make sure to choose `Yes` to **sudo** privileges|
 | Profile                  | Select `Desktop`, then choose `KDE`|
 | Audio                    | Choose `pipewire`          |
 | Kernels                  | Choose `linux`             |
@@ -130,7 +130,7 @@ Time to do some setup.
 
 >Now that you have your system up and running, **hopefully** 😂😅 _I mean, I didn't get it right the first time either._ But trust me, 99.9% of the issues you encounter can be resolved by digging the [**Arch wiki.**](https://wiki.archlinux.org/)The remaining 0.01% just Google the error message or ask AI.
 
-First, you'll want to install some packages. Good new is, you have access to the [Arch User Repository](https://aur.archlinux.org/) AKA the AUR. An ocean full of open-source packages. No need to be a pirate!
+First, you'll want to install some packages. Good news is, you have access to the [Arch User Repository](https://aur.archlinux.org/) AKA the AUR. An ocean full of open-source packages. No need to be a pirate!
 
 Installing packages from AUR can be... a bit of a job. Thats why we are going to use a `AUR helper`
 My favourite is [**paru.**](https://github.com/morganamilo/paru)
