@@ -7,12 +7,12 @@ export default function HeroSection() {
       className="relative min-h-svh w-full overflow-hidden">
       <Image
         src="/shamlogo.png"
-        alt=""
+        alt="Shamvoke Logo"
         fill
         priority
         sizes="100vw"
         unoptimized={true}
-        className="object-cover object-center"
+        className="object-cover object-center w-full"
       />
       <div
         className="pointer-events-none absolute opacity-58 inset-0"
