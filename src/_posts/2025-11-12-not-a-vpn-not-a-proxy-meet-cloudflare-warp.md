@@ -2,23 +2,13 @@
 date: "2025-11-08T19:30:00Z"
 title: "Not a VPN, Not a Proxy. Meet Cloudflare WARP!"
 shamthing: "VPNs hide you, WARP moves you. Online privacy redefined."
-excerpt: "For me, WARP feels like the perfect balance between a VPN and a
-  proxy. Secure, fast, and simple enough for everyday use. Built on the
-  WireGuard protocol, it prioritizes privacy and performance over anonymity."
+excerpt: "For me, WARP feels like the perfect balance between a VPN and a proxy. Secure, fast, and simple enough for everyday use. Built on the WireGuard protocol, it prioritizes privacy and performance over anonymity."
 coverImage: "/_FeaturedImages/08_Not a VPN, Not a Proxy. Meet Cloudflare WARP.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/08_Not a VPN, Not a Proxy. Meet Cloudflare WARP.webp"
 category: "tips"
 tags:
   - privacy
   - VPN
   - Proxy
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 **Cloudflare WARP: VPN, Proxy, or Something Else?**
 

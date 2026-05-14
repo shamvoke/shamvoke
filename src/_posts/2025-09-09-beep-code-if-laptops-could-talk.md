@@ -4,21 +4,13 @@ title: "Beep code, If laptops could talk."
 shamthing: "No Laptops Were Harmed In The Writing Of This Post"
 excerpt: "Based on real life events. A dead laptop, a curious friend, real
   beeps and a pair of shoes! Join me as we decode the secret language of
-  laptops. Common knowledge?"
+  laptops. Common knowledge? Tech blog"
 coverImage: "/_FeaturedImages/03_Beep code, If laptops could talk.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/03_Beep code, If laptops could talk.webp"
 category: "tips"
 tags:
   - Tech
   - Tips
   - Beepcodes
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 ### If the shoe fits, wear it
 

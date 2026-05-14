@@ -4,19 +4,11 @@ title: "A Sham journey to Arch Linux"
 shamthing: "How a penguine 🐧 broke my windows 🪟"
 excerpt: "From a curious USB boot to a bare-metal obsession, follow my journey through the rabbit hole of distro-hopping. Discover why I ditched Windows for good and how Arch Linux became my ultimate daily driver through endless experimentation and refinement."
 coverImage: "/_FeaturedImages/15_A Sham journey to Arch Linux.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/15_A Sham journey to Arch Linux.webp"
 category: "linux"
 tags:
   - archlinux
   - linux
-  - KDEplasma
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
+  - KDE-plasma
 ---
 They say you don't choose Arch, Arch chooses you. Well, for me I didn't even know Arch existed when I first stepped foot on Linux territory.
 

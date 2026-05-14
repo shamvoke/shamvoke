@@ -2,9 +2,9 @@ import { getAllPosts } from "@/lib/api"
 import PostsGrid from "@/app/blog/PostsGrid"
 
 export const metadata = {
-  title: "Blog",
+  title: "Blog | Web Design, Arch Linux & Digital Creativeity",
   description:
-    "Thoughts on web design, development, creativity, branding, and digital experiments from Sham Voke.",
+    "Explore a collection of technical guides and creative insights. This blog features deep dives into Arch Linux configurations, web development workflows, and digital design strategies. Join Sham Voke for a blend of practical tutorials and experimental projects aimed at building efficient, high-quality digital experiences.",
 }
 
 export default function BlogIndex() {

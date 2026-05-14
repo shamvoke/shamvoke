@@ -2,24 +2,13 @@
 date: "2026-01-28T10:00:00Z"
 title: "No, That fancy icon is not your Logo!"
 shamthing: "Who needs all those logo variations? Not me!"
-excerpt: "This post is my personal design manifesto about discovering that a
-  logo is not just a pretty icon, The journey ends with turning that idea into a
-  single file, design meets code, flexibility replaces clutter, and a happy
-  client."
+excerpt: "This post is my personal design manifesto about discovering that a logo is not just a pretty icon, The journey ends with turning that idea into a single file, design meets code, flexibility replaces clutter, and a happy client."
 coverImage: "/_FeaturedImages/13.That fancy icon is not your Logo.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/13.That fancy icon is not your Logo.webp"
 category: "design"
 tags:
   - design
   - brand
   - webmeka
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 The title sounds provocative, and it is meant to be. This post is the designer in me stepping forward, sleeves rolled up, armed with my magic wand **(Photoshop)** ready to drive a point home! 🚀
 

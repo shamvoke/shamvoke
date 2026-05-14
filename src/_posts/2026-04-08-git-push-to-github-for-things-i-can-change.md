@@ -4,19 +4,11 @@ title: "Git push to Github, for things I can change."
 shamthing: "And push to God, the things i can not change"
 excerpt: "A practical and personal reflection on outgrowing Jekyll and embracing the architectural freedom of NextJS. Trading static pages for absolute control, where design meets dynamic components, raw speed replaces limitations, with lessons that go beyond code."
 coverImage: "/_FeaturedImages/14_Git push to Github.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/14_Git push to Github.webp"
 category: "code"
 tags:
   - design
   - blog
   - nextjs
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 #### The site was live… but not alive.
 

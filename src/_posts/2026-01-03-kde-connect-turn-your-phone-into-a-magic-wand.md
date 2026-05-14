@@ -2,23 +2,13 @@
 date: "2025-12-12T16:20:00Z"
 title: "KDE Connect; Turn your phone into a magic wand!"
 shamthing: "KDE Connect Has To Be The Most Universal App I Have Ever Seen! 🌀"
-excerpt: "Stop emailing yourself files. Discover how KDE Connect bridges the
-  gap between your devices. Turning your phone into a universal clipboard, a
-  wireless trackpad, and a literal magic wand for your PC. "
+excerpt: "Stop emailing yourself files. Discover how KDE Connect bridges the gap between your devices. Turning your phone into a universal clipboard, a wireless trackpad, and a literal magic wand for your PC. "
 coverImage: "/_FeaturedImages/10_KDE Connect; Turn your phone into a magic wand.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/10_KDE Connect; Turn your phone into a magic wand.webp"
 category: "software"
 tags:
   - KDE
   - Linux
   - Android
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 We've all seen it. The "walled garden" magic where an iPhone user takes a photo and it instantly appears on their Mac, or they copy text on one device and paste it on another. It looks seamless, but it usually comes with a hefty price tag and a lock-in to a single brand.
 

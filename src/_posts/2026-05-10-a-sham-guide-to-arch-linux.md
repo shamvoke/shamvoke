@@ -4,19 +4,11 @@ title: "A Sham guide to Arch Linux"
 shamthing: "Trust me, Penguins don't need to fly"
 excerpt: "Dive into Arch Linux! Skip the complexity and master your system with this step-by-step walkthrough, featuring the effortless Archinstall, custom terminal flair, and AUR mastery with Paru. Because penguins don't need to fly when they can dive this deep."
 coverImage: "/_FeaturedImages/17_A Sham Guide to Arch Linux.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/17_A Sham Guide to Arch Linux.webp"
 category: "linux"
 tags:
   - arch linux
   - guide
   - Tips & tricks
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 
 As promised from my previous [Sham journey to Arch Linux post](https://shamvoke.com/blog/a-sham-journey-to-arch-linux), here goes my step by step guide on getting Arch Linux up and running!

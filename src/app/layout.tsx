@@ -28,8 +28,8 @@ const rampart = Rampart_One ({
 export const metadata: Metadata = {
   metadataBase: new URL('https://shamvoke.com'),
   title: {
-    default: "shamvoke blog",
-    template: "%s | shamvoke blog",
+    default: "sham voke blog",
+    template: "%s | sham voke blog",
   },
   description: "Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.",
   keywords: [

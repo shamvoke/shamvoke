@@ -3,22 +3,13 @@ date: "2025-09-04T17:39:00Z"
 title: "Out of the blue, meet Bree!"
 shamthing: "Not Every Sidekick Wears A Cape, Some Just Glow!"
 excerpt: "Hey there, you've probably seen this blue face around the site or
-  on my socials. You might have even wondered what it is.  And no, that's not
-  just a logo."
+  on my socials. You might have even wondered what it is. And no, that's not just a logo. Graphic design blog"
 coverImage: "/_FeaturedImages/02_Out of the blue, meet Bree.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/02_Out of the blue, meet Bree.webp"
 category: "blog"
 tags:
   - Bree
   - Design
   - Logo
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 Hey there, you've probably seen this blue face around the site or on my socials. You might have even wondered what it is. And no, that's not just a logo.
 

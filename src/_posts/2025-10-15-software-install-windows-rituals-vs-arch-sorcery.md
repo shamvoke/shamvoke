@@ -2,22 +2,13 @@
 date: "2025-10-12T07:52:00Z"
 title: "Windows rituals vs Arch Linux sorcery"
 shamthing: "On Linux, you dont need drivers, you are the driver!"
-excerpt: "Ever noticed how installing software on Windows feels like
-  performing a ritual, while on Arch Linux it feels like casting a spell? Let's explore how both OS handles installation and updates"
+excerpt: "Ever noticed how installing software on Windows feels like performing a ritual, while on Arch Linux it feels like casting a spell? Let's explore how both OS handles installation and updates. Tech blog"
 coverImage: "/_FeaturedImages/06_Windows rituals vs Arch Linux sorcery.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/06_Windows rituals vs Arch Linux sorcery.webp"
 category: "linux"
 tags:
   - archlinux
   - paru
   - AUR
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 Picture this,  a clean install of <ins>windows 11</ins> Vs a clean install of <ins>Arch Linux</ins>. The first order of the day is to install your favorite software. _(Unless you're on Windows, where your first quest is to install drivers)_
 

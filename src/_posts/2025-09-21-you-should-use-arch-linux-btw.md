@@ -2,23 +2,13 @@
 date: "2025-09-20T16:01:00Z"
 title: "You should use Arch linux, BTW."
 shamthing: "Why be a pirate, in an ocean full of open-source code!?"
-excerpt: "From cracked software and YouTube copyright strikes to discovering
-  the freedom of open source, this is my journey from being a Windows power user
-  to fully embracing Arch Linux."
+excerpt: "From cracked software and YouTube copyright strikes to discovering the freedom of open source, this is my journey from being a Windows power user to fully embracing Arch Linux. Tech blog"
 coverImage: "/_FeaturedImages/04_You should use Arch linux, BTW.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/04_You should use Arch linux, BTW.webp"
 category: "linux"
 tags:
   - Archlinux
   - Windows
   - YouTube
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 Yeah, I know. The old 'I use Arch btw' That seems to annoy everyone. But honestly,  I get it. After using Arch Linux for over 4 years now.
 

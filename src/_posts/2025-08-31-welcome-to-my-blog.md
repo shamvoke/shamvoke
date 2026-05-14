@@ -3,22 +3,13 @@ date: "2025-08-31T08:54:00Z"
 title: "Welcome to my blog!"
 shamthing: "Constantly Exploring The Realms Of Code & Creativity. 🚀"
 excerpt: "My first step into the blogosphere, but with purpose. why start a
-  blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish
-  To Share"
+  blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish To Share. Personal blog | Tech blog"
 coverImage: "/_FeaturedImages/01_Welcome to my blog.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/01_Welcome to my blog.webp"
 category: "blog"
 tags:
   - Design
   - Webdev
   - Blog
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 So, somehow you've landed on this post. whether by chance, curiosity, or because the algorithm gently nudged you my way. Either way, **Welcome.**
 

@@ -92,7 +92,7 @@ export default function Newsletter() {
                 onChange={handleChange}
                 required
                 placeholder="Enter your email"
-                className="h-10 w-full rounded-2xl border border-white/10 bg-white/[0.06] pl-12 pr-4 text-base text-white outline-none transition placeholder:text-white/40 focus:border-cyan-300/60 focus:bg-white/[0.09] focus:ring-4 focus:ring-cyan-300/10"
+                className="h-10 w-full rounded-2xl border border-white/10 bg-white/6 pl-12 pr-4 text-base text-white outline-none transition placeholder:text-white/40 focus:border-cyan-300/60 focus:bg-white/9 focus:ring-4 focus:ring-cyan-300/10"
               />
             </label>
 

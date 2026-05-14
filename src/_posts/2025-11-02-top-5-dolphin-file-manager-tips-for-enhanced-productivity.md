@@ -2,23 +2,13 @@
 date: "2025-10-26T21:32:00Z"
 title: "Best File Manager. Top 5 Dolphin Tips."
 shamthing: "Tabs are for web browsers, not file managers."
-excerpt: "Turn Dolphin into a true productivity powerhouse. from using Split
-  View and toolbar tweaks to showing file sizes, linking folders, and adding
-  powerful plugins like 7-Zip and KDE Connect."
+excerpt: "Turn Dolphin into a true productivity powerhouse. from using Split View and toolbar tweaks to showing file sizes, linking folders, and adding powerful plugins like 7-Zip and KDE Connect."
 coverImage: "/_FeaturedImages/07_Top 5 Dolphin File Manager Tips.webp"
-coverImageCredit:
-  name: "Sham voke"
-  imageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/07_Top 5 Dolphin File Manager Tips.webp"
 category: "linux"
 tags:
   - tips
   - linux
   - kde
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 **Dolphin** is one of the most powerful and underrated file managers available, no cap. Over time, I've come across small tweaks that make my daily workflow smoother, faster, and more enjoyable. Here are my top five Dolphin tips that genuinely boost productivity.
 

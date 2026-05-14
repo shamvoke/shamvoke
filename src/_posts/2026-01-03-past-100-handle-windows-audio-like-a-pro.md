@@ -2,23 +2,13 @@
 date: "2026-01-03T12:18:00Z"
 title: "Peace APO, Handle Windows Audio Like a Pro."
 shamthing: "A guide for those who don't care about damaging their speakers or ears! 🌀"
-excerpt: "You crank the volume to 100% and still feel like something is
-  missing. This small combo of tools unlocks system wide volume control, better
-  sound, and audio that finally matches what your hardware can handle."
+excerpt: "You crank the volume to 100% and still feel like something is missing. This small combo of tools unlocks system wide volume control, better sound, and audio that finally matches what your hardware can handle."
 coverImage: "/_FeaturedImages/11_Handle Windows Audio Like a Pro.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/11_Handle Windows Audio Like a Pro.webp"
 category: "windows"
 tags:
   - Tips
   - Audio
   - Windows
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 If you have ever played a movie or music at full volume and felt the volume was too low, you already know the classic trick. Open VLC, push the volume past 100%, sometimes all the way to 200%, and suddenly the dialogue becomes audible. It feels like a hidden cheat code.
 

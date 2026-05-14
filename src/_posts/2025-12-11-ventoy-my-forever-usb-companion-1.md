@@ -2,23 +2,13 @@
 date: "2025-11-21T21:41:00Z"
 title: "Ventoy, My Forever USB Companion."
 shamthing: "🌀 A list of My Top 5 Must have ISO Images."
-excerpt: "Gone are the days of reformatting your flash drive every time you
-  wanted to try a new OS. I used to rely on Rufus and balenaEtcher until I found
-  Ventoy. Here is how this tiny utility became my forever USB companion."
+excerpt: "Gone are the days of reformatting your flash drive every time you wanted to try a new OS. I used to rely on Rufus and balenaEtcher until I found Ventoy. Here is how this tiny utility became my forever USB companion."
 coverImage: "/_FeaturedImages/09_Ventoy_My_Forever_USB_Companion.webp"
-coverImageCredit:
-  name: "Sham voke"
-  ImageUrl: "https://shamvoke.com"
-ogImage:
-  url: "/_FeaturedImages/09_Ventoy_My_Forever_USB_Companion.webp"
 category: "software"
 tags:
   - Ventoy
   - USB
   - boot
-author:
-  name: "Sham Voke"
-  picture: "/shamvoke.webp"
 ---
 There was a time when flashing an ISO felt like a whole ritual. Back on Windows, [Rufus](https://rufus.ie/en/) was my trusty sidekick. When I switched to Arch Linux, [balenaEtcher](https://etcher.balena.io/) took over the job. Both did what they promised, but the moment I discovered [Ventoy](https://www.ventoy.net/), everything changed. I ditched them instantly, almost dramatically, the way you uninstall a heavy app after discovering a tiny CLI tool that does the same job better.
 
