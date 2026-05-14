@@ -3,6 +3,7 @@ import { getAllPosts } from "@/lib/api"
 import WebDesignSection from "@/components/webDesign-section"
 import PostsGrid from "@/app/blog/PostsGrid"
 import LogoLoopSection from "@/components/bree-section"
+import Newsletter from "@/components/ui/newsletter"
 
 export default function Page() {
   const posts = getAllPosts()
@@ -14,6 +15,7 @@ export default function Page() {
       <section className="py-16">
         <LogoLoopSection />
       </section>
+      <Newsletter />
     </main>
   )
 }

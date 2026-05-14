@@ -8,6 +8,7 @@ import { Calendar, Clock } from "lucide-react"
 import readingTime from "reading-time";
 import ReadGrid from "@/app/blog/[slug]/readGrid";
 import AuthorCard from "@/components/ui/authorCard";
+import Newsletter from "@/components/ui/newsletter"
 import styles from "./post-body.module.css"
 
 type Props = {
@@ -83,7 +84,7 @@ export default async function PostPage({ params }: Props) {
     relatedPosts = relatedPosts.slice(0, 4)
   }
   return (
-    <div className="max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row gap-12 items-start">
+    <div className="max-w-7xl mx-auto px-4 pt-20 flex flex-col lg:flex-row gap-12 items-start">
     <article className="flex-1">
       <header className="mb-12">
         
@@ -142,6 +143,7 @@ export default async function PostPage({ params }: Props) {
         <ReadGrid posts={relatedPosts} />
       </div>
     </article>
+      <Newsletter />
     <aside className="hidden lg:block w-80 shrink-0 space-y-12 mt-33">
       <div>
         <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
