@@ -33,7 +33,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 alt={post.title}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover transition duration-500 group-hover:scale-102 group-hover:grayscale"
+                className="object-cover transition duration-500 group-hover:scale-102"
                 />
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />

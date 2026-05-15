@@ -20,7 +20,7 @@ export default function ReadGrid({ posts }: ReadGridProps) {
               src={post.coverImage}
               alt={post.title}
               fill
-              className="object-cover transition duration-500 group-hover:scale-105 group-hover:grayscale"
+              className="object-cover transition duration-500 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
 
