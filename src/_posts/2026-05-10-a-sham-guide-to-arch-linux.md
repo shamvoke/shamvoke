@@ -162,11 +162,14 @@ Example
 paru -S google-chrome firefox p7zip-gui warpgui-bin telegram-desktop-bin freedownloadmanager kdeconnect visual-studio-code-bin --noconfirm
 ```
 
-While the packages are downloading, head over to `System settings` and setup your KDE to your liking. Stay tuned for a future update where i dig into a detailed KDE setup. Now **you use Arch, BTW!**
+While the packages are downloading, head over to `System settings` and setup your KDE to your liking. Stay tuned for a future update where I dig into a detailed KDE setup. 
+
 
 #### Next
 
 Feel free to try out diffrent options. Like installing with `linux-zen` kernel, a diffrent Desktop Enviroment from kDE, with ZRAM on, and the vast options you could explore!
+
+Now **you use Arch, BTW!**
 
 Stay Curious,
 

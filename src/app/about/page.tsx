@@ -8,11 +8,12 @@ export default function AboutPage() {
 
       <div className="flex flex-col items-center mt-12">
         <Image
-          src="/shamvoke.webp"
+          src="/shamv.webp"
           alt="Sham Voke"
           width={200}
           height={200}
           className="rounded-full mb-6 border-4 border-sham dark:border-voke"
+          unoptimized={true}
           priority
         />
 
@@ -21,7 +22,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-foreground">
-          I&apos;m <span className="font-bold text-foreground">Sham</span>, <span className="line-through opacity-60">a webmeka</span>. A UI/UX Designer & Web Developer based in Kenya.
+          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A UI/UX Designer & Web Developer based in Kenya.
         </p>
 
         <p className="italic mt-3 text-muted-foreground">

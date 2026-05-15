@@ -37,6 +37,7 @@ export default function Footer() {
           alt="Shamvoke brand Logo"
           width={150}
           height={150}
+          unoptimized={true}
         />
       </Link>
       <p className="text-sm leading-6 text-sham dark:text-muted-foreground">

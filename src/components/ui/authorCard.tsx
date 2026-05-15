@@ -7,10 +7,11 @@ export default function AuthorCard() {
     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-6 mt-12 bg-white dark:bg-gray-900 rounded-2xl shadow-md border border-gray-200 dark:border-gray-800">
       <div className="shrink-0">
         <Image
-          src="/shamvoke.webp"
+          src="/shamv.webp"
           alt="Sham Voke bio"
-          width={96}
-          height={96}
+          width={150}
+          height={150}
+          unoptimized={true}
           className="rounded-full border-2 border-sham dark:border-voke"
         />
       </div>
