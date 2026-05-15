@@ -10,8 +10,8 @@ export default function AboutPage() {
         <Image
           src="/shamv.webp"
           alt="Sham Voke"
-          width={200}
-          height={200}
+          width={250}
+          height={250}
           className="rounded-full mb-6 border-4 border-sham dark:border-voke"
           unoptimized={true}
           priority
