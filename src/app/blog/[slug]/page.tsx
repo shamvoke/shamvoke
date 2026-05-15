@@ -94,8 +94,9 @@ export default async function PostPage({ params }: Props) {
     relatedPosts = relatedPosts.slice(0, 4)
   }
   return (
-    <div className="max-w-7xl mx-auto px-4 pt-20 flex flex-col lg:flex-row gap-12 items-start">
-    <article className="flex-1">
+    <div className="max-w-7xl mx-auto px-4 pt-20">
+      <div className="flex flex-col lg:flex-row gap-12 items-start">
+    <article className="flex-1 min-w-0">
       <header className="mb-12">
         
 
@@ -153,7 +154,6 @@ export default async function PostPage({ params }: Props) {
         <ReadGrid posts={relatedPosts} />
       </div>
     </article>
-      <Newsletter />
     <aside className="hidden lg:block w-80 shrink-0 space-y-12 mt-33">
       <div>
         <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
@@ -168,6 +168,10 @@ export default async function PostPage({ params }: Props) {
         <ReadGrid posts={latestPosts} />
       </div>
     </aside>
+    </div>
+    <div className="mt-20 max-w-3xl mx-auto">
+      <Newsletter />
+    </div>
     </div>
   )
 }

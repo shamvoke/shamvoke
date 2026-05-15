@@ -17,13 +17,10 @@ export default function AuthorCard() {
       <div className="flex flex-col gap-1 text-center sm:text-left">
         <h3 className="text-xl font-bold text-shamvoke">Sham Voke</h3>
         <p className="text-gray-600 dark:text-gray-400 italic">
-          I&apos;m Sham, a Creative Designer / Dev, building at the intersection of code, design, and creativity.
+          I&apos;m Sham, a Creative Designer / Dev. Building at the intersection of code, design, and creativity.
         </p>
         <p className="mt-2 text-lg text-sham dark:text-gray-100 font-voke">
-          ✍️ I write to learn and publish to share ✨{" "}
-          <span className="block lg:inline">
-            🎨 Creativity fueled by curiosity 💡
-          </span>
+          🎨 Creativity fueled by curiosity 💡
         </p>
       </div>
     </div>
