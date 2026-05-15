@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import shamIMG from "../../../public/shamv.webp"
 
 export default function AboutPage() {
   return (
@@ -8,7 +9,7 @@ export default function AboutPage() {
 
       <div className="flex flex-col items-center mt-12">
         <Image
-          src="/shamv.webp"
+          src={shamIMG}
           alt="Sham Voke"
           width={250}
           height={250}
