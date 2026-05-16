@@ -53,7 +53,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    I'll help you create a custom blog setup built around your voice, your content, and your vision.
+                    I&apos;ll help you create a custom blog setup built around your voice, your content, and your vision.
                   </p>
                 </div>
 
