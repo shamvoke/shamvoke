@@ -29,7 +29,7 @@ export default function LogoLoop({
           >
             <Image
               src={src}
-              alt={`Logo ${index + 1}`}
+              alt={`Logo ${index + 1}, image of Bree the blue smiley face. In diffrent colors and styles.`}
               width={160}
               height={80}
               loading="lazy"

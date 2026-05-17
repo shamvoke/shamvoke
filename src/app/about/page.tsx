@@ -10,7 +10,7 @@ export default function AboutPage() {
       <div className="flex flex-col items-center mt-12">
         <Image
           src={shamIMG}
-          alt="Sham Voke"
+          alt="Sham Voke picture. Not a real photo. A stylized version of his real photo."
           width={250}
           height={250}
           className="rounded-full mb-6 border-4 border-sham dark:border-voke"
@@ -34,7 +34,7 @@ export default function AboutPage() {
       <div className="relative w-full h-50 sm:h-100 ring mb-12 rounded-xl overflow-hidden">
         <Image
           src="/shamvoke-banner.webp"
-          alt="Shamvoke wallpaper"
+          alt="Shamvoke wallpaper. A vibrant and dynamic design that captures the essence of creativity and innovation."
           fill
           className="object-cover"
           priority
@@ -59,7 +59,7 @@ export default function AboutPage() {
       <div className="flex justify-center mt-10">
         <Image
           src="/shamart.webp"
-          alt="Shamvoke Logo"
+          alt="Shamvoke Logo, The Official shamvoke logo, Feauturing Bree the blue smiley face, in a vibrant and artistic style. A creative and colorful representation of the shamvoke brand."
           width={2340}
           height={418}
         />

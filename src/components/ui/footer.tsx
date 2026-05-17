@@ -34,7 +34,7 @@ export default function Footer() {
       <Link href="/" className="block w-fit mx-auto mb-6">
         <Image
           src="/shamlogo.png"
-          alt="Shamvoke brand Logo"
+          alt="Shamvoke brand Logo, AKA Bree the blue smiley face"
           width={150}
           height={150}
           unoptimized={true}

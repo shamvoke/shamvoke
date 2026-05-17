@@ -8,7 +8,7 @@ export default function AuthorCard() {
       <div className="shrink-0">
         <Image
           src="/shamvoke.webp"
-          alt="Sham Voke bio"
+          alt="Sham Voke bio picture. Not a real photo."
           width={150}
           height={150}
           unoptimized={true}

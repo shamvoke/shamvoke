@@ -7,7 +7,7 @@ export default function HeroSection() {
       className="relative min-h-svh w-full overflow-hidden">
       <Image
         src="/shamlogo.png"
-        alt="Shamvoke Logo"
+        alt="Shamvoke Logo AKA Bree the blue smiley face"
         fill
         priority
         sizes="100vw"
