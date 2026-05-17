@@ -60,13 +60,6 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
             </button>
           </div>
 
-          <div className="px-5 pt-4 pb-2 flex items-center gap-2">
-            <p className="text-sm text-voke/50 font-voke">
-              If you like shamthing here, buy <span className="font-bold">yourself</span> a coffee
-            </p>
-            <Coffee className="w-4 h-4 text-voke/80" />
-          </div>
-
           <ul className="mt-2 flex flex-col gap-1 px-3">
             {menu.map((item) => (
               <li key={item.title}>
@@ -86,6 +79,12 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
               </li>
             ))}
           </ul>
+          <div className="px-5 pt-4 pb-2 flex items-center gap-2">
+            <p className="text-xl font-voke">
+              Buy <span className="font-bold">yourself</span> a coffee
+            </p>
+            <Coffee className="w-4 h-4 text-voke/80" />
+          </div>
 
           <div className="mt-auto border-t border-white/10 px-5 py-4">
             <SocialLinks />
