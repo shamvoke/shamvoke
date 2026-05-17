@@ -15,7 +15,9 @@ export default function Page() {
       <section className="py-16">
         <LogoLoopSection />
       </section>
+    <div className="mt-10 max-w-3xl mx-auto">
       <Newsletter />
+    </div>
     </main>
   )
 }
