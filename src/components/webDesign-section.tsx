@@ -60,7 +60,7 @@ export default function WebDesignSection() {
                 <ul className="mt-8 space-y-4 text-sm text-white/72">
                   <li className="flex items-center gap-3">
                     <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                    Perfect for creators & writers
+                    Perfect for creators, writers & anyone ready to share ideas online
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="h-2 w-2 rounded-full bg-cyan-300" />
