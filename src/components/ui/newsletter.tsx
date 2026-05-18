@@ -26,21 +26,18 @@ export default function Newsletter() {
     setIsSuccess(false)
 
     const formData = new FormData()
+    formData.append("form-name", "newsletter")
     formData.append("email", formState.email)
 
     try {
-      const res = await fetch("/api/newsletter", {
+      const res = await fetch("/_form.html", {
         method: "POST",
         body: formData,
       })
 
-      const data = await res.json()
+      if (!res.ok) throw new Error("Failed to submit")
 
-      if (!res.ok || !data.success) {
-        throw new Error(data.message || "Failed to submit")
-      }
-
-      setStatus(data.message || "You're in 💙")
+      setStatus("You're in 💙")
       setStatusType("success")
       setIsSuccess(true)
 
@@ -81,6 +78,7 @@ export default function Newsletter() {
             onSubmit={handleSubmit}
             className="mt-5 grid grid-cols-[1fr_auto] gap-3"
           >
+            <input type="hidden" name="form-name" value="newsletter" />
 
             <label className="relative min-w-0">
               <span className="sr-only">Email address</span>
