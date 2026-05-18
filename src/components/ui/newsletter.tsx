@@ -26,13 +26,15 @@ export default function Newsletter() {
     setIsSuccess(false)
 
     const formData = new FormData()
-    formData.append("form-name", "newsletter")
     formData.append("email", formState.email)
 
     try {
-      const res = await fetch("/_form.html", {
+      const res = await fetch("https://formspree.io/f/xgoqepwe", {
         method: "POST",
         body: formData,
+        headers: {
+          Accept: "application/json",
+        },
       })
 
       if (!res.ok) throw new Error("Failed to submit")
@@ -73,13 +75,9 @@ export default function Newsletter() {
           </p>
 
           <form
-            name="newsletter"
-            method="POST"
             onSubmit={handleSubmit}
             className="mt-5 grid grid-cols-[1fr_auto] gap-3"
           >
-            <input type="hidden" name="form-name" value="newsletter" />
-
             <label className="relative min-w-0">
               <span className="sr-only">Email address</span>
 
@@ -108,8 +106,8 @@ export default function Newsletter() {
               {statusType === "loading"
                 ? "Joining..."
                 : isSuccess
-                ? "Joined ✓"
-                : "Subscribe"}
+                  ? "Joined ✓"
+                  : "Subscribe"}
             </button>
           </form>
 
@@ -119,8 +117,8 @@ export default function Newsletter() {
                 statusType === "success"
                   ? "text-cyan-300"
                   : statusType === "error"
-                  ? "text-red-400"
-                  : "text-white/70"
+                    ? "text-red-400"
+                    : "text-white/70"
               }`}
             >
               {status}
