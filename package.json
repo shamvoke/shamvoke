@@ -17,11 +17,11 @@
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.11.1",
     "lucide-react": "^0.577.0",
-    "next": "16.1.7",
+    "next": "16.2.6",
     "next-themes": "^0.4.6",
     "radix-ui": "^1.4.3",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
     "reading-time": "^1.5.0",
     "rehype-highlight": "^7.0.2",
     "rehype-raw": "^7.0.0",
@@ -39,14 +39,18 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.2.1",
     "@types/node": "^25.5.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "eslint": "^9.39.4",
-    "eslint-config-next": "16.1.7",
+    "eslint-config-next": "16.2.6",
     "postcss": "^8",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
   }
 }
