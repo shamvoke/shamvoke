@@ -17,7 +17,7 @@ export default function ReadGrid({ posts }: ReadGridProps) {
         >
           <div className="relative w-full h-48 shrink-0 overflow-hidden rounded-xl lg:w-24 lg:h-16 lg:rounded-lg">
             <Image
-              src={post.coverImage}
+              src={post.featuredImage}
               alt={post.title}
               fill
               className="object-cover transition duration-500 group-hover:scale-105"

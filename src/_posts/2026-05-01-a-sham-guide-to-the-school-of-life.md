@@ -3,7 +3,7 @@ date: "2026-05-01T10:07:12Z"
 title: "A Sham guide to the school of life"
 shamthing: "For no one was ever too broke to pay attention"
 excerpt: "Reframing education system through tech analogies, from binary classrooms to quantum awareness. Learning beyond education. Learning to learn. Debbuging the system and a pending system upgrade. All cursors have a point, hover, let that click"
-coverImage: "/_FeaturedImages/16_A sham guide to  the school of life.webp"
+featuredImage: "/_FeaturedImages/16_A sham guide to  the school of life.webp"
 category: "life"
 tags:
   - learning

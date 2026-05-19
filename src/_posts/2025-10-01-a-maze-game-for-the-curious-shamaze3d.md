@@ -3,7 +3,7 @@ date: "2025-10-01T05:48:00Z"
 title: "A maze game for the curious, Shamaze3D."
 shamthing: "🌀 Find your way out, or get lost in the fun!!!"
 excerpt: "Shamaze3D is a web-based 3D maze game that'll test your sense of direction, your patience, and maybe even your sanity. Play the game or play with the code... Personal blog"
-coverImage: "/_FeaturedImages/05_A maze game for the curious, Shamaze3D.webp"
+featuredImage: "/_FeaturedImages/05_A maze game for the curious, Shamaze3D.webp"
 category: "code"
 tags:
   - Shamaze3D

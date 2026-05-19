@@ -4,7 +4,7 @@ export interface Post {
   shamthing?: string;
   date: string;
   excerpt: string;
-  coverImage: string;
+  featuredImage: string;
   category?: string
   tags?: string[]
   content: string;

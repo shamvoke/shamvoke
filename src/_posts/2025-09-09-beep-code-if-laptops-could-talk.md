@@ -5,7 +5,7 @@ shamthing: "No Laptops Were Harmed In The Writing Of This Post"
 excerpt: "Based on real life events. A dead laptop, a curious friend, real
   beeps and a pair of shoes! Join me as we decode the secret language of
   laptops. Common knowledge? Tech blog"
-coverImage: "/_FeaturedImages/03_Beep code, If laptops could talk.webp"
+featuredImage: "/_FeaturedImages/03_Beep code, If laptops could talk.webp"
 category: "tips"
 tags:
   - Tech

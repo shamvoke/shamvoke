@@ -3,7 +3,7 @@ date: "2026-05-17T10:24:58Z"
 title: "The ultimate guide to Ventoy USB boot"
 shamthing: "No more USB flashing. Boot like a wizard 🌀"
 excerpt: "A beginner-friendly guide to using Ventoy, the brilliant USB tool that lets you copy multiple ISO files onto one flash drive and boot them from a simple menu. Install once, add Linux, Windows, and rescue tools, then boot whatever your curiosity demands."
-coverImage: "/_FeaturedImages/18_how-to-use-ventoy-usb-guide.webp"
+featuredImage: "/_FeaturedImages/18_how-to-use-ventoy-usb-guide.webp"
 category: "software"
 tags:
   - ventoy

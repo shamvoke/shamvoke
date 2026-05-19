@@ -41,7 +41,7 @@ export async function generateMetadata({
         publishedTime: post.date,
         images: [
           {
-            url: post.coverImage,
+            url: post.featuredImage,
             alt: post.title,
           },
         ],
@@ -52,7 +52,7 @@ export async function generateMetadata({
         description: post.excerpt,
         images: [
           {
-            url: post.coverImage,
+            url: post.featuredImage,
             alt: post.title,
           },
         ],
@@ -124,7 +124,7 @@ export default async function PostPage({ params }: Props) {
 
         <div className="relative aspect-video rounded-lg overflow-hidden">
           <Image
-            src={post.coverImage}
+            src={post.featuredImage}
             alt={post.title}
             fill
             priority

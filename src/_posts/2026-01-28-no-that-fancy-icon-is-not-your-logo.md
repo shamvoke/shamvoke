@@ -3,7 +3,7 @@ date: "2026-01-28T10:00:00Z"
 title: "No, That fancy icon is not your Logo!"
 shamthing: "Who needs all those logo variations? Not me!"
 excerpt: "This post is my personal design manifesto about discovering that a logo is not just a pretty icon, The journey ends with turning that idea into a single file, design meets code, flexibility replaces clutter, and a happy client."
-coverImage: "/_FeaturedImages/13.That fancy icon is not your Logo.webp"
+featuredImage: "/_FeaturedImages/13.That fancy icon is not your Logo.webp"
 category: "design"
 tags:
   - design

@@ -29,7 +29,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             <Link href={`/blog/${post.slug}`} className="block">
             <div className="relative aspect-16/10 overflow-hidden">
                 <Image
-                src={post.coverImage}
+                src={post.featuredImage}
                 alt={post.title}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

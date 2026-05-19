@@ -3,7 +3,7 @@ date: "2025-09-20T16:01:00Z"
 title: "You should use Arch linux, BTW."
 shamthing: "Why be a pirate, in an ocean full of open-source code!?"
 excerpt: "From cracked software and YouTube copyright strikes to discovering the freedom of open source, this is my journey from being a Windows power user to fully embracing Arch Linux. Tech blog"
-coverImage: "/_FeaturedImages/04_You should use Arch linux, BTW.webp"
+featuredImage: "/_FeaturedImages/04_You should use Arch linux, BTW.webp"
 category: "linux"
 tags:
   - Archlinux
