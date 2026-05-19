@@ -132,7 +132,7 @@ export default async function PostPage({ params }: Props) {
           />
 
           {post.category && (
-            <div className="absolute bottom-0 right-0 bg-black/60 text-white text-xs px-2 py-1 rounded-tl-md">
+            <div className="absolute top-0 right-0 bg-black/40 text-white text-xs px-2 py-1 rounded-bl-md">
               <p>
                 Category: {post.category}
               </p>
