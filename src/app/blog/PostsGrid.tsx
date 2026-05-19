@@ -27,7 +27,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
 
         <div className="flex h-full flex-col overflow-hidden border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
             <Link href={`/blog/${post.slug}`} className="block">
-            <div className="relative aspect-16/10 overflow-hidden">
+            <div className="relative aspect-40/21 overflow-hidden">
                 <Image
                 src={post.featuredImage}
                 alt={post.title}
