@@ -11,7 +11,7 @@ tags:
   - usb
 ---
 
-In a previous post, I geeked out about [Ventoy, My Forever USB Companion](https://shamvoke.com/blog/ventoy-my-forever-usb-companion-1), breaking down exactly why it's the absolute best tool for distro-hopping and indulging those late-night bursts of tech curiosity.
+In a previous post, I geeked out about [Ventoy, My Forever USB Companion](/blog/ventoy-my-forever-usb-companion-1), breaking down exactly why it's the absolute best tool for distro-hopping and indulging those late-night bursts of tech curiosity.
 
 **This time, let us actually use it.**
 

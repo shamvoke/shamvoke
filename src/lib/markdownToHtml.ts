@@ -4,6 +4,7 @@ import remarkRehype from "remark-rehype";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
+import rehypeExternalLinks from "rehype-external-links";
 import rehypeStringify from "rehype-stringify";
 
 export default async function markdownToHtml(markdown: string) {
@@ -13,6 +14,10 @@ export default async function markdownToHtml(markdown: string) {
     .use(rehypeRaw)
     .use(rehypeSlug)
     .use(rehypeHighlight)
+    .use(rehypeExternalLinks, {
+      target: "_blank",
+      rel: ["noopener"],
+    })
     .use(rehypeStringify)
     .process(markdown);
   return result.toString();

@@ -11,7 +11,7 @@ tags:
   - Tips & tricks
 ---
 
-As promised from my previous [Sham journey to Arch Linux post](https://shamvoke.com/blog/a-sham-journey-to-arch-linux), here goes my step by step guide on getting Arch Linux up and running!
+As promised from my previous [Sham journey to Arch Linux post](/blog/a-sham-journey-to-arch-linux), here goes my step by step guide on getting Arch Linux up and running!
 
 >I highly recommend you check out the official installation guide on the [Arch website.](https://wiki.archlinux.org/title/Installation_guide) Mine is more of a personal guide. Meaning some steps are optional, and some are pure preference.
 
