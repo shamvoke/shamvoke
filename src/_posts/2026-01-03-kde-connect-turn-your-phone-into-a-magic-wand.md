@@ -3,7 +3,7 @@ date: "2025-12-12T16:20:00Z"
 title: "KDE Connect; Turn your phone into a magic wand!"
 shamthing: "KDE Connect Has To Be The Most Universal App I Have Ever Seen! 🌀"
 excerpt: "Stop emailing yourself files. Discover how KDE Connect bridges the gap between your devices. Turning your phone into a universal clipboard, a wireless trackpad, and a literal magic wand for your PC. "
-featuredImage: "/_FeaturedImages/10_KDE Connect; Turn your phone into a magic wand.webp"
+featuredImage: "/_FeaturedImages/10_KDE-Connect-Turn-your-phone-into-a-magic-wand.webp"
 category: "software"
 tags:
   - KDE

@@ -4,7 +4,7 @@ title: "Welcome to my blog!"
 shamthing: "Constantly Exploring The Realms Of Code & Creativity. 🚀"
 excerpt: "My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish To Share. Personal blog | Tech blog"
-featuredImage: "/_FeaturedImages/01_Welcome to my blog.webp"
+featuredImage: "/_FeaturedImages/01_Welcome-to-my-blog.webp"
 category: "blog"
 tags:
   - Design
