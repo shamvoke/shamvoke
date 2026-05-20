@@ -34,13 +34,13 @@ export default function Navbar() {
 
       </div>
         <div className="flex items-center gap-3 sm:mr-5">
-          <a
+          {/* <a
             href="https://www.youtube.com/@shamvoke"
             target="_blank"
             className="text-sm font-bold bg-[#ff0a16] text-white px-3 py-1 rounded-md"
           >
             YouTube
-          </a>
+          </a> */}
           <ThemeToggle />
         </div>
       </header>
