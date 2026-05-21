@@ -4,12 +4,12 @@ backend:
   name: github
   repo: shamvoke/shamvoke
   branch: master
-  base_url: https://shamvoke.com
-  auth_endpoint: /api/auth
+  base_url: https://decap.shamvoke.com
+  auth_endpoint: /auth
 
-site_url: https://shamvoke.com
-display_url: https://shamvoke.com
-logo_url: https://shamvoke.com/favicon.ico
+#site_url: https://shamvoke.com
+#display_url: https://shamvoke.com
+#logo_url: https://shamvoke.com/favicon.ico
 
 media_folder: "public/_FeaturedImages"
 public_folder: "/_FeaturedImages"
