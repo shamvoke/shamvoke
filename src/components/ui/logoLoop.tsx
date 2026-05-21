@@ -14,7 +14,12 @@ export default function LogoLoop({
   const items = [...logos, ...logos]
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <section className="relative w-full pt-15 overflow-hidden">
+      <div className="mb-8 px-6 text-center">
+        <h2 className="text-2xl font-semibold font-sham sm:font-sans tracking-tight text-black dark:text-white sm:text-4xl md:text-5xl">
+          A SHAM WORLD
+        </h2>
+      </div>
       <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-linear-to-r from-background to-transparent" />
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-linear-to-l from-background to-transparent" />
 
@@ -31,13 +36,13 @@ export default function LogoLoop({
               src={src}
               alt={`Logo ${index + 1}, image of Bree the blue smiley face. In diffrent colors and styles.`}
               width={160}
-              height={80}
+              height={160}
               loading="lazy"
               className="h-full w-full object-cover"
             />
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }

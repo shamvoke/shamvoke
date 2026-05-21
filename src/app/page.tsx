@@ -12,12 +12,8 @@ export default function Page() {
       <HeroSection />
       <PostsGrid posts={posts.slice(0, 12)} />
       <WebDesignSection />
-      <section className="py-16">
-        <LogoLoopSection />
-      </section>
-    <div className="mt-10 max-w-3xl mx-auto">
+      <LogoLoopSection />
       <Newsletter />
-    </div>
     </main>
   )
 }

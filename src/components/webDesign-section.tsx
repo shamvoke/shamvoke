@@ -5,7 +5,7 @@ import ElectricBorder from "@/components/ui/shamCard";
 
 export default function WebDesignSection() {
   return (
-    <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden pt-15 px-4 sm:px-6 lg:px-8">
       
       <div className="mx-auto max-w-6xl">
         <div className="mb-6 flex items-center justify-center gap-4">

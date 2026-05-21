@@ -12,11 +12,11 @@ export default function BlogIndex() {
 
   return (
     <main className="mx-auto sm:px-6 lg:px-8 py-20">
-      <div className="mb-12 md:mb-16 px-8 text-center">
+      <div className="mb-15 px-8 text-center">
         <p className="text-2xl tracking-[0.2em] font-voke text-sham dark:text-voke">
           Shamthing to read...
         </p>
-        <p className="py-6 max-w-2xl text-base md:text-lg text-neutral-600 dark:text-neutral-400 leading-8">
+        <p className="py-6 text-base md:text-lg text-neutral-600 dark:text-neutral-400 leading-8">
           Thoughts, experiments, ideas, and digital rabbit holes from the world
           of code and creativity.
         </p>
