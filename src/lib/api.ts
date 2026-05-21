@@ -5,6 +5,27 @@ import { join } from "path"
 
 const postsDirectory = join(process.cwd(), "src/_posts")
 
+function normalizePostData(
+  data: Record<string, unknown>,
+  slug: string,
+  content: string
+): Post {
+  return {
+    slug,
+    title: String(data.title ?? ""),
+    shamthing: data.shamthing ? String(data.shamthing) : undefined,
+    date:
+      data.date instanceof Date
+        ? data.date.toISOString()
+        : String(data.date ?? ""),
+    excerpt: String(data.excerpt ?? ""),
+    featuredImage: String(data.featuredImage ?? ""),
+    category: data.category ? String(data.category) : undefined,
+    tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+    content,
+  }
+}
+
 export function getPostSlugs(): string[] {
   return fs.readdirSync(postsDirectory)
 }
@@ -47,11 +68,7 @@ export function getPostBySlug(slug: string): Post {
   const fileContents = fs.readFileSync(fullPath, "utf8")
   const { data, content } = matter(fileContents)
 
-  return {
-    ...(data as Omit<Post, "slug" | "content">),
-    slug: stripDateFromSlug(fileName),
-    content,
-  }
+  return normalizePostData(data, stripDateFromSlug(fileName), content)
 }
 
 export function getAllPosts(): Post[] {
@@ -63,13 +80,11 @@ export function getAllPosts(): Post[] {
       const fileContents = fs.readFileSync(fullPath, "utf8")
       const { data, content } = matter(fileContents)
 
-      return {
-        ...(data as Omit<Post, "slug" | "content">),
-        slug: stripDateFromSlug(file),
-        content,
-      }
+      return normalizePostData(data, stripDateFromSlug(file), content)
     })
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
+    .sort((post1, post2) => {
+      return new Date(post2.date).getTime() - new Date(post1.date).getTime()
+    })
 }
 
 export function getRandomPosts(count: number): Post[] {
