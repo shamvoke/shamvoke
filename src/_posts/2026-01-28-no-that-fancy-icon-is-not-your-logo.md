@@ -35,7 +35,7 @@ That reaction, teaches you that design is not about decoration, it is about comm
 #### The spark!
 
 NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
-Project <ins>WEBMEKA Logo Design</ins> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
+Project <u>WEBMEKA Logo Design</u> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
 Normally, logo design comes with a timeline. A day or two. I respect that limit. Enough time to think, but not enough time to overthink.
 
@@ -52,7 +52,7 @@ I recall showing that folder to a friend. He picked three logo on the spot. Thre
 He was right, objectively. They worked. One of them was even my favorite!
 ![My favourite logo design](https://res.cloudinary.com/deudsgjbm/image/upload/c_scale,w_300,h_300/v1769893361/webmeka_draft12_2_zvqo4r.webp "One of my favourites!")
 
-> I knew this for sure. That if I ever saw the <del>perfect</del> WEBMEKA Logo, I would recognize it instantly. On sight!
+> I knew this for sure. That if I ever saw the ~~perfect~~ WEBMEKA Logo, I would recognize it instantly. On sight!
 
 Something was still missing.
 

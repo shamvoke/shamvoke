@@ -24,15 +24,15 @@ The customizations were fire, but... It didn't take long to notice that the extr
 
 ### First switch
 
-At this point, I personally stopped using any customization that required extra software _( turns out, not much)_
+At this point, I personally stopped using any customization that required extra software *( turns out, not much)*
 
 And for my audience? To avoid more bloated systems, I decided to change the content I was uploading. And my next stop for content was the software I was using,  videos like "how to install software ABC", "how to install Windows 11"
 
-**The problem?** As a power user, every software I had installed was premium. _And none were paid for..._
+**The problem?** As a power user, every software I had installed was premium. *And none were paid for...*
 
 > For this, you don't even need to be a super user; Just download your cracked copy, disable your anti-virus? Read and follow the instructions in README.txt, and you are done.
 
-The new content was an instant hit, amassing views like crazy. At this point, <del>your boy should be heading to the bank</del>😅 However, YouTube was ready to teach me a lesson I hadn't learned yet...
+The new content was an instant hit, amassing views like crazy. At this point, ~~your boy should be heading to the bank~~😅 However, YouTube was ready to teach me a lesson I hadn't learned yet...
 
 #### Aye, Pirate
 
@@ -44,7 +44,7 @@ My thinking **at the time** was, since I can't afford the software... and the de
 
 #### That's when it hit me
 
-If someone is smart enough to __remove__ the code that bills you to use a software,  rest assured, they are smart enough to **add** code for their <u>own interest</u>.
+If someone is smart enough to *remove* the code that bills you to use a software,  rest assured, they are smart enough to **add** code for their <u>own interest</u>.
 
 > I wasn't just using cracked software, I was running a cracked version of Windows 10 itself, with a full suite of cracked tools stacked on top.
 
@@ -56,7 +56,7 @@ The message was loud and clear: I had to switch my content again!
 
 My last 3 uploads on YouTube (5 years ago) were my attempt to give my audience clean content.
 
-Letting the designer in me shine with videos like **"Windows 11 concept"** _(Windows 11 hadn't been released at the time)_
+Letting the designer in me shine with videos like **"Windows 11 concept"** *(Windows 11 hadn't been released at the time)*
 
 The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 got released, I had **already moved to Linux!**
 
@@ -66,12 +66,11 @@ For the 5 years I have used Linux, almost a year was spent switching from one Li
 
 All that changed the day I installed [Arch Linux!](https://archlinux.org)
 ![Arch linux screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1758721330/Screenshot_20250924_141314_xb2ksn.webp "A screenshot of my current Arch desktop")
-_A screenshot of my current Arch desktop_
+*A screenshot of my current Arch desktop*
 
 > I opened a YouTube channel for Windows, but for Arch? I swear I'm about to open a church and start preaching arch Linux 🤣
 
 With that said,  expect most of my future blogs and YouTube posts to revolve around Arch Linux. Plus, the awesome free & open-source software I have picked up along the way.
-
 **I USE ARCH, BTW**
 
 Stay Curious,

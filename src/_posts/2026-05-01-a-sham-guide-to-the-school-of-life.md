@@ -14,7 +14,7 @@ tags:
 
 The opinions in this post (_and every other post on this website for that matter_) are strictly **Sham's** opinions. **From my brain, to yours.** 💙
 
-#### FREE EDUCATION! FREE EDUCATION!
+#### FREE EDUCATION! FREE EDUCATION
 
 **Before we dive in, let's talk system architecture.** I strongly believe education should be free, and my logic is simple: _You can't blame a node for being unoptimized if you've locked the update behind a paywall._
 
@@ -77,7 +77,7 @@ _Not because it was designed to teach you, but because you are open to learning.
 
 It's a bit ironic. We built systems where access to learning depends on what you can pay. Yet, the most important lessons don't come from those systems at all.
 
-Unlike the formal school system that demands <del>a mountain of</del> money for "school fees," the School of Life is truly open-source. There is no paywall and no financial barrier to entry.
+Unlike the formal school system that demands ~~a mountain of~~ money for "school fees," the School of Life is truly open-source. There is no paywall and no financial barrier to entry.
 
 **The only fee you ever have to pay is attention.**
 
@@ -89,9 +89,9 @@ You don't need a registration form. You don't need a degree. You don't need a lo
 
 In the School of Life, everyone and everything exists in a state of _educational superposition._ At any given second, you are both the teacher and the student.
 
-I therefore argue, **awareness** is your observation tool. Awareness is also the <del>currency</del> "Attention Fee" I mentioned earlier. And once you pay it, the curriculum reveals itself _everywhere._
+I therefore argue, **awareness** is your observation tool. Awareness is also the ~~currency~~ "Attention Fee" I mentioned earlier. And once you pay it, the curriculum reveals itself _everywhere._
 
-#### Hello Classmate!
+#### Hello Classmate
 
 Once I became aware, I found myself learning from:
 

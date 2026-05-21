@@ -10,7 +10,7 @@ tags:
   - paru
   - AUR
 ---
-Picture this,  a clean install of <ins>windows 11</ins> Vs a clean install of <ins>Arch Linux</ins>. The first order of the day is to install your favorite software. _(Unless you're on Windows, where your first quest is to install drivers)_
+Picture this,  a clean install of <u>windows 11</u> Vs a clean install of <u>Arch Linux</u>. The first order of the day is to install your favorite software. _(Unless you're on Windows, where your first quest is to install drivers)_
 
 For this post, we'll use these 5 apps:
 `Google Chrome, VLC, Spotify, Discord and Docker.`
@@ -41,7 +41,7 @@ To start, we open up the terminal.  _(Don't  be scared of the terminal. Trust me
 
 #### Enter the AUR
 
-The **Arch User Repository** (AUR).  Think of it like an app store, <del>but its not</del>. It's a massive collection of user-maintained packages. Includes Everything from Chrome to Spotify to obscure command-line tools you never knew existed.
+The **Arch User Repository** (AUR).  Think of it like an app store, ~~but its not~~. It's a massive collection of user-maintained packages. Includes Everything from Chrome to Spotify to obscure command-line tools you never knew existed.
 
 By default, Arch uses **pacman** as its package manager. But while pacman is powerful, we're going to use a little helper that makes life easier, [**paru.**](https://github.com/Morganamilo/paru)
 

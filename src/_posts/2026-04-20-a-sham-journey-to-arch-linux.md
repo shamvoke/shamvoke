@@ -14,7 +14,7 @@ They say you don't choose Arch, Arch chooses you. Well, for me I didn't even kno
 
 #### The first switch
 
-I recall it all started with curious me following a WiFi hack guide on YouTube! <del>Curiosity killed the cat for sure.</del> What caught my attention was seeing the guy boot a full [Kali Linux OS](https://www.kali.org/) from a USB drive! **I had to try that!** I didn't become a master hacker, but I noticed something immediate: The system was fast, noticeably faster than my fully installed Windows setup. _It didn't make sense._ This was a live environment running off a USB, yet it felt smoother than what I had been using every day?
+I recall it all started with curious me following a WiFi hack guide on YouTube! <u>Curiosity killed the cat for sure.</u> What caught my attention was seeing the guy boot a full [Kali Linux OS](https://www.kali.org/) from a USB drive! **I had to try that!** I didn't become a master hacker, but I noticed something immediate: The system was fast, noticeably faster than my fully installed Windows setup. _It didn't make sense._ This was a live environment running off a USB, yet it felt smoother than what I had been using every day?
 
 Digging a bit deeper, learned I could **dual-boot** Linux with my Windows! And considering Kali Linux was clearly optimized for hacking, my first stop for a Linux install was [UBUNTU](https://ubuntu.com/). Did my first dual-boot install, but the Ubuntu "default" life wasn't for me. I became a regular on [**DistroWatch**](https://distrowatch.com/), falling down the rabbit hole of **distro-hopping**. I tried almost everything! I mean, I even tried **Deepin OS**. But there was always a catch: I hated how most distros handled software installations.
 
@@ -36,7 +36,7 @@ Later on, I found out Manjaro is based on Arch Linux, and once again, curiosity 
 
 _That plan didn't go as planned._
 
-From the very first boot, Arch felt different. It's hard to explain unless you've experienced it yourself, but it felt closer to the <del>bare metal</del> hardware. Like there was less between me and the system. No extra layers, no unnecessary decisions made for me. Just a system, and me in control.
+From the very first boot, Arch felt different. It's hard to explain unless you've experienced it yourself, but it felt closer to the <u>bare metal</u> hardware. Like there was less between me and the system. No extra layers, no unnecessary decisions made for me. Just a system, and me in control.
 
 _That was it._
 
@@ -58,11 +58,11 @@ Everything I had been trying to achieve with extensions in GNOME was already the
 
 I'll be honest. I only did a full manual install once. I respect the process, but I value efficiency. After that initial install, I went hunting for a 'better' way to install arch. The result of that hunt was [archfi.](https://github.com/MatMoul/archfi) A script I found on GitHub by a guy named MatMoul. For me, both the script and its creator were criminally underrated. I could install Arch Linux with two simple terminal commands.
 
-1. to download the script
+- to download the script
 
 `curl -LO matmoul.github.io/archfi`
 
-2. to launch Archfi!
+- to launch Archfi!
 
 `sh archfi`
 
@@ -104,7 +104,7 @@ It's like an ocean of software. Almost anything I needed was there, ready to ins
 
 Well, almost everything.
 
-Adobe still hasn't made its way there 😄 <del>Who needs Adobe anyway, I DO!</del>
+Adobe still hasn't made its way there 😄 ~~Who needs Adobe anyway, I DO!~~
 
 #### The map
 
@@ -118,7 +118,7 @@ It became my go to for everything Arch.
 
 ![My Archlinux KDE setup screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1776719055/Sham_Archlinux_KDE_setup_phglqc.webp "Sham's desktop screenshot!")
 
-I've spent years breaking, re-installing, and optimizing Arch <del>so you don't have to</del>. I've finally settled on my _"perfect"_ setup.
+I've spent years breaking, re-installing, and optimizing Arch ~~so you don't have to~~. I've finally settled on my _"perfect"_ setup.
 
 #### Notable Distros
 

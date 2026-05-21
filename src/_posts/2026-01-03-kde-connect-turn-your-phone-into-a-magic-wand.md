@@ -38,7 +38,7 @@ I can right-click a file in Dolphin and send it straight to my phone. Conversely
 
 #### Multimedia Control
 
-Pause, play, and skip tracks on Spotify or VLC running on your desktop, all from your phone's notification shade. The best part is, KDE Connect <ins>can be installed on Android TV!</ins>
+Pause, play, and skip tracks on Spotify or VLC running on your desktop, all from your phone's notification shade. The best part is, KDE Connect <u>can be installed on Android TV!</u>
 
 #### Remote Input
 
@@ -58,7 +58,7 @@ How often do you lose your phone between the couch cushions? You can trigger a l
 
 #### Custom commands
 
-(My favorite!) <ins>This is where your phone literally turns into a **magic wand**.</ins> You can define terminal commands on your computer and trigger them remotely from your phone. _Imagine you walked away, forgot to lock your PC, and someone starts snooping._ To fix that, you just take out your <del>magic wand</del> phone, open KDE Connect, select your PC, tap "Lock Screen," and boom - access denied! You can even set commands to unlock, reboot, or run a full system update with a single tap!
+(My favorite!) <u>This is where your phone literally turns into a **magic wand**.</u> You can define terminal commands on your computer and trigger them remotely from your phone. _Imagine you walked away, forgot to lock your PC, and someone starts snooping._ To fix that, you just take out your ~~magic wand~~ phone, open KDE Connect, select your PC, tap "Lock Screen," and boom - access denied! You can even set commands to unlock, reboot, or run a full system update with a single tap!
 
 ### The Best Part?
 

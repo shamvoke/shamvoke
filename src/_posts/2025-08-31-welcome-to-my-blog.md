@@ -33,15 +33,15 @@ Getting 'premium' WordPress plugins for free? Not a smart move, I later learned.
 
 #### SEO And Monetization
 
-Next comes monetization, the bloggers' promised land <del>full of milk and honey</del>. But the journey? not so. To get there, you need serious SEO (_search engine optimization_). This one turns into quicksand if you leave clients to handle it on their own, at least from my experience.
+Next comes monetization, the bloggers' promised land ~~full of milk and honey~~. But the journey? not so. To get there, you need serious SEO (_search engine optimization_). This one turns into quicksand if you leave clients to handle it on their own, at least from my experience.
 
 > SEO is like bathing, you can't just do it once and assume you're clean forever.
 
 And now there are new kids on the block named **AEO** (_Answering Engine Optimization_)  & **GEO** (_Generative Engine Optimization_)
 
-- SEO = Ranking top on search engine results. <sub>Like Google</sub>
-- AEO = Optimizing so AI can crawl and pull your content for answers. <sub>Google AI search results</sub>
-- GEO = Optimizing content to be cited or summarized by AI. <sub>Like ChatGPT</sub>
+- SEO = Ranking top on search engine results. _Like Google_
+- AEO = Optimizing so AI can crawl and pull your content for answers. _Google AI search results_
+- GEO = Optimizing content to be cited or summarized by AI. _Like ChatGPT_
 
 > Optimizing for SEO, AEO, and GEO requires consistency, patience, and constant upkeep. something most clients don't have the time or skill for.
 
@@ -54,7 +54,7 @@ Add **website maintenance services** and the piling costs become a deal-breaker 
 - For blogs, use **Static Site Generator (SSG)** instead of WordPress. I used [Jekyll](https://jekyllrb.com/) for this website. _(Updated to NextJS in 2026)_
 - Host on **GitHub** + **Netlify**. Zero cost, rock solid.
 - Domains? I roll with [Spaceship](https://www.spaceship.com) (By Namecheap, solid trust).
-- Protection + extras with [cloudflare.](https://www.cloudflare.com/) Currently _testing_ their free email routing with my email shamvoke@webmeka.com.
+- Protection + extras with [cloudflare.](https://www.cloudflare.com/) Currently _testing_ their free email routing with my email <mailto:shamvoke@webmeka.com>.
 - Plug in a CMS (Content Management System) so clients can draft, publish, and edit posts with ease.
 
 > Kindly note my cost-cutting approach is tailored for blogs and landing pages. When it comes to e-commerce, scalability is King.

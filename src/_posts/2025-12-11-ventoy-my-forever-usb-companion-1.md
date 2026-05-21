@@ -12,7 +12,7 @@ tags:
 ---
 There was a time when flashing an ISO felt like a whole ritual. Back on Windows, [Rufus](https://rufus.ie/en/) was my trusty sidekick. When I switched to Arch Linux, [balenaEtcher](https://etcher.balena.io/) took over the job. Both did what they promised, but the moment I discovered [Ventoy](https://www.ventoy.net/), everything changed. I ditched them instantly, almost dramatically, the way you uninstall a heavy app after discovering a tiny CLI tool that does the same job better.
 
-Ventoy is <ins>ridiculously simple</ins> and <ins>weirdly brilliant</ins>. You install it once on a USB flash drive, and that flash drive becomes your <ins>bootable buddy</ins>. Instead of burning ISOs, you just copy them into the drive like normal files. Then, when booting your pc, hit the magic key to boot from the Ventoy  USB flash drive. Ventoy scans the drive and shows you a list of all the ISOs inside. Pick one, Ventoy boots it, done. Nothing gets overwritten, nothing gets “flashed” again, and the drive never complains.
+Ventoy is <u>ridiculously simple</u> and <u>weirdly brilliant</u>. You install it once on a USB flash drive, and that flash drive becomes your <u>bootable buddy</u>. Instead of burning ISOs, you just copy them into the drive like normal files. Then, when booting your pc, hit the magic key to boot from the Ventoy  USB flash drive. Ventoy scans the drive and shows you a list of all the ISOs inside. Pick one, Ventoy boots it, done. Nothing gets overwritten, nothing gets “flashed” again, and the drive never complains.
 
 >It feels like cheating, but in a good way.
 
@@ -32,7 +32,7 @@ I may be an Arch citizen now, but I still keep **Windows 11** as a backup realit
 
 #### 4. Kali Linux Live Everything ISO, Curiosity Playground
 
-The monstrous **13GB+** [Kali Linux Everything](https://www.kali.org/get-kali/#kali-installer-images) image earns its spot purely through vibes and curiosity. In my early days, I used it for WiFi <del>hacking</del> testing, usually with the preinstalled _wifite_ tool. The success rate was… **impressive**. Nowadays, I boot into Kali mostly to explore the massive collection of tools that come preinstalled. It's the perfect OS for curious souls who enjoy pressing buttons that come with warnings.
+The monstrous **13GB+** [Kali Linux Everything](https://www.kali.org/get-kali/#kali-installer-images) image earns its spot purely through vibes and curiosity. In my early days, I used it for WiFi ~~hacking~~ testing, usually with the preinstalled _wifite_ tool. The success rate was… **impressive**. Nowadays, I boot into Kali mostly to explore the massive collection of tools that come preinstalled. It's the perfect OS for curious souls who enjoy pressing buttons that come with warnings.
 
 #### 5. The Rotating Fifth ISO
 

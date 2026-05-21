@@ -22,7 +22,7 @@ One day, that 'something' was **[Astray.](https://github.com/wwwtyro/Astray)** A
 
 I forked the code and began tinkering. My first attempt was adding an on-screen joystick to control the ball. It worked, but something about it felt... clunky *(fixed and covering part of the maze).*
 
-So, I tried something different. <ins>Swipe-based</ins> control. Now you can click anywhere on the screen and drag in the direction you want the ball to roll. *Like steering with invisible strings.* It feels natural, fluid, and keeps the screen clean so the maze itself takes center stage.
+So, I tried something different. <u>Swipe-based</u> control. Now you can click anywhere on the screen and drag in the direction you want the ball to roll. *Like steering with invisible strings.* It feels natural, fluid, and keeps the screen clean so the maze itself takes center stage.
 
 Next, I added game sounds, polished the visuals, tweaked the game physics, and layered in a few extra features like high score and a splash screen.
 
@@ -30,7 +30,6 @@ Next, I added game sounds, polished the visuals, tweaked the game physics, and l
 
 Only one rule: **Find the exit and escape the maze!**
 ![Shamaze3D](https://res.cloudinary.com/deudsgjbm/image/upload/v1759283950/shamaze5_idgpac.webp "Shamaze3D screenshot")
-
 **To control the ball**
 
 * **keyboard** - Use the keys **W**(up),**A**(left),**S**(right) & **D**(down) keys.
@@ -50,7 +49,7 @@ It's not timed... but your pride is on the line 😎
 
 #### Fork It, Play It, Break It
 
-You can play Shamaze3D right now in your browser. However, if you're feeling adventurous, feel free to grab the code and <del>play</del> twist it into your own creation.
+You can play Shamaze3D right now in your browser. However, if you're feeling adventurous, feel free to grab the code and ~~play~~ twist it into your own creation.
 
 👉 [Play Shamaze3D here](https://sham-maze3d.netlify.app/)
 👉 [Fork the GitHub repo here](https://github.com/shamvoke/shamaze3D)

@@ -21,7 +21,7 @@ I repeat, if you are coming from windows, **Distro Hopping** is the initiation s
 
 There are many ways to kill a rat, you could bomb it, shoot it, or just poison it. _(If you ask me, there are also other solutions that don't involve killing the rat.)_
 
-Similarly, there are many ways to install Arch. You could go the manual way, use an installation script, install an Arch based Linux Distro, or use the <del>super easy</del> **Archinstall**.
+Similarly, there are many ways to install Arch. You could go the manual way, use an installation script, install an Arch based Linux Distro, or use the ~~super easy~~ **Archinstall**.
 
 We aren't here to argue which method is the best, just as in the example above the goal was getting rid of the rat, the goal here is to get Arch installed. **Archinstall for the win.**
 
@@ -47,7 +47,7 @@ We aren't here to argue which method is the best, just as in the example above t
 #### Step 1 - Internet connection
 
 If you're on a wired connection, you're already set.
-If you're on Wi-Fi, type: `iwctl` _(Follow the prompts to connect to your network)._
+If you're on Wi-Fi, type: `iwctl` *(Follow the prompts to connect to your network).*
 
 #### Step 2 - Preparation (The optional "Cool" Tweaks)
 
@@ -56,23 +56,23 @@ First we do some settings, and no, there are no settings app to launch yet. We d
 1. **Enable Flair:** This is just for looks and download speed.
 
     - Run `sudo nano /etc/pacman.conf`.
-    - Find `#Color` and remove the `#`. _(This makes your terminal text colored)_
-    - Add a new line: `ILoveCandy` _(This turns the progress bar into a Pac-Man character)._
+    - Find `#Color` and remove the `#`. *(This makes your terminal text colored)*
+    - Add a new line: `ILoveCandy` *(This turns the progress bar into a Pac-Man character).*
     - Uncomment `ParallelDownloads` and change it to `8` for faster installs.
-    - To save your changes, press `Ctrl + O` _(the letter O, not zero)_ and then hit Enter to confirm the filename.
+    - To save your changes, press `Ctrl + O` *(the letter O, not zero)* and then hit Enter to confirm the filename.
     - Exit the editor by pressing `Ctrl + X` to close nano and return to the command prompt.
 
 **Screenshot**
 ![Screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1778604275/Screenshot_neqp0x.webp)
-        
+
 2. **Update Mirrors:** We want the fastest servers. Lets install **reflector** for that
-    
+
     - `sudo pacman -Sy reflector` to install reflector
     - `sudo reflector --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist` to update mirrors
 
 #### Step 3 - Final boss (Archinstall)
 
-1. Run `archinstall` to launch the Arch Linux guided installer.
+Run `archinstall` to launch the Arch Linux guided installer.
 
 **Archinstall Screenshot**
 ![Archinstall](https://res.cloudinary.com/deudsgjbm/image/upload/v1778604763/Archinstall_vqrjkq.png)
@@ -154,7 +154,7 @@ For example, to install `google chrome` browser
 paru -S google-chrome
 ```
 
-You can install multiple packages at once. Which mean _you can install all your packages with one command!_
+You can install multiple packages at once. Which mean *you can install all your packages with one command!*
 
 Example
 
@@ -162,8 +162,7 @@ Example
 paru -S google-chrome firefox p7zip-gui warpgui-bin telegram-desktop-bin freedownloadmanager kdeconnect visual-studio-code-bin --noconfirm
 ```
 
-While the packages are downloading, head over to `System settings` and setup your KDE to your liking. Stay tuned for a future update where I dig into a detailed KDE setup. 
-
+While the packages are downloading, head over to `System settings` and setup your KDE to your liking. Stay tuned for a future update where I dig into a detailed KDE setup.
 
 #### Next
 
