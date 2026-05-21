@@ -120,7 +120,7 @@ Secure Boot can be a little dramatic.
 
 Ventoy supports Secure Boot, but depending on your computer, you may see a blue verification screen the first time you boot Ventoy with Secure Boot enabled.
 
-Follow the on-screen steps to enroll the key provided by Ventoy.
+Follow the on-screen steps to enroll the key provided in the USB.
 
 _This usually only needs to be done once per computer._
 
