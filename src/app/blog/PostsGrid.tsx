@@ -12,7 +12,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
       id="grid"
       className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-6 -mt-15 mb-10"
     >
-      {posts.map((post, index) => (
+      {posts.map((post) => (
         <article
         key={post.slug}
         className="group relative h-full transition-transform duration-300 hover:-translate-y-1"
@@ -32,8 +32,6 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 src={post.featuredImage}
                 alt={post.title}
                 fill
-                loading={index === 0 ? "eager" : "lazy"}
-                fetchPriority={index === 0 ? "high" : "auto"}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover transition duration-500 group-hover:scale-102"
                 />
