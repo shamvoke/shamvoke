@@ -6,7 +6,7 @@ excerpt: "Based on real life events. A dead laptop, a curious friend, real
   beeps and a pair of shoes! Join me as we decode the secret language of
   laptops. Common knowledge? Tech blog"
 featuredImage: "/_FeaturedImages/03_Beep-code-If-laptops-could-talk.webp"
-category: "tips"
+category: "life"
 tags:
   - Tech
   - Tips

@@ -1,5 +1,5 @@
 import { getAllPosts } from "@/lib/api"
-import PostsGrid from "@/app/blog/PostsGrid"
+import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 
 export const metadata = {
   title: "Blog | Web Design, Arch Linux & Digital Creativeity",
@@ -12,7 +12,7 @@ export default function BlogIndex() {
 
   return (
     <main className="mx-auto sm:px-6 lg:px-8 py-20">
-      <div className="mb-15 px-8 text-center">
+      <div className=" px-8 text-center">
         <p className="text-2xl tracking-[0.2em] font-voke text-sham dark:text-voke">
           Shamthing to read...
         </p>
@@ -22,7 +22,7 @@ export default function BlogIndex() {
         </p>
       </div>
 
-      <PostsGrid posts={posts} />
+      <BlogCategoryFilter posts={posts} />
     </main>
   )
 }
