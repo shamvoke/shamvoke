@@ -49,7 +49,7 @@ export default function Footer() {
           target="_blank"
           className="creator text-sham dark:text-muted-foreground hover:text-voke transition"
         >
-          WEBMEKA STUDIO | All rights reserved.
+          WEBMEKA | All rights reserved.
         </a>
       </p>
       <ScrollToTop />
