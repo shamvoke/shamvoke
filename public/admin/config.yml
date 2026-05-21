@@ -5,6 +5,7 @@ backend:
   repo: shamvoke/shamvoke
   branch: master
   base_url: https://shamvoke.com
+  auth_endpoint: /api/auth
 
 site_url: https://shamvoke.com
 display_url: https://shamvoke.com
