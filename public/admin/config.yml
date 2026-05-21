@@ -6,6 +6,7 @@ backend:
   branch: master
   base_url: https://decap.shamvoke.com
   auth_endpoint: /auth
+  squash_merges: true
 
 site_url: https://shamvoke.com
 display_url: https://shamvoke.com
@@ -14,7 +15,7 @@ logo_url: https://shamvoke.com/favicon.ico
 media_folder: "public/_FeaturedImages"
 public_folder: "/_FeaturedImages"
 
-publish_mode: simple
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
@@ -28,7 +29,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}}"
     editor:
-      preview: false
+      preview: true
 
     fields:
       - label: "Date"
