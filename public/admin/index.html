@@ -1,13 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shamvoke Content Manager</title>
+
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+
+      body {
+        background: #02044a;
+      }
+
+      [class*="AppMainContainer"],
+      [class*="CollectionMain"],
+      [class*="EditorContainer"],
+      [class*="ControlPaneContainer"],
+      [class*="EntryEditorContainer"] {
+        background: #070b18 !important;
+        color: #ffffff !important;
+      }
+
+      label,
+      [class*="FieldLabel"],
+      [class*="Label"] {
+        color: #dbeafe !important;
+      }
+
+      input,
+      textarea,
+      select {
+        background: #0b1020 !important;
+        color: #ffffff !important;
+        border: 1px solid rgba(0, 255, 255, 0.25) !important;
+        border-radius: 8px !important;
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: #94a3b8 !important;
+      }
+
+      input:focus,
+      textarea:focus,
+      select:focus {
+        outline: none !important;
+        border-color: #00ffff !important;
+        box-shadow: 0 0 0 2px rgba(0, 255, 255, 0.18) !important;
+      }
+
+      [class*="ControlContainer"],
+      [class*="WidgetContainer"] {
+        background: transparent !important;
+      }
+
+      [class*="ToolbarContainer"],
+      [class*="Toolbar"] {
+        background: #111827 !important;
+        border-color: rgba(0, 255, 255, 0.15) !important;
+      }
+
+      [class*="MarkdownControl"],
+      [class*="EditorControl"],
+      [class*="CodeMirror"],
+      [class*="cm-editor"],
+      [class*="cm-scroller"] {
+        background: #0b1020 !important;
+        color: #ffffff !important;
+      }
+
+      button {
+        border-radius: 8px !important;
+      }
+
+      [class*="Dropdown"],
+      [class*="Menu"],
+      [class*="Popover"] {
+        background: #0b1020 !important;
+        color: #ffffff !important;
+        border-color: rgba(0, 255, 255, 0.2) !important;
+      }
+    </style>
   </head>
+
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <link rel="stylesheet" href="/admin/dark.css">
     <script src="https://unpkg.com/decap-cms@3.1.0-beta.5/dist/decap-cms.js"></script>
   </body>
 </html>
