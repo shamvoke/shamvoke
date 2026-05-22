@@ -28,7 +28,7 @@ collections:
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}}"
-    preview_path: "blog/{{slug}}"
+    preview_path: "/blog/{{slug}}"
 
     fields:
       - label: "Date"
