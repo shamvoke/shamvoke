@@ -80,7 +80,7 @@ export default function WebDesignSection() {
 
                 <div className="mt-10">
                   <Link
-                    href="https://wa.me/254714597644?text=Hi%2C%20I%27d%20like%20to%20start%20a%20blog%20website.%20Can%20we%20talk%20about%20the%20details%3F"
+                    href="https://wa.me/254727756658?text=Hi%2C%20I%27d%20like%20to%20start%20a%20blog%20website.%20Can%20we%20talk%20about%20the%20details%3F"
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-sham px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
                     <WhatsAppIcon className="h-6 w-6 text-green-500" />
