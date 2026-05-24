@@ -120,7 +120,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Bespoke <span className="text-voke">Digital Solutions</span> for <span className="font-bold">serious brands.</span> From custom UI/UX to robust e-commerce and SEO strategy tailored for brand growth. <span className="text-voke">Team WebMeka</span> has you covered. 
+                    Bespoke <span className="text-voke">Digital Solutions</span> for serious<span className="font-bold"> brands.</span> From custom UI/UX to robust e-commerce and SEO strategy. <span className="text-voke">Team WebMeka</span> has you covered. <span className="font-bold">Tailored for brand growth.</span>
                     <br />
                     Visit our website to see how we can help your business thrive online.
                   </p>
