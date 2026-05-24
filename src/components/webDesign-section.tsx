@@ -63,14 +63,14 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Includes a custom-designed blog website with up to 5 pages, and 1-year domain and hosting.
+                    Includes a custom-designed blog website with up to 5 pages, plus 1-year domain and hosting.
                   </p>
                 </div>
 
                 <ul className="mt-8 space-y-4 text-sm text-white/72">
                   <li className="flex items-center gap-3">
                     <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                    Tailored to your voice, content & vision
+                    Tailored to your voice, content, and vision
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="h-2 w-2 rounded-full bg-cyan-300" />
