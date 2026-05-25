@@ -11,7 +11,7 @@ tags:
   - Notepad++
 ---
 
-Finding the perfect text editor is one of those *tiny tech decisions* that somehow matters, and not just for developers. Whether you are <u>coding</u>, <u>writing</u>, or just <u>tweaking system configuration</u> files, we constantly bounce between heavy, **bloated apps** that consume RAM for a living, and barebones **terminal editors** that require a PhD in keyboard shortcuts just to exit (hi Vim). [Kate](https://kate-editor.org/) sits right in the middle, offering the speed of a lightweight editor with the power of a full-blown development environment.
+Finding the perfect text editor is one of those *tiny tech decisions* that somehow matters, and not just for developers. Whether you are <u>coding</u>, <u>writing</u>, or just <u>tweaking system configuration files</u>, we constantly bounce between heavy, **bloated apps** that consume RAM for a living, and barebones **terminal editors** that require a PhD in keyboard shortcuts just to exit (hi Vim). [Kate](https://kate-editor.org/) sits right in the middle, offering the speed of a lightweight editor with the power of a full-blown development environment.
 
 Now, don't get me wrong, **Visual Studio Code** is still my workhorse for heavy development. See, both Kate and VS Code have their own distinct spaces in my workflow, and sometimes, you simply don't need to fire up a massive IDE for a quick task.
 
@@ -35,7 +35,7 @@ This is a total game-changer. Having an integrated terminal right at the bottom 
 
 It might look simple on the surface, but Kate is incredibly smart. With built-in LSP support, you get fantastic autocomplete, syntax highlighting, and error checking straight out of the box.
 
-Since I find myself editing Markdown files most of the time, *including those blog articles*, I usually install `marksman` from AUR for exactly that. In simple terms, marksman enables Markdown code assist and intelligence in Kate.
+Since I find myself editing Markdown files most of the time, *including this blog article*, I usually install `marksman` from AUR for exactly that. In simple terms, marksman enables Markdown code assist and intelligence in Kate.
 
 #### Split Views & Sessions
 
@@ -49,7 +49,7 @@ Honestly, every other text editor has this feature, what sets Kate apart is the 
 
 #### The Champion
 
-Kate proves that you don't need an Electron-based behemoth to get real work done. It integrates beautifully into Linux, Windows and MacOS, feels incredibly native, and stays out of your way so you can focus entirely on writing.
+Kate proves that you don't need an Electron-based bloat to get real work done. It integrates beautifully into Linux, Windows and even MacOS, feels incredibly native, and stays out of your way so you can focus entirely on writing.
 
 *If you are tired of your current editor slowing you down*, it might be time to play the field. Give Kate a try.
 
