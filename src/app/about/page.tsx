@@ -23,7 +23,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-foreground">
-          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A Creative Designer & Web Developer based in Kenya.
+          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A Creative Designer & Web Developer based on planet Earth 🌍
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
