@@ -21,6 +21,8 @@ For *"normal"*, regular text file edits, Kate is my absolute champion. Whether I
 
 Back in my Windows days, [Notepad++](https://notepad-plus-plus.org/) was the ~~undisputed~~ king of this quick-edit space. But ever since Kate entered the picture, it has completely taken over the throne. It is so good that even when I find myself working on a Windows machine, the first thing I do is install Kate.
 
+<hr>
+
 ### Here is why Kate wins
 
 #### Unapologetically Fast
@@ -46,6 +48,8 @@ Managing multiple files is a breeze. The split-screen functionality is intuitive
 Honestly, every other text editor has this feature, what sets Kate apart is the workflow. It's fluid, unobtrusive, and handles everything from simple word swaps to complex regular expressions without ever making you feel like you're fighting the interface.
 
 ![Kate screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1779745877/Screenshot_kate_zrcyca.webp "A screenshot of Kate search and replace")
+
+<hr>
 
 #### The Champion
 

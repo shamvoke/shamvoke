@@ -17,6 +17,8 @@ As promised from my previous [Sham journey to Arch Linux post](/blog/a-sham-jour
 
 I repeat, if you are coming from windows, **Distro Hopping** is the initiation stage to Linux. Optional, but crucial!
 
+<hr>
+
 #### Disclaimer
 
 There are many ways to kill a rat, you could bomb it, shoot it, or just poison it. _(If you ask me, there are also other solutions that don't involve killing the rat.)_
@@ -24,6 +26,8 @@ There are many ways to kill a rat, you could bomb it, shoot it, or just poison i
 Similarly, there are many ways to install Arch. You could go the manual way, use an installation script, install an Arch based Linux Distro, or use the ~~super easy~~ **Archinstall**.
 
 We aren't here to argue which method is the best, just as in the example above the goal was getting rid of the rat, the goal here is to get Arch installed. **Archinstall for the win.**
+
+<hr>
 
 #### 🛠 Requirements
 

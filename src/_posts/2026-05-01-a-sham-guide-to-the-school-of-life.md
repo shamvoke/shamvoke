@@ -12,7 +12,9 @@ tags:
 ---
 #### Disclaimer
 
-The opinions in this post (_and every other post on this website for that matter_) are strictly **Sham's** opinions. **From my brain, to yours.** 💙
+The opinions in this post (_and every other post in the life category for that matter_) are strictly **Sham's** opinions. **From my brain, to yours.** 💙
+
+<hr>
 
 #### FREE EDUCATION! FREE EDUCATION
 
@@ -31,6 +33,8 @@ And if part of that system is `under-informed`, `under-equipped`, or `left behin
 let me tell you shamthing
 >Even in the wild, animals 'educate' their young without a fee structure. If they can pass on the source code of survival for free, surely humans, with all our "superior" logic, can do better.
 
+<hr>
+
 #### The school System
 
 **Analogy alert.** If I had to explain the education system in tech terms, I'd call it binary.
@@ -40,7 +44,9 @@ Just like in computing, everyone in this system is either a 0 or a 1.
 - **The teacher is the 1** , the source of knowledge
 - **The student is the 0** , the receiver of knowledge
 
-Yes, sometimes a student teaches something back. But the system itself is rigid. It defines roles before interaction even begins. _You don't walk into a classroom wondering who might teach who today._
+Yes, sometimes a student teaches something back. But the system itself is rigid. It defines roles before interaction even begins. *You don't walk into a classroom wondering who might teach who today.*
+
+<hr>
 
 #### The school of life system
 
@@ -89,14 +95,14 @@ You don't need a registration form. You don't need a degree. You don't need a lo
 
 In the School of Life, everyone and everything exists in a state of _educational superposition._ At any given second, you are both the teacher and the student.
 
-I therefore argue, **awareness** is your observation tool. Awareness is also the ~~currency~~ "Attention Fee" I mentioned earlier. And once you pay it, the curriculum reveals itself _everywhere._
+I therefore argue, **awareness** is your observation tool. Awareness is also the ~~currency~~ "Attention Fee" I mentioned earlier. And once you pay attention, the curriculum reveals itself _everywhere._
 
 #### Hello Classmate
 
 Once I became aware, I found myself learning from:
 
 - people younger than me
-- people with zero technical background
+- people with "zero" technical background
 - mistakes I didn't plan for
 - nature - _my favorite class sessions!!!_
 
@@ -107,6 +113,8 @@ They only became lessons because I was **paying attention.**
 One moment, I'm explaining something like I've mastered it.
 
 Next moment, I'm completely lost, learning from someone I never expected to learn from...
+
+<hr>
 
 #### Edit
 

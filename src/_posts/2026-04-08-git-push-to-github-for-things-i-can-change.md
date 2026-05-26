@@ -18,7 +18,9 @@ For a start, the old <u>shamvoke blog</u> website was build with the static site
 
 Sometimes I write blogs. Most of the time, I write code. I wanted to build an environment that reflected both. But every time I tried to push it further, Jekyll pushed back.
 
-### My love for NextJS
+<hr>
+
+#### My love for NextJS
 
 >The shift to Next.js wasn't an impulse; it was a calculated move toward architectural freedom.
 

@@ -12,6 +12,8 @@ tags:
 ---
 They say you don't choose Arch, Arch chooses you. Well, for me I didn't even know Arch existed when I first stepped foot on Linux territory.
 
+<hr>
+
 #### The first switch
 
 I recall it all started with curious me following a WiFi hack guide on YouTube! <u>Curiosity killed the cat for sure.</u> What caught my attention was seeing the guy boot a full [Kali Linux OS](https://www.kali.org/) from a USB drive! **I had to try that!** I didn't become a master hacker, but I noticed something immediate: The system was fast, noticeably faster than my fully installed Windows setup. _It didn't make sense._ This was a live environment running off a USB, yet it felt smoother than what I had been using every day?
@@ -94,6 +96,8 @@ As far as am concerned, It isn't just a setup.
 
 It is something I have built, tested, and refined over time.
 
+<hr>
+
 #### An ocean
 
 And then there's the [AUR](https://aur.archlinux.org/) - Arch User Repository.
@@ -119,6 +123,8 @@ It became my go to for everything Arch.
 ![My Archlinux KDE setup screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1776719055/Sham_Archlinux_KDE_setup_phglqc.webp "Sham's desktop screenshot!")
 
 I've spent years breaking, re-installing, and optimizing Arch ~~so you don't have to~~. I've finally settled on my _"perfect"_ setup.
+
+<hr>
 
 #### Notable Distros
 

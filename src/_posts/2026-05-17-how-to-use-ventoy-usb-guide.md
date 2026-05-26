@@ -13,6 +13,8 @@ tags:
 
 In a previous post, I geeked out about [Ventoy, My Forever USB Companion](/blog/ventoy-my-forever-usb-companion-1), breaking down exactly why it's the absolute best tool for distro-hopping and indulging those late-night bursts of tech curiosity.
 
+<hr>
+
 **This time, let us actually use it.**
 
 Ventoy is one of those tools that feels almost suspiciously simple. You install it once on a USB drive, then instead of flashing one ISO at a time like the ~~good~~ old days, you just copy your ISO files into the USB like normal files.
@@ -112,6 +114,8 @@ Instead of booting straight into a single installer, you will be greeted by the 
 ![Ventoy screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1779182948/Ventoy-menu_vgqzdn.webp "A screenshot showing ventoy boot menu")
 
 Use your arrow keys, pick the one you want to boot, hit Enter, and watch the magic happen.
+
+<hr>
 
 #### What About Secure Boot?
 
