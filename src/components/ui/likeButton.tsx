@@ -13,7 +13,7 @@ export default function LikeButton() {
 
   return (
     <div className="flex flex-col items-center pt-10 gap-4">
-      <p className="text-sham dark:text-gray-500 font-voke text-center text-xl italic">
+      <p className="text-sham dark:text-gray-500 font-voke text-center text-2xl italic">
         Enjoyed This Post? <br /> Give It A Like!
       </p>
 
@@ -21,7 +21,7 @@ export default function LikeButton() {
         className="
           iine-button
           inline-flex items-center gap-2 text-sham dark:text-gray-500
-          no-underline
+          no-underline [&_svg]:size-8 text-3xl
           transition-all duration-300 ease-in-out hover:scale-105
           [&.clicked]:text-sham
           [&.clicked]:dark:text-voke
