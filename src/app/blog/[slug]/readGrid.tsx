@@ -15,7 +15,7 @@ export default function ReadGrid({ posts }: ReadGridProps) {
           href={`/blog/${post.slug}`}
           className="group flex flex-col gap-3 transition-transform duration-300 hover:-translate-y-1 lg:flex-row lg:items-start lg:gap-4"
         >
-          <div className="relative w-full h-48 shrink-0 overflow-hidden rounded-xl lg:w-24 lg:h-16 lg:rounded-lg">
+          <div className="relative aspect-40/21 w-full h-full shrink-0 overflow-hidden rounded-xs lg:w-32 lg:h-16">
             <Image
               src={post.featuredImage}
               alt={post.title}

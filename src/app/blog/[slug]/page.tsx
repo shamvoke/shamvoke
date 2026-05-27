@@ -159,15 +159,17 @@ export default async function PostPage({ params }: Props) {
     </article>
     <aside className="hidden lg:block w-80 shrink-0 space-y-12 mt-33">
       <div>
-        <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
+        <h3 className="text-xl font-sham font-bold text-sham dark:text-voke">
           Related Posts
         </h3>
+        <hr className="my-6" />
         <ReadGrid posts={relatedPosts} />
       </div>
       <div>
         <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
           Latest Posts
         </h3>
+        <hr className="my-6" />
         <ReadGrid posts={latestPosts} />
       </div>
     </aside>

@@ -21,7 +21,7 @@ export default function LikeButton() {
         className="
           iine-button
           inline-flex items-center gap-2 text-sham dark:text-gray-500
-          no-underline [&_svg]:size-8 text-3xl
+          no-underline [&_svg]:size-6 text-2xl
           transition-all duration-300 ease-in-out hover:scale-105
           [&.clicked]:text-sham
           [&.clicked]:dark:text-voke
