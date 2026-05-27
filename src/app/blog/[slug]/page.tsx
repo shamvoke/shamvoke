@@ -128,6 +128,7 @@ export default async function PostPage({ params }: Props) {
             src={post.featuredImage}
             alt={post.title}
             fill
+            sizes="100vw"
             loading="eager"
             fetchPriority="high"
             className="object-cover"
