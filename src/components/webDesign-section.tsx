@@ -15,7 +15,7 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
 export default function WebDesignSection() {
   return (
-    <section className="relative overflow-hidden pt-15 px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden py-15 px-4 sm:px-6 lg:px-8">
       
       <div className="mx-auto max-w-6xl">
         <div className="mb-6 flex items-center justify-center gap-4">
@@ -41,12 +41,12 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0.12}
             style={{ borderRadius: 24 }}
-            className="transition-all duration-300 hover:-translate-y-1 group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl"
+            className="group relative rounded-3xl bg-black/80 dark:bg-white/4 p-6 backdrop-blur-xl"
           >
 
               <div className="relative z-10">
                 <span className="inline-flex rounded-xl border border-white/10 bg-white/6 px-4 py-2 text-sm font-bold text-voke">
-                  Special Offer: $120
+                  Blog Offer: $120
                 </span>
 
                 <div className="mt-6 flex justify-center">
@@ -95,7 +95,7 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0}
             style={{ borderRadius: 24 }}
-            className="transition-all duration-300 hover:-translate-y-1 group relative rounded-3xl bg-sham/80 dark:bg-white/4 p-6 backdrop-blur-xl"
+            className="group relative rounded-3xl bg-black/80 dark:bg-white/4 p-6 backdrop-blur-xl"
           >
 
               <div className="relative z-10">

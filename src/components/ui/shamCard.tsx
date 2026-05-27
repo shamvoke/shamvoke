@@ -30,7 +30,7 @@ interface ElectricBorderProps {
 
 const ElectricBorder: React.FC<ElectricBorderProps> = ({
   children,
-  color = '#5227FF',
+  color = '#00FFFF',
   speed = 1,
   chaos = 0.12,
   borderRadius = 24,
@@ -316,13 +316,6 @@ const ElectricBorder: React.FC<ElectricBorderProps> = ({
         <div
           className="absolute inset-0 rounded-[inherit] pointer-events-none"
           style={{ border: `2px solid ${color}`, filter: 'blur(4px)' }}
-        />
-        <div
-          className="absolute inset-0 rounded-[inherit] pointer-events-none -z-1 scale-110 opacity-30"
-          style={{
-            filter: 'blur(32px)',
-            background: `linear-gradient(-30deg, ${color}, transparent, ${color})`
-          }}
         />
       </div>
       <div className="relative rounded-[inherit] z-1">{children}</div>
