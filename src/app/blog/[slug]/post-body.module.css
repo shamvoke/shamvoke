@@ -114,7 +114,7 @@
 
 /* Images */
 .markdown img {
-  @apply  my-8 w-90 h-auto;
+  @apply  my-8 max-w-full h-auto mx-auto;
 }
 
 /* Tables */
