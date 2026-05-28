@@ -51,15 +51,15 @@
           "header",
           { className: "preview-header" },
 
+          category &&
+            h("p", { className: "preview-category" }, category),
+
           date &&
             h(
               "time",
               { className: "preview-date" },
               formatDate(date)
             ),
-
-          category &&
-            h("p", { className: "preview-category" }, category),
 
           title &&
             h("h1", { className: "preview-title" }, title),
