@@ -51,6 +51,13 @@
           "header",
           { className: "preview-header" },
 
+          date &&
+            h(
+              "time",
+              { className: "preview-date" },
+              formatDate(date)
+            ),
+
           category &&
             h("p", { className: "preview-category" }, category),
 
@@ -61,14 +68,8 @@
             h("p", { className: "preview-shamthing" }, shamthing),
 
           excerpt &&
-            h("p", { className: "preview-excerpt" }, excerpt),
+            h("p", { className: "preview-excerpt" }, excerpt)
 
-          date &&
-            h(
-              "time",
-              { className: "preview-date" },
-              formatDate(date)
-            )
         ),
 
         image &&
