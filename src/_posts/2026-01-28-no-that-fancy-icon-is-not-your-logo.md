@@ -85,21 +85,17 @@ After all that curving, it turns out WEBMEKA exists both inside and outside the 
 
  Next came the part most designers treat as routine. Export files. Deliver variations. Light background, dark background, social media sizes, profile pictures, and a few mockups. Project done.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
-  <mask id="a">
-    <path fill="#fff" d="M0 0h250v250H0V0z"/>
-    <path stroke="#000" stroke-linecap="round" stroke-width="18" d="M70 70l110 110"/>
-  </mask>
-  <g fill="none" stroke="#0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="18" mask="url(#a)">
-    <path d="M125 31.25l-19.79 60.63a20.85 20.85 0 0 1-13.28 13.28L31.25 125l60.63 19.79a20.85 20.85 0 0 1 13.28 13.28L125 218.75l19.79-60.63a20.85 20.85 0 0 1 13.28-13.28L218.75 125l-60.63-19.79a20.85 20.85 0 0 1-13.28-13.28z"/>
-  </g>
-</svg>
+<img
+  src="/Logo.svg"
+  alt="WebMeka Logo"
+  style="display:block;width:clamp(220px,80vw,420px);height:auto;margin:2rem auto;"
+/>
 
 This is where the story usually ends.
 
 ---
 
-### Halt, and then catch fire!
+### Halt, and then catch fire
 
 After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the sparkle-inspired logo files, but in different variations and formats.
 
