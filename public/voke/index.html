@@ -8,5 +8,96 @@
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@3.1.0-beta.5/dist/decap-cms.js"></script>
+    <script>
+  CMS.registerPreviewStyle("/voke/preview.css");
+
+  const PostPreview = createClass({
+    render: function () {
+      const entry = this.props.entry;
+
+      const title = entry.getIn(["data", "title"]);
+      const shamthing = entry.getIn(["data", "shamthing"]);
+      const excerpt = entry.getIn(["data", "excerpt"]);
+      const category = entry.getIn(["data", "category"]);
+      const date = entry.getIn(["data", "date"]);
+      const featuredImage = entry.getIn(["data", "featuredImage"]);
+      const tags = entry.getIn(["data", "tags"]);
+
+      const image = featuredImage
+        ? this.props.getAsset(featuredImage).toString()
+        : null;
+
+      const tagsList = tags && tags.toJS ? tags.toJS() : tags;
+
+      function formatDate(rawDate) {
+        if (!rawDate) return null;
+
+        const parsedDate = new Date(rawDate);
+
+        if (Number.isNaN(parsedDate.getTime())) return null;
+
+        return parsedDate.toLocaleDateString("en-KE", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        });
+      }
+
+      return h(
+        "article",
+        { className: "shamvoke-preview" },
+
+        h(
+          "header",
+          { className: "preview-header" },
+
+          category &&
+            h("p", { className: "preview-category" }, category),
+
+          title &&
+            h("h1", { className: "preview-title" }, title),
+
+          shamthing &&
+            h("p", { className: "preview-shamthing" }, shamthing),
+
+          excerpt &&
+            h("p", { className: "preview-excerpt" }, excerpt),
+
+          date &&
+            h(
+              "time",
+              { className: "preview-date" },
+              formatDate(date)
+            )
+        ),
+
+        image &&
+          h("img", {
+            className: "preview-featured-image",
+            src: image,
+            alt: title || "",
+          }),
+
+        tagsList &&
+          tagsList.length > 0 &&
+          h(
+            "div",
+            { className: "preview-tags" },
+            tagsList.map(function (tag, index) {
+              return h("span", { key: index }, "#" + tag);
+            })
+          ),
+
+        h(
+          "main",
+          { className: "markdown" },
+          this.props.widgetFor("body")
+        )
+      );
+    },
+  });
+
+  CMS.registerPreviewTemplate("posts", PostPreview);
+</script>
   </body>
 </html>
