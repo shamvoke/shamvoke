@@ -19,17 +19,17 @@ I repeat, if you are coming from windows, **Distro Hopping** is the initiation s
 
 <hr>
 
-#### Disclaimer
+## Disclaimer
 
 There are many ways to kill a rat, you could bomb it, shoot it, or just poison it. _(If you ask me, there are also other solutions that don't involve killing the rat.)_
 
-Similarly, there are many ways to install Arch. You could go the manual way, use an installation script, install an Arch based Linux Distro, or use the ~~super easy~~ **Archinstall**.
+Similarly, there are many ways to install Arch. You could go the manual way, use a script, install an Arch based Linux Distro, or use the ~~super easy~~ **Archinstall**.
 
 We aren't here to argue which method is the best, just as in the example above the goal was getting rid of the rat, the goal here is to get Arch installed. **Archinstall for the win.**
 
 <hr>
 
-#### 🛠 Requirements
+## 🛠 Requirements
 
 - **A Backup:** We aren't dual-booting. Backup your data to the cloud or an external drive.
 - **The ISO:** Download from [Arch website](https://archlinux.org/download/)
@@ -40,7 +40,7 @@ We aren't here to argue which method is the best, just as in the example above t
 **Mirrors**
 >On the download page, you’ll see "**Mirrors**." These are just servers globally hosting duplicate copies of the ISO. Think of them as copies of the official Arch server, if the main server updates, the mirrors update to **reflect** the changes... Mirrors they are indeed!
 
-#### 🚀 Pre-installation
+## 🚀 Pre-installation
 
 1. **Brain Check:** Confirm whether your PC uses **BIOS** or **UEFI**.
 2. **Prepare the USB:** Install Ventoy to your flash drive and simply copy the Arch ISO file onto it.
@@ -48,12 +48,12 @@ We aren't here to argue which method is the best, just as in the example above t
 
 >For ventoy install, choose between `MBR` or `GPT` mode. I choose GPT. Stick to MBR if on BIOS only system.
 
-#### Step 1 - Internet connection
+### Step 1 - Internet connection
 
 If you're on a wired connection, you're already set.
 If you're on Wi-Fi, type: `iwctl` *(Follow the prompts to connect to your network).*
 
-#### Step 2 - Preparation (The optional "Cool" Tweaks)
+### Step 2 - Preparation (The optional "Cool" Tweaks)
 
 First we do some settings, and no, there are no settings app to launch yet. We do settings the Linux way. By editing the config file directly. We are going to use **nano** text editor for that.
 
@@ -74,7 +74,7 @@ First we do some settings, and no, there are no settings app to launch yet. We d
     - `sudo pacman -Sy reflector` to install reflector
     - `sudo reflector --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist` to update mirrors
 
-#### Step 3 - Final boss (Archinstall)
+### Step 3 - Final boss (Archinstall)
 
 Run `archinstall` to launch the Arch Linux guided installer.
 
@@ -108,7 +108,7 @@ Let's cover each of those options one by one:
 | Automatic time sync (NTP)| Optional, choose `yes` or _SKIP_|
 | Optional repositories    | Optional, try `testing repo` or _SKIP_|
 
-#### Install
+## Install
 
 Hit `install` to start the installation process.
 
@@ -120,7 +120,7 @@ After installation is complete, you will be prompted whether you want to chroot,
 
 Now you can click `reboot` to boot to your new system!
 
-#### 🛠 Post-install
+### 🛠 Post-install
 
 Time to do some setup.
 
@@ -168,7 +168,7 @@ paru -S google-chrome firefox p7zip-gui warpgui-bin telegram-desktop-bin freedow
 
 While the packages are downloading, head over to `System settings` and setup your KDE to your liking. Stay tuned for a future update where I dig into a detailed KDE setup.
 
-#### Next
+## Next
 
 Feel free to try out diffrent options. Like installing with `linux-zen` kernel, a diffrent Desktop Enviroment from kDE, with ZRAM on, and the vast options you could explore!
 

@@ -14,17 +14,17 @@ They say you don't choose Arch, Arch chooses you. Well, for me I didn't even kno
 
 <hr>
 
-#### The first switch
+## The first switch
 
 I recall it all started with curious me following a WiFi hack guide on YouTube! <u>Curiosity killed the cat for sure.</u> What caught my attention was seeing the guy boot a full [Kali Linux OS](https://www.kali.org/) from a USB drive! **I had to try that!** I didn't become a master hacker, but I noticed something immediate: The system was fast, noticeably faster than my fully installed Windows setup. _It didn't make sense._ This was a live environment running off a USB, yet it felt smoother than what I had been using every day?
 
 Digging a bit deeper, learned I could **dual-boot** Linux with my Windows! And considering Kali Linux was clearly optimized for hacking, my first stop for a Linux install was [UBUNTU](https://ubuntu.com/). Did my first dual-boot install, but the Ubuntu "default" life wasn't for me. I became a regular on [**DistroWatch**](https://distrowatch.com/), falling down the rabbit hole of **distro-hopping**. I tried almost everything! I mean, I even tried **Deepin OS**. But there was always a catch: I hated how most distros handled software installations.
 
-#### The Windows Killer
+### The Windows Killer
 
 Then came [Manjaro Linux.](https://manjaro.org/) This was the turning point. It was the first Linux OS stable enough and "right" enough that I finally did the unthinkable. **I wiped Windows from my disk for good.** No more dual booting. With Manjaro, installing software was a breeze. And that got me hooked.
 
-#### The Desktop Environment
+### The Desktop Environment
 
 One thing you learn quickly in the Linux world is that _Linux itself is just a kernel_. The invisible engine under the hood. To actually interact with it, you need a **Desktop Environment** (DE). This is your cockpit, and choosing the right one is a very personal decision.
 
@@ -32,7 +32,7 @@ At the time, I was a [GNOME](https://www.gnome.org/) devotee. I loved how minima
 
 _Or so I thought..._
 
-#### The second switch
+## The second switch
 
 Later on, I found out Manjaro is based on Arch Linux, and once again, curiosity got the better of me. The plan was simple in my head, try Arch, experience it, then go back to my "stable Manjaro."
 
@@ -44,7 +44,7 @@ _That was it._
 
 Arch became my main OS from the first boot, and I never looked back!
 
-#### The third switch
+## The third switch
 
 As I got deeper into Arch, something else shifted.
 
@@ -56,7 +56,7 @@ _And this time, everything clicked!_
 
 Everything I had been trying to achieve with extensions in GNOME was already there in KDE. Built in. Ready to use. Ironically, I ended up loving KDE for the exact same reason I once hated it, it had too many options. Only now, those options felt like freedom.
 
-#### The final switch
+## The final switch
 
 I'll be honest. I only did a full manual install once. I respect the process, but I value efficiency. After that initial install, I went hunting for a 'better' way to install arch. The result of that hunt was [archfi.](https://github.com/MatMoul/archfi) A script I found on GitHub by a guy named MatMoul. For me, both the script and its creator were criminally underrated. I could install Arch Linux with two simple terminal commands.
 
@@ -76,7 +76,7 @@ I have watched it grow over time. Eventually, the official script matured. **One
 
 Simple.
 
-#### The Arch team
+### The Arch team
 
 The thing about Arch team is they release an updated `.iso` on the 1st of every month! 12 times a year! And one thing about me is... I love updates!
 
@@ -86,7 +86,7 @@ I started reinstalling Arch as a hobby. Every month. Sometimes more. Each instal
 
 Four file system options? That meant four installs. Bootloaders? Another round. Zswap enabled, disabled, tested again. I kept going, not out of necessity, but pure curiosity.
 
-#### No more switch
+## No more switch
 
 Eventually, all that experimentation led me to a setup that felt right.
 
@@ -98,7 +98,7 @@ It is something I have built, tested, and refined over time.
 
 <hr>
 
-#### An ocean
+### An ocean
 
 And then there's the [AUR](https://aur.archlinux.org/) - Arch User Repository.
 
@@ -108,9 +108,9 @@ It's like an ocean of software. Almost anything I needed was there, ready to ins
 
 Well, almost everything.
 
-Adobe still hasn't made its way there 😄 ~~Who needs Adobe anyway, I DO!~~
+Adobe still hasn't made its way there 😄 Who needs Adobe anyway, ~~I DO!~~
 
-#### The map
+### The map
 
 And finally, the [Arch Wiki.](https://wiki.archlinux.org/title/Main_page)
 
@@ -118,7 +118,7 @@ At some point, it stops feeling like documentation. It feels like something else
 
 It became my go to for everything Arch.
 
-#### The destination
+### The destination
 
 ![My Archlinux KDE setup screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1776719055/Sham_Archlinux_KDE_setup_phglqc.webp "Sham's desktop screenshot!")
 
@@ -126,17 +126,17 @@ I've spent years breaking, re-installing, and optimizing Arch ~~so you don't hav
 
 <hr>
 
-#### Notable Distros
+## Notable Distros
 
 Along the journey, there are some distros that earned my respect, worth checking out:
 
 1. [**Linux Mint:**](https://linuxmint.com/) This one is so stable it almost made me switch! Based on UBUNTU but it beats UBUNTU any day and everyday! _Went back to Arch because... AUR._
 
-2. [**XeroLinux:**](https://xerolinux.xyz/) A hidden gem I found in the wild. Based on Arch. Steel solid! _Went back because... Vanilla Arch._
+2. [**XeroLinux:**](https://xerolinux.xyz/) A hidden gem I found in the wild. Based on Arch. Steel solid!
 
-3. [**CachyOS:**](https://cachyos.org/) A new player on the scene. Based on Arch. Rock solid. _Went back because... Vanilla Arch._
+3. [**CachyOS:**](https://cachyos.org/) A new player on the scene. Based on Arch. Rock solid.
 
-_Stay tuned for my next post, where I'll drop the full, step-by-step guide on how I install my Arch Linux daily driver._ Plus a few tricks I have learned along the years!
+_Stay tuned for my next post, where I'll drop the full, step-by-step guide on how I install my Arch Linux daily driver._ Plus a few tricks I have learned along the way!
 
 Stay Curious,
 

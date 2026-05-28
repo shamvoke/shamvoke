@@ -10,15 +10,15 @@ tags:
   - awareness
   - lessons
 ---
-#### Disclaimer
+## Disclaimer
 
-The opinions in this post (_and every other post in the life category for that matter_) are strictly **Sham's** opinions. **From my brain, to yours.** 💙
+The opinions in this post (and every other post in the *life* category for that matter) are strictly Sham's opinions. **From my brain, to yours.** 💙
 
 <hr>
 
-#### FREE EDUCATION! FREE EDUCATION
+### FREE EDUCATION! FREE EDUCATION
 
-**Before we dive in, let's talk system architecture.** I strongly believe education should be free, and my logic is simple: _You can't blame a node for being unoptimized if you've locked the update behind a paywall._
+**Before we dive in, let's talk system architecture.** I strongly believe education should be free, and my logic is simple: *You can't blame a node for being unoptimized if you've locked the update behind a paywall.*
 
 When we put a price tag on learning, we guarantee an unequal system. But here's the glitch: those now 'uneducated' individuals don't just disappear, they remain vital parts of the community.
 
@@ -30,12 +30,13 @@ Because in the end, both the educated and the uneducated don't live in separate 
 
 And if part of that system is `under-informed`, `under-equipped`, or `left behind`, the whole system feels it.
 
-let me tell you shamthing
+**let me tell you shamthing**
+
 >Even in the wild, animals 'educate' their young without a fee structure. If they can pass on the source code of survival for free, surely humans, with all our "superior" logic, can do better.
 
 <hr>
 
-#### The school System
+### The school System
 
 **Analogy alert.** If I had to explain the education system in tech terms, I'd call it binary.
 
@@ -48,7 +49,7 @@ Yes, sometimes a student teaches something back. But the system itself is rigid.
 
 <hr>
 
-#### The school of life system
+### The school of life system
 
 Sticking to the above analogy, then life feels a lot closer to **quantum computing.** Stay with me...
 
@@ -67,7 +68,7 @@ You are both.
 
 At the same time, until observed!
 
-#### Everyone, Everything
+### Everyone, Everything
 
 Once enrolled, learning becomes less about **authority** and more about **awareness**.
 
@@ -79,7 +80,7 @@ You begin to realize:
 
 _Not because it was designed to teach you, but because you are open to learning._
 
-#### School fee
+### School fee
 
 It's a bit ironic. We built systems where access to learning depends on what you can pay. Yet, the most important lessons don't come from those systems at all.
 
@@ -87,7 +88,7 @@ Unlike the formal school system that demands ~~a mountain of~~ money for "school
 
 **The only fee you ever have to pay is attention.**
 
-#### How to enroll in-to the school of life
+### How to enroll in-to the school of life
 
 You don't need a registration form. You don't need a degree. You don't need a loan. Enrollment begins the moment you become **aware**.
 
@@ -97,14 +98,14 @@ In the School of Life, everyone and everything exists in a state of _educational
 
 I therefore argue, **awareness** is your observation tool. Awareness is also the ~~currency~~ "Attention Fee" I mentioned earlier. And once you pay attention, the curriculum reveals itself _everywhere._
 
-#### Hello Classmate
+## Hello Classmate
 
 Once I became aware, I found myself learning from:
 
 - people younger than me
 - people with "zero" technical background
 - mistakes I didn't plan for
-- nature - _my favorite class sessions!!!_
+- nature - *my favorite class sessions!!!*
 
 None of these came labeled as “lessons”.
 
@@ -116,13 +117,13 @@ Next moment, I'm completely lost, learning from someone I never expected to lear
 
 <hr>
 
-#### Edit
+### Edit
 
-A few days after publishing this post, I shared the link with AI([ChatGPT](https://chatgpt.com/)) to get a second opinion. _The results was this chart!_
+A few days after publishing this post, I shared the link with AI([ChatGPT](https://chatgpt.com/)) to get a second opinion. *The results was this chart!*
 
 ![Four elements chart](https://res.cloudinary.com/deudsgjbm/image/upload/v1778351710/Four-Elements_yp8kkc.webp "The Four pillars of awareness chart")
 
-Titled "The four elements chart"
+Titled "The four elements chart"?!
 
 Digging in a bit further only to find close variants of the chart online! **A new rabbit hole unlocked!**
 

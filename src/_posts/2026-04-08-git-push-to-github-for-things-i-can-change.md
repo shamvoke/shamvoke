@@ -10,7 +10,7 @@ tags:
   - blog
   - nextjs
 ---
-#### The site was live… but not alive
+## The site was live, but not alive
 
 For a start, the old <u>shamvoke blog</u> website was build with the static site generator [Jekyll](https://jekyllrb.com/). Jekyll felt perfect. The workflow was a developer's dream: `write, commit, deploy.` It was clean. It was minimal. There were no distractions, just me and the markdown. The website did exactly what it was supposed to do. It was static, simple, and infinitely reliable.
 
@@ -20,7 +20,7 @@ Sometimes I write blogs. Most of the time, I write code. I wanted to build an en
 
 <hr>
 
-#### My love for NextJS
+### My love for NextJS
 
 >The shift to Next.js wasn't an impulse; it was a calculated move toward architectural freedom.
 
@@ -30,7 +30,7 @@ Then, there is the **speed**. Next.js serves up lean, highly optimized pages rig
 
 But the biggest win over Jekyll is the absolute **control**. Moving away from a purely static generator meant I finally had a say over the network boundary. With Next.js, I get to dictate exactly what renders securely on the server and what hydrates on the client side for interactivity.
 
-#### The things I can change
+### The things I can change
 
 >Tech, much like life, has a funny way of reminding you of your limits.
 
@@ -45,7 +45,7 @@ And talking of why not, you will notice a new **play** menu option. Clicking tha
 
 Not to forget, a **like button** that I actually like. _See what I did there?_
 
-#### Bye Jekyll
+### Bye Jekyll
 
 This wasn't about abandoning Jekyll.
 
@@ -60,14 +60,14 @@ Next.js lets me create._
 
 That difference is everything.
 
-#### Build for the future
+## Build for the future
 
 So here is the new shamvoke.com website. `Rebuilt, redesigned, and running on NextJS`. I've pushed every optimization I could think of to GitHub. _(With more updates underway)_
 
 - Every component intentional.
 - Every section considered.
 
->P.S. Want to start sharing your ideas but don't have a blog yet? Let's design an experience that is entirely yours. (And since you are reading this here, you get custom pricing for personal blog builds). Hit me up at <mailto:shamvoke@webmeka.com>
+>P.S. Want to start sharing your ideas but don't have a blog yet? Let's design an experience that is entirely yours. (And since you are reading this here, you get custom pricing for personal blog builds). Hit me up at shamvoke@webmeka.com
 
 Or, visit [Team webmeka](https://webmeka.com) if its a website for your business/brand.
 

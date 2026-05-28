@@ -13,7 +13,7 @@ After switching from **Windows** to **Arch Linux,** I quickly learned that chang
 
 For me, one of those favorites was Internet Download Manager (IDM).
 
-<abbr title="Internet Download Manager">IDM</abbr> is one of those rare Windows tools that actually earns my respect. It is fast, reliable, and brutally efficient at 'grabbing' files and videos from the web.
+>IDM is one of those rare Windows tools that actually earns my respect. It is fast, reliable, and brutally efficient at 'grabbing' files and videos from the web.
 
 So, after the switch, I needed a real <abbr title="Internet Download Manager">IDM</abbr> replacement. Not a toy. Not a half-baked script. Something solid.
 
@@ -21,7 +21,7 @@ That sent me fishing in the open source ocean.
 
 What I pulled out was **Free Download Manager** (FDM).
 
-#### Why Free Download Manager
+## Why Free Download Manager
 
 <abbr title="Free Download Manager">FDM</abbr> immediately ticks an important box, it is **free**. Not trial-free. Not free with limitations. Actually free. Free as in freedom.
 
@@ -29,7 +29,7 @@ And unlike <abbr title="Internet Download Manager">IDM</abbr>, it's **cross-plat
 
 Lastly, It is **open source!**
 
-#### Download speed, the honest comparison
+### Download speed, the honest comparison
 
 Let Sham be real. <abbr title="Internet Download Manager">IDM</abbr> is still the speed king. 🙌
 
@@ -39,12 +39,12 @@ That said, <abbr title="Free Download Manager">FDM</abbr> is NOT slow. Not even 
 
 On most downloads, <abbr title="Free Download Manager">FDM</abbr> delivers speeds that are surprisingly comparable to <abbr title="Internet Download Manager">IDM</abbr>. In real-world usage, the difference is often noticeable only if you are watching the numbers like a hawk. For normal downloading, it feels fast, stable, and reliable.
 
-<small>Let me tell you shamthing.</small>
+**Let me tell you shamthing.**
 >I have this habit of 'hawk' watching my downloads, so much so that at this point I list it as one of my hobbies! Anybody else?
 
 **Download resume** support works well. Interrupted downloads come back to life without drama. Browser integration does its job. For a free and open source tool, this is impressive.
 
-#### Where Free Download Manager quietly wins
+### Where Free Download Manager quietly wins
 
 This is where the story gets interesting. *You thought I was done, uh?*
 
@@ -54,7 +54,7 @@ That single feature changes everything. No need for a separate torrent client. N
 
 There is also **remote connection** support, which lets you initiate and manage downloads remotely. That feels very future-friendly, especially if you run multiple machines or like starting downloads from your phone.
 
-#### The licensing reality
+### The licensing reality
 
 This part matters more than people admit.
 
@@ -63,7 +63,7 @@ Just install and use.
 
 That peace of mind is worth a lot.
 
-#### Final thoughts
+## Final thoughts
 
 If you are on Windows and raw download speed is your religion, <abbr title="Internet Download Manager">IDM</abbr> is still hard to beat.
 But if you value your peace of mind, Free Download Manager is an excellent alternative. It just works!

@@ -12,11 +12,11 @@ tags:
 ---
 Yeah, I know. The old 'I use Arch btw' That seems to annoy everyone. But honestly,  I get it. After using Arch Linux for over 4 years now.
 
-### Windows
+## Windows
 
 See, years ago, I was a Windows user. And not your normal user, I considered myself a **power user**. Well, I loved my OS. Digging into *nearly* every Windows feature. Started customizing my own installation, someone would notice and request that I do similar customization on their pc. Even got paid a couple of times to do such setups.
 
-#### YouTube
+## YouTube
 
 Created a YouTube channel and started uploading my custom edits, so much love. My [make your Windows OS look like Mac OS](https://youtu.be/VCNGyRawkss?si=_cPN9RkEimKFdI5a) video got a **million views!**
 
@@ -34,15 +34,15 @@ And for my audience? To avoid more bloated systems, I decided to change the cont
 
 The new content was an instant hit, amassing views like crazy. At this point, ~~your boy should be heading to the bank~~😅 However, YouTube was ready to teach me a lesson I hadn't learned yet...
 
-#### Aye, Pirate
+### Aye, Pirate
 
 Copyright strikes, left, right, and center. What could be the issue YT? Turns out using a cracked version of any software is against their community guidelines. This I already knew... (Before you accuse me of ignorance, I read and agreed to their massive Terms & Conditions in a record time of 1.58 seconds!). I have to agree with YouTube on this one, **pay the developer!**
 
-#### Cracked software
+### Cracked software
 
 My thinking **at the time** was, since I can't afford the software... and the developer getting paid was the least of my concern, then there is no harm in using a cracked version, right?
 
-#### That's when it hit me
+### That's when it hit me
 
 If someone is smart enough to *remove* the code that bills you to use a software,  rest assured, they are smart enough to **add** code for their <u>own interest</u>.
 
@@ -60,7 +60,7 @@ Letting the designer in me shine with videos like **"Windows 11 concept"** *(Win
 
 The videos were '<u>UI designs</u>' of how I envisioned Windows 11 would look like. By the time Windows 11 got released, I had **already moved to Linux!**
 
-#### Sham goes Linux
+## Sham goes Linux
 
 For the 5 years I have used Linux, almost a year was spent switching from one Linux distro to the next. I later learned this is called **"Distro hopping"**
 

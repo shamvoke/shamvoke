@@ -15,23 +15,23 @@ So, somehow you've landed on this post. whether by chance, curiosity, or because
 
 I'm Sham, a UI/UX Designer and Web Developer.
 
-### Why Start a Blog in 2025?
+## Why Start a Blog in 2025?
 
 When AI is busy spitting out content by the second. Why now?
 
-#### Reason One. **The Web Dev In Me.**
+### Reason One. **The Web Dev In Me.**
 
 I've built blogs for clients before. Most didn't last. The longest survived two years, and even that was a battle.
 You see, I was using WordPress for the client's convenience.  (Easier to draft, publish, and edit posts)
 
-#### WordPress Plugins
+### WordPress Plugins
 
 When it comes to WordPress, you just can't avoid plugins. You need them for almost everything! In my experience, this always leads to a bloated project. Not forgetting that the really good plugins usually come with a price tag.
 
 **Nulled WordPress plugins.**
 Getting 'premium' WordPress plugins for free? Not a smart move, I later learned.
 
-#### SEO And Monetization
+### SEO And Monetization
 
 Next comes monetization, the bloggers' promised land ~~full of milk and honey~~. But the journey? not so. To get there, you need serious SEO (_search engine optimization_). This one turns into quicksand if you leave clients to handle it on their own, at least from my experience.
 
@@ -47,7 +47,7 @@ And now there are new kids on the block named **AEO** (_Answering Engine Optimiz
 
 Add **website maintenance services** and the piling costs become a deal-breaker for most clients.
 
-### My solution?
+## My solution?
 
 **Build Smarter, Not Heavier.**
 
@@ -63,7 +63,7 @@ And now, how better to test that out than running my own blog? So here we are. *
 
 ![placeholder](https://res.cloudinary.com/deudsgjbm/image/upload/v1756614081/shamart_poql3q.webp "Shamvoke Logo")
 
-#### Reason Two: **Write To Learn, Publish To Share**
+### Reason Two: **Write To Learn, Publish To Share**
 
 I aim to share my perspective, the wins and fails, the hacks that save me time, and the rabbit holes worth falling into. It's my way of leaving a trail, like digital breadcrumbs, for myself and anyone else wandering the same path.
 

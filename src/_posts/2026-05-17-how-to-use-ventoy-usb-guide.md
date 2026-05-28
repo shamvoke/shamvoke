@@ -27,7 +27,7 @@ No re-flashing. No “wait, which ISO is currently on this flash drive?” confu
 
 This is a complete beginner-friendly guide to **setting up** Ventoy, **adding ISO** files, **booting** from it, **updating** it later, and **avoiding** the little mistakes that can turn a simple USB mission into an all-night troubleshooting marathon.
 
-#### What You Need
+## What You Need
 
 Before we begin, you need:
 
@@ -36,27 +36,27 @@ Before we begin, you need:
 - The ISO files you want to boot
 - Ventoy *downloaded from the official Ventoy website*
 
->Installing **Ventoy will erase the USB drive you select.** If there is anything important on that flash drive, **back it up** first.
+>Installing Ventoy will **erase the USB drive** you select. If there is anything important on that flash drive, *back it up* first.
 
 Also, **double check** the drive you select before clicking install. This is not the moment to freestyle.
 
-#### Step 1: Download Ventoy
+### Step 1: Download Ventoy
 
 Go to the official [Ventoy website](https://www.ventoy.net/) and download the latest version for your system.
 
 - On Windows, download the `.zip` file.
 - On Linux, download the `.tar.gz` file.
-- On Arch Linux, skip the website, just run `paru -S ventoy-bin` *Assuming you followed my guide to Arch*
+- On Arch Linux, skip the website, just open terminal and run `paru -S ventoy-bin` *Assuming you followed my guide to Arch*
 
 After downloading, extract it somewhere easy to find, like your Downloads folder.
 
-#### Step 2: Plug In Your USB Drive
+### Step 2: Plug In Your USB Drive
 
 Insert the USB drive you want to turn into a **Ventoy drive**.
 
-Again, anything currently on that USB drive will be erased during installation, so this is your **final warning** before those files become **digital dust**.
+Again, anything currently on that USB drive will be erased during installation, so this is your final warning before those files become **digital dust**.
 
-#### Step 3: Open Ventoy
+### Step 3: Open Ventoy
 
 - **On Windows**, look for: `Ventoy2Disk.exe` Right click it and choose: Run as administrator ~~you know the drill~~
 
@@ -68,7 +68,7 @@ Again, anything currently on that USB drive will be erased during installation, 
 
 >*The OS wars officially end right here.* No matter what OS brought you here, the rest of this journey is exactly the same.
 
-#### Bonus: MBR or GPT, Which One Should You Choose?
+## Bonus: MBR or GPT, Which One Should You Choose?
 
 Ventoy gives you the option to install using MBR or GPT.  Don't overthink it, here is the rule of thumb:
 
@@ -78,7 +78,7 @@ Ventoy gives you the option to install using MBR or GPT.  Don't overthink it, he
 
 **If you're not sure, just stick with MBR.**
 
-#### Step 4: Install Ventoy
+### Step 4: Install Ventoy
 
 Once your USB drive is selected and your partition style is chosen, click:
 
@@ -103,7 +103,7 @@ Unplug your USB drive and plug it back in. You will notice it mounts as a regula
 
 That's it. Seriously. You can even **create folders** inside the drive (e.g., "Linux", "Windows", "Rescue Tools") to keep your ISOs organized. *Ventoy will scan the subdirectories and find them anyway.*
 
-#### Step 5: Booting Up
+### Step 5: Booting Up
 
 Restart your PC and access your BIOS/UEFI boot menu (usually by spamming F12, F8, F2, or Del during startup).
 
@@ -117,7 +117,7 @@ Use your arrow keys, pick the one you want to boot, hit Enter, and watch the mag
 
 <hr>
 
-#### What About Secure Boot?
+## What About Secure Boot?
 
 Secure Boot can be a little dramatic.
 
@@ -131,7 +131,7 @@ If Ventoy refuses to boot properly with Secure Boot enabled, you may need to dis
 
 That is not always ideal, but sometimes firmware decides to be firmware.
 
-#### Update Ventoy
+## Update Ventoy
 
 Ventoy gets frequent updates. The absolute best part? You can upgrade the Ventoy installation on your USB without formatting the drive or losing any of your precious, hoarded ISOs.
 

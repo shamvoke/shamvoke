@@ -14,7 +14,7 @@ The title sounds provocative, and it is meant to be. This post is the designer i
 
 By photoshop I mean [Photopea,](https://www.photopea.com/) ~~GIMP~~, [Canva,](https://www.canva.com/)🔥 PicsArt, Photoroom, and more!
 
-#### I am a webmeka
+## I am a webmeka
 
 Here is my ~~short~~ definition of that word before we go any further. A **frontend designer** handles visuals, layout, and user experience. A **backend developer** wrestles code, APIs, databases, and logic. Master both, and you become a **full-stack developer.** Now add branding, graphic design, SEO, analytics, and the unglamorous work of helping a website grow after launch.
 
@@ -32,16 +32,16 @@ That reaction, teaches you that design is not about decoration, it is about comm
 <small>Shamthing else.</small>
 > You know the design is fire when the client says, "DON'T CHANGE ANYTHING! SEND INVOICE"
 
-#### The spark!
+### The spark!
 
-NOW, it all began when I started [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
+NOW, it all began with [WEBMEKA](https://webmeka.com "A creative design agency based in Nairobi, Kenya."). A Creative Design Agency focused on **STRATEGY + DESIGN.**
 Project <u>WEBMEKA Logo Design</u> was on! My chance to turn the mirror inward. I was no longer designing for a client. _I was the client._ That single change broke everything I thought I knew.
 
 Normally, logo design comes with a timeline. A day or two. I respect that limit. Enough time to think, but not enough time to overthink.
 
 This time, however, there was no limit. I started designing the WEBMEKA logo with full confidence. _"I am a graphic designer; this should take me a day or two."_ Oh boy, wrong was I.
 
-#### The client
+### The client
 
 See, as the client, **I did not know** what I wanted. But, (This is important) **I knew** what I did not want.
 
@@ -56,11 +56,11 @@ He was right, objectively. They worked. One of them was even my favorite!
 
 Something was still missing.
 
-#### The designer
+### The designer
 
 As the designer, the logo felt close, but not inevitable. The real one felt like it was hiding somewhere inside my head, waiting to be summoned.
 
-#### Then came the sparkle!
+### Then came the sparkle!
 
 If you have interacted with anything AI lately, you have seen it. The sparkle icon. That little ✨ shape that shows up everywhere AI goes. Mysteriously universal.
 
@@ -99,7 +99,7 @@ This is where the story usually ends.
 
 ---
 
-#### Halt, and then catch fire!
+### Halt, and then catch fire!
 
 After exporting the final design in all variations I thought I might need in the future, I now had another folder full of the sparkle-inspired logo files, but in different variations and formats.
 
@@ -110,7 +110,7 @@ This setup worked for a while, but then reality hit hard. _Take the profile pict
 
 So I did something different.
 
-#### One file to rule them all
+### One file to rule them all
 
  What did I do? I combined my graphic design skills with my web development experience.  The result? One Logo file. And the magic? Wait for it... an <abbr title="Scalable Vector Graphics">SVG</abbr> file!
 
@@ -139,19 +139,19 @@ stroke-linejoin="round" stroke-width="20" mask="url(#a)">
 
 **Let me explain the code above in brief,** For the curious souls reading this :)
 
-The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the Logo height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke-width and color values, with fill set to none.
+The code language used is <abbr title="eXtensible Markup Language">XML</abbr>. The viewBox values define the canvas height and width. The `<path>` code inside the `<g>` tag defines and draws the sparkle shape. Note the stroke-width and color values, with fill set to none.
 
 Above it is a mask layer `<mask>` (Just like mask layers in Photoshop), inside the mask layer is a `<path>` tag, which draws a diagonal line with a width of 18px. Since that line is inside the mask layer, it gets masked out (hidden alongside everything below it), resulting in that diagonal cut of the sparkle shape below it.  Done!
 
-> Honestly, Kate text editor deserves its own post! It makes Notepad++ feel like a toy. Always my go-to editor when dealing with a single file. For projects with multiple files, VS Code saves the day like Superman. Look out for that Kate post in the near future.
+> Honestly, Kate text editor deserves its own post! It makes Notepad++ feel like a toy. Look out for that Kate post in the near future.
 
-#### Why the Sparkle Shape?
+### Why the Sparkle Shape?
 
 No. It is not about trends or AI aesthetics; it works because of what it represents: focus, emergence, and creativity. And with that diagonal cut, the shape feels active rather than static, something small that still commands attention, abstract enough to grow with the brand.
 
-And the sparkle being a star, **I wanted WEBMEKA to be up there with the stars, where it belongs!**
+And the sparkle being a star, **I wanted WEBMEKA to be up there, with the stars, where it belongs!**
 
-#### Why SVG?
+### Why SVG?
 
 Because SVG is not just an image. It is code. Easy to edit even on mobile! No magic wand needed.
 

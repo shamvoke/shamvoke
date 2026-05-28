@@ -15,16 +15,18 @@
 }
 
 /* Headings */
-.markdown h1 h2 h3 {
-  @apply text-2xl md:text-3xl mt-10 mb-2 leading-tight font-sham font-bold tracking-tight;
+.markdown h2 {
+  @apply text-2xl md:text-3xl mt-10 mb-3 leading-tight font-sham font-bold tracking-tight;
 }
 
-.markdown h4 {
-  @apply text-xl md:text-2xl mt-8 mb-2 leading-snug font-sham font-semibold;
+.markdown h3 {
+  @apply text-xl md:text-2xl mt-8 mb-2 leading-snug font-sham font-semibold tracking-tight;
 }
 
-.markdown h5 h6 {
-  @apply font-voke;
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply text-lg md:text-xl mt-6 underline leading-snug font-sham font-semibold tracking-tight;
 }
 
 /* Strong + emphasis */
@@ -74,7 +76,7 @@
 
 /* Blockquotes */
 .markdown blockquote {
-  @apply my-8 border-l-4 border-sham pl-5 italic text-gray-400;
+  @apply my-8 rounded-2xl border-l-4 border-b-4 border-sham pl-5 italic text-gray-400;
 }
 
 :global(.dark) .markdown blockquote {

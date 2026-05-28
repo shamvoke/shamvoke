@@ -10,7 +10,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
   return (
     <section
       id="grid"
-      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-6 -mt-15 mb-10"
+      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4  -mt-15 mb-10"
     >
       {posts.map((post) => (
         <article
@@ -47,7 +47,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             </Link>
 
             <div className="flex flex-1 flex-col px-3 py-5">
-            <time className="block text-sm font-light text-neutral-500 dark:text-neutral-400 mb-3">
+            <time className="block text-sm font-light text-neutral-500 mb-3">
                 {new Date(post.date).toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -56,7 +56,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             </time>
 
             <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-xl sm:text-2xl font-sham sm:font-sans font-bold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
+                <h2 className="text-xl font-sham sm:font-sans font-bold leading-tight text-black dark:text-white mb-3 transition-colors group-hover:text-sham dark:group-hover:text-voke">
                 {post.title}
                 </h2>
             </Link>
@@ -72,7 +72,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
                 {post.tags.map((tag) => (
                     <span
                     key={tag}
-                    className="inline-flex items-center font-bold font-voke rounded-full border border-black dark:border-white px-2 py-1 text-sm sm:text-xs text-black dark:text-white"
+                    className="inline-flex items-center font-sans rounded-full border border-black dark:border-white px-2 py-1 text-xs text-black dark:text-white"
                     >
                     #{tag.toLowerCase()}
                     </span>

@@ -17,7 +17,7 @@ For this post, we'll use these 5 apps:
 
 Lets explore how easy / complex the task is.
 
-### The Windows way
+## The Windows way
 
 On a clean install of Windows, the process begins in the browser, usually **Edge browser** as it comes preinstalled. Followed by a series of google searches: _"Download Google chrome" "Download vlc" "Download Discord"_ and so on. Each search leads to a different website, each offering a different installer. Then comes the clicking ceremony of **"Next ➡️ Next ➡️ Agree ➡️ Skip ➡️ Install."** Repeat this till you have all your software installed.
 
@@ -27,7 +27,7 @@ On a clean install of Windows, the process begins in the browser, usually **Edge
 
 > By the end, you have five new background updaters all fighting for startup space.
 
-#### The Arch way
+## The Arch way
 
 Now imagine the same situation on Arch Linux, fresh install.
 
@@ -39,13 +39,13 @@ Well, on Linux, what we call "software" is generally known as a **package.** And
 
 To start, we open up the terminal.  _(Don't  be scared of the terminal. Trust me, it's easy. Let me show you)_
 
-#### Enter the AUR
+### Enter the AUR
 
 The **Arch User Repository** (AUR).  Think of it like an app store, ~~but its not~~. It's a massive collection of user-maintained packages. Includes Everything from Chrome to Spotify to obscure command-line tools you never knew existed.
 
 By default, Arch uses **pacman** as its package manager. But while pacman is powerful, we're going to use a little helper that makes life easier, [**paru.**](https://github.com/Morganamilo/paru)
 
-#### Meet Paru
+### Meet Paru
 
 **Paru** is basically pacman with superpowers. It automates downloads and installs, handles dependencies, and gives you a clean, interactive interface. Under the hood, it's still pacman.
 
@@ -63,7 +63,7 @@ cd paru
 makepkg -si
 ```
 
-#### Now it's time for the magic
+### Now it's time for the magic
 
 To install a package, let's say "google chrome" All you have to do is `paru -S package-name`
 
@@ -87,7 +87,7 @@ You can also search for packages with `paru package-name`
 paru chrome
 ```
 
-#### Batch install
+### Batch install
 
 Remember our five favorite apps? You can install them all in one command:
 
@@ -114,7 +114,7 @@ paru
 
 That's it. This updates your system and all installed packages! Clean, consistent, and fast.
 
-#### Wrapping It Up
+### Wrapping It Up
 
 To be fair, Windows isn't completely stuck in the installer age. Microsoft now has **Winget**, a command-line package manager, and community projects like [**UniGetUI**](https://github.com/marticliment/UniGetUI) give it a clean graphical front-end. Together, they finally let Windows users install and update apps from one place.
 
