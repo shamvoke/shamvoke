@@ -1,7 +1,7 @@
 ---
 date: "2025-10-26T21:32:00Z"
-title: "Best File Manager. Top 5 Dolphin Tips."
-shamthing: "Tabs are for web browsers, not file managers."
+title: "Best File Manager. Top 5 Dolphin Tips"
+shamthing: "Tabs are for web browsers, not file managers. 🍥"
 excerpt: "Turn Dolphin into a true productivity powerhouse. from using Split View and toolbar tweaks to showing file sizes, linking folders, and adding powerful plugins like 7-Zip and KDE Connect."
 featuredImage: "/_FeaturedImages/07_Top-5-Dolphin-File-Manager-Tips.webp"
 category: "linux"
