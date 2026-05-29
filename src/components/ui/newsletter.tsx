@@ -57,7 +57,7 @@ export default function Newsletter() {
   }
 
   return (
-    <section className="pt-15 max-w-3xl mx-auto w-full pb-6">
+    <section className="pt-15 max-w-3xl mx-auto w-full pb-6 px-4 sm:px-6 lg:px-8">
       <div className="relative overflow-hidden rounded-[1.7rem] bg-linear-to-r from-sham to-voke p-px">
         <div className="absolute inset-0 bg-linear-to-br from-sham/20 via-transparent to-voke/20" />
 
