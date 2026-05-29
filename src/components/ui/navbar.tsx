@@ -6,6 +6,14 @@ import Sidebar from "@/components/ui/sidebar"
 import ThemeToggle from "@/components/ui/theme-toggle"
 import { useState } from "react"
 
+const menu = [
+  { title: "Home", url: "/" },
+  { title: "Blog", url: "/blog" },
+  { title: "Play", url: "/maze3d" },
+  { title: "About", url: "/about" },
+  { title: "Contact", url: "/contact" },
+]
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -15,12 +23,12 @@ export default function Navbar() {
       <div className="flex items-center">
         <button
           onClick={() => setMenuOpen(true)}
-          className="mr-1 sm:ml-6"
+          className="mr-1 sm:ml-6 lg:hidden"
           aria-label="Open menu"
         >
          <Menu className="w-8 h-8 text-gray-300" />
         </button>
-        <h1 className="m-0 h-8 leading-8 relative">
+        <h1 className="m-0 h-8 leading-8 relative lg:ml-8">
           <Link
             href="/"
             className="text-2xl sm:text-3xl font-bold font-sham text-shamvoke"
@@ -31,6 +39,18 @@ export default function Navbar() {
             </span>
           </Link>
         </h1>
+
+        <nav className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+          {menu.map((item) => (
+            <Link
+              key={item.title}
+              href={item.url}
+              className="text-sm font-medium tracking-wide text-white/75 transition hover:text-voke hover:underline decoration-voke underline-offset-8"
+            >
+              {item.title}
+            </Link>
+          ))}
+        </nav>
 
       </div>
         <div className="flex items-center gap-3 sm:mr-5">
@@ -46,12 +66,6 @@ export default function Navbar() {
       </header>
 
       <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
-      <div
-        onClick={() => setMenuOpen(false)}
-        className={`fixed inset-0 bg-black/60 z-20 transition-opacity duration-300 ${
-          menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
-      />
     </>
   )
 }
