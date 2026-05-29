@@ -103,7 +103,7 @@ export default async function PostPage({ params }: Props) {
 
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
           <Calendar className="w-5 h-5 text-black dark:text-voke/70" />
-          <time className="text-sm text-sham dark:text-gray-300">
+          <time className="text-sm text-sham dark:text-gray-300/70">
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
@@ -111,14 +111,14 @@ export default async function PostPage({ params }: Props) {
             })} 
           </time>
           <Clock className="w-5 h-5 text-black dark:text-voke/70" />
-          <span className="text-sm text-sham dark:text-gray-300">
+          <span className="text-sm text-sham dark:text-gray-300/70">
          {stats.text} 
           </span>
         </div>
-        <h1 className="text-2xl md:text-5xl font-sham font-bold mb-4">{post.title}</h1>
+        <h1 className="text-2xl md:text-3xl font-sham font-bold mb-4">{post.title}</h1>
 
         {post.shamthing && (
-          <p className="text-xl capitalize md:text-2xl font-voke mb-2 text-sham dark:text-voke">
+          <p className="text-xl md:text-2xl font-voke mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}
