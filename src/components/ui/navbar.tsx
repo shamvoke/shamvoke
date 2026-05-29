@@ -19,22 +19,22 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full z-10 bg-black/80 transition-all duration-500 p-2 py-2 sm:px-0 sm:py-4 flex items-center justify-between h-16">
+      <header className="fixed top-0 left-0 w-full z-10 bg-white/80 dark:bg-black/80 transition-all duration-500 p-2 py-2 sm:px-0 sm:py-4 flex items-center justify-between h-16">
       <div className="flex items-center">
         <button
           onClick={() => setMenuOpen(true)}
           className="mr-1 sm:ml-6 lg:hidden"
           aria-label="Open menu"
         >
-         <Menu className="w-8 h-8 text-gray-300" />
+         <Menu className="w-8 h-8 text-sham dark:text-gray-300" />
         </button>
         <h1 className="m-0 h-8 leading-8 relative lg:ml-8">
           <Link
             href="/"
-            className="text-2xl sm:text-3xl font-bold font-sham text-shamvoke"
+            className="text-2xl sm:text-3xl font-bold font-sham  bg-linear-to-r from-sham to-sham dark:from-sham dark:to-voke bg-clip-text text-transparent transition-all"
           >
             SHAMVOKE
-            <span className="absolute top-0 left-full ml-2 font-voke text-xs opacity-70 text-voke">
+            <span className="absolute top-0 left-full ml-2 font-voke text-xs opacity-70 text-sham dark:text-voke">
               Blog
             </span>
           </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <Link
               key={item.title}
               href={item.url}
-              className="text-sm font-medium tracking-wide text-white/75 transition hover:text-voke hover:underline decoration-voke underline-offset-8"
+              className="text-sm font-bold tracking-wide text-sham dark:text-white transition hover:text-voke hover:underline decoration-voke underline-offset-8"
             >
               {item.title}
             </Link>

@@ -21,7 +21,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#000000] via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
 
       <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
         
