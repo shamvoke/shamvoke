@@ -123,12 +123,12 @@ export default async function PostPage({ params }: Props) {
           </p>
         )}
 
-        <div className="relative aspect-video rounded-lg overflow-hidden">
+        <div className="relative aspect-[40/21] rounded-lg overflow-hidden">
           <Image
             src={post.featuredImage}
             alt={post.title}
             fill
-            sizes="100vw"
+            sizes="(max-width: 1023px) 100vw, 70vw"
             loading="eager"
             fetchPriority="high"
             className="object-cover"
