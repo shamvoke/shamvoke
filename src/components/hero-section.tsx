@@ -4,7 +4,7 @@ import HeroTypewriter from "@/components/ui/typewriter"
 export default function HeroSection() {
   return (
     <section
-      className="relative min-h-svh w-full overflow-hidden">
+      className="relative min-h-svh w-full bg-slate-600 dark:bg-black overflow-hidden">
       <Image
         src="/shamlogo.png"
         alt="Shamvoke Logo AKA Bree the blue smiley face"
@@ -21,7 +21,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
 
       <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
         

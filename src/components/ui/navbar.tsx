@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full z-10 bg-white/80 dark:bg-black/80 transition-all duration-500 p-2 py-2 sm:px-0 sm:py-4 flex items-center justify-between h-16">
+      <header className="fixed top-0 left-0 w-full z-20 bg-white/80 dark:bg-black/80 transition-all duration-500 p-2 py-2 sm:px-0 sm:py-4 flex items-center justify-between h-16">
       <div className="flex items-center">
         <button
           onClick={() => setMenuOpen(true)}
