@@ -14,7 +14,7 @@ const categories = [
   "linux",
   "life",
   "code",
-  "design",
+  "android",
   "windows",
 ]
 
