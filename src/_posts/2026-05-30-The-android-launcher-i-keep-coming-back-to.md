@@ -154,9 +154,11 @@ The free version already beats ~~almost~~ every other launcher I have tried. But
 
 But depending on where you are, the price can feel a little too high for a launcher. *High enough to make you consider ~~buying a boat and~~ becoming a pirate.*
 
+Not the boat kind.
+
 Kidding.
 
-Still, this is why I sometimes wander off and test other launchers. I want something as **good**, as **customizable**, as **reliable**, and preferably **open-sourced**.
+Still, this is why I sometimes wander off and test other launchers. I want something as **good**, as **customizable**, as **reliable**, and preferably **open-source**.
 
 *But every time I try to leave, Nova calls me by my name!*
 
