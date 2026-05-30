@@ -5,7 +5,7 @@ shamthing: "Constantly exploring the realms of code & creativity. 🚀"
 excerpt: "My first step into the blogosphere, but with purpose. why start a
   blog in 2025? Lessons from WordPress, smarter builds. Write To Learn, Publish To Share. Personal blog | Tech blog"
 featuredImage: "/_FeaturedImages/01_Welcome-to-my-blog.webp"
-category: "blog"
+category: "life"
 tags:
   - Design
   - Webdev
