@@ -175,9 +175,7 @@ export default async function PostPage({ params }: Props) {
       </div>
     </aside>
     </div>
-    <div className="mt-20 max-w-3xl mx-auto">
-      <Newsletter />
-    </div>
+    <Newsletter />
     </div>
   )
 }
