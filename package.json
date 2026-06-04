@@ -1,6 +1,6 @@
 {
   "name": "shamvoke",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,9 +10,10 @@
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "pagefind": "pagefind --site .open-next/assets",
+    "preview": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {

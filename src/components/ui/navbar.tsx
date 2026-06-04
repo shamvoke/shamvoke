@@ -61,9 +61,17 @@ export default function Navbar() {
           >
             YouTube
           </a> */}
+          <pagefind-modal-trigger
+            compact
+            hide-shortcut
+            placeholder="Search Shamvoke"
+            class="shamvoke-search-trigger"
+          />
           <ThemeToggle />
         </div>
       </header>
+
+      <pagefind-modal reset-on-close />
 
       <Sidebar open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>

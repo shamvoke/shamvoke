@@ -1,10 +1,11 @@
 import { Metadata } from "next";
-import { Titillium_Web, Nanum_Brush_Script, Rampart_One } from "next/font/google"
-import Navbar from "@/components/ui/navbar"
-import Footer from "@/components/ui/footer"
+import Script from "next/script";
+import { Titillium_Web, Nanum_Brush_Script, Rampart_One } from "next/font/google";
+import Navbar from "@/components/ui/navbar";
+import Footer from "@/components/ui/footer";
 import "highlight.js/styles/monokai-sublime.css";
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
 const titillium = Titillium_Web({
@@ -81,6 +82,12 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn("antialiased", "font-sans", titillium.variable, nanumbrushscript.variable, rampart.variable)}
     >
+      <head>
+        <link
+          rel="stylesheet"
+          href="/pagefind/pagefind-component-ui.css"
+        />
+      </head>
       <body>
           <ThemeProvider
             attribute="class"
@@ -92,6 +99,11 @@ export default function RootLayout({
           {children}
           <Footer />
         </ThemeProvider>
+        <Script
+          src="/pagefind/pagefind-component-ui.js"
+          type="module"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
