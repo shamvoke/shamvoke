@@ -10,7 +10,7 @@
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "pagefind": "pagefind --site .open-next/assets",
+    "pagefind": "pagefind --site .next/server/app --output-path .open-next/assets/pagefind",
     "preview": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && npm run pagefind && opennextjs-cloudflare upload",
