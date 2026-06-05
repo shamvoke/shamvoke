@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Script from "next/script";
 import { Titillium_Web, Nanum_Brush_Script, Rampart_One } from "next/font/google";
 import Navbar from "@/components/ui/navbar";
 import Footer from "@/components/ui/footer";

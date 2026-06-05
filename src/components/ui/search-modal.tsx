@@ -4,14 +4,23 @@ import { useEffect, useRef, useState } from "react"
 import { Search, X, Loader2 } from "lucide-react"
 import Link from "next/link"
 
+type PagefindSubResult = {
+  title: string
+  url: string
+  excerpt: string
+}
+
 type PagefindResult = {
   id: string
   data: () => Promise<{
     url: string
     meta: {
       title?: string
+      shamthing?: string
     }
     excerpt?: string
+
+    sub_results?: PagefindSubResult[]
   }>
 }
 
@@ -27,6 +36,8 @@ type SearchResult = {
   url: string
   title: string
   excerpt: string
+  shamthing?: string
+  subResults?: PagefindSubResult[]
 }
 
 async function loadPagefind(): Promise<Pagefind | null> {
@@ -40,7 +51,7 @@ async function loadPagefind(): Promise<Pagefind | null> {
 }
 
 function cleanUrl(url: string) {
-  return url.replace(/\.html$/, "")
+  return url.replace(/\.html(?=#|$)/, "")
 }
 
 export default function SearchModal() {
@@ -49,8 +60,8 @@ export default function SearchModal() {
   const [results, setResults] = useState<SearchResult[]>([])
   const [loading, setLoading] = useState(false)
   const [pagefind, setPagefind] = useState<Pagefind | null>(null)
-
   const inputRef = useRef<HTMLInputElement>(null)
+  const searchRequestRef = useRef(0)
 
   useEffect(() => {
     if (!open) return
@@ -67,7 +78,7 @@ export default function SearchModal() {
 
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
-        setOpen(false)
+        closeSearch()
       }
     }
 
@@ -75,11 +86,18 @@ export default function SearchModal() {
     return () => window.removeEventListener("keydown", handleKeyDown)
   }, [open])
 
-  useEffect(() => {
-    if (!open) return
+  function closeSearch() {
+    setOpen(false)
+    setQuery("")
+    setResults([])
+    setLoading(false)
+  }
 
+  useEffect(() => {
     function handleShortcut(event: KeyboardEvent) {
-      const isSearchShortcut = (event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k"
+      const isSearchShortcut =
+        (event.ctrlKey || event.metaKey) &&
+        event.key.toLowerCase() === "k"
 
       if (isSearchShortcut) {
         event.preventDefault()
@@ -87,51 +105,68 @@ export default function SearchModal() {
       }
     }
 
-    window.addEventListener("keydown", handleShortcut)
-    return () => window.removeEventListener("keydown", handleShortcut)
-  }, [open])
+  window.addEventListener("keydown", handleShortcut)
+  return () => window.removeEventListener("keydown", handleShortcut)
+}, [])
 
-  async function handleSearch(value: string) {
-    setQuery(value)
+async function handleSearch(value: string) {
+  setQuery(value)
 
-    if (!value.trim()) {
-      setResults([])
-      return
-    }
+  const trimmedValue = value.trim()
+  const requestId = searchRequestRef.current + 1
+  searchRequestRef.current = requestId
 
-    if (!pagefind) {
-      return
-    }
-
-    setLoading(true)
-
-    const search = await pagefind.search(value)
-
-    const data = await Promise.all(
-      search.results.slice(0, 8).map(async (result) => {
-        const item = await result.data()
-
-        return {
-          url: cleanUrl(item.url),
-          title: item.meta.title || "Untitled",
-          excerpt: item.excerpt || "",
-        }
-      })
-    )
-
-    setResults(data)
+  if (!trimmedValue) {
+    setResults([])
     setLoading(false)
+    return
   }
+
+  if (!pagefind) {
+    return
+  }
+
+  setLoading(true)
+
+  const search = await pagefind.search(trimmedValue)
+  if (requestId !== searchRequestRef.current) {
+    return
+  }
+
+  const data = await Promise.all(
+    search.results.slice(0, 8).map(async (result) => {
+      const item = await result.data()
+
+      return {
+        url: cleanUrl(item.url),
+        title: item.meta.title || "Untitled",
+        shamthing: item.meta.shamthing || "",
+        excerpt: item.excerpt || "",
+        subResults: item.sub_results?.slice(0, 3).map((subResult) => ({
+          title: subResult.title,
+          url: cleanUrl(subResult.url),
+          excerpt: subResult.excerpt,
+        })),
+      }
+    })
+  )
+  if (requestId !== searchRequestRef.current) {
+    return
+  }
+
+  setResults(data)
+  setLoading(false)
+}
 
   return (
     <>
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="inline-flex h-9 w-9 items-center justify-center rounded-full text-sham transition hover:text-voke dark:text-gray-300 dark:hover:text-voke"
+        className="inline-flex h-9 w-9 items-center justify-center rounded-full text-sham transition hover:text-voke dark:text-foreground dark:hover:text-voke"
         aria-label="Search Shamvoke"
       >
-        <Search className="h-5 w-5" />
+        <Search className="h-6 w-6" />
       </button>
 
       {open && (
@@ -140,7 +175,7 @@ export default function SearchModal() {
             type="button"
             className="absolute inset-0 bg-black/60 backdrop-blur-sm"
             aria-label="Close search"
-            onClick={() => setOpen(false)}
+            onClick={closeSearch}
           />
 
           <div className="relative mx-auto mt-24 w-[92vw] max-w-2xl rounded-3xl border border-sham/10 bg-white p-4 shadow-2xl dark:border-voke/20 dark:bg-[#02044a]">
@@ -159,7 +194,7 @@ export default function SearchModal() {
 
               <button
                 type="button"
-                onClick={() => setOpen(false)}
+                onClick={closeSearch}
                 className="text-sham transition hover:text-voke dark:text-gray-300 dark:hover:text-voke"
                 aria-label="Close search"
               >
@@ -182,30 +217,59 @@ export default function SearchModal() {
 
               <div className="space-y-3">
                 {results.map((result) => (
-                  <Link
+                  <div
                     key={result.url}
-                    href={result.url}
-                    onClick={() => setOpen(false)}
-                    className="block rounded-2xl border border-transparent p-4 transition hover:border-voke/40 hover:bg-sham/5 dark:hover:bg-white/5"
+                    className="rounded-2xl border border-transparent p-4 transition hover:border-voke/40 hover:bg-sham/5 dark:hover:bg-white/5"
                   >
-                    <h3 className="font-bold text-sham dark:text-white">
-                      {result.title}
-                    </h3>
+                    <Link
+                      href={result.url}
+                      onClick={closeSearch}
+                      className="block"
+                    >
+                      <h3 className="font-bold text-sham dark:text-white">
+                        {result.shamthing}
+                      </h3>
 
-                    {result.excerpt && (
-                      <p
-                        className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300"
-                        dangerouslySetInnerHTML={{ __html: result.excerpt }}
-                      />
+                      {result.excerpt && (
+                        <p
+                          className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300"
+                          dangerouslySetInnerHTML={{ __html: result.excerpt }}
+                        />
+                      )}
+                    </Link>
+                    {result.subResults && result.subResults.length > 0 && (
+                      <div className="mt-3 space-y-2 border-l border-voke/30 pl-3">
+                        {result.subResults.map((subResult) => (
+                          <Link
+                            key={subResult.url}
+                            href={subResult.url}
+                            onClick={closeSearch}
+                            className="block rounded-xl px-3 py-2 transition hover:bg-voke/10"
+                          >
+                            <p className="text-sm font-semibold text-sham dark:text-voke">
+                              {subResult.title}
+                            </p>
+
+                            {subResult.excerpt && (
+                              <p
+                                className="mt-1 text-xs leading-5 text-gray-500 dark:text-gray-400"
+                                dangerouslySetInnerHTML={{
+                                  __html: subResult.excerpt,
+                                }}
+                              />
+                            )}
+                          </Link>
+                        ))}
+                      </div>
                     )}
-                  </Link>
+                  </div>
                 ))}
               </div>
             </div>
 
             <div className="mt-4 flex justify-between px-2 text-xs text-gray-400">
               <span>Press Esc to close</span>
-              <span>Powered by Pagefind</span>
+              <span>Stay Curious!</span>
             </div>
           </div>
         </div>

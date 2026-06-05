@@ -115,15 +115,15 @@ export default async function PostPage({ params }: Props) {
          {stats.text} 
           </span>
         </div>
-        <h1 className="text-2xl md:text-3xl font-sham font-bold mb-4">{post.title}</h1>
+        <h1 data-pagefind-meta="title" className="text-2xl md:text-3xl font-sham font-bold mb-4">{post.title}</h1>
 
         {post.shamthing && (
-          <p className="text-xl md:text-2xl font-voke mb-2 text-sham dark:text-voke">
+          <p data-pagefind-meta="shamthing" className="text-xl md:text-2xl font-voke mb-2 text-sham dark:text-voke">
             {post.shamthing}
           </p>
         )}
 
-        <div className="relative aspect-[40/21] rounded-lg overflow-hidden">
+        <div className="relative aspect-40/21 rounded-lg overflow-hidden">
           <Image
             src={post.featuredImage}
             alt={post.title}

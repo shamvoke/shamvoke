@@ -29,7 +29,7 @@ export default function Navbar() {
         >
          <Menu className="w-8 h-8 text-sham dark:text-gray-300" />
         </button>
-        <h1 className="m-0 h-8 leading-8 relative lg:ml-8">
+        <div className="m-0 h-8 leading-8 relative lg:ml-8">
           <Link
             href="/"
             className="text-2xl sm:text-3xl font-bold font-sham  bg-linear-to-r from-sham to-sham dark:from-sham dark:to-voke bg-clip-text text-transparent transition-all"
@@ -39,7 +39,7 @@ export default function Navbar() {
               Blog
             </span>
           </Link>
-        </h1>
+        </div>
 
         <nav className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
           {menu.map((item) => (
