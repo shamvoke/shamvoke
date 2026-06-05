@@ -205,7 +205,7 @@ async function handleSearch(value: string) {
             <div className="mt-4 max-h-[60vh] overflow-y-auto">
               {!query.trim() && (
                 <p className="px-2 py-8 text-center text-sm text-gray-500 dark:text-gray-400">
-                  Search posts, Linux chaos, design thoughts, code notes, and Sham things.
+                  Search posts, Linux chaos, design thoughts, code notes, and Shamthings.
                 </p>
               )}
 
