@@ -82,12 +82,6 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn("antialiased", "font-sans", titillium.variable, nanumbrushscript.variable, rampart.variable)}
     >
-      <head>
-        <link
-          rel="stylesheet"
-          href="/pagefind/pagefind-component-ui.css"
-        />
-      </head>
       <body>
           <ThemeProvider
             attribute="class"
@@ -99,11 +93,6 @@ export default function RootLayout({
           {children}
           <Footer />
         </ThemeProvider>
-        <Script
-          src="/pagefind/pagefind-component-ui.js"
-          type="module"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   )
