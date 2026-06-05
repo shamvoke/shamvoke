@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import shamIMG from "../../../public/shamv.webp"
+import shamIMG from "../../../public/shamvo.webp"
 
 export default function AboutPage() {
   return (
@@ -23,11 +23,11 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-foreground">
-          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A Creative Designer & Web Developer based on planet Earth 🌍
+          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A Creative Designer And Web Developer 🌍
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
-          Constantly exploring the realms of code and creativity 🚀
+          Constantly exploring the realms of code & creativity 🚀
         </p>
       </div>
 

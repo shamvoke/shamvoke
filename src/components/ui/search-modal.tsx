@@ -186,7 +186,7 @@ async function handleSearch(value: string) {
                 ref={inputRef}
                 value={query}
                 onChange={(event) => handleSearch(event.target.value)}
-                placeholder="Search the Shamverse..."
+                placeholder="Search and thou shall scroll..."
                 className="w-full bg-transparent text-base text-sham outline-none placeholder:text-gray-400 dark:text-white"
               />
 
