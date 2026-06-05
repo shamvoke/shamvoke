@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Menu } from "lucide-react"
+import SearchModal from "@/components/ui/search-modal"
 import Sidebar from "@/components/ui/sidebar"
 import ThemeToggle from "@/components/ui/theme-toggle"
 import { useState } from "react"
@@ -61,6 +62,7 @@ export default function Navbar() {
           >
             YouTube
           </a> */}
+          <SearchModal />
           <ThemeToggle />
         </div>
       </header>
