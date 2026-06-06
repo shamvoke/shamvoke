@@ -2,7 +2,7 @@ import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 
 export const metadata = {
-  title: "Blog | Web Design, Arch Linux & Digital Creativeity",
+  title: "Blog | Web Design, Arch Linux & Digital creativity",
   description:
     "Explore a collection of technical guides and creative insights. This blog features deep dives into Arch Linux configurations, web development workflows, and digital design strategies. Join Sham Voke for a blend of practical tutorials and experimental projects aimed at building efficient, high-quality digital experiences.",
 }

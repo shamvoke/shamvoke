@@ -71,7 +71,7 @@ export default function Newsletter() {
           </h2>
 
           <p className="mt-2 text-sm leading-relaxed text-white/60 sm:text-base">
-            Subscribe to get the latest posts sent to your email.
+            Occasional notes on design, tools, and rabbit holes.
           </p>
 
           <form
