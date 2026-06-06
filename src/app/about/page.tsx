@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import shamIMG from "../../../public/shamvo.webp"
+import shamIMG from "../../../public/sham.webp"
 
 export default function AboutPage() {
   return (
