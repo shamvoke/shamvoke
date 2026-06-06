@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useTheme } from "next-themes";
 import commentBox from "commentbox.io";
 
@@ -8,14 +8,9 @@ const PROJECT_ID = "5767412133658624-proj";
 
 export default function CommentBox() {
   const { resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!mounted) return;
+    if (!resolvedTheme) return;
 
     const isDark = resolvedTheme === "dark";
 
@@ -29,7 +24,7 @@ export default function CommentBox() {
     return () => {
       removeCommentBox();
     };
-  }, [mounted, resolvedTheme]);
+  }, [resolvedTheme]);
 
   return (
     <section className="mt-16 border-t border-black/10 pt-10 dark:border-white/10">
@@ -38,7 +33,7 @@ export default function CommentBox() {
       </h2>
 
       <div className="commentbox-container mt-8 overflow-hidden">
-        <div key={resolvedTheme} className="commentbox -mb-10" />
+        <div key={resolvedTheme ?? "system"} className="commentbox -mb-10" />
       </div>
     </section>
   );
