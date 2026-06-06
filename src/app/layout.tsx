@@ -49,10 +49,6 @@ export const metadata: Metadata = {
   publisher: "Sham Voke",
   alternates: {
     canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-      'de-DE': '/de-DE',
-    },
   },
   openGraph: {
     title: "shamvoke blog",
