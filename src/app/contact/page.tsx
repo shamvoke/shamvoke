@@ -2,6 +2,12 @@
 
 import { useState } from "react"
 
+type FormspreeResponse = {
+  errors?: {
+    message?: string
+  }[]
+}
+
 export default function ContactSham() {
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
@@ -25,13 +31,22 @@ export default function ContactSham() {
         },
       })
 
-      const result = await res.json()
+      let result: FormspreeResponse | null = null
+
+      try {
+        result = await res.json()
+      } catch {
+        result = null
+      }
 
       if (res.ok) {
         setSubmitted(true)
         form.reset()
       } else {
-        setError(result?.errors?.[0]?.message || "Something went wrong. Please try again.")
+        setError(
+          result?.errors?.[0]?.message ||
+            `Message failed to send. Please try again. (${res.status})`
+        )
       }
     } catch (err) {
       console.error(err)
@@ -89,9 +104,7 @@ export default function ContactSham() {
               className="w-full px-4 py-3 bg-card text-foreground border-b border-border focus:outline-none focus:border-sham transition resize-none"
             />
 
-            {error && (
-              <p className="text-sm text-red-500">{error}</p>
-            )}
+            {error && <p className="text-sm text-red-500">{error}</p>}
 
             <button
               type="submit"
