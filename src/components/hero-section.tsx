@@ -1,4 +1,5 @@
 import Image from "next/image"
+import shamhero from "@/assets/breehero.png"
 import HeroTypewriter from "@/components/ui/typewriter"
 
 export default function HeroSection() {
@@ -6,19 +7,16 @@ export default function HeroSection() {
     <section
       className="relative min-h-svh w-full bg-slate-600 dark:bg-black overflow-hidden">
       <Image
-        src="/shamlogo.png"
-        alt="Shamvoke Logo AKA Bree the blue smiley face"
+        src={shamhero}
+        alt=""
         fill
         priority
+        placeholder="blur"
         sizes="100vw"
-        unoptimized={true}
-        className="object-cover object-center w-full"
+        className="object-cover object-center"
       />
       <div
-        className="pointer-events-none absolute opacity-58 inset-0"
-        style={{
-          backgroundImage: "url('/pixels.png')",
-        }}
+        className="pointer-events-none absolute bg-[url('/pixels.png')] bg-repeat opacity-58 inset-0"
       />
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
