@@ -28,7 +28,7 @@ export default function WebDesignSection() {
 
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-2xl font-semibold font-sham sm:font-sans tracking-tight text-black dark:text-white sm:text-4xl md:text-4xl">
-            Want your own space on the internet?
+            Like this site? I build personal spaces like this.
           </h2>
           <p className="mt-5 text-sm font-bold leading-7 text-black dark:text-white/60 sm:text-base">
             From personal blogs to business websites, I help you bring your vision to life.
