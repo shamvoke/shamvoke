@@ -35,11 +35,12 @@ export const metadata: Metadata = {
   keywords: [
     "Sham Voke",
     "shamvoke",
-    "web development",
+    "web developer",
     "web design",
     "graphic design",
     "branding",
     "Next.js blog",
+    "web designer",
     "creative developer",
     "Kenyan web designer",
     "Nairobi web developer",

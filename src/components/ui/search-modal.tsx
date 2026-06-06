@@ -272,15 +272,11 @@ async function handleSearch(value: string) {
                       className="block"
                     >
                       <h3 className="font-bold text-sham dark:text-white">
-                        {result.shamthing || result.title}
+                        {result.title}
                       </h3>
-
-                      {result.excerpt && (
-                        <p
-                          className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300"
-                          dangerouslySetInnerHTML={{ __html: result.excerpt }}
-                        />
-                      )}
+                      <p className="mt-2 text-sm font-voke text-gray-600 dark:text-gray-300">
+                        {result.shamthing}
+                      </p>
                     </Link>
                     {result.subResults && result.subResults.length > 0 && (
                       <div className="mt-3 space-y-2 border-l border-voke/30 pl-3">
