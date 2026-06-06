@@ -61,12 +61,11 @@ export default function SearchModal() {
   const [loading, setLoading] = useState(false)
   const [pagefind, setPagefind] = useState<Pagefind | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const dialogRef = useRef<HTMLDivElement>(null)
   const searchRequestRef = useRef(0)
 
   useEffect(() => {
     if (!open) return
-
-    inputRef.current?.focus()
 
     if (!pagefind) {
       loadPagefind().then(setPagefind)
@@ -74,17 +73,54 @@ export default function SearchModal() {
   }, [open, pagefind])
 
   useEffect(() => {
-    if (!open) return
+  if (!open) return
 
-    function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        closeSearch()
-      }
+  const originalOverflow = document.body.style.overflow
+
+  document.body.style.overflow = "hidden"
+
+  return () => {
+    document.body.style.overflow = originalOverflow
+  }
+}, [open])
+
+useEffect(() => {
+  if (!open) return
+
+  const dialog = dialogRef.current
+  if (!dialog) return
+
+  const focusableElements = dialog.querySelectorAll<HTMLElement>(
+    'a[href], button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])'
+  )
+
+  const firstElement = focusableElements[0]
+  const lastElement = focusableElements[focusableElements.length - 1]
+
+  inputRef.current?.focus()
+
+  function handleKeyDown(event: KeyboardEvent) {
+    if (event.key === "Escape") {
+      closeSearch()
+      return
     }
 
-    window.addEventListener("keydown", handleKeyDown)
-    return () => window.removeEventListener("keydown", handleKeyDown)
-  }, [open])
+    if (event.key !== "Tab" || focusableElements.length === 0) return
+
+    if (event.shiftKey && document.activeElement === firstElement) {
+      event.preventDefault()
+      lastElement.focus()
+    }
+
+    if (!event.shiftKey && document.activeElement === lastElement) {
+      event.preventDefault()
+      firstElement.focus()
+    }
+  }
+
+  window.addEventListener("keydown", handleKeyDown)
+  return () => window.removeEventListener("keydown", handleKeyDown)
+}, [open])
 
   function closeSearch() {
     setOpen(false)
@@ -178,7 +214,16 @@ async function handleSearch(value: string) {
             onClick={closeSearch}
           />
 
-          <div className="relative mx-auto mt-24 w-[92vw] max-w-2xl rounded-3xl border border-sham/10 bg-white p-4 shadow-2xl dark:border-voke/20 dark:bg-[#02044a]">
+          <div 
+          ref={dialogRef}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="search-dialog-title"
+          className="relative mx-auto mt-24 w-[92vw] max-w-2xl rounded-3xl border border-sham/10 bg-white p-4 shadow-2xl dark:border-voke/20 dark:bg-[#02044a]"
+          >
+            <h2 id="search-dialog-title" className="sr-only">
+              Search Shamvoke
+            </h2>
             <div className="flex items-center gap-3 rounded-2xl border border-sham/10 bg-gray-50 px-4 py-3 dark:border-voke/20 dark:bg-black/30">
               <Search className="h-5 w-5 text-sham dark:text-voke" />
 
@@ -227,7 +272,7 @@ async function handleSearch(value: string) {
                       className="block"
                     >
                       <h3 className="font-bold text-sham dark:text-white">
-                        {result.shamthing}
+                        {result.shamthing || result.title}
                       </h3>
 
                       {result.excerpt && (
