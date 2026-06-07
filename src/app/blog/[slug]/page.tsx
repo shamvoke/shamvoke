@@ -31,7 +31,7 @@ export async function generateMetadata({
 
   try {
     const post = getPostBySlug(slug)
-    const ogImage = post.ogImage ?? post.featuredImage
+    const ogImage = post.ogImage ?? "/shamvoke-banner.webp"
 
     return {
       title: post.title,
