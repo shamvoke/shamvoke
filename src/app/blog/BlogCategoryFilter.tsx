@@ -24,7 +24,7 @@ export default function BlogCategoryFilter({
         const href =
           category === "all"
             ? "/blog"
-            : `/blog?category=${encodeURIComponent(category)}`
+            : `/blog/category/${category.toLowerCase()}`
 
         return (
           <Link

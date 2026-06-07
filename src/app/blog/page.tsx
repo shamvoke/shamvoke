@@ -8,24 +8,8 @@ export const metadata = {
     "Explore a collection of technical guides and creative insights. This blog features deep dives into Arch Linux configurations, web development workflows, and digital design strategies. Join Sham Voke for a blend of practical tutorials and experimental projects aimed at building efficient, high-quality digital experiences.",
 }
 
-type BlogIndexProps = {
-  searchParams: Promise<{
-    category?: string
-  }>
-}
-
-export default async function BlogIndex({ searchParams }: BlogIndexProps) {
-  const { category } = await searchParams
-
+export default function BlogIndex() {
   const posts = getAllPosts()
-  const activeCategory = category?.toLowerCase() ?? "all"
-
-  const filteredPosts =
-    activeCategory === "all"
-      ? posts
-      : posts.filter(
-          (post) => post.category?.toLowerCase() === activeCategory
-        )
 
   return (
     <main className="mx-auto py-20 sm:px-6 lg:px-8">
@@ -39,8 +23,8 @@ export default async function BlogIndex({ searchParams }: BlogIndexProps) {
         </p>
       </div>
 
-      <BlogCategoryFilter activeCategory={activeCategory} />
-      <PostsGrid posts={filteredPosts} />
+      <BlogCategoryFilter activeCategory="all" />
+      <PostsGrid posts={posts} />
     </main>
   )
 }
