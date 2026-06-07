@@ -4,7 +4,7 @@ title: "A Sham journey to Arch Linux"
 shamthing: "How a penguine 🐧 broke my windows 🪟"
 excerpt: "From a curious USB boot to a bare-metal obsession, follow my journey through the rabbit hole of distro-hopping. Discover why I ditched Windows for good and how Arch Linux became my ultimate daily driver through endless experimentation and refinement."
 featuredImage: "15_A-Sham-journey-to-Arch-Linux.webp"
-ogImage: "/_FeaturedImages/15_A-Sham-journey-to-Arch-Linux.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820865/15_A-Sham-journey-to-Arch-Linux_smqu0o.webp"
 category: "linux"
 tags:
   - archlinux

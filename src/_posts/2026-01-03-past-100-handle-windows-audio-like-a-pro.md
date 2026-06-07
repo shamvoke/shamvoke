@@ -4,7 +4,7 @@ title: "Peace APO, handle Windows audio like a pro"
 shamthing: "A guide for those who don't care about damaging their speakers or ears! 🌀"
 excerpt: "You crank the volume to 100% and still feel like something is missing. This small combo of tools unlocks system wide volume control, better sound, and audio that finally matches what your hardware can handle."
 featuredImage: "11_Handle-Windows-Audio-Like-a-Pro.webp"
-ogImage: "/_FeaturedImages/11_Handle-Windows-Audio-Like-a-Pro.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820864/11_Handle-Windows-Audio-Like-a-Pro_drvbyg.webp"
 category: "windows"
 tags:
   - Tips

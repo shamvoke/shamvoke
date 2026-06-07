@@ -4,7 +4,7 @@ title: "A Sham guide to Arch Linux"
 shamthing: "Trust me, penguins don't need to fly"
 excerpt: "Dive into Arch Linux! Skip the complexity and master your system with this step-by-step walkthrough, featuring the effortless Archinstall, custom terminal flair, and AUR mastery with Paru. Because penguins don't need to fly when they can dive this deep."
 featuredImage: "17_A-Sham-Guide-to-Arch-Linux.webp"
-ogImage: "/_FeaturedImages/17_A-Sham-Guide-to-Arch-Linux.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/17_A-Sham-Guide-to-Arch-Linux_uaq8ul.webp"
 category: "linux"
 tags:
   - arch linux

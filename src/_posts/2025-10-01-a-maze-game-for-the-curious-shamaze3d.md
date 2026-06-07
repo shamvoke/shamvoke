@@ -4,7 +4,7 @@ title: "A maze game for the curious, Shamaze3D."
 shamthing: "Find your way out, or get lost in the fun!!! 🌀"
 excerpt: "Shamaze3D is a web-based 3D maze game that'll test your sense of direction, your patience, and maybe even your sanity. Play the game or play with the code... Personal blog"
 featuredImage: "05_A-maze-game-for-the-curious-Shamaze3D.webp"
-ogImage: "/_FeaturedImages/05_A-maze-game-for-the-curious-Shamaze3D.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820863/05_A-maze-game-for-the-curious-Shamaze3D_zj7wmg.webp"
 category: "code"
 tags:
   - Shamaze3D

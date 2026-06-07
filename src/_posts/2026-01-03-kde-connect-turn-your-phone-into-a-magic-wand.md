@@ -4,7 +4,7 @@ title: "KDE Connect; Turn your phone into a magic wand!"
 shamthing: "KDE connect, the most universal app in my list! 📳"
 excerpt: "Stop emailing yourself files. Discover how KDE Connect bridges the gap between your devices. Turning your phone into a universal clipboard, a wireless trackpad, and a literal magic wand for your PC. "
 featuredImage: "10_KDE-Connect-Turn-your-phone-into-a-magic-wand.webp"
-ogImage: "/_FeaturedImages/10_KDE-Connect-Turn-your-phone-into-a-magic-wand.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820864/10_KDE-Connect-Turn-your-phone-into-a-magic-wand_jbbsqg.webp"
 category: "software"
 tags:
   - KDE

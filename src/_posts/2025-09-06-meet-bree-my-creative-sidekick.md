@@ -5,7 +5,7 @@ shamthing: "Not every sidekick wears a cape, some just glow! 🍥"
 excerpt: "Hey there, you've probably seen this blue face around the site or
   on my socials. You might have even wondered what it is. And no, that's not just a logo. Graphic design blog"
 featuredImage: "02_Out-of-the-blue-meet-Bree.webp"
-ogImage: "/_FeaturedImages/02_Out-of-the-blue-meet-Bree.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/02_Out-of-the-blue-meet-Bree_dabvi8.webp"
 category: "life"
 tags:
   - Bree

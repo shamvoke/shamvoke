@@ -4,7 +4,7 @@ title: "Git push to Github, for things I can change."
 shamthing: "And push to God, the things I can not change"
 excerpt: "A practical and personal reflection on outgrowing Jekyll and embracing the architectural freedom of NextJS. Trading static pages for absolute control, where design meets dynamic components, raw speed replaces limitations, with lessons that go beyond code."
 featuredImage: "14_Git-push-to-Github.webp"
-ogImage: "/_FeaturedImages/14_Git-push-to-Github.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820864/14_Git-push-to-Github_fppo4o.webp"
 category: "code"
 tags:
   - design

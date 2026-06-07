@@ -4,7 +4,7 @@ title: "Meet Kate, the underrated text editor"
 shamthing: "Love at first file, Kate me if you can 🍥"
 excerpt: "Kate is the rare text editor that feels lightweight without feeling limited. From quick notes and Markdown drafts to code edits, system tweaks, split views, search, LSP support, and a built-in terminal, it quietly proves that simple software can still feel seriously powerful."
 featuredImage: "19_meet-kate-my-favourite-text-editor.webp"
-ogImage: "/_FeaturedImages/19_meet-kate-my-favourite-text-editor.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820863/19_meet-kate-my-favourite-text-editor_uemsot.webp"
 category: "software"
 tags:
   - Kate

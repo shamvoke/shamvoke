@@ -4,7 +4,7 @@ title: "No! That fancy icon is not your Logo"
 shamthing: "Who needs all those logo variations? Not me!"
 excerpt: "This post is my personal design manifesto about discovering that a logo is not just a pretty icon, The journey ends with turning that idea into a single file, design meets code, flexibility replaces clutter, and a happy client."
 featuredImage: "13_That-fancy-icon-is-not-your-Logo.webp"
-ogImage: "/_FeaturedImages/13_That-fancy-icon-is-not-your-Logo.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820865/13_That-fancy-icon-is-not-your-Logo_rurea0.webp"
 category: "code"
 tags:
   - design

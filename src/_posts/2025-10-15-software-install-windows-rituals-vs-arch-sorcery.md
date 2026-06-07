@@ -4,7 +4,7 @@ title: "Windows rituals vs Arch Linux sorcery"
 shamthing: "On Linux, you dont need drivers, you are the driver! 🍥"
 excerpt: "Ever noticed how installing software on Windows feels like performing a ritual, while on Arch Linux it feels like casting a spell? Let's explore how both OS handles installation and updates. Tech blog"
 featuredImage: "06_Windows-rituals-vs-Arch-Linux-sorcery.webp"
-ogImage: "/_FeaturedImages/06_Windows-rituals-vs-Arch-Linux-sorcery.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820863/06_Windows-rituals-vs-Arch-Linux-sorcery_uh2b4g.webp"
 category: "windows"
 tags:
   - archlinux
