@@ -71,7 +71,7 @@ export default function Newsletter() {
           </h2>
 
           <p className="mt-2 text-sm leading-relaxed text-white/60 sm:text-base">
-            Occasional notes on design, tools, and rabbit holes.
+            Occasional notes on design, tools, and tech explorations.
           </p>
 
           <form
