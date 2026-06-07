@@ -20,6 +20,7 @@ function normalizePostData(
         : String(data.date ?? ""),
     excerpt: String(data.excerpt ?? ""),
     featuredImage: String(data.featuredImage ?? ""),
+    ogImage: data.ogImage ? String(data.ogImage) : undefined,
     category: data.category ? String(data.category) : undefined,
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
     content,
@@ -29,24 +30,12 @@ function normalizePostData(
 export function getPostSlugs(): string[] {
   return fs.readdirSync(postsDirectory)
 }
-
-/**
- * Converts:
- * 2025-08-31-welcome-to-my-blog.md
- * into:
- * welcome-to-my-blog
- */
 export function stripDateFromSlug(fileName: string): string {
   return fileName
     .replace(/\.md$/, "")
     .replace(/^\d{4}-\d{2}-\d{2}-/, "")
 }
 
-/**
- * Finds the actual file using the clean slug
- * Example:
- * welcome-to-my-blog -> 2025-08-31-welcome-to-my-blog.md
- */
 export function findPostFileBySlug(slug: string): string {
   const files = getPostSlugs()
 

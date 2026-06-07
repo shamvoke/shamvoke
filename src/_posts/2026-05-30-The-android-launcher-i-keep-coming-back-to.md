@@ -3,7 +3,8 @@ date: 2026-05-30T04:20:12Z
 title: The Android launcher I keep coming back to
 shamthing: East or West... home screen is the best! Tadaa🍥
 excerpt: Nova Launcher is not the newest, flashiest, or most mysterious Android launcher out there. But after years of testing alternatives, I still keep coming back for the control, speed, gestures, folders, widgets, and that familiar feeling of making my phone truly mine.
-featuredImage: /_FeaturedImages/20_The-android-launcher-i-keep-coming-back-to.webp
+featuredImage: 20_The-android-launcher-i-keep-coming-back-to.webp
+ogImage: /_FeaturedImages/20_The-android-launcher-i-keep-coming-back-to.webp
 category: android
 tags:
   - launcher

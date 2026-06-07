@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
-import Image from "next/image"
+import FeaturedImage from "@/components/ui/featuredImage"
 import LikeButton from "@/components/ui/likeButton"
 import { Calendar, Clock } from "lucide-react"
 import readingTime from "reading-time";
@@ -31,6 +31,7 @@ export async function generateMetadata({
 
   try {
     const post = getPostBySlug(slug)
+    const ogImage = post.ogImage ?? post.featuredImage
 
     return {
       title: post.title,
@@ -42,7 +43,7 @@ export async function generateMetadata({
         publishedTime: post.date,
         images: [
           {
-            url: post.featuredImage,
+            url: ogImage,
             alt: post.title,
           },
         ],
@@ -53,7 +54,7 @@ export async function generateMetadata({
         description: post.excerpt,
         images: [
           {
-            url: post.featuredImage,
+            url: ogImage,
             alt: post.title,
           },
         ],
@@ -124,14 +125,10 @@ export default async function PostPage({ params }: Props) {
         )}
 
         <div className="relative aspect-40/21 rounded-lg overflow-hidden">
-          <Image
-            src={post.featuredImage}
+          <FeaturedImage
+            imageFilename={post.featuredImage}
             alt={post.title}
-            fill
             sizes="(max-width: 1023px) 100vw, 70vw"
-            loading="eager"
-            fetchPriority="high"
-            className="object-cover"
           />
 
           {post.category && (

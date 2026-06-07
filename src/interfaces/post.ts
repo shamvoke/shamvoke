@@ -5,7 +5,8 @@ export interface Post {
   date: string;
   excerpt: string;
   featuredImage: string;
-  category?: string
-  tags?: string[]
+  ogImage?: string;
+  category?: string;
+  tags?: string[];
   content: string;
 }

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Image from "next/image"
+import FeaturedImage from "@/components/ui/featuredImage"
 import { Post } from "@/interfaces/post"
 
 type PostsGridProps = {
@@ -28,12 +28,10 @@ export default function PostsGrid({ posts }: PostsGridProps) {
         <div className="flex h-full flex-col overflow-hidden border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
             <Link href={`/blog/${post.slug}`} className="block">
             <div className="relative aspect-40/21 overflow-hidden">
-                <Image
-                src={post.featuredImage}
+                <FeaturedImage
+                imageFilename={post.featuredImage}
                 alt={post.title}
-                fill
-                sizes="(max-width: 639px) 100vw, (max-width: 1279px) 50vw, 25vw"
-                className="object-cover transition duration-500 group-hover:scale-102"
+                sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 />
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />
