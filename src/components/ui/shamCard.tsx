@@ -42,6 +42,8 @@ const ElectricBorder: React.FC<ElectricBorderProps> = ({
   const animationRef = useRef<number | null>(null);
   const timeRef = useRef(0);
   const lastFrameTimeRef = useRef(0);
+  const isVisibleRef = useRef(false);
+  const prefersReducedMotionRef = useRef(false);
 
   const random = useCallback((x: number): number => {
     return (Math.sin(x * 12.9898) * 43758.5453) % 1;
@@ -179,6 +181,10 @@ const ElectricBorder: React.FC<ElectricBorderProps> = ({
     const container = containerRef.current;
     if (!canvas || !container) return;
 
+    prefersReducedMotionRef.current = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
@@ -208,8 +214,13 @@ const ElectricBorder: React.FC<ElectricBorderProps> = ({
 
     let { width, height } = updateSize();
 
-    const drawElectricBorder = (currentTime: number) => {
-      if (!canvas || !ctx) return;
+      const drawElectricBorder = (currentTime: number) => {
+        if (!canvas || !ctx) return;
+
+        if (!isVisibleRef.current || prefersReducedMotionRef.current) {
+          animationRef.current = null;
+          return;
+        }
 
       const deltaTime = (currentTime - lastFrameTimeRef.current) / 1000;
       timeRef.current += deltaTime * speed;
@@ -289,14 +300,36 @@ const ElectricBorder: React.FC<ElectricBorderProps> = ({
     });
     resizeObserver.observe(container);
 
-    animationRef.current = requestAnimationFrame(drawElectricBorder);
+    const intersectionObserver = new IntersectionObserver(
+        ([entry]) => {
+          isVisibleRef.current = entry.isIntersecting;
 
-    return () => {
-      if (animationRef.current) {
-        cancelAnimationFrame(animationRef.current);
-      }
-      resizeObserver.disconnect();
-    };
+          if (entry.isIntersecting && !prefersReducedMotionRef.current) {
+            if (!animationRef.current) {
+              lastFrameTimeRef.current = performance.now();
+              animationRef.current = requestAnimationFrame(drawElectricBorder);
+            }
+          } else if (animationRef.current) {
+            cancelAnimationFrame(animationRef.current);
+            animationRef.current = null;
+          }
+        },
+        {
+          threshold: 0.1,
+        }
+      );
+
+      intersectionObserver.observe(container);
+
+      return () => {
+        if (animationRef.current) {
+          cancelAnimationFrame(animationRef.current);
+          animationRef.current = null;
+        }
+
+        resizeObserver.disconnect();
+        intersectionObserver.disconnect();
+      };
   }, [color, speed, chaos, borderRadius, octavedNoise, getRoundedRectPoint]);
 
   return (
