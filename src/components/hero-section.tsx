@@ -1,5 +1,5 @@
 import Image from "next/image"
-import shamhero from "@/assets/breehero.png"
+import shamhero from "@/assets/images/BreeHero.webp"
 import HeroTypewriter from "@/components/ui/typewriter"
 
 export default function HeroSection() {

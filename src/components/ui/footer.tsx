@@ -1,7 +1,6 @@
-"use client"
-
 import Link from "next/link"
 import Image from "next/image"
+import breehero from "@/assets/images/BreeHero.webp"
 import SocialLinks from "@/components/ui/socials"
 import ScrollToTop from "@/components/ui/scrollToTop"
 
@@ -23,7 +22,7 @@ export default function Footer() {
           <li key={item.title}>
             <Link
               href={item.url}
-              className="text-sm transition text-sham dark:text-muted-foreground hover:text-voke hover:uppercase hover:tracking-wider"
+              className="text-lg transition text-sham dark:text-muted-foreground hover:text-voke hover:uppercase hover:tracking-wider"
             >
               {item.title}
             </Link>
@@ -31,16 +30,14 @@ export default function Footer() {
         ))}
       </ul>
       <SocialLinks />
-      <Link href="/" className="block w-fit mx-auto mb-6">
+      <Link href="/" className="block w-fit mx-auto mb-4">
         <Image
-          src="/shamlogo.png"
+          src={breehero}
           alt="Shamvoke brand Logo, AKA Bree the blue smiley face"
-          width={150}
-          height={150}
-          unoptimized={true}
+          className="size-40"
         />
       </Link>
-      <p className="text-sm leading-6 text-sham dark:text-muted-foreground">
+      <p className="text-lg leading-6 text-sham dark:text-muted-foreground">
         Crafted with 💙 by sham
         <br />
         &copy; {year}{" "}

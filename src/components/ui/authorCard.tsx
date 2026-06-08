@@ -1,22 +1,20 @@
 import Image from 'next/image';
+import shamProfile from "../../assets/images/Voke.webp";
 
 export default function AuthorCard() {
   return (
     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-6 mt-12 bg-white dark:bg-gray-900 rounded-2xl shadow-md border border-gray-200 dark:border-gray-800">
       <div className="shrink-0">
         <Image
-          src="/sham.webp"
-          alt="Sham Voke bio picture. Not a real photo."
-          width={180}
-          height={180}
-          unoptimized={true}
-          className="rounded-full border-2 border-sham dark:border-voke"
+          src={shamProfile}
+          alt="Sham Voke bio picture."
+          className="rounded-full size-45 border-2 border-sham dark:border-voke"
         />
       </div>
       <div className="flex flex-col gap-1 text-center sm:text-left">
         <h3 className="text-xl font-bold text-shamvoke">Sham Voke</h3>
         <p className="text-gray-600 dark:text-gray-400 italic">
-          I&apos;m Sham, a Creative Designer / Dev. Building at the intersection of code, design, and creativity.
+          A Creative Designer And Web Developer. Building at the intersection of code, design, and creativity.
         </p>
         <p className="mt-2 text-lg text-sham dark:text-gray-100 font-voke">
           🎨 Creativity fueled by curiosity 💡

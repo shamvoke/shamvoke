@@ -1,6 +1,14 @@
+import type { LucideIcon } from "lucide-react"
 import { Github, Facebook, Youtube, Twitter, Instagram } from "lucide-react"
 
-const socials = [
+type Social = {
+  name: string
+  href: string
+  icon: LucideIcon
+  className: string
+}
+
+const socials: Social[] = [
   {
     name: "GitHub",
     href: "https://github.com/shamvoke",
@@ -18,7 +26,6 @@ const socials = [
     href: "https://youtube.com/@shamvoke",
     icon: Youtube,
     className: "hover:text-[#ff0a16]",
-    iconSize: "w-8 h-8",
   },
   {
     name: "Twitter",
@@ -37,7 +44,7 @@ const socials = [
 export default function SocialLinks() {
   return (
     <div className="mb-6 flex justify-center gap-5">
-      {socials.map(({ name, href, icon: Icon, className, iconSize }) => (
+      {socials.map(({ name, href, icon: Icon, className }) => (
         <a
           key={name}
           href={href}
@@ -47,7 +54,7 @@ export default function SocialLinks() {
           className="transition-transform hover:scale-110"
         >
           <Icon
-            className={`${iconSize ?? "w-6 h-6"} text-muted-foreground transition ${className}`}
+            className={`size-7 text-muted-foreground transition ${className}`}
           />
         </a>
       ))}

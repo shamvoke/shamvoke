@@ -1,7 +1,5 @@
-"use client"
-
 import Image from "next/image"
-import shamIMG from "../../../public/sham.webp"
+import shamProfile from "../../assets/images/Voke.webp"
 
 export default function AboutPage() {
   return (
@@ -9,13 +7,10 @@ export default function AboutPage() {
 
       <div className="flex flex-col items-center mt-12">
         <Image
-          src={shamIMG}
-          alt="Sham Voke picture. Not a real photo. A stylized version of his real photo."
-          width={250}
-          height={250}
-          className="rounded-full mb-6 border-4 border-sham dark:border-voke"
-          unoptimized={true}
-          priority
+          src={shamProfile}
+          alt="Sham Voke profile picture."
+          placeholder="blur"
+          className="rounded-full size-50 sm:size-60 mb-6 border-4 border-sham dark:border-voke"
         />
 
         <h1 className="text-3xl sm:text-4xl font-sham font-bold mb-4 text-foreground">
@@ -27,17 +22,16 @@ export default function AboutPage() {
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
-          Constantly exploring the realms of code & creativity 🚀
+          Constantly exploring the realms of code and creativity 🚀
         </p>
       </div>
 
       <div className="relative w-full h-50 sm:h-100 ring mb-12 rounded-xl overflow-hidden">
         <Image
-          src="/shamvoke-banner.webp"
+          src="https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/01_Welcome-to-my-blog_jo4auv.webp"
           alt="Shamvoke wallpaper. A vibrant and dynamic design that captures the essence of creativity and innovation."
           fill
           className="object-cover"
-          priority
         />
       </div>
 
@@ -58,10 +52,10 @@ export default function AboutPage() {
 
       <div className="flex justify-center mt-10">
         <Image
-          src="/shamart.webp"
+          src="https://res.cloudinary.com/deudsgjbm/image/upload/v1780931462/shamart_fdwqfe.webp"
           alt="Shamvoke Logo, The Official shamvoke logo, Feauturing Bree the blue smiley face, in a vibrant and artistic style. A creative and colorful representation of the shamvoke brand."
-          width={2340}
-          height={418}
+          width={839}
+          height={150}
         />
       </div>
 
