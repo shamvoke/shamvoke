@@ -8,7 +8,7 @@ Welcome to the awesome world of ![Static Badge](https://img.shields.io/badge/SHA
 
 I'm Sham the webmeka. A Creative Designer & Web Developer, constantly exploring the realms of code and creativity. 🚀
 
-![Sham Voke's desktop stickers](public/shamvoke-banner.webp)
+![Sham Voke's desktop stickers](https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/01_Welcome-to-my-blog_jo4auv.webp)
 ## About Me ✨
 
 👨‍💻 With a fervent love for clean code and elegant designs, I dive headfirst into the world of web development, always seeking to push the boundaries of what's possible.
