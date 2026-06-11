@@ -18,8 +18,7 @@ export default function BlogIndex() {
           Shamthing to read...
         </p>
         <p className="py-6 text-base leading-8 text-neutral-600 dark:text-neutral-400 md:text-lg">
-          Thoughts, experiments, ideas, and digital rabbit holes from the world
-          of code and creativity.
+          Thoughts, experiments, ideas, and digital rabbit holes from various categories.
         </p>
       </div>
 

@@ -53,7 +53,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <main className="mx-auto py-20 sm:px-6 lg:px-8">
       <div className="px-8 text-center">
         <p className="font-voke text-2xl tracking-[0.2em] text-sham dark:text-voke">
-          Shamthing to read about {activeCategory}...
+          Shamthing to read...
+        </p>
+        <p className="py-6 text-base leading-8 text-neutral-600 dark:text-neutral-400 md:text-lg">
+          Thoughts, experiments, ideas, and digital rabbit holes from the {activeCategory} category.
         </p>
       </div>
 
