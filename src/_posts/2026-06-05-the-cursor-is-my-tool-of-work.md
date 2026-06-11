@@ -3,7 +3,7 @@ date: "2026-06-05T15:10:55Z"
 title: "The Cursor Is My Tool of Work"
 shamthing: "Dedicated to the tiny arrow I go hunting with 🖱️"
 excerpt: "As a designer, developer, and curious me, my real tool of work is not Photoshop, Figma, VS Code, or even the operating system. It is the cursor. The tiny arrow that points, selects, drags, breaks, fixes, explores, and somehow turns thought into action."
-featuredImage: "21_2026-06-05-the-cursor-is-my-tool-of-work.webp"
+featuredImage: "21_the-cursor-is-my-tool-of-work.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780868643/21_2026-06-05-the-cursor-is-my-tool-of-work_hhf5nx.webp"
 category: life
 tags:
