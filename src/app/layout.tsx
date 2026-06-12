@@ -6,6 +6,7 @@ import "highlight.js/styles/monokai-sublime.css";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import Script from "next/script";
 
 const titillium = Titillium_Web({
   subsets: ['latin'],
@@ -65,6 +66,9 @@ export const metadata: Metadata = {
     description: 'Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.',
     creator: '@shamvoke',
   },
+  other: {
+    "google-adsense-account": "ca-pub-9337281778223595"
+  },
 }
 
 export default function RootLayout({
@@ -79,6 +83,12 @@ export default function RootLayout({
       className={cn("antialiased", "font-sans", titillium.variable, nanumpenscript.variable, rampart.variable)}
     >
       <body>
+      <Script
+          id="adsbygoogle-init"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9337281778223595"
+        />
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
