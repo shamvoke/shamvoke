@@ -6,7 +6,7 @@ export default function NotFound() {
     <section className="flex flex-col min-h-[80svh] items-center justify-center text-center px-6 py-16 max-w-2xl mx-auto">
       
       {/* Top Label */}
-      <p className="text-sham dark:text-voke font-bold tracking-[0.3em] uppercase mb-4 text-sm md:text-base">
+      <p className="text-sham dark:text-voke font-bold tracking-[0.3em] uppercase text-lg md:text-base">
         Error
       </p>
 
@@ -41,7 +41,7 @@ export default function NotFound() {
       </h1>
 
       <p className="text-muted-foreground mb-10 max-w-md">
-         The page you are looking for doesn't exist, has been moved, or is temporarily unavailable.
+         The page you are looking for doesn&apos;t exist, has been moved, or is temporarily unavailable.
       </p>
 
       <BackButton />
