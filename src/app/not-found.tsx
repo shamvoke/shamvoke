@@ -6,7 +6,7 @@ export default function NotFound() {
     <section className="flex flex-col min-h-[80svh] items-center justify-center text-center px-6 py-16 max-w-2xl mx-auto">
       
       {/* Top Label */}
-      <p className="text-sham dark:text-voke font-bold tracking-[0.3em] uppercase text-lg md:text-base">
+      <p className="text-sham dark:text-voke font-bold tracking-[0.3em] uppercase text-lg md:text-base mt-20">
         Error
       </p>
 
@@ -36,7 +36,7 @@ export default function NotFound() {
       </div>
 
       {/* Bottom Label */}
-      <h1 className="font-bold text-2xl md:text-4xl mb-4 uppercase tracking-widest text-foreground">
+      <h1 className="font-bold text-2xl md:text-4xl mb-4 uppercase tracking-widest text-sham dark:text-voke">
         Page Not Found
       </h1>
 
