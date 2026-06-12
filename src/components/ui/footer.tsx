@@ -11,6 +11,11 @@ const menu = [
   { title: "About", url: "/about" },
   { title: "Contact", url: "/contact" },
 ]
+const legal = [
+  { title: "Privacy Policy", url: "/privacy-policy" },
+  { title: "Terms of Service", url: "/terms-of-service" },
+  { title: "Cookie Policy", url: "/cookie-policy" },
+]
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -38,17 +43,32 @@ export default function Footer() {
         />
       </Link>
       <p className="text-lg leading-6 text-sham dark:text-muted-foreground">
-        Crafted with 💙 by sham
-        <br />
-        &copy; {year}{" "}
-        <a
-          href="https://webmeka.com"
-          target="_blank"
-          className="creator text-sham dark:text-muted-foreground hover:text-voke transition"
-        >
-          WEBMEKA | All rights reserved.
-        </a>
+        <span className="block mb-3">Crafted with 💙 by sham</span>
+        <span>
+          &copy; {year}{" "}
+          <a
+            href="https://webmeka.com"
+            target="_blank"
+            className="creator text-sham dark:text-muted-foreground hover:text-voke transition"
+          >
+            WEBMEKA | All rights reserved
+          </a>
+        </span>
       </p>
+
+      <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-4 text-sm">
+        {legal.map((item) => (
+          <li key={item.title}>
+            <Link
+              href={item.url}
+              className="text-sham dark:text-muted-foreground/60 hover:text-voke transition hover:underline"
+            >
+              {item.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
       <ScrollToTop />
     </footer>
   )

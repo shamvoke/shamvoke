@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from "next/link"
+import BackButton from "@/components/ui/backButton";
 
 export default function NotFound() {
   return (
@@ -23,12 +23,7 @@ export default function NotFound() {
          The page you are looking for does not exist or has been moved.
       </p>
 
-      <Link
-        href="/"
-        className="inline-block px-6 py-2 rounded-md text-white font-bold hover:bg-voke transition bg-linear-to-r from-sham to-voke"
-      >
-        Back to Home
-      </Link>
+      <BackButton />
 
     </section>
   )
