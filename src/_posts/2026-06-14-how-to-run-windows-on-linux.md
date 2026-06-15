@@ -44,7 +44,7 @@ The hunt eventually led me to [Quickgui](https://github.com/quickemu-project/qui
 
 Before we get to Quickgui, it helps to understand the two technologies doing most of the work <u>behind the scenes</u>.
 
-**KVM**, short for Kernel-based Virtual Machine, is a Linux kernel module that effectively turns the Linux kernel into a hypervisor. Rather than emulating every instruction in software, KVM allows guest operating systems to execute directly on the host CPU using hardware virtualization features built into modern processors.
+**KVM**, short for Kernel-based Virtual Machine, is a Linux kernel module that effectively turns the Linux kernel into a hypervisor. Rather than emulating every instruction in software, KVM allows guest operating systems to execute directly on the host CPU.
 
 >VirtualBox is a type 2 hypervisor, sitting on top of a host operating system. KVM is more of a type 1 hypervisor integrated into the Linux kernel, exact reason why it consistently outperforms VirtualBox in raw performance.
 
@@ -55,7 +55,7 @@ While KVM handles CPU virtualization, QEMU provides the virtual hardware. It emu
 Think of it this way:
 
 - KVM gives Linux OS the power to run virtual machines.
-- Quickgui gives Linux users a way to use that power.
+- QEMU gives Linux users a way to use that power.
 
 *Together they form one of the most powerful virtualization platforms available on Linux today.*
 
