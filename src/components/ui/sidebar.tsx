@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { useEffect } from "react"
 import SocialLinks from "@/components/ui/socials"
-import { X, Coffee } from "lucide-react"
+import { FiX, FiCoffee } from "react-icons/fi";
 
 type SidebarProps = {
   open: boolean
@@ -56,7 +56,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
               aria-label="Close menu"
               className="rounded-full p-2 text-2xl font-extrabold text-white/80 hover:bg-white/10 hover:text-white transition"
             >
-              <X />
+              <FiX />
             </button>
           </div>
 
@@ -83,7 +83,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
             <p className="text-xl font-voke">
               Buy <span className="font-bold">yourself</span> a coffee
             </p>
-            <Coffee className="w-4 h-4 text-voke/80" />
+            <FiCoffee className="w-4 h-4 text-voke/80" />
           </div>
 
           <div className="mt-auto border-t border-white/10 px-5 py-4">

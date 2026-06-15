@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { PencilRuler, ArrowRight } from "lucide-react";
+import { LuPencilRuler, LuArrowRight } from "react-icons/lu";
 import ElectricBorder from "@/components/ui/shamCard";
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -51,7 +51,7 @@ export default function WebDesignSection() {
 
                 <div className="mt-6 flex justify-center">
                   <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
-                    <PencilRuler className="h-9 w-9 text-cyan-300" />
+                    <LuPencilRuler className="h-9 w-9 text-cyan-300" />
                   </div>
                 </div>
 
@@ -145,7 +145,7 @@ export default function WebDesignSection() {
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-violet-300/20 bg-voke px-5 py-4 text-base font-semibold text-black hover:scale-[1.01]"
                   >
                     Visit WebMeka website
-                    <ArrowRight className="h-4 w-4" />
+                    <LuArrowRight className="h-4 w-4" />
                   </Link>
                 </div>
               </div>

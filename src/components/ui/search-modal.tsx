@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Search, X, Loader2 } from "lucide-react"
+import { FiSearch, FiX } from "react-icons/fi";
+import { LuLoader } from "react-icons/lu";
 import Link from "next/link"
 
 type PagefindSubResult = {
@@ -202,7 +203,7 @@ async function handleSearch(value: string) {
         className="inline-flex h-9 w-9 items-center justify-center rounded-full text-sham transition hover:text-voke dark:text-foreground dark:hover:text-voke"
         aria-label="Search Shamvoke"
       >
-        <Search className="h-6 w-6" />
+        <FiSearch className="h-6 w-6" />
       </button>
 
       {open && (
@@ -225,7 +226,7 @@ async function handleSearch(value: string) {
               Search Shamvoke
             </h2>
             <div className="flex items-center gap-3 rounded-2xl border border-sham/10 bg-gray-50 px-4 py-3 dark:border-voke/20 dark:bg-black/30">
-              <Search className="h-5 w-5 text-sham dark:text-voke" />
+              <FiSearch className="h-5 w-5 text-sham dark:text-voke" />
 
               <input
                 ref={inputRef}
@@ -235,7 +236,7 @@ async function handleSearch(value: string) {
                 className="w-full bg-transparent text-base text-sham outline-none placeholder:text-gray-400 dark:text-white"
               />
 
-              {loading && <Loader2 className="h-5 w-5 animate-spin text-voke" />}
+              {loading && <LuLoader className="h-5 w-5 animate-spin text-voke" />}
 
               <button
                 type="button"
@@ -243,7 +244,7 @@ async function handleSearch(value: string) {
                 className="text-sham transition hover:text-voke dark:text-gray-300 dark:hover:text-voke"
                 aria-label="Close search"
               >
-                <X className="h-5 w-5" />
+                <FiX className="h-5 w-5" />
               </button>
             </div>
 

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, ChangeEvent, FormEvent } from "react"
-import { Mail } from "lucide-react"
+import { LuMail } from "react-icons/lu";
 
 export default function Newsletter() {
   const [formState, setFormState] = useState({
@@ -81,7 +81,7 @@ export default function Newsletter() {
             <label className="relative min-w-0">
               <span className="sr-only">Email address</span>
 
-              <Mail className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-white/45" />
+              <LuMail className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-white/45" />
 
               <input
                 type="email"

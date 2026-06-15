@@ -1,6 +1,6 @@
 ---
 date: "2026-06-14T11:58:04Z"
-title: "How I run Windows on Linux, really fast."
+title: "How to run Windows on Linux, really fast."
 shamthing: "Hey Windows, meet your new host 🐧 and roomates"
 excerpt: "Running Windows on Linux no longer needs heavy VirtualBox setups This piece explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes launching Windows machines almost effortless on modern Linux systems today for users everywhere"
 featuredImage: "23_how-to-run-windows-on-linux.webp"
@@ -89,13 +89,19 @@ No virtualization degree required.
 
 Quickgui is not limited to Windows. Under the hood, it can spin up a wide range of operating systems, including Linux distributions, BSD variants, and even macOS and Android images in certain configurations.
 
-**In my experience**, Windows remains the smoothest experience because of how automated the setup is inside Quickgui. macOS is also possible, though it requires a bit more manual adjustment and patience compared to the near one click Windows workflow. 
+**In my experience**, Windows remains the smoothest experience because of how automated the setup is inside Quickgui. macOS is also possible, though it requires a bit more manual adjustment and patience compared to the near one click Windows workflow.
 
 >Android can technically run as well, but it is not the most practical route on a Linux desktop, especially when better emulator based solutions exist for that use case.
 
-Still, what stands out is flexibility. The same tool that makes Windows feel effortless can also open doors to experimentation far beyond it, depending on how far you are willing to explore the stack underneath.
+### Throwback
 
-*I'll cover the full setup process in a dedicated guide, but if you're looking for the easiest way to run Windows on Linux today, Quickgui is easily one of the best places to start.*
+![Windows VM and MacOS VM running side by side on linux](https://res.cloudinary.com/deudsgjbm/image/upload/v1781521508/Screenshot_qlgma3.webp)
+
+Above is a screenshot I took back in 2022. A `Windows 11` VM and a `macOS Catalina` VM, both running side by side on Arch Linux. If you zoom in, you will notice **Photoshop** on the Windows VM desktop. Years later, QuickGUI still holds true to its purpose, making this kind of setup effortless.
+
+The same tool that simplifies running Windows on Linux, also open doors to experimentation far beyond it, depending on how far you are willing to explore the stack underneath.
+
+*I'll cover the full step by step setup process in a dedicated guide, but if you're looking for the easiest way to run Windows on Linux today, Quickgui is easily the best places to start.*
 
 Stay Curious,
 

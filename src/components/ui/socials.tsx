@@ -1,10 +1,10 @@
-import type { LucideIcon } from "lucide-react"
-import { Github, Facebook, Youtube, Twitter, Instagram } from "lucide-react"
+import { IconType } from "react-icons"
+import { SiGithub, SiFacebook, SiYoutube, SiX, SiInstagram } from "react-icons/si"
 
 type Social = {
   name: string
   href: string
-  icon: LucideIcon
+  icon: IconType
   className: string
 }
 
@@ -12,31 +12,31 @@ const socials: Social[] = [
   {
     name: "GitHub",
     href: "https://github.com/shamvoke",
-    icon: Github,
+    icon: SiGithub,
     className: "hover:text-sham",
   },
   {
     name: "Facebook",
     href: "https://www.facebook.com/share/17911CWaJV/",
-    icon: Facebook,
+    icon: SiFacebook,
     className: "hover:text-[#1877f2]",
   },
   {
     name: "YouTube",
     href: "https://youtube.com/@shamvoke",
-    icon: Youtube,
+    icon: SiYoutube,
     className: "hover:text-[#ff0a16]",
   },
   {
     name: "Twitter",
     href: "https://twitter.com/shamvoke",
-    icon: Twitter,
-    className: "hover:text-voke",
+    icon: SiX,
+    className: "hover:text-[#000000]",
   },
   {
     name: "Instagram",
     href: "https://instagram.com/sham.voke",
-    icon: Instagram,
+    icon: SiInstagram,
     className: "hover:text-[#e4405f]",
   },
 ]

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Menu } from "lucide-react"
+import { FiMenu } from "react-icons/fi";
 import SearchModal from "@/components/ui/search-modal"
 import Sidebar from "@/components/ui/sidebar"
 import ThemeToggle from "@/components/ui/theme-toggle"
@@ -27,7 +27,7 @@ export default function Navbar() {
           className="mr-1 sm:ml-6 lg:hidden"
           aria-label="Open menu"
         >
-         <Menu className="w-8 h-8 text-sham dark:text-gray-300" />
+         <FiMenu className="w-8 h-10 text-sham dark:text-gray-300" />
         </button>
         <div className="m-0 h-8 leading-8 relative lg:ml-8">
           <Link

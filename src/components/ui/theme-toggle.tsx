@@ -2,7 +2,7 @@
 
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
-import { Sun, Moon } from "lucide-react"
+import { FiSun, FiMoon } from "react-icons/fi";
 
 export default function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme()
@@ -25,9 +25,9 @@ export default function ThemeToggle() {
       className="pr-3 text-xl text-foreground"
     >
       {isDark ? (
-        <Sun className="h-7 w-7" />
+        <FiSun className="h-7 w-7" />
       ) : (
-        <Moon className="h-7 w-7 text-sham" />
+        <FiMoon className="h-7 w-7 text-sham" />
       )}
     </button>
   )

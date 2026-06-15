@@ -4,7 +4,7 @@ import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
 import FeaturedImage from "@/components/ui/featuredImage"
 import LikeButton from "@/components/ui/likeButton"
-import { Calendar, Clock } from "lucide-react"
+import { LuCalendar, LuClock } from "react-icons/lu";
 import readingTime from "reading-time";
 import ReadGrid from "@/app/blog/[slug]/readGrid";
 import AuthorCard from "@/components/ui/authorCard";
@@ -105,7 +105,7 @@ export default async function PostPage({ params }: Props) {
         
 
         <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400 mb-4">
-          <Calendar className="w-5 h-5 text-black dark:text-voke/70" />
+          <LuCalendar className="w-5 h-5 text-black dark:text-voke/70" />
           <time className="text-sm text-sham dark:text-gray-300/70">
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
@@ -113,7 +113,7 @@ export default async function PostPage({ params }: Props) {
               day: "numeric",
             })} 
           </time>
-          <Clock className="w-5 h-5 text-black dark:text-voke/70" />
+          <LuClock className="w-5 h-5 text-black dark:text-voke/70" />
           <span className="text-sm text-sham dark:text-gray-300/70">
          {stats.text} 
           </span>
