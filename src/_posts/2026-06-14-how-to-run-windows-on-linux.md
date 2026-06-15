@@ -2,7 +2,7 @@
 date: "2026-06-14T11:58:04Z"
 title: "How to run Windows on Linux, really fast."
 shamthing: "Hey Windows, meet your new host 🐧 and roomates"
-excerpt: "Running Windows on Linux no longer needs heavy VirtualBox setups. This post explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes running a Windows virtual machine almost effortless on Linux systems."
+excerpt: "This post explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes running a Windows virtual machine almost effortless on Linux systems."
 featuredImage: "23_how-to-run-windows-on-linux.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1781516254/23_how-to-run-windows-on-linux_sray85.webp"
 category: "windows"
@@ -18,7 +18,7 @@ It worked. Create a <u>virtual machine</u>, mount an ISO, click through the inst
 
 Then Microsoft introduced **WSL**, the Windows Subsystem for Linux.
 
-For many Linux users ~~stuck~~ on Windows, it changed everything. Instead of running Linux inside a traditional virtual machine, Linux applications could run with performance that felt remarkably close to native. It was one of the first times I started paying attention to what was happening underneath the virtualization layer.
+For many users ~~stuck~~ on Windows, it changed everything. Instead of running Linux inside a traditional virtual machine, Linux applications could run with performance that felt remarkably close to native. It was one of the first times I started paying attention to what was happening underneath the virtualization layer.
 
 ## The switch
 
@@ -46,7 +46,7 @@ Before we get to Quickgui, it helps to understand the two technologies doing mos
 
 **KVM**, short for Kernel-based Virtual Machine, is a Linux kernel module that effectively turns the Linux kernel into a hypervisor. Rather than emulating every instruction in software, KVM allows guest operating systems to execute directly on the host CPU using hardware virtualization features built into modern processors.
 
->VirtualBox is a type 2 hypervisor, sitting on top of a host operating system. KVM is a type 1 style hypervisor integrated into the Linux kernel, which is why it consistently outperforms VirtualBox in raw performance.
+>VirtualBox is a type 2 hypervisor, sitting on top of a host operating system. KVM is more of a type 1 hypervisor integrated into the Linux kernel, exact reason why it consistently outperforms VirtualBox in raw performance.
 
 **QEMU** and KVM.
 
@@ -89,7 +89,7 @@ No virtualization degree required.
 
 Quickgui is not limited to Windows. Under the hood, it can spin up a wide range of operating systems, including Linux distributions, BSD variants, and even macOS and Android images in certain configurations.
 
-**In my experience**, Windows remains the smoothest experience because of how automated the setup is inside Quickgui. macOS is also possible, though it requires a bit more manual adjustment and patience compared to the near one click Windows workflow.
+**In my experience**, Windows remains the smoothest experience because of how optimized the setup is inside Quickgui. macOS is also possible, though it requires a bit more manual adjustment and patience compared to the near one click Windows workflow.
 
 >Android can technically run as well, but it is not the most practical route on a Linux desktop, especially when better emulator based solutions exist for that use case.
 
