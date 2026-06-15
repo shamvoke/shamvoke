@@ -2,7 +2,7 @@
 date: "2026-06-14T11:58:04Z"
 title: "How to run Windows on Linux, really fast."
 shamthing: "Hey Windows, meet your new host 🐧 and roomates"
-excerpt: "Running Windows on Linux no longer needs heavy VirtualBox setups This piece explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes launching Windows machines almost effortless on modern Linux systems today for users everywhere"
+excerpt: "Running Windows on Linux no longer needs heavy VirtualBox setups. This post explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes running a Windows virtual machine almost effortless on Linux systems."
 featuredImage: "23_how-to-run-windows-on-linux.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1781516254/23_how-to-run-windows-on-linux_sray85.webp"
 category: "windows"
