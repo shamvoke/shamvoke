@@ -65,7 +65,7 @@ Out of all the tools I tried, Quickgui was the one that immediately clicked.
 
 ![Quickemu screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1781514658/quickemu1_q55soi.webp)
 
-**Quickgui** is a graphical interface for [Quickemu](https://github.com/quickemu-project/quickemu), a project designed to make QEMU virtual machines ridiculously easy to create and manage. Instead of manually downloading ISOs, configuring virtual hardware, and tweaking endless settings, *Quickgui automates most of the process for you.*
+**Quickgui** is a graphical interface for [Quickemu](https://github.com/quickemu-project/quickemu), a diffrent project designed to make QEMU virtual machines ridiculously easy to create and manage. Instead of manually downloading ISOs, configuring virtual hardware, and tweaking endless settings, *Quickemu automates most of the process for you.* Then Quickgui acts as the (GUI) graphical user interface, running quickemu behind the scene.
 
 ![quickemu downloader screen](https://res.cloudinary.com/deudsgjbm/image/upload/v1781514658/quickemu2_z7a9ko.webp)
 
@@ -73,7 +73,7 @@ What impressed me most was the balance between `simplicity` and `performance`. U
 
 - **Need Windows?** Select a version and let Quickgui handle the rest.
 - **Need a Linux distribution?** Pick one from the list and download it directly from the application.
-- **Need something more unusual?** Quickgui supports hundreds of operating systems, including Windows, macOS, BSD variants, and an enormous collection of Linux distributions.
+- **Need something more?** Quickgui supports hundreds of operating systems, including Windows, macOS, BSD variants, and an enormous collection of Linux distributions.
 
 ![Quicgui manager screen](https://res.cloudinary.com/deudsgjbm/image/upload/v1781514659/quickemu3_kjavrc.webp)
 
