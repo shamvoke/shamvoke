@@ -18,7 +18,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-foreground">
-          I&apos;m <span className="font-bold text-foreground">Sham</span> <span className="text-voke opacity-60">the webmeka</span>. A Creative Designer And Web Developer 🌍
+          I&apos;m <span className="font-bold text-foreground">Sham.</span> <span className="text-voke opacity-60">A webmeka</span>. A Creative Designer And Web Developer 🌍
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
