@@ -1,14 +1,15 @@
 import Image from 'next/image';
-import shamProfile from "../../assets/images/Voke.webp";
 
 export default function AuthorCard() {
   return (
     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 p-6 mt-12 bg-white dark:bg-gray-900 rounded-2xl shadow-md border border-gray-200 dark:border-gray-800">
       <div className="shrink-0">
         <Image
-          src={shamProfile}
+          src="/BigVokeLogo.svg"
           alt="Sham Voke bio picture."
-          className="rounded-full size-45 border-2 border-sham dark:border-voke"
+          width={128}
+          height={128}
+          className="rounded-full size-32"
         />
       </div>
       <div className="flex flex-col gap-1 text-center sm:text-left">
