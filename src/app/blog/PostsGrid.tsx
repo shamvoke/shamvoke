@@ -60,7 +60,7 @@ export default function PostsGrid({ posts }: PostsGridProps) {
             </Link>
 
             <Link href={`/blog/${post.slug}`} className="block">
-                <p className="text-[15px] leading-7 sm:text-sm sm:leading-5 text-neutral-600 dark:text-neutral-400">
+                <p className="text-[16px] leading-7 sm:text-sm sm:leading-5 text-neutral-600 dark:text-neutral-400">
                 {post.excerpt}
                 </p>
             </Link>
