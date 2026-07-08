@@ -1,13 +1,13 @@
 ---
 date: "2026-07-05T20:33:58Z"
-title: "The most powerful android tool you're not using"
+title: "The most powerful Android tool you're not using"
 shamthing: "Hey Windows, meet your new host 🐧 and roomates"
 excerpt: "This post explores how KVM and QEMU power near native virtualization and how Quickgui simplifies everything into a fast friendly workflow that makes running a Windows virtual machine almost effortless on Linux systems."
 featuredImage: "23_how-to-run-windows-on-linux.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1781516254/23_how-to-run-windows-on-linux_sray85.webp"
-category: "windows"
+category: "android"
 tags:
-  - virtualization
+  - adb
   - KVM
   - virtualbox
 ---
@@ -111,7 +111,7 @@ First, connect your android device to your computer, then open your computer's t
 
 `adb devices`
 
-If everything is set up right, you’ll see a string of numbers followed by the word device.
+If everything is set up correctly, you’ll see a string of numbers followed by the word device.
 
 >💡 Tip: If it says unauthorized, look at your phone screen, you forgot to accept that popup!
 
@@ -125,6 +125,8 @@ Tired of that pre-installed app you can't disable? Find its package name (using 
 `adb shell pm uninstall -k --user 0 com.example.bloatware` Poof. Gone.
 
 *replace 'com.example.bloatware' with package name of the app you wish to remove*
+
+>The app disappears from your user profile but remains in the system partition, meaning it can usually be restored later if needed. System apps will be restored if you do factory reset.
 
 2. **Transfer Files Fast**
 
@@ -162,7 +164,7 @@ use adb install `adb install app.apk`
 
 use adb uninstall `adb uninstall com.package.name`
 
-## Bonus: Wireless ADB
+## Bonus: Wireless ADB & TV
 
 This is where things start getting fun! Android 11+ lets you pair ADB devices wirelessly.
 
@@ -197,9 +199,9 @@ It's not root.
 
 But it's close enough.
 
-Half a cake is better than no cake... right?
+*Half a cake is better than no cake... right?*
 
-*And if you've never used it before, today might be the perfect time to start.*
+And if you've never used it before, today might be the perfect time to start.
 
 Stay Curious,
 
