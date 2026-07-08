@@ -115,6 +115,8 @@ First, connect your android device to your computer, then open your computer's t
 
 Hit enter, if everything is set up correctly, you’ll see a string of numbers followed by the word device.
 
+![ADB command in terminal](https://res.cloudinary.com/deudsgjbm/image/upload/v1783533021/adbterminal_ifs49v.webp)
+
 >💡 Tip: If it says unauthorized, look at your phone screen, you forgot to accept that popup!
 
 ### Useful Commands Everyone Should Know
