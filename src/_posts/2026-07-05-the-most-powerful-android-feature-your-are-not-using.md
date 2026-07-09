@@ -18,7 +18,7 @@ Back when rooting your phone was almost a rite of passage.
 
 >If you've never heard of rooting, here's the <u>simplest</u> way to think about it. On Windows, you sometimes **Run as Administrator** to perform tasks that require elevated permissions. Linux has something similar called the **root user**. Since Android is built on the Linux kernel, rooting gives you access to those high level system control.
 
-Back then, those privileges unlocked a whole new world.
+Being a root user on android unlocks a whole new world.
 
 You'd spend hours on XDA Developers forums, unlocking bootloaders, flashing custom ROMs, experimenting with custom kernels, and trying out whatever new tweak the community had cooked up that week.
 
