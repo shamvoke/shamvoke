@@ -99,7 +99,7 @@ export default async function PostPage({ params }: Props) {
   }
   return (
     <div className="max-w-7xl mx-auto px-4 pt-20">
-      <div className="flex flex-col lg:flex-row gap-12 items-start">
+      <div className="flex flex-col lg:flex-row gap-15 items-start">
     <article data-pagefind-body className="flex-1 min-w-0">
       <header className="mb-12">
         
