@@ -46,7 +46,7 @@ export default function WebDesignSection() {
 
               <div className="relative z-10">
                 <span className="inline-flex rounded-xl border border-white/10 bg-white/6 px-4 py-2 text-sm font-bold text-voke">
-                  Blog Kit: $120
+                  Blog Kit
                 </span>
 
                 <div className="mt-6 flex justify-center">
