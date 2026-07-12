@@ -75,6 +75,8 @@ There's also [Chocolatey](https://chocolatey.org/), one of the most popular comm
 
 ## Meet UniGetUI
 
+![UniGetUI Screenshot 1](https://res.cloudinary.com/deudsgjbm/image/upload/v1783863395/Screenshot-UNIGETUI_q794wr.webp)
+
 When I first discovered this application, it was called **WingetUI**.
 
 Back then, it was simply a graphical interface for Winget.
@@ -120,11 +122,15 @@ From there you can:
 
 With UniGetUI, you can queue multiple applications at once and let it install them in one go, instead of babysitting ten different installers.
 
+![UniGetUI Screenshot 2](https://res.cloudinary.com/deudsgjbm/image/upload/v1783863710/Screenshot-UNIGETUI2_zpcqb8.webp)
+
 It's a massive time saver, especially after a clean Windows install or when setting up a new PC.
 
 **2. Updating everything.**
 
 This is probably the closest Windows has come to the Linux experience.
+
+![UniGetUI Screenshot 3](https://res.cloudinary.com/deudsgjbm/image/upload/v1783863710/Screenshot-UNIGETUI1_kiv1ft.webp)
 
 Instead of opening Chrome...
 
