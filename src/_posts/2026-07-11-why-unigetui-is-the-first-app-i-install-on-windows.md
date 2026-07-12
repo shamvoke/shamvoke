@@ -1,10 +1,10 @@
 ---
 date: "2026-07-11T10:54:12Z"
 title: "Why UniGetUI is the first App I install on Windows"
-shamthing: "Believe it or not, there exists a bridge to your phone"
+shamthing: "Because life's too short for installer wizards. 😅"
 excerpt: "Discover how UniGetUI brings the convenience of Linux package managers to Windows. Learn how to install, update, and manage applications from Winget, Chocolatey, Scoop, and more through one simple interface, making software installation faster, safer, and far less frustrating."
-featuredImage: "24_the-most-powerful-android-feature-your-are-not-using.webp"
-ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1783531225/24_the-most-powerful-android-feature-your-are-not-using_de8ep2.webp"
+featuredImage: "25_why-unigetui-is-the-first-app-i-install-on-windows.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1783862856/25_why-unigetui-is-the-first-app-i-install-on-windows_fgk1ui.webp"
 category: "windows"
 tags:
   - winget
