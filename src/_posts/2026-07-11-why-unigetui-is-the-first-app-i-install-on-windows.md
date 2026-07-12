@@ -9,7 +9,7 @@ category: "windows"
 tags:
   - winget
   - package manager
-  - chocolatey
+  - productivity
 ---
 
 If you've been around Linux for a while, you know how spoiled package managers can make you.
