@@ -146,6 +146,8 @@ UniGetUI simply lists every available update.
 - Go grab a coffee.
 - Come back when it's done.
 
+![UniGetUI update tab screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1783957675/WinGetUI_Screenshot_4_pouiwm.webp)
+
 >I said "closest" because UniGetUI manages applications, not Windows itself. Your OS updates are still handled separately.
 
 ### It Isn't Perfect Yet
