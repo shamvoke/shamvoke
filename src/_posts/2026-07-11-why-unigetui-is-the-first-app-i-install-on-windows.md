@@ -128,7 +128,7 @@ It's a massive time saver, especially after a clean Windows install or when sett
 
 **2. Updating everything.**
 
-This is probably the closest Windows has come to the Linux experience.
+This is probably the closest* Windows has come to the Linux experience.
 
 ![UniGetUI Screenshot 3](https://res.cloudinary.com/deudsgjbm/image/upload/v1783863710/Screenshot-UNIGETUI1_kiv1ft.webp)
 
@@ -143,12 +143,12 @@ Then updating each application individually...
 UniGetUI simply lists every available update.
 
 - Click Update All.
-- Go grab a coffee.
-- Come back when it's done.
+- Wait, wait...
+- Done.
 
 ![UniGetUI update tab screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1783957675/WinGetUI_Screenshot_4_pouiwm.webp)
 
->I said "closest" because UniGetUI manages applications, not Windows itself. Your OS updates are still handled separately.
+>**closest** because UniGetUI manages applications, not Windows itself. Your OS updates are still handled separately.
 
 ### It Isn't Perfect Yet
 
