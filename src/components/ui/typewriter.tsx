@@ -9,7 +9,6 @@ export default function HeroTypewriter() {
         options={{
           strings: [
             "➤ Every Cursor has a point! Hover, let that click.",
-            "➤ Crafting pixels into art, one design at a time.",
             "➤ Kindness is free, sprinkle that stuff everywhere.",
           ],
           autoStart: true,
