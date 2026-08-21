@@ -2,7 +2,7 @@
 date: "2026-08-20T02:12:24Z"
 title: "A Reason to Forget All Your Passwords: KeePassXC"
 shamthing: "Password? What password? 😅"
-excerpt: "I spent years creating accounts, forgetting passwords, resetting them, and wondering which variation I'd used. Eventually, I discovered password managers, first Bitwarden, then KeePass, and finally KeePassXC. Somewhere along the way, I stopped trying to remember everything and found a better reason to forget my passwords entirely."
+excerpt: "I spent years creating accounts, forgetting passwords, resetting them, and wondering which variation I'd used. Eventually, I found my way to password managers, first Bitwarden, then KeePass, and finally KeePassXC. Somewhere along the way, I stopped trying to remember everything and found a better reason to forget my passwords entirely."
 featuredImage: "26_a-reason-to-forget-all-your-passwords.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1787302862/26_a-reason-to-forget-all-your-passwords_l7ioep.webp"
 category: "software"
@@ -60,7 +60,7 @@ I used KeePass for a while and genuinely liked it.
 
 At the time, I think the convenience won.
 
-Bitwarden felt more polished for the way I was using it, especially when it came to browsers and syncing between devices.
+Bitwarden felt more polished, especially when it came to browsers and syncing between devices.
 
 *Then I discovered KeePassXC.*
 
@@ -82,25 +82,27 @@ It kept the thing I loved most about KeePass, the database belongs to me, while 
 
 ### KeePassXC Vs Bitwarden
 
-Here's the thing: the more I dig, the more I realized just how much these two actually have in common.
+Here's the thing: the more I used both, the more I realized just how much these two actually have in common.
 
 KeePassXC and Bitwarden are surprisingly close when it comes to the features that actually matter. Both can <u>generate strong passwords</u>, <u>autofill credentials</u>, <u>handle passkeys</u>, <u>integrate with browsers</u>, <u>store secure notes</u>, <u>organize credentials</u>, and do the basic job of a password manager extremely well.
 
 So this isn't really a case of KeePassXC having all the features while Bitwarden doesn't.
 
-Bitwarden is open source and has a very generous free plan. KeePassXC is also free and open source. Both are actively developed, both have strong security models, and both are perfectly capable password managers.
+Bitwarden is open source and has a very generous free plan. KeePassXC is free and open source. Both are actively developed, and both are perfectly capable password managers.
 
 *If anything, Bitwarden is probably the easier recommendation for most people.*
 
-Install the browser extension, sign in, and your vault follows you across your websites. There's very little to think about.
+Install the browser extension, sign in, and your vault follows you across your devices. There's very little to think about.
 
 *KeePassXC takes a different approach.*
 
-Your vault is an encrypted `.kdbx` file that you control. KeePassXC opens and manages that database locally, while you decide how the file is stored, backed up, and synchronized between your devices.
+Your vault is an encrypted `.kdbx` file. KeePassXC opens and manages that database locally, while you decide how the file is stored, backed up, and synchronized between your devices.
 
 And that's where the difference became important for me.
 
-I'm a web developer, and I rarely use just one browser.
+#### The workflow
+
+See, I rarely use one browser. How is that an issue?
 
 Let's say I have two computers, each with two browsers, plus my Android phone.
 
@@ -126,7 +128,7 @@ Computer 2 → KeePassXC → Browser A + Browser B
 Phone → KeePassDX
 ```
 
-*I unlock KeePassXC on the computer, and all the browsers I've connected to it can use the same database session.*
+*I unlock KeePassXC on the computer, and all the browsers I've connected to it can use the same unlocked database.*
 
 The browser extension is essentially the bridge. KeePassXC is the application actually handling my vault.
 
@@ -136,7 +138,7 @@ That might sound like a small distinction, but when you're constantly jumping be
 
 KeePassXC gives me a ridiculous amount of control over how I structure my vault and what I store inside each entry. Custom fields, attributes, notes, attachments, password history, Auto-Type, Auto-Login, and plenty of other little things make it feel less like a traditional password manager and more like a personal encrypted database that happens to be incredibly good at managing passwords.
 
->The auto-login feature is pure magic! Yet so dangerous I only enable it on my main browser. Unlike auto-type which autofills the username and password, auto-login actually clicks the login button for you!
+>The auto-login feature is pure magic! Yet so dangerous I only enable it on my main browser. Unlike auto-type which autofills the username and password, Auto-Login actually submits the login form for you!
 
 And that's ultimately why I chose KeePassXC.
 
@@ -152,7 +154,7 @@ And certainly not because KeePassXC somehow has every feature Bitwarden doesn't.
 
 The two actually match surprisingly closely.
 
-*I chose KeePassXC because its workflow makes more sense to me.*
+*I chose KeePassXC because it better fits my workflow.*
 
 If you use one browser, have a straightforward device setup, and want effortless cloud synchronization, I'd have no problem recommending Bitwarden.
 
@@ -177,4 +179,3 @@ You don't remember your passwords.
 Stay Curious,
 
 sham
-
