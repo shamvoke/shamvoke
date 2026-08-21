@@ -9,7 +9,7 @@ category: "software"
 tags:
   - KeePassXC
   - Bitwarden
-  - password-manager
+  - passwords
 ---
 
 I've been terrible with passwords for years.
