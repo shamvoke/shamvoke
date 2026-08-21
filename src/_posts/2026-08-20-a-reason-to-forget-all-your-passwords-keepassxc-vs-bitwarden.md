@@ -154,7 +154,7 @@ And certainly not because KeePassXC somehow has every feature Bitwarden doesn't.
 
 The two actually match surprisingly closely.
 
-*I chose KeePassXC because it better fits my workflow.*
+*I chose KeePassXC because it fit my workflow.*
 
 If you use one browser, have a straightforward device setup, and want effortless cloud synchronization, I'd have no problem recommending Bitwarden.
 
