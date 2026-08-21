@@ -3,8 +3,8 @@ date: "2026-08-20T02:12:24Z"
 title: "A Reason to Forget All Your Passwords: KeePassXC"
 shamthing: "Password? What password? 😅"
 excerpt: "I spent years creating accounts, forgetting passwords, resetting them, and wondering which variation I'd used. Eventually, I discovered password managers, first Bitwarden, then KeePass, and finally KeePassXC. Somewhere along the way, I stopped trying to remember everything and found a better reason to forget my passwords entirely."
-featuredImage: "25_why-unigetui-is-the-first-app-i-install-on-windows.webp"
-ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1783862856/25_why-unigetui-is-the-first-app-i-install-on-windows_fgk1ui.webp"
+featuredImage: "26_a-reason-to-forget-all-your-passwords.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1787302862/26_a-reason-to-forget-all-your-passwords_l7ioep.webp"
 category: "software"
 tags:
   - KeePassXC
