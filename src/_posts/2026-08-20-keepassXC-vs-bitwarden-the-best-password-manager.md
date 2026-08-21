@@ -162,7 +162,7 @@ And somewhere along the way, the password chaos disappeared.
 
 Now I only remember one.
 
-The master password that unlocks all other passwords.
+The master password that unlocks everything else.
 
 That's the beauty of a good password manager.
 
