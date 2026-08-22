@@ -34,6 +34,35 @@ Let's find out.
 
 1. The problem
 
+Android ads are everywhere
+
+The obvious place to encounter them is the web.
+
+You open a news website and get a banner.
+
+You open another site and get a popup.
+
+You click download and suddenly the page is surrounded by advertisements, recommendation widgets, and scripts from companies you've never heard of.
+
+Then you close the browser and open an app.
+
+There's an ad.
+
+You open a game.
+
+There's another ad.
+
+Finish a level?
+
+Here's another one.
+
+And sometimes, the ads aren't even the worst part. They're accompanied by trackers and analytics services quietly making requests in the background, collecting information about how you use the app or website.
+
+The problem isn't that advertising exists. Ads help keep websites, apps, and services free.
+
+The problem is when advertising becomes intrusive enough that it gets in the way of actually using your phone.
+
+That's where Private DNS comes in.
 
 
 
