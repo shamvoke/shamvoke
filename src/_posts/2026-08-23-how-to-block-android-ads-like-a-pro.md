@@ -1,7 +1,7 @@
 ---
 date: "2026-08-23T09:42:58Z"
 title: "How to block Android Ads like a pro"
-shamthing: "Password? What password? 😅"
+shamthing: "Dear Ads, your DNS has been changed. 🤺"
 excerpt: "Tired of ads following you around Android? You don't need root, complicated apps, or a VPN to block a surprising amount of them. This guide shows how to use Private DNS to cut down ads and tracking across your phone, plus what to do when DNS isn't enough."
 featuredImage: "26_a-reason-to-forget-all-your-passwords.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1787302862/26_a-reason-to-forget-all-your-passwords_l7ioep.webp"
