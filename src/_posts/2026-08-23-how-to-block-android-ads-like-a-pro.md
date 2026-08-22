@@ -20,7 +20,7 @@ But there is a difference between seeing an occasional advertisement and having 
 
 Ads appear inside websites, apps, games, and sometimes in places where you really did not ask for them. And behind many of those ads are trackers, analytics systems, and third-party services quietly making network requests in the background.
 
-For years, blocking ads on Android meant, using a dedicated ad-blocking app, setting up a VPN-based blocker, or going down the rabbit hole of rooting your phone.
+For years, blocking ads on Android meant using a dedicated ad-blocking app, setting up a VPN-based blocker, or going down the rabbit hole of rooting your phone.
 
 It turns out there is a much simpler option.
 
@@ -128,7 +128,9 @@ No root.
 
 No complicated setup. 
 
-Just a quieter Android phone. Sometimes, that's all you need.
+Just a quieter Android phone. 
+
+Sometimes, that's all you need.
 
 Stay Curious,
 
