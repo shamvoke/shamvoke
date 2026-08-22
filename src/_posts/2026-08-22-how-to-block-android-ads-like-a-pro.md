@@ -1,10 +1,10 @@
 ---
-date: "2026-08-24T09:42:58Z"
+date: "2026-08-22T09:42:58Z"
 title: "How to block Android Ads like a pro"
-shamthing: "Dear Ads, your DNS has been changed. 🤺"
+shamthing: "Dear Ads, your DNS has been changed. No entry🤺"
 excerpt: "Tired of ads following you around Android? You don't need root, complicated apps, or a VPN to block a surprising amount of them. This guide shows how to use Private DNS to cut down ads and tracking across your phone, plus what to do when DNS isn't enough."
-featuredImage: "26_a-reason-to-forget-all-your-passwords.webp"
-ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1787302862/26_a-reason-to-forget-all-your-passwords_l7ioep.webp"
+featuredImage: "27_how-to-block-android-ads-like-a-pro.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1787408775/27_how-to-block-android-ads-like-a-pro_b4ofhd.webp"
 category: "android"
 tags:
   - ad-blocker
@@ -18,11 +18,11 @@ I understand why websites have them. I understand why free apps have them.
 
 *But there is a difference between seeing an occasional advertisement and having your phone constantly trying to sell you something.*
 
-Ads appear on websites, in apps, in games, and sometimes in places you never asked for them. And behind many of those ads are <u>trackers</u>, <u>analytics systems</u>, and <u>third-party services</u> quietly making network requests in the background.
+Ads appear on websites, in apps, games, and sometimes in places you never asked for them. And behind many of those ads are <u>trackers</u>, <u>analytics systems</u>, and <u>third-party services</u> quietly making network requests in the background.
 
 For years, blocking ads on Android meant using a dedicated ad-blocking app, setting up a VPN-based blocker, or going down the rabbit hole of rooting your phone.
 
-*Turns out there is a much simpler option.*
+*Turns out there is a much simpler solution.*
 
 See, your Android phone already has a feature called **Private DNS**.
 
@@ -52,7 +52,7 @@ You open a game.
 
 Another ad.
 
-Finish a level?
+Finished a level?
 
 Here's another one.
 
@@ -72,9 +72,9 @@ You don't need root access.
 
 Open your Android Settings and search for `Private DNS`.
 
-Depending on your phone, you may find it under `Network & internet`, `Connections`, or somewhere similar. Android manufacturers love moving things around, so using the Settings search is usually the fastest way to find it.
+Depending on your phone, you may find it under `Connections → More Connection Settings → Private DNS`, or somewhere similar. Android manufacturers love moving things around, so using the Settings search is usually the fastest way to find it.
 
-You'll usually see three options:
+You'll see three options:
 
 - Off
 - Automatic
@@ -92,6 +92,8 @@ That's it.
 
 Seriously.
 
+![Private DNS settings screenshot](https://res.cloudinary.com/deudsgjbm/image/upload/v1787408867/privateDNS_acnlls.webp)
+
 ### What Private DNS Can’t Block
 
 Private DNS can block a lot of advertising, but there is a limit...
@@ -102,7 +104,7 @@ DNS filtering works by blocking known advertising and tracking domains. If an ad
 
 So, if you enable AdGuard DNS and still see a few ads, don't assume it's broken. You've simply reached one of the limitations of DNS-based blocking.
 
-And YouTube is probably the biggest example.
+YouTube is where this limitation becomes especially obvious.
 
 *Let's fix that next.*
 
@@ -118,7 +120,7 @@ Personally, I've used **YouTube ReVanced** for years, but more recently switched
 
 >Note: Modified YouTube clients can disappear or stop working as YouTube changes its systems. ReVanced has already shown how quickly things can change, so don't assume any particular project will be around forever.
 
-Morphe is what I'm currently using, and I'll cover how to install and set it up in a future post. For now, consider it an alternative worth researching rather than a permanent solution.
+[Morphe](https://morphe.software/) is what I'm currently using, and I'll cover how to install and set it up in a future post. For now, consider it an alternative worth researching rather than a permanent solution.
 
 *Ads blocked.*
 
