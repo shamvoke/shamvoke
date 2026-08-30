@@ -34,7 +34,7 @@ Let's find out.
 
 ### The problem
 
-Android ads are everywhere
+Android ads are everywhere.
 
 The obvious place to encounter them is the web.
 
