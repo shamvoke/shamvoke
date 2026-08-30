@@ -63,12 +63,12 @@ export default function AboutPage() {
           break, fix, and dig about.
       </p>
 
-      <p className="mt-8 text-lg italic text-muted-foreground">
-        Stay curious.
+      <p className="mt-8 text-lg italic text-voke">
+        Stay curious,
       </p>
 
-      <p className="mt-2 font-bold bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
-        Sham
+      <p className="mt-2 font-bold text-sham">
+        Sham.
       </p>
 
       </div>
