@@ -13,7 +13,7 @@ export default function HeroSection() {
         priority
         placeholder="blur"
         sizes="100vw"
-        className="object-cover object-center bg-fixed"
+        className="object-cover object-center"
       />
       <div
         className="pointer-events-none absolute bg-[url('/pixels.png')] bg-repeat opacity-58 inset-0"
