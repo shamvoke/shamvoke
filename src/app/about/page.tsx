@@ -1,5 +1,4 @@
 import Image from "next/image"
-import shamProfile from "../../assets/images/Voke.webp"
 
 export default function AboutPage() {
   return (
@@ -7,10 +6,11 @@ export default function AboutPage() {
 
       <div className="flex flex-col items-center mt-12">
         <Image
-          src={shamProfile}
+          src="/BigVokeLogo.svg"
           alt="Sham Voke profile picture."
-          placeholder="blur"
-          className="rounded-full size-50 sm:size-60 mb-6 border-4 border-sham dark:border-voke"
+          width={128}
+          height={128}
+          className="rounded-full size-50 sm:size-60 mb-6"
         />
 
         <h1 className="text-3xl sm:text-4xl font-sham font-bold mb-4 text-foreground">
@@ -43,30 +43,35 @@ export default function AboutPage() {
           <span className="underline decoration-voke">elegant designs</span>, I dive headfirst into the world of web development, always seeking to push the boundaries of what’s possible.
         </p>
 
-        <p>
-          🌱 I believe in the power of{" "}
-          <span className="bg-black/20 dark:bg-voke/10 text-sham dark:text-voke px-2 py-0.5 rounded-md">continuous learning and growth.</span> Constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
-        </p>
-
-      </div>
-
-      <div className="flex justify-center mt-10">
         <Image
           src="https://res.cloudinary.com/deudsgjbm/image/upload/v1780931462/shamart_fdwqfe.webp"
           alt="Shamvoke Logo, The Official shamvoke logo, Feauturing Bree the blue smiley face, in a vibrant and artistic style. A creative and colorful representation of the shamvoke brand."
           width={839}
           height={150}
         />
+
+        <p>
+          🌱 I believe in the power of{" "}
+          <span className="bg-black/20 dark:bg-voke/10 text-sham dark:text-voke px-2 py-0.5 rounded-md">continuous learning and growth.</span> Constantly expanding my skill set to stay ahead in the ever-evolving tech landscape.
+        </p>
+      <h1 className="text-3xl text-center sm:text-4xl font-sham font-bold mb-4 text-foreground">
+          The Blog
+      </h1>
+
+      <p>
+          A personal digital journal about the things I use, build, learn,
+          break, fix, and dig about.
+      </p>
+
+      <p className="mt-8 text-lg italic text-voke">
+        Stay curious,
+      </p>
+
+      <p className="mt-2 font-bold text-sham">
+        Sham.
+      </p>
+
       </div>
-
-      <p className="mt-8 text-lg italic text-muted-foreground">
-        Stay curious.
-      </p>
-
-      <p className="mt-2 font-bold bg-linear-to-r from-sham to-voke bg-clip-text text-transparent">
-        Sham
-      </p>
-
     </section>
   )
 }
