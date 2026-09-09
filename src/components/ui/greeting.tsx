@@ -16,7 +16,7 @@ export default function Greeting() {
   return (
     <div className="relative h-7 text-xl font-voke text-white/75 dark:text-voke">
       <span
-        className={`absolute inset-0 transition-opacity duration-1000 ${
+        className={`absolute inset-0 transition-opacity duration-2000 ${
           showKaribu ? "opacity-0" : "opacity-100"
         }`}
       >
@@ -24,7 +24,7 @@ export default function Greeting() {
       </span>
 
       <span
-        className={`absolute inset-0 transition-opacity duration-1000 ${
+        className={`absolute inset-0 transition-opacity duration-4000 ${
           showKaribu ? "opacity-100" : "opacity-0"
         }`}
       >
