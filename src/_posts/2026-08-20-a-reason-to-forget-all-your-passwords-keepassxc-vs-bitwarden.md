@@ -14,7 +14,7 @@ tags:
 
 I've been terrible with passwords for years.
 
-And to make the matter worse, I am the type of person who creates accounts left, right and center. A new service? Sign up. Interesting app? Create an account. Random website I might need once in six months? Yep, I'm making an account.
+And to make matters worse, I am the type of person who creates accounts left, right and center. A new service? Sign up. Interesting app? Create an account. Random website I might need once in six months? Yep, I'm making an account.
 
 For the longest time, I dealt with this the way most people do. I <u>reused</u> passwords, tried to remember <u>variations</u> of passwords, <u>forgot</u> them, <u>reset</u> them, and occasionally stared at a login screen wondering what version of my password I'd used three years ago.
 

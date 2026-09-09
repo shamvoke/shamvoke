@@ -38,11 +38,11 @@ export default function HeroSection() {
         <div className="mt-12">
         <a
             href="#grid"
-            className="inline-flex items-center rounded px-4 py-2 text-lg font-bold transition 
+            className="inline-flex items-center rounded-2xl px-4 py-2 text-lg font-bold transition 
                     bg-card/40 dark:bg-black/60 text-card-foreground hover:bg-card/30 hover:shadow"
         >
-            <span className="mr-2">📖</span>
-            <span>Read shamthing</span>
+            <span className="mr-2">💭</span>
+            <span>Let&apos;s get curious!</span>
         </a>
         </div>
       </div>
