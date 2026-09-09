@@ -18,7 +18,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-lg text-foreground">
-          I&apos;m <span className="font-bold text-foreground">Sham.</span> A Creative Designer And Web Developer. <span className="text-voke opacity-60">A webmeka.</span> 🌍
+          I&apos;m <span className="font-bold text-foreground">Sham.</span> A Creative Designer And Web Developer. <span className="text-sham dark:text-voke opacity-60">A webmeka.</span> 🌍
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
@@ -40,7 +40,7 @@ export default function AboutPage() {
         <p>
           👨‍💻 With a fervent love for{" "}
           <span className="underline decoration-sham">clean code</span> and{" "}
-          <span className="underline decoration-voke">elegant designs</span>, I dive headfirst into the world of web development, always seeking to push the boundaries of what’s possible.
+          <span className="underline decoration-voke">elegant designs</span>, I dive headfirst into the world of web development, always seeking to push the boundaries of what&apos;s possible.
         </p>
 
         <Image
@@ -63,7 +63,7 @@ export default function AboutPage() {
           break, fix, and dig about.
       </p>
 
-      <p className="mt-8 text-lg italic text-voke">
+      <p className="mt-8 text-lg italic text-sham dark:text-voke">
         Stay curious,
       </p>
 
