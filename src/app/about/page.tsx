@@ -59,7 +59,7 @@ export default function AboutPage() {
       </h1>
 
       <p>
-          A personal digital journal about the things I use, build, learn,
+          A personal journal about the things I use, build, learn,
           break, fix, and dig about.
       </p>
 

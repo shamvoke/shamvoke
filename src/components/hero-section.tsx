@@ -30,15 +30,15 @@ export default function HeroSection() {
           Hello Milky Way!
         </h1>
 
-        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-voke leading-relaxed dark:text-voke/80 drop-shadow sm:text-[28px]">
-          <HeroTypewriter/>
+        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-voke leading-relaxed drop-shadow sm:text-[28px]">
+         <span className="text-voke">➤</span> <HeroTypewriter/>
         </div>
 
         <div className="mt-12">
         <a
             href="#grid"
-            className="inline-flex items-center rounded-2xl px-4 py-2 text-lg font-bold transition 
-                    bg-card/40 dark:bg-black/60 text-card-foreground hover:bg-card/30 hover:shadow"
+            className="inline-flex items-center font-voke rounded-2xl px-4 py-2 text-lg font-bold transition 
+                    bg-card/40 dark:bg-black/60 text-white hover:bg-card/30 hover:shadow"
         >
             <span className="mr-2">💭</span>
             <span>Let&apos;s get curious!</span>
