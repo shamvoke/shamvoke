@@ -1,5 +1,6 @@
 import Image from "next/image"
 import shamhero from "@/assets/images/BreeHero.webp"
+import Greeting from "@/components/ui/greeting"
 import HeroTypewriter from "@/components/ui/typewriter"
 
 export default function HeroSection() {
@@ -22,10 +23,8 @@ export default function HeroSection() {
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
 
       <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
-        
-        <div className="text-xl dark:text-voke font-voke text-white/75">
-          welcome
-        </div>
+
+        <Greeting />
 
         <h1 className="mt-2 w-[80vw] text-4xl font-sham font-extrabold drop-shadow sm:text-5xl text-shamvoke">
           Hello Milky Way!
