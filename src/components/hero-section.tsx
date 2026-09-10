@@ -31,7 +31,7 @@ export default function HeroSection() {
         </h1>
 
         <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white font-voke leading-relaxed drop-shadow sm:text-[28px]">
-         <span className="text-voke">➤</span> <HeroTypewriter/>
+          <HeroTypewriter/>
         </div>
 
         <div className="mt-12">
