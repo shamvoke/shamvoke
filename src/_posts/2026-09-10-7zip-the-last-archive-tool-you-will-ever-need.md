@@ -69,7 +69,7 @@ And that’s exactly why it works.
 
 Compare that to [PeaZip](https://peazip.github.io/) or [WinZip](https://www.winzip.com/). Peazip looks great and packs features, but 7-Zip still wins on raw reliability and simplicity.
 
-In fact, I barely see the 7-Zip interface at all.
+In fact, I rarely see the 7-Zip interface at all.
 
 Most of the time, I just right-click a file, choose what I want, and carry on with life.
 
