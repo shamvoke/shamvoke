@@ -2,7 +2,7 @@
 date: "2026-09-10T12:21:07Z"
 title: "7Zip, the last archive tool you'll ever need"
 shamthing: "7zip - The GYM where files go to lose weight. 🏋️‍♀️"
-excerpt: "Default archive tools are good enough, until they aren’t. 7-Zip takes file compression to another level, offering speed, powerful compression, encryption, and support for countless formats without unnecessary bloat. It’s not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
+excerpt: "Default archive tools are good enough until they aren’t. 7-Zip takes file compression to another level, offering speed and support for countless formats without unnecessary bloat. It’s not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
 "
 featuredImage: "28_7zip-the-last-archive-tool-you-will-ever-need.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789126882/28_7zip-the-last-archive-tool-you-will-ever-need_m0wrb0.webp"
@@ -23,7 +23,7 @@ And honestly? That’s the problem.
 
 A file archiver with a high compression ratio.
 
-[7-Zip](https://www.7-zip.org/) is one of those rare tools that quietly dominates its category. It’s <u>free</u>, <u>open-source</u>, <u>lightweight</u> and absurdly <u>powerful</u>.
+[7-Zip](https://www.7-zip.org/) is one of those rare tools that quietly dominates its category. It’s <u>free</u>, <u>open-source</u>, <u>lightweight</u> and absurdly <u>powerful.</u>
 
 No subscriptions.
 
