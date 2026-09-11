@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug } from "@/lib/api"
 import markdownToHtml from "@/lib/markdownToHtml"
 import FeaturedImage from "@/components/ui/featuredImage"
+import SocialShare from "@/components/ui/socialShare"
 import LikeButton from "@/components/ui/likeButton"
 import { LuCalendar, LuClock } from "react-icons/lu";
 import readingTime from "reading-time";
@@ -148,6 +149,10 @@ export default async function PostPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: content }}
       />
         <LikeButton />
+        <SocialShare
+          title={post.title}
+          url={`https://shamvoke.com/blog/${slug}`}
+        />
         <AuthorCard />
         <CommentBox />
       <div className="lg:hidden mt-12 ">
