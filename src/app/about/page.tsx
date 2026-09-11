@@ -22,7 +22,7 @@ export default function AboutPage() {
         </p>
 
         <p className="italic mt-3 text-muted-foreground">
-          Constantly exploring the realms of code and creativity 🚀
+          Curiously exploring the realms of code & creativity🚀
         </p>
       </div>
 
