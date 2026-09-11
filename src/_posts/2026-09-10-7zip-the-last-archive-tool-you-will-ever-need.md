@@ -1,7 +1,7 @@
 ---
 date: "2026-09-10T12:21:07Z"
 title: "7Zip, the last archive tool you'll ever need"
-shamthing: "7zip - The GYM where files go to lose weight. 🏋️‍♀️"
+shamthing: "To save space, God compressed dinosaurs into lizards!"
 excerpt: "Default archive tools are good enough until they aren’t. 7-Zip takes file compression to another level, offering speed and support for countless formats without unnecessary bloat. It’s not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
 "
 featuredImage: "28_7zip-the-last-archive-tool-you-will-ever-need.webp"
@@ -71,11 +71,15 @@ Compare that to [PeaZip](https://peazip.github.io/) or [WinZip](https://www.winz
 
 In fact, I barely see the 7-Zip interface at all.
 
-Most of the time, I just right-click a file, choose what I want, and carry on with my life.
+Most of the time, I just right-click a file, choose what I want, and carry on with life.
+
+![7-Zip screenshot on Windows](https://res.cloudinary.com/deudsgjbm/image/upload/v1789161300/Screenshot_7zip-windows_vvl9ai.webp)
+
+<small>A screenshot of 7-Zip in the Windows File Explorer context menu.</small>
 
 That’s where 7-Zip wins for me.
 
-*It stays out of the way so effectively that its admittedly 'old-school' interface almost doesn't matter.*
+*It stays out of the way, so effectively that its admittedly 'old-school' interface almost doesn't matter.*
 
 ### Linux? Even Better
 
@@ -84,6 +88,10 @@ On Linux systems, you can install `P7Zip`.
 Once installed, it works beautifully alongside file managers like Dolphin, giving you right-click compression and extraction without needing to open a separate app. 🔥
 
 If you’ve read my earlier post on Dolphin [my favourite file manager](/blog/top-5-dolphin-file-manager-tips-for-enhanced-productivity), you already know how powerful that combo is.
+
+![7-Zip screenshot on arch linux](https://res.cloudinary.com/deudsgjbm/image/upload/v1789159934/Screenshot_7zip_gocw4m.webp)
+
+<small>A Screenshot of 7-Zip on Arch Linux, Dolphin file manager.</small>
 
 ### So Why Isn’t It the Default?
 

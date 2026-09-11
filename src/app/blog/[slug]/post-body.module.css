@@ -116,7 +116,7 @@
 
 /* Images */
 .markdown img {
-  @apply  my-8 max-w-full h-auto mx-auto;
+  @apply  mt-8 max-w-full h-auto mx-auto;
 }
 
 /* Tables */
@@ -150,9 +150,5 @@
 
 /* Small text */
 .markdown small {
-  @apply text-sham text-lg italic;
-}
-
-:global(.dark) .markdown small {
-  @apply text-gray-400;
+  @apply text-gray-400/80 text-xl font-voke italic;
 }
