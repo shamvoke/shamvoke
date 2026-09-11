@@ -67,7 +67,7 @@ And that’s exactly why it works.
 
 *No flashy UI. No distractions. Just a tool that does its job and gets out of your way.*
 
-Compare that to [PeaZip](https://peazip.github.io/) or [WinZip](https://www.winzip.com/). Peazip looks great and packs features but 7-Zip still wins on raw reliability and simplicity.
+Compare that to [PeaZip](https://peazip.github.io/) or [WinZip](https://www.winzip.com/). Peazip looks great and packs features, but 7-Zip still wins on raw reliability and simplicity.
 
 In fact, I barely see the 7-Zip interface at all.
 
@@ -75,11 +75,11 @@ Most of the time, I just right-click a file, choose what I want, and carry on wi
 
 That’s where 7-Zip wins for me.
 
-*It stays out of the way so effectively that its admittedly old-school interface almost doesn't matter.*
+*It stays out of the way so effectively that its admittedly 'old-school' interface almost doesn't matter.*
 
 ### Linux? Even Better
 
-On Arch-based systems, you can install 7-Zip and integrate it nicely into your desktop workflow.
+On Linux systems, you can install `P7Zip`.
 
 Once installed, it works beautifully alongside file managers like Dolphin, giving you right-click compression and extraction without needing to open a separate app. 🔥
 
@@ -101,7 +101,7 @@ It just works.
 
 Fast, reliable, and quietly powerful.
 
-And once you start using it, going back to default tools feels… painful.
+And once you start using it, going back to default tools feels… ~painfully~ old-school.
 
 Maybe that’s the highest compliment you can give a utility.
 
@@ -111,4 +111,4 @@ Maybe that’s the highest compliment you can give a utility.
 
 Stay Curious,
 
-sham.
+Sham.
