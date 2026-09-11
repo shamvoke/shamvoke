@@ -48,7 +48,7 @@ await navigator.clipboard.writeText(url)
 }
 
 return ( <div className="my-8 flex flex-col items-center justify-center gap-4"> <span className="text-2xl font-voke text-sham dark:text-gray-500 text-center italic">
-Spread the knowledge </span>
+Pass It On! </span>
 
   <div className="flex items-center justify-center gap-2">
     <a
