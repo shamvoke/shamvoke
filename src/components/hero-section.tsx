@@ -42,14 +42,14 @@ export default function HeroSection() {
             overflow-hidden
             rounded-full
             border border-cyan-400/20
-            bg-black/45
+            bg-white/5 dark:bg-black/45
             px-5 py-2.5
             font-voke text-lg font-bold
-            text-cyan-300
+            text-white/75 dark:text-voke
             backdrop-blur-lg
             transition-all duration-300
-            hover:border-cyan-300
-            hover:bg-cyan-400/10
+            hover:border-voke
+            hover:bg-voke/10
             hover:text-white
             hover:shadow-[0_0_28px_rgba(0,255,255,0.22)]
           "
