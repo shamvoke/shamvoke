@@ -83,7 +83,7 @@ That’s where 7-Zip wins for me.
 
 ### Linux? Even Better
 
-On Linux systems, you can install `P7Zip`.
+On Linux systems, you can install `p7zip`, a port of 7-Zip, available [here](https://p7zip.sourceforge.net/).
 
 Once installed, it works beautifully alongside file managers like Dolphin, giving you right-click compression and extraction without needing to open a separate app. 🔥
 
