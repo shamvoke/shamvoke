@@ -30,18 +30,55 @@ export default function HeroSection() {
           Hello Milky Way!
         </h1>
 
-        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white dark:text-voke font-voke leading-relaxed drop-shadow sm:text-[28px]">
+        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white/75 dark:text-voke font-voke leading-relaxed drop-shadow sm:text-[28px]">
           <HeroTypewriter/>
         </div>
 
         <div className="mt-12">
         <a
-            href="#grid"
-            className="inline-flex items-center font-voke rounded-2xl px-4 py-2 text-lg font-bold transition 
-                    bg-card/40 dark:bg-black/60 text-white hover:bg-card/30 hover:shadow"
+          href="#grid"
+          className="
+            group relative inline-flex items-center
+            overflow-hidden
+            rounded-full
+            border border-cyan-400/20
+            bg-black/45
+            px-5 py-2.5
+            font-voke text-lg font-bold
+            text-cyan-300
+            backdrop-blur-lg
+            transition-all duration-300
+            hover:border-cyan-300
+            hover:bg-cyan-400/10
+            hover:text-white
+            hover:shadow-[0_0_28px_rgba(0,255,255,0.22)]
+          "
         >
-            <span className="mr-2">💭</span>
-            <span>Let&apos;s get curious!</span>
+          
+          <span
+            className="
+              mr-3 flex h-6 w-6 items-center justify-center
+              text-3xl
+              transition-transform duration-500
+              group-hover:rotate-45
+            "
+          >
+            🪐
+          </span>
+
+          <span className="relative z-10">
+            Let&apos;s get curious...
+          </span>
+          
+          <span
+            className="
+              absolute inset-y-0 -left-full w-1/2
+              skew-x-[-20deg]
+              bg-cyan-300/10
+              transition-all duration-700
+              group-hover:left-[120%]
+            "
+          />
         </a>
         </div>
       </div>
