@@ -27,7 +27,7 @@ export default function Navbar() {
           className="mr-1 sm:ml-6 lg:hidden"
           aria-label="Open menu"
         >
-         <FiMenu className="w-8 h-10 text-sham dark:text-gray-300" />
+         <FiMenu className="w-8 h-10 text-sham dark:text-voke" />
         </button>
         <div className="m-0 h-8 leading-8 relative lg:ml-8">
           <Link

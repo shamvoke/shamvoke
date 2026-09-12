@@ -203,7 +203,7 @@ async function handleSearch(value: string) {
         className="inline-flex h-9 w-9 items-center justify-center rounded-full text-sham transition hover:text-voke dark:text-foreground dark:hover:text-voke"
         aria-label="Search Shamvoke"
       >
-        <FiSearch className="h-6 w-6" />
+        <FiSearch className="h-6 w-6 text-sham dark:text-voke" />
       </button>
 
       {open && (

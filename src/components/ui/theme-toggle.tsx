@@ -25,7 +25,7 @@ export default function ThemeToggle() {
       className="pr-3 text-xl text-foreground"
     >
       {isDark ? (
-        <FiSun className="h-7 w-7" />
+        <FiSun className="h-7 w-7 text-voke" />
       ) : (
         <FiMoon className="h-7 w-7 text-sham" />
       )}
