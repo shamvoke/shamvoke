@@ -22,7 +22,7 @@ export default function HeroSection() {
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-white via-transparent to-transparent dark:from-black" />
 
-      <div className="absolute flex h-full w-[80%] flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
+      <div className="absolute flex h-full w-full flex-col justify-center pl-[10%] sm:w-[50%] mt-15">
 
         <Greeting />
 
@@ -30,7 +30,7 @@ export default function HeroSection() {
           Hello Milky Way!
         </h1>
 
-        <div className="mt-5 min-h-[10vh] w-[80vw] text-2xl font-bold capitalize-first text-white/75 dark:text-voke font-voke leading-relaxed drop-shadow sm:text-[28px]">
+        <div className="mt-5 min-h-[10vh] sm:min-h-[15vh] w-[80vw] sm:w-[30vw] text-2xl font-bold capitalize-first text-white/75 dark:text-voke font-voke leading-relaxed drop-shadow sm:text-[28px]">
           <HeroTypewriter/>
         </div>
 

@@ -8,8 +8,8 @@ export default function HeroTypewriter() {
       <Typewriter
         options={{
           strings: [
-            "➤ Every Cursor has a point! Hover, let that click.",
-            "➤ Kindness is free, sprinkle that stuff everywhere.",
+            "➤ Every Cursor has a point! Hover, <br /> let that click.",
+            "➤ Kindness is free, sprinkle that <br /> stuff everywhere.",
           ],
           autoStart: true,
           loop: true,
