@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LuPencilRuler, LuArrowRight } from "react-icons/lu";
+import { LuSparkles, LuAtom, LuArrowRight } from "react-icons/lu";
 import ElectricBorder from "@/components/ui/shamCard";
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
@@ -41,17 +41,17 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0.12}
             style={{ borderRadius: 24 }}
-            className="group relative rounded-3xl bg-black/80 dark:bg-white/4 p-6 backdrop-blur-xl"
+            className="group relative rounded-3xl bg-slate-700 dark:bg-black p-6 backdrop-blur-xl"
           >
 
               <div className="relative z-10">
                 <span className="inline-flex rounded-xl border border-white/10 bg-white/6 px-4 py-2 text-sm font-bold text-voke">
-                  Blog Kit
+                  Web Design Service
                 </span>
 
                 <div className="mt-6 flex justify-center">
-                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
-                    <LuPencilRuler className="h-9 w-9 text-cyan-300" />
+                  <div className="flex h-20 w-20 items-center justify-center rounded-full border border-white/10 bg-white/5">
+                    <img src="/WebDesign.svg" alt="Web Design" />
                   </div>
                 </div>
 
@@ -63,7 +63,7 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Includes a custom-designed blog website with up to 5 pages, plus 1-year domain and hosting.
+                    Includes a custom-designed blog website. Bundled with 1-year domain and hosting.
                   </p>
                 </div>
 
@@ -83,9 +83,12 @@ export default function WebDesignSection() {
                     href="https://wa.me/254727756658?text=Hi%2C%20I%27d%20like%20to%20start%20a%20blog%20website.%20Can%20we%20talk%20about%20the%20details%3F"
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-cyan-300/20 bg-sham px-5 py-4 text-base font-semibold text-white hover:scale-[1.01]"
                   >
-                    <WhatsAppIcon className="h-6 w-6 text-green-500" />
+                    <WhatsAppIcon className="h-6 w-6" />
                     Talk to Sham
                   </Link>
+                  <p className="mt-2 text-center text-lg font-medium text-white/30 font-voke">
+                    Response within 24 hours &bull; No commitment
+                  </p>
                 </div>
               </div>
           </ElectricBorder>
@@ -95,7 +98,7 @@ export default function WebDesignSection() {
             speed={1}
             chaos={0}
             style={{ borderRadius: 24 }}
-            className="group relative rounded-3xl bg-black/80 dark:bg-white/4 p-6 backdrop-blur-xl"
+            className="group relative rounded-3xl bg-slate-700 dark:bg-black p-6 backdrop-blur-xl"
           >
 
               <div className="relative z-10">
@@ -103,7 +106,7 @@ export default function WebDesignSection() {
                   <Image 
                   src="/Logo.svg" 
                   alt="Webmeka creative design agency logo" 
-                  className="h-12 w-12"
+                  className="h-12 w-12 rounded-full border border-white/10 bg-white/5"
                   width={48} 
                   height={48}
                   />
@@ -120,9 +123,10 @@ export default function WebDesignSection() {
                   </h3>
 
                   <p className="mt-5 text-base leading-8 text-white/70">
-                    Bespoke <span className="text-voke">Digital Solutions</span> for serious<span className="font-bold"> brands.</span> From custom UI/UX to robust e-commerce and SEO strategy. <span className="text-voke">Team WebMeka</span> has you covered. <span className="font-bold">Tailored for brand growth.</span>
+                    <span className="text-voke">Bespoke Digital Solutions</span> for serious<span className="font-bold"> brands.</span> From custom UI/UX to robust e-commerce and SEO strategy. <span className="text-voke">Team WebMeka</span> has you covered. 
                     <br />
-                    Visit our website to see how we can help your business thrive online.
+                    <br />
+                    <span className="italic">Visit our website to see how we can help your business thrive online.</span>
                   </p>
                 </div>
 
@@ -147,6 +151,22 @@ export default function WebDesignSection() {
                     Visit WebMeka website
                     <LuArrowRight className="h-4 w-4" />
                   </Link>
+                  <div className="mt-4 flex items-center justify-center gap-3">
+                    <div className="flex -space-x-2">
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-700 text-[10px] font-medium text-white/70 ring-2 ring-black">
+                        <LuAtom className="h-3 w-3 text-white/70" />
+                      </div>
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-700 text-[10px] font-medium text-white/70 ring-2 ring-black">
+                        <LuSparkles className="h-3 w-3 text-white/70" />
+                      </div>
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-700 text-[10px] font-medium text-white/70 ring-2 ring-black">
+                        +9
+                      </div>
+                    </div>
+                    <span className="text-lg font-medium text-white/40 font-voke">
+                      Trusted by growing brands
+                    </span>
+                  </div>
                 </div>
               </div>
           </ElectricBorder>
