@@ -2,6 +2,7 @@ import Image from "next/image"
 import shamhero from "@/assets/images/BreeHero.webp"
 import Greeting from "@/components/ui/greeting"
 import HeroTypewriter from "@/components/ui/typewriter"
+import ScrollToGrid from "@/components/ui/scrollToGrid";
 
 export default function HeroSection() {
   return (
@@ -9,7 +10,7 @@ export default function HeroSection() {
       className="relative min-h-svh w-full bg-slate-600 dark:bg-black overflow-hidden">
       <Image
         src={shamhero}
-        alt=""
+        alt="Sham voke blog hero image, AKA Bree the blue smiley face"
         fill
         priority
         placeholder="blur"
@@ -35,8 +36,7 @@ export default function HeroSection() {
         </div>
 
         <div className="mt-12">
-        <a
-          href="#grid"
+        <ScrollToGrid 
           className="
             group relative inline-flex items-center
             overflow-hidden
@@ -79,7 +79,7 @@ export default function HeroSection() {
               group-hover:left-[120%]
             "
           />
-        </a>
+        </ScrollToGrid>
         </div>
       </div>
     </section>

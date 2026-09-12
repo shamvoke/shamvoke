@@ -35,7 +35,7 @@ const socials: Social[] = [
   },
   {
     name: "Instagram",
-    href: "https://instagram.com/sham.voke",
+    href: "https://instagram.com/webmeka",
     icon: SiInstagram,
     className: "hover:text-[#e4405f]",
   },
