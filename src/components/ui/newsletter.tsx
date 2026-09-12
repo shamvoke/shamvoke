@@ -61,8 +61,8 @@ export default function Newsletter() {
       <div className="relative overflow-hidden rounded-[1.7rem] bg-linear-to-r from-sham to-voke p-px">
         <div className="absolute inset-0 bg-linear-to-br from-sham/20 via-transparent to-voke/20" />
 
-        <div className="relative rounded-[1.7rem] bg-black/85 px-5 py-5 text-left backdrop-blur-xl sm:px-7">
-          <h2 className="text-2xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
+        <div className="relative rounded-[1.7rem] bg-white dark:bg-black/85 px-5 py-5 text-left backdrop-blur-xl sm:px-7">
+          <h2 className="text-2xl font-bold leading-tight tracking-tight sm:text-4xl">
             Get{" "}
             <span className="bg-linear-to-r from-sham to-voke bg-clip-text font-sham text-transparent">
               shamthing
@@ -70,7 +70,7 @@ export default function Newsletter() {
             in your inbox
           </h2>
 
-          <p className="mt-2 text-sm leading-relaxed text-white/60 sm:text-base">
+          <p className="mt-2 text-sm leading-relaxed text-black/60 dark:text-white/60 sm:text-base">
             Occasional notes on design, tools, and tech explorations.
           </p>
 
@@ -81,7 +81,7 @@ export default function Newsletter() {
             <label className="relative min-w-0">
               <span className="sr-only">Email address</span>
 
-              <LuMail className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-white/45" />
+              <LuMail className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-black/45 dark:text-white/45" />
 
               <input
                 type="email"
@@ -90,7 +90,7 @@ export default function Newsletter() {
                 onChange={handleChange}
                 required
                 placeholder="Enter your email"
-                className="h-10 w-full rounded-2xl border border-white/10 bg-white/6 pl-12 pr-4 text-base text-white outline-none transition placeholder:text-white/40 focus:border-cyan-300/60 focus:bg-white/9 focus:ring-4 focus:ring-cyan-300/10"
+                className="h-10 w-full rounded-2xl border border-black/20 dark:border-white/10 bg-white/6 pl-12 pr-4 text-base text-white outline-none transition placeholder:text-black/40 dark:placeholder:text-white/40 focus:border-cyan-300/60 focus:bg-white/9 focus:ring-4 focus:ring-cyan-300/10"
               />
             </label>
 
