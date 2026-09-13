@@ -83,6 +83,7 @@ export default function RootLayout({
     >
       <body>
         <Script
+          async
           id="adsbygoogle-init"
           strategy="afterInteractive"
           crossOrigin="anonymous"
