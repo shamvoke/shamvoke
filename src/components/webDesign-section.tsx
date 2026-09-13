@@ -51,7 +51,12 @@ export default function WebDesignSection() {
 
                 <div className="mt-6 flex justify-center">
                   <div className="flex h-20 w-20 items-center justify-center rounded-full border border-white/10 bg-white/5">
-                    <img src="/WebDesign.svg" alt="Web Design" />
+                    <Image
+                      src="/WebDesign.svg"
+                      alt="Web Design"
+                      width={95}
+                      height={87}
+                    />
                   </div>
                 </div>
 

@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd";
+import { personSchema, websiteSchema } from "@/lib/schema";
 import { Metadata } from "next";
 import { Titillium_Web, Nanum_Pen_Script, Rampart_One } from "next/font/google";
 import Navbar from "@/components/ui/navbar";
@@ -80,11 +82,18 @@ export default function RootLayout({
       className={cn("antialiased", "font-sans", titillium.variable, nanumpenscript.variable, rampart.variable)}
     >
       <body>
-      <Script
+        <Script
           id="adsbygoogle-init"
           strategy="afterInteractive"
           crossOrigin="anonymous"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9337281778223595"
+        />
+
+        <JsonLd
+          data={[
+            personSchema,
+            websiteSchema,
+          ]}
         />
           <ThemeProvider
             attribute="class"
