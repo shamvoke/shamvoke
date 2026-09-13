@@ -36,6 +36,13 @@ export async function generateMetadata({
     const post = getPostBySlug(slug)
     const ogImage = post.ogImage ?? "/shamvoke-banner.webp"
 
+    const dynamicKeywords: string[] = [
+    post.category,
+    ...(post.tags ?? []),
+    "Sham Voke",
+    "web development",
+  ].filter((keyword): keyword is string => Boolean(keyword))
+
     return {
       title: post.title,
       description: post.excerpt,
@@ -43,7 +50,7 @@ export async function generateMetadata({
         canonical: `/blog/${slug}`, 
       },
       authors: [{ name: "Sham Voke", url: "https://shamvoke.com" }],
-      keywords: [post.category || "design", "Sham Voke", "web development"],
+      keywords: dynamicKeywords,
       openGraph: {
         title: post.title,
         description: post.excerpt,
