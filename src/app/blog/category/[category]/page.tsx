@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd"
+import { createCategorySchema } from "@/lib/schema"
 import type { Metadata } from "next"
 import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
@@ -64,11 +66,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     notFound()
   }
 
+  const categorySchema = createCategorySchema(activeCategory)
+
   const filteredPosts = posts.filter(
     (post) => post.category?.toLowerCase() === activeCategory
   )
 
   return (
+    <>
+    <JsonLd data={categorySchema} />
     <main className="mx-auto py-20 sm:px-6 lg:px-8">
       <div className="px-8 text-center">
         <p className="font-voke text-2xl tracking-[0.2em] text-sham dark:text-voke">
@@ -82,5 +88,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <BlogCategoryFilter activeCategory={activeCategory} />
       <PostsGrid posts={filteredPosts} />
     </main>
+    </>
   )
 }

@@ -138,3 +138,44 @@ export function createAboutPageSchema(): AboutPage {
 },
 };
 }
+
+export function createCategorySchema(category: string): CollectionPage {
+  const capitalizedCategory =
+    category.charAt(0).toUpperCase() + category.slice(1)
+
+  const categoryUrl = `https://shamvoke.com/blog/category/${category}`
+
+  return {
+    "@type": "CollectionPage",
+    "@id": `${categoryUrl}#collection`,
+    url: categoryUrl,
+    name: `${capitalizedCategory} posts`,
+    description: `Explore Sham's latest posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
+    isPartOf: {
+      "@id": "https://shamvoke.com/#website",
+    },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://shamvoke.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://shamvoke.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: capitalizedCategory,
+          item: categoryUrl,
+        },
+      ],
+    },
+  }
+}
