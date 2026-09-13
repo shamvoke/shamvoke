@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd"
+import { createBlogCollectionSchema } from "@/lib/schema"
 import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 import PostsGrid from "@/app/blog/PostsGrid"
@@ -10,8 +12,11 @@ export const metadata = {
 
 export default function BlogIndex() {
   const posts = getAllPosts()
+  const blogSchema = createBlogCollectionSchema()
 
   return (
+    <>
+    <JsonLd data={blogSchema} />
     <main className="mx-auto py-20 sm:px-6 lg:px-8">
       <div className="px-8 text-center">
         <p className="font-voke text-2xl tracking-[0.2em] text-sham dark:text-voke">
@@ -25,5 +30,6 @@ export default function BlogIndex() {
       <BlogCategoryFilter activeCategory="all" />
       <PostsGrid posts={posts} />
     </main>
+    </>
   )
 }
