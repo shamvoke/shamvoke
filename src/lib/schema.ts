@@ -1,4 +1,4 @@
-import type { BlogPosting, BreadcrumbList, CollectionPage, Person, WebSite } from "schema-dts";
+import type { BlogPosting, BreadcrumbList, CollectionPage, AboutPage, Person, WebSite } from "schema-dts";
 import type { Post } from "@/interfaces/post";
 
 export const personSchema: Person = {
@@ -102,5 +102,39 @@ export function createBlogCollectionSchema(): CollectionPage {
     },
   ],
  },
+};
+}
+
+export function createAboutPageSchema(): AboutPage {
+  return {
+    "@type": "AboutPage",
+    "@id": "https://shamvoke.com/about#about",
+    url: "https://shamvoke.com/about",
+    name: "About Sham Voke",
+    description:
+      "Meet Sham, a creative designer and web developer exploring code, creativity, technology, and the web.",
+    isPartOf: {
+      "@id": "https://shamvoke.com/#website",
+    },
+    mainEntity: {
+      "@id": "https://shamvoke.com/#person",
+    },
+    breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://shamvoke.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "About",
+      item: "https://shamvoke.com/about",
+    },
+  ],
+},
 };
 }

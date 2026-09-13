@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd"
+import { createAboutPageSchema } from "@/lib/schema"
 import type { Metadata } from "next"
 import Image from "next/image"
 
@@ -36,7 +38,11 @@ export const metadata: Metadata = {
 }
 
 export default function AboutPage() {
+  const aboutSchema = createAboutPageSchema()
+
   return (
+    <>
+    <JsonLd data={aboutSchema} />
     <section className="max-w-4xl mx-auto px-6 pt-20 text-muted-foreground">
 
       <div className="flex flex-col items-center mt-12">
@@ -108,5 +114,6 @@ export default function AboutPage() {
 
       </div>
     </section>
+    </>
   )
 }
