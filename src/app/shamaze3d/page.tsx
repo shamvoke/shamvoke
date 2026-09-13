@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd"
+import { createShamaze3DSchema, createShamaze3DBreadcrumbSchema } from "@/lib/schema"
 import type { Metadata } from "next";
 import Shamaze3DFrame from "./Shamaze3DFrame";
 
@@ -33,5 +35,13 @@ export const metadata: Metadata = {
 };
 
 export default function Shamaze3D() {
-  return <Shamaze3DFrame />;
+  const gameSchema = createShamaze3DSchema()
+  const breadcrumbSchema = createShamaze3DBreadcrumbSchema()
+
+  return (
+    <>
+      <JsonLd data={[gameSchema, breadcrumbSchema]} />
+      <Shamaze3DFrame />
+    </>
+  )
 }

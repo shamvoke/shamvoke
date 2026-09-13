@@ -1,4 +1,4 @@
-import type { BlogPosting, BreadcrumbList, CollectionPage, AboutPage, Person, WebSite } from "schema-dts";
+import type { BlogPosting, BreadcrumbList, CollectionPage, AboutPage, Person, WebSite, VideoGame } from "schema-dts";
 import type { Post } from "@/interfaces/post";
 
 export const personSchema: Person = {
@@ -178,4 +178,46 @@ export function createCategorySchema(category: string): CollectionPage {
       ],
     },
   }
+}
+
+export function createShamaze3DSchema(): VideoGame {
+  return {
+    "@type": "VideoGame",
+    "@id": "https://shamvoke.com/shamaze3d#game",
+    name: "Shamaze3D",
+    description:
+      "A curious little 3D maze game built with React and Three.js. Explore the labyrinth, find your way out, or get lost in the fun.",
+    url: "https://shamvoke.com/shamaze3d",
+    image:
+      "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820863/05_A-maze-game-for-the-curious-Shamaze3D_zj7wmg.webp",
+    author: {
+      "@id": "https://shamvoke.com/#person",
+    },
+    publisher: {
+      "@id": "https://shamvoke.com/#person",
+    },
+    applicationCategory: "Game",
+    genre: "Maze",
+    gamePlatform: ["Web Browser"],
+  };
+}
+
+export function createShamaze3DBreadcrumbSchema(): BreadcrumbList {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://shamvoke.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Shamaze3D",
+        item: "https://shamvoke.com/shamaze3d",
+      },
+    ],
+  };
 }

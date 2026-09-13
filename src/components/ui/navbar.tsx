@@ -10,7 +10,7 @@ import { useState } from "react"
 const menu = [
   { title: "Home", url: "/" },
   { title: "Blog", url: "/blog" },
-  { title: "Play", url: "/maze3d" },
+  { title: "Play", url: "/shamaze3d" },
   { title: "About", url: "/about" },
   { title: "Contact", url: "/contact" },
 ]
