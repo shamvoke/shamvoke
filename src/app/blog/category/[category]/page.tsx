@@ -38,12 +38,12 @@ export async function generateMetadata({
     title: `${capitalizedCategory} posts`,
     description: `Explore Sham's latest posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
     alternates: {
-      canonical: `/blog/${category}`,
+      canonical: `/blog/category/${category}`,
     },
     openGraph: {
       title: `${capitalizedCategory} posts`,
       description: `Explore Sham's posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
-      url: `https://shamvoke.com/blog/${category}`,
+      url: `https://shamvoke.com/blog/category/${category}`,
       siteName: "shamvoke.com",
       type: "website",
     },
