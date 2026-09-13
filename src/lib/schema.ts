@@ -1,4 +1,4 @@
-import type { BlogPosting, Person, WebSite } from "schema-dts";
+import type { BlogPosting, BreadcrumbList, Person, WebSite } from "schema-dts";
 import type { Post } from "@/interfaces/post";
 
 export const personSchema: Person = {
@@ -43,5 +43,33 @@ export function createBlogPostingSchema(post: Post): BlogPosting {
     datePublished: post.date,
     articleSection: post.category,
     keywords: post.tags,
+  };
+}
+
+export function createBreadcrumbSchema(post: Post): BreadcrumbList {
+  const articleUrl = `https://shamvoke.com/blog/${post.slug}`;
+
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://shamvoke.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://shamvoke.com/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: articleUrl,
+      },
+    ],
   };
 }

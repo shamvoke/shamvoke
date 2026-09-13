@@ -1,5 +1,5 @@
 import JsonLd from "@/components/seo/JsonLd"
-import { createBlogPostingSchema } from "@/lib/schema"
+import { createBlogPostingSchema, createBreadcrumbSchema } from "@/lib/schema"
 import { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug } from "@/lib/api"
@@ -104,6 +104,7 @@ export default async function PostPage({ params }: Props) {
   const content = await markdownToHtml(post.content)
   const stats = readingTime(post.content || post.excerpt);
   const articleSchema = createBlogPostingSchema(post)
+  const breadcrumbSchema = createBreadcrumbSchema(post)
   const allOtherPosts = getAllPosts().filter(p => p.slug !== post.slug)
   const latestPosts = [...allOtherPosts]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -121,7 +122,7 @@ export default async function PostPage({ params }: Props) {
   }
   return (
     <>
-    <JsonLd data={articleSchema} />
+    <JsonLd data={[articleSchema, breadcrumbSchema]} />
     <div className="max-w-7xl mx-auto px-4 pt-20">
       <div className="flex flex-col lg:flex-row gap-15 items-start">
     <article data-pagefind-body className="flex-1 min-w-0">
