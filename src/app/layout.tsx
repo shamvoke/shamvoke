@@ -49,9 +49,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Sham Voke", url: "https://shamvoke.com" }],
   creator: "Sham Voke",
   publisher: "Sham Voke",
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: "shamvoke blog",
     description: "Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.",

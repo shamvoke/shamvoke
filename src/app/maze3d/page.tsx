@@ -1,10 +1,36 @@
+import type { Metadata } from "next";
 import Shamaze3DFrame from "./Shamaze3DFrame";
 
-export const metadata = {
-  title: "Shamaze3D - A web based maze game.",
+export const metadata: Metadata = {
+  title: "Shamaze3D | A 3D Maze Game",
   description:
-    "A maze game for the curious. Find your way out, or get lost in the fun! Built with Three.js and React, this game offers a unique 3D maze experience. Explore the labyrinth, solve puzzles, and enjoy the immersive environment. Whether you're a casual gamer or a puzzle enthusiast, Shamaze3D provides endless entertainment. Get ready to navigate through twists and turns in this captivating web-based maze game!",
-}
+    "Get lost in Shamaze3D, a curious little 3D maze game built with React and Three.js. Explore the labyrinth, find your way out, or get lost in the fun!.",
+  alternates: {
+    canonical: "/shamaze3d",
+  },
+  openGraph: {
+    title: "Shamaze3D | A 3D Maze Game",
+    description:
+      "A curious little 3D maze game built with React and Three.js. Explore the labyrinth, find your way out, or get lost.",
+    url: "https://shamvoke.com/shamaze3d",
+    siteName: "shamvoke.com",
+    type: "website",
+    images: [
+      {
+        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820863/05_A-maze-game-for-the-curious-Shamaze3D_zj7wmg.webp",
+        width: 1366,
+        height: 910,
+        alt: "Shamaze3D game screenshot",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shamaze3D | A 3D Maze Game",
+    description:
+      "Explore a curious 3D maze built with React and Three.js. Find your way out, or get lost in the fun!",
+  },
+};
 
 export default function Shamaze3D() {
   return <Shamaze3DFrame />;

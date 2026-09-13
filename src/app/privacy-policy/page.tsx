@@ -4,7 +4,25 @@ import BackButton from "@/components/ui/backButton";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for the shamvoke blog.",
+  description:
+    "Learn how shamvoke.com collects, uses, protects, and handles personal information, including your privacy rights and choices.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy",
+    description:
+      "Learn how shamvoke.com collects, uses, protects, and handles personal information and your privacy rights.",
+    url: "https://shamvoke.com/privacy-policy",
+    siteName: "shamvoke.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Privacy Policy",
+    description:
+      "Learn how shamvoke.com collects, uses, protects, and handles personal information and your privacy rights.",
+  },
 };
 
 export default function PrivacyPolicyPage() {

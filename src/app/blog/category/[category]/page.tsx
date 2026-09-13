@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 import PostsGrid from "@/app/blog/PostsGrid"
@@ -26,13 +27,31 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: CategoryPageProps) {
+export async function generateMetadata({
+  params,
+}: CategoryPageProps): Promise<Metadata> {
   const { category } = await params
-  const capitalizedCategory = category.charAt(0).toUpperCase() + category.slice(1)
-  
+  const capitalizedCategory =
+    category.charAt(0).toUpperCase() + category.slice(1)
+
   return {
-    title: `${capitalizedCategory} | Blog`,
-    description: `Explore posts about ${category} on Sham Voke's blog.`,
+    title: `${capitalizedCategory} posts`,
+    description: `Explore Sham's latest posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
+    alternates: {
+      canonical: `/blog/${category}`,
+    },
+    openGraph: {
+      title: `${capitalizedCategory} posts`,
+      description: `Explore Sham's posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
+      url: `https://shamvoke.com/blog/${category}`,
+      siteName: "shamvoke.com",
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: `${capitalizedCategory} posts`,
+      description: `Explore Sham's posts about ${category}, including thoughts, experiments, and things worth getting curious about.`,
+    },
   }
 }
 

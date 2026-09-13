@@ -4,7 +4,25 @@ import BackButton from "@/components/ui/backButton";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
-  description: "Cookie Policy for the shamvoke blog.",
+  description:
+    "Learn how shamvoke.com uses cookies and similar technologies, what types of cookies may be used, and how you can manage your cookie preferences.",
+  alternates: {
+    canonical: "/cookie-policy",
+  },
+  openGraph: {
+    title: "Cookie Policy",
+    description:
+      "Learn how shamvoke.com uses cookies and similar technologies and how you can manage your cookie preferences.",
+    url: "https://shamvoke.com/cookie-policy",
+    siteName: "shamvoke.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Cookie Policy",
+    description:
+      "Learn how shamvoke.com uses cookies and similar technologies and how you can manage your cookie preferences.",
+  },
 };
 
 export default function CookiePolicyPage() {

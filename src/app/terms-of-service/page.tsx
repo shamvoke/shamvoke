@@ -4,7 +4,25 @@ import BackButton from "@/components/ui/backButton";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Terms of Service for the shamvoke blog.",
+  description:
+    "Read the Terms of Service governing your use of shamvoke.com, including acceptable use, intellectual property, user content, disclaimers, and limitations of liability.",
+  alternates: {
+    canonical: "/terms-of-service",
+  },
+  openGraph: {
+    title: "Terms of Service",
+    description:
+      "Terms governing the use of shamvoke.com, including acceptable use, intellectual property, user content, and limitations of liability.",
+    url: "https://shamvoke.com/terms",
+    siteName: "shamvoke.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Terms of Service",
+    description:
+      "Terms governing the use of shamvoke.com, including acceptable use, intellectual property, user content, and limitations of liability.",
+  },
 };
 
 export default function TermsOfServicePage() {
@@ -15,7 +33,7 @@ export default function TermsOfServicePage() {
         <div className="border-b border-gray-200 dark:border-gray-800 pb-8">
           <h1 className="text-4xl font-bold tracking-tight mb-3">Terms of Service for shamvoke blog</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 italic">
-            Last Updated: June 12, 2026
+            Last Updated: September 13, 2026
           </p>
         </div>
 

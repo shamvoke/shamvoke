@@ -39,15 +39,25 @@ export async function generateMetadata({
     return {
       title: post.title,
       description: post.excerpt,
+      alternates: {
+        canonical: `/blog/${slug}`, 
+      },
+      authors: [{ name: "Sham Voke", url: "https://shamvoke.com" }],
+      keywords: [post.category || "design", "Sham Voke", "web development"],
       openGraph: {
         title: post.title,
         description: post.excerpt,
         type: "article",
         publishedTime: post.date,
+        authors: ["Sham Voke"],
+        url: `/blog/${slug}`,
+        siteName: "Shamvoke blog",
         images: [
           {
             url: ogImage,
             alt: post.title,
+            width: 1200,
+            height: 630,
           },
         ],
       },
@@ -55,6 +65,7 @@ export async function generateMetadata({
         card: "summary_large_image",
         title: post.title,
         description: post.excerpt,
+        creator: "@shamvoke",
         images: [
           {
             url: ogImage,

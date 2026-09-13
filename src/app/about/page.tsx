@@ -1,4 +1,39 @@
+import type { Metadata } from "next"
 import Image from "next/image"
+
+export const metadata: Metadata = {
+  title: "About Sham",
+  description:
+    "Meet Sham, a creative designer and web developer exploring code, creativity, technology, and the web, while documenting the things he builds, learns, breaks, and fixes.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Sham",
+    description:
+      "A creative designer and web developer exploring code, creativity, technology, and the web.",
+    url: "https://shamvoke.com/about",
+    siteName: "shamvoke.com",
+    type: "profile",
+    images: [
+      {
+        url: "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/01_Welcome-to-my-blog_jo4auv.webp",
+        width: 1366,
+        height: 910,
+        alt: "Shamvoke digital art",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Sham",
+    description:
+      "A creative designer and web developer exploring code, creativity, technology, and the web.",
+    images: [
+      "https://res.cloudinary.com/deudsgjbm/image/upload/v1780820862/01_Welcome-to-my-blog_jo4auv.webp",
+    ],
+  },
+}
 
 export default function AboutPage() {
   return (
