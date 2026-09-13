@@ -5,7 +5,13 @@ export const personSchema: Person = {
   "@type": "Person",
   "@id": "https://shamvoke.com/#person",
   name: "Sham Voke",
+  alternateName: "Shamvoke",
   url: "https://shamvoke.com",
+  jobTitle: ["Creative Designer", "Full Stack Web Developer"],
+  worksFor: {
+    "@type": "Organization",
+    name: "WebMeka",
+  },
 };
 
 export const websiteSchema: WebSite = {
@@ -29,6 +35,10 @@ export function createBlogPostingSchema(post: Post): BlogPosting {
     headline: post.title,
     description: post.excerpt,
     url: articleUrl,
+    isPartOf: {
+    "@id": "https://shamvoke.com/#website",
+    },
+    inLanguage: "en-US",
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": articleUrl,
