@@ -33,9 +33,9 @@ And we're not doing the usual "save the best for last" thing.
 
 We're starting with the best.
 
-### 1. Extension Manager
+### 1. Extension Manager [🔗](https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 
-<small>"Because all these extensions were never going to manage themselves." 😂</small>
+<small>"Because all those extensions were never going to manage themselves." 😂</small>
 
 Well, if you're going to have extra extensions, you better have a way to manage the mess.
 
@@ -49,7 +49,7 @@ Its biggest selling point for me is <u>simplicity</u>. You can `enable`, `disabl
 
 And that's actually more useful than it sounds.
 
-Some extensions don't need to be running all the time. Maybe you only need it once every few weeks. Or when an extension is getting in the way of a particular website.
+Some extensions don't need to be running all the time. Maybe you only need them once every few weeks. Or when an extension is getting in the way of a particular website.
 
 Disable it.
 
@@ -61,7 +61,7 @@ No digging through browser settings, no drama.
 
 >**Pro tip:** Pin this one first, before the others.
 
-### 2. Search & Link Preview
+### 2. Search & Link Preview [🔗](https://chromewebstore.google.com/detail/search-link-preview/mmmfofondapflhgbdidadejnechhjocm)
 
 <small>"You opened another tab, didn't you?" 👀</small>
 
@@ -76,14 +76,14 @@ The Google rabbit hole, you already know the drill.
 - Click another.
 - Repeat...
 
-And before you know it, you've got a browser window with enough tabs to qualify for a small Stack Overflow archive.
+And before you know it, you've got a browser window with enough tabs to qualify for a mini Wikipedia archive.
 
 *Search & Link Preview makes this process much less painful.*
 
 Instead of opening every link in a new tab, you can preview it in a <u>popup window</u> right from the search results page.
 
 - Search for something.
-- Open a search result in popup.
+- Open a search result in a popup.
 - Not useful?
 - Close the popup.
 - Next result.
@@ -94,15 +94,15 @@ And when you finally find the result that actually solves your problem, you can 
 
 *Boom!*
 
-No more tab overflow archaeology.
+No more tab archaeology.
 
 *And the best part is that it isn't limited to search results. You can also preview links before opening them from any webpage.* 🔥
 
 That's one of those small features that makes you wonder why browsers don't just do this by default.
 
->**Tip:** No need to pin this one. It comes with a 'preview' menu every time you hover a link.
+>**Tip:** No need to pin this one. It comes with a 'preview' menu every time you hover over a link.
 
-### 3. GoFullPage
+### 3. GoFullPage [🔗](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
 
 <small>When a screenshot means the whole page.</small>
 
@@ -114,7 +114,7 @@ It's also a perfect example of an extension you can leave disabled until you act
 
 But we're not talking about the little rectangle currently visible on your screen.
 
-It screenshots the **full page**.
+It captures the **full page**.
 
 Top to bottom.
 
@@ -126,13 +126,13 @@ It's one of those extensions that can sit quietly disabled for weeks, then sudde
 
 A must-have, this one.
 
-### 4. Cookie-Editor
+### 4. Cookie-Editor [🔗](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 
 <small>Take control of your cookies, no, not those cookies. 🍪😋</small>
 
 Okay...
 
-Thread carefully.
+Tread carefully.
 
 Proceed with this one if you know what browser cookies are.
 
@@ -152,7 +152,7 @@ You sign up for a website, hand over your email and a few details, then five min
 
 Don't just close the tab and move on. They may already have a cookie sitting in your browser.
 
-*Clear, then move on.* One click away.
+*Clear them, then move on.* One click away.
 
 I use it mostly to import and export cookies. 🫶
 
@@ -160,7 +160,7 @@ Just don't start editing random cookies because the button is there.
 
 >This one is like a gun. You don't need to wave it around just because you have it. Use wisely. 😅
 
-### 5. SponsorBlock
+### 5. SponsorBlock [🔗](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
 
 <small>YouTube, minus the parts you didn't come for.</small>
 
@@ -172,7 +172,7 @@ Wait...
 
 Well, am I the only one enrolled at YouTube University?
 
-YouTube can absolutely be educational.
+Depending on what mood the algorithm is in, YouTube can absolutely be educational.
 
 That's where SponsorBlock comes in.
 
@@ -196,25 +196,25 @@ SponsorBlock can skip sections with no audio. Super useful if you are just liste
 
 #### Bonus: A Few More Worth Keeping
 
-<small>I bet you already have one of these already!</small>
+<small>I bet you have one of these already!</small>
 
-Okay, five is enough. But you need...
+Okay, five is enough. But you still need...
 
-**AN AD BLOCKER**
+**AN AD BLOCKER** [🔗](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
 Let's be honest, the web can get a little noisy.
 
-I use <u>uBlock Origin lite</u> to keep intrusive ads, popups, and other unwanted clutter from taking over the pages I visit.
+I use <u>uBlock Origin Lite</u> to keep intrusive ads, popups, and other unwanted clutter from taking over the pages I visit.
 
 >**Quick tip:** Whitelist creators and websites you love. If you enjoy their work, letting their ads through is a simple way to support them. 🏆
 
-**A DOWNLOAD MANAGER**
+**A DOWNLOAD MANAGER** [🔗](https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp)
 
 If you download large files, multiple files, or just want a little more control over how your downloads are handled, a dedicated download manager is worth checking out.
 
 I use <u>Free Download Manager</u>, and I've written about it before. Read the post here.
 
-**A PASSWORD MANAGER**
+**A PASSWORD MANAGER** [🔗](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
 
 If you're still relying on your memory, your browser, or that one password you've been reusing since 1906...
 
@@ -222,9 +222,9 @@ We need to talk. 😅
 
 I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it here.
 
-**WRITING ASSISTANT**
+**WRITING ASSISTANT** [🔗](https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen)
 
-And finally, something for the english.
+And finally, something for the ~English~ writing.
 
 <u>Grammarly</u> has been one of those tools I keep around whenever I'm writing online.
 
@@ -234,7 +234,7 @@ Obviously.
 
 It's just nice having something quietly point out the occasional typo, awkward sentence, or grammatical crime before it escapes into the wild.
 
->Otherwise, you'd all be reading this in my mother tongue. Habari yako? 
+>Otherwise, you'd all be reading this in my mother tongue. Habari yako?
 
 ## That's It
 
