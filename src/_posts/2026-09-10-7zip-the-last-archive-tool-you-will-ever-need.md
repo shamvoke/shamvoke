@@ -2,7 +2,7 @@
 date: "2026-09-10T12:21:07Z"
 title: "7Zip, the last archive tool you'll ever need"
 shamthing: "To save space, God compressed dinosaurs into lizards!"
-excerpt: "Default archive tools are good enough until they aren’t. 7-Zip takes file compression to another level, offering speed and support for countless formats without unnecessary bloat. It’s not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
+excerpt: "Default archive tools are good enough until they aren't. 7-Zip takes file compression to another level, offering speed and support for countless formats without unnecessary bloat. It's not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
 "
 featuredImage: "28_7zip-the-last-archive-tool-you-will-ever-need.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789126882/28_7zip-the-last-archive-tool-you-will-ever-need_m0wrb0.webp"
@@ -13,17 +13,17 @@ tags:
   - utilities
 ---
 
-If you’ve ever dealt with compressed files like ZIP, RAR, TAR, or ISO, you’ve probably used whatever came preinstalled on your system.
+If you've ever dealt with compressed files like ZIP, RAR, TAR, or ISO, you've probably used whatever came preinstalled on your system.
 
-And honestly? That’s the problem.
+And honestly? That's the problem.
 
-*Default tools work… but they’re slow, limited, and stuck in the past.*
+*Default tools work… but they're slow, limited, and stuck in the past.*
 
 ### Enter 7-Zip
 
 A file archiver with a high compression ratio.
 
-[7-Zip](https://www.7-zip.org/) is one of those rare tools that quietly dominates its category. It’s <u>free</u>, <u>open-source</u>, <u>lightweight</u> and absurdly <u>powerful.</u>
+[7-Zip](https://www.7-zip.org/) is one of those rare tools that quietly dominates its category. It's <u>free</u>, <u>open-source</u>, <u>lightweight</u> and absurdly <u>powerful.</u>
 
 No subscriptions.
 
@@ -49,7 +49,7 @@ Smaller files = faster transfers & less storage.
 
 **3. 🔐 Real Encryption (Not Just a Checkbox)**
 
-Many default tools either don’t support password protection or do it poorly.
+Many default tools either don't support password protection or do it poorly.
 
 7-Zip offers AES-256 encryption, meaning your files are actually secure, not just “locked.”
 
@@ -59,19 +59,19 @@ ZIP, RAR, TAR, GZ, ISO, CAB… you name it.
 
 Instead of juggling multiple tools, 7-Zip handles it all in one place.
 
->If I had to pick just one reason I love 7-Zip, **it’s speed** 🙌. It’s ridiculously fast, and once you get used to it, everything else just feels slow.
+>If I had to pick just one reason I love 7-Zip, **it's speed** 🙌. It's ridiculously fast, and once you get used to it, everything else just feels slow.
 
 ### But It Looks Basic…
 
 Yeah, it does.
 
-And that’s exactly why it works.
+And that's exactly why it works.
 
 *No flashy UI. No distractions. Just a tool that does its job and gets out of your way.*
 
 Compare that to other archive tools like [WinRAR](https://www.win-rar.com), [PeaZip](https://peazip.github.io/) or [WinZip](https://www.winzip.com/). Peazip looks beautiful and packs features, but 7-Zip still wins on raw simplicity and reliability.
 
-In fact, I hardly ever see the 7-Zip interface. It integrates right into the file manager’s context menu, and extraction is often so fast that the UI barely has time to appear.
+In fact, I hardly ever see the 7-Zip interface. It integrates right into the file manager's context menu, and extraction is often so fast that the UI barely has time to appear.
 
 You right-click a file,
 
@@ -83,7 +83,7 @@ and carry on with life.
 
 <small>A screenshot of 7-Zip in the Windows File Explorer context menu.</small>
 
-That’s where 7-Zip wins for me.
+That's where 7-Zip wins for me.
 
 *It stays out of the way, so effectively that its admittedly 'old-school' interface almost doesn't matter.*
 
@@ -93,13 +93,13 @@ On Linux systems, you can install `p7zip`, a port of 7-Zip, available [here](htt
 
 Once installed, it works beautifully alongside file managers like Dolphin, giving you right-click compression and extraction without needing to open a separate app. 🔥
 
-If you’ve read my earlier post on Dolphin [my favourite file manager](/blog/top-5-dolphin-file-manager-tips-for-enhanced-productivity), you already know how powerful that combo is.
+If you've read my earlier post on Dolphin [my favourite file manager](/blog/top-5-dolphin-file-manager-tips-for-enhanced-productivity), you already know how powerful that combo is.
 
 ![7-Zip screenshot on arch linux](https://res.cloudinary.com/deudsgjbm/image/upload/v1789159934/Screenshot_7zip_gocw4m.webp)
 
 <small>A Screenshot of 7-Zip on Arch Linux, Dolphin file manager.</small>
 
-### So Why Isn’t It the Default?
+### So Why Isn't It the Default?
 
 Good question.
 
@@ -109,7 +109,7 @@ Operating systems prioritize simplicity and basic compatibility over power. They
 
 ### Final Thoughts
 
-7-Zip isn’t flashy. It doesn’t try to impress.
+7-Zip isn't flashy. It doesn't try to impress.
 
 It just works.
 
@@ -117,9 +117,9 @@ Fast, reliable, and quietly powerful.
 
 And once you start using it, going back to default tools feels… ~painfully~ old-school.
 
-Maybe that’s the highest compliment you can give a utility.
+Maybe that's the highest compliment you can give a utility.
 
-*Good software doesn’t demand your attention.*
+*Good software doesn't demand your attention.*
 
 *It gives it back to you.*
 
