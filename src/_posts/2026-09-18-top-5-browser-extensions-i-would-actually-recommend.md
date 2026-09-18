@@ -1,9 +1,8 @@
 ---
-date: "2026-09-17T15:01:58Z"
+date: "2026-09-18T15:01:58Z"
 title: "5 Browser Extensions I'd Actually Recommend"
 shamthing: "My browser has a problem. I might be the problem."
-excerpt: "Default archive tools are good enough until they aren't. 7-Zip takes file compression to another level, offering speed and support for countless formats without unnecessary bloat. It's not the prettiest archive tool around, but it quietly does everything you need and gets out of the way.
-"
+excerpt: "Your browser can do more than you probably give it credit for. The right extensions can simplify everyday tasks, save time, reduce clutter, and add surprisingly useful features. Here are a few worth checking out, along with some bonus tools that deserve a place on your radar."
 featuredImage: "28_7zip-the-last-archive-tool-you-will-ever-need.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789126882/28_7zip-the-last-archive-tool-you-will-ever-need_m0wrb0.webp"
 category: "software"
@@ -33,17 +32,11 @@ And we're not doing the usual "save the best for last" thing.
 
 We're starting with the best.
 
-### 1. Extension Manager [🔗](https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+### 1. Extension Manager
 
 <small>"Because all those extensions were never going to manage themselves." 😂</small>
 
-[Get KeePassXC](https://keepassxc.org/){.button}
-
-[Get KeePassXC](https://keepassxc.org/)
-
-<a href="https://example.com" target="_blank" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2 no-underline mt-4">
-  Read More
-</a>
+<a href="https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco" class="button">Get it on Chrome Web Store →</a>
 
 Well, if you're going to have extra extensions, you better have a way to manage the mess.
 
@@ -69,9 +62,11 @@ No digging through browser settings, no drama.
 
 >**Pro tip:** Pin this one first, before the others.
 
-### 2. Search & Link Preview [🔗](https://chromewebstore.google.com/detail/search-link-preview/mmmfofondapflhgbdidadejnechhjocm)
+### 2. Search & Link Preview
 
 <small>"You opened another tab, didn't you?" 👀</small>
+
+<a href="https://chromewebstore.google.com/detail/search-link-preview/mmmfofondapflhgbdidadejnechhjocm" class="button">Get it on Chrome Web Store →</a>
 
 The Google rabbit hole, you already know the drill.
 
@@ -110,9 +105,11 @@ That's one of those small features that makes you wonder why browsers don't just
 
 >**Tip:** No need to pin this one. It comes with a 'preview' menu every time you hover over a link.
 
-### 3. GoFullPage [🔗](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+### 3. GoFullPage
 
 <small>When a screenshot means the whole page.</small>
+
+<a href="https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl" class="button">Get it on Chrome Web Store →</a>
 
 This one comes in handy a LOT.
 
@@ -134,9 +131,11 @@ It's one of those extensions that can sit quietly disabled for weeks, then sudde
 
 A must-have, this one.
 
-### 4. Cookie-Editor [🔗](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
+### 4. Cookie-Editor
 
 <small>Take control of your cookies, no, not those cookies. 🍪😋</small>
+
+<a href="https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm" class="button">Get it on Chrome Web Store →</a>
 
 Okay...
 
@@ -168,9 +167,11 @@ Just don't start editing random cookies because the button is there.
 
 >This one is like a gun. You don't need to wave it around just because you have it. Use wisely. 😅
 
-### 5. SponsorBlock [🔗](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
+### 5. SponsorBlock
 
 <small>YouTube, minus the parts you didn't come for.</small>
+
+<a href="https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone" class="button">Get it on Chrome Web Store →</a>
 
 Ah, this one is for **YouTube**.
 
@@ -208,7 +209,7 @@ SponsorBlock can skip sections with no audio. Super useful if you are just liste
 
 Okay, five is enough. But you still need...
 
-**AN AD BLOCKER** [🔗](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+**AN AD BLOCKER** <a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh" class="button">Install it →</a>
 
 Let's be honest, the web can get a little noisy.
 
@@ -216,25 +217,25 @@ I use <u>uBlock Origin Lite</u> to keep intrusive ads, popups, and other unwante
 
 >**Quick tip:** Whitelist creators and websites you love. If you enjoy their work, letting their ads through is a simple way to support them. 🏆
 
-**A DOWNLOAD MANAGER**
+**A DOWNLOAD MANAGER** <a href="https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp" class="button">Install it →</a>
 
 If you download large files, multiple files, or just want a little more control over how your downloads are handled, a dedicated download manager is worth checking out.
 
-I use <u>Free Download Manager</u>,[🔗](https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp) and I've written about it before. Read the post [here](/blog/free-download-manager-the-answer-to-idm-on-linux).
+I use <u>Free Download Manager</u>, and I've written about it before. Read the post [here](/blog/free-download-manager-the-answer-to-idm-on-linux).
 
-**A PASSWORD MANAGER**
+**A PASSWORD MANAGER** <a href="https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk" class="button">Install it →</a>
 
 If you're still relying on your memory, your browser, or that one password you've been reusing since 1906...
 
 We need to talk. 😅
 
-I use <u>KeePassXC</u>.[🔗](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
+I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
 
-**WRITING ASSISTANT**
+**WRITING ASSISTANT** <a href="https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen" class="button">Install it →</a>
 
 And finally, something for the ~English~ writing.
 
-<u>Grammarly</u>[🔗](https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen) has been one of those tools I keep around whenever I'm writing online.
+<u>Grammarly</u> has been one of those tools I keep around whenever I'm writing online.
 
 Not because I can't spell.
 
@@ -247,6 +248,8 @@ It's just nice having something quietly point out the occasional typo, awkward s
 ## That's It
 
 And that's the list.
+
+For Web Developers... check out: [AITDK SEO,](https://chromewebstore.google.com/detail/aitdk-seo-extension-traff/hhfkpjffbhledfpkhhcoidplcebgdgbk) super useful toolsets there mate.
 
 *The rest of my browser extensions come and go.*
 

@@ -150,5 +150,19 @@
 
 /* Small text */
 .markdown small {
-  @apply text-gray-400/80 text-xl font-voke italic;
+  @apply text-voke text-xl font-voke font-semibold italic;
+}
+
+:global(.dark) .markdown small {
+  @apply text-gray-400/80;
+}
+
+.markdown a:global(.button),
+.markdown button:global(.button) {
+  @apply inline-flex items-center justify-center rounded-md text-sm font-semibold transition-colors bg-sham text-voke hover:bg-sham/90 hover:text-voke hover:opacity-100 h-10 px-4 py-2 no-underline shadow-sm;
+}
+
+:global(.dark) .markdown a:global(.button),
+:global(.dark) .markdown button:global(.button) {
+  @apply bg-voke text-sham hover:bg-voke/90 hover:text-sham;
 }
