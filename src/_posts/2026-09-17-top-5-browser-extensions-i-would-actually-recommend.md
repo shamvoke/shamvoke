@@ -37,6 +37,14 @@ We're starting with the best.
 
 <small>"Because all those extensions were never going to manage themselves." 😂</small>
 
+[Get KeePassXC](https://keepassxc.org/){.button}
+
+[Get KeePassXC](https://keepassxc.org/)
+
+<a href="https://example.com" target="_blank" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors bg-blue-600 text-white hover:bg-blue-700 h-10 px-4 py-2 no-underline mt-4">
+  Read More
+</a>
+
 Well, if you're going to have extra extensions, you better have a way to manage the mess.
 
 The browser's default extension manager is okay.
@@ -208,25 +216,25 @@ I use <u>uBlock Origin Lite</u> to keep intrusive ads, popups, and other unwante
 
 >**Quick tip:** Whitelist creators and websites you love. If you enjoy their work, letting their ads through is a simple way to support them. 🏆
 
-**A DOWNLOAD MANAGER** [🔗](https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp)
+**A DOWNLOAD MANAGER**
 
 If you download large files, multiple files, or just want a little more control over how your downloads are handled, a dedicated download manager is worth checking out.
 
-I use <u>Free Download Manager</u>, and I've written about it before. Read the post here.
+I use <u>Free Download Manager</u>,[🔗](https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp) and I've written about it before. Read the post [here](/blog/free-download-manager-the-answer-to-idm-on-linux).
 
-**A PASSWORD MANAGER** [🔗](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+**A PASSWORD MANAGER**
 
 If you're still relying on your memory, your browser, or that one password you've been reusing since 1906...
 
 We need to talk. 😅
 
-I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it here.
+I use <u>KeePassXC</u>.[🔗](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
 
-**WRITING ASSISTANT** [🔗](https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen)
+**WRITING ASSISTANT**
 
 And finally, something for the ~English~ writing.
 
-<u>Grammarly</u> has been one of those tools I keep around whenever I'm writing online.
+<u>Grammarly</u>[🔗](https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen) has been one of those tools I keep around whenever I'm writing online.
 
 Not because I can't spell.
 
