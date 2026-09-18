@@ -3,8 +3,8 @@ date: "2026-09-18T15:01:58Z"
 title: "5 Browser Extensions I'd Actually Recommend"
 shamthing: "My browser has a problem. I might be the problem."
 excerpt: "Your browser can do more than you probably give it credit for. The right extensions can simplify everyday tasks, save time, reduce clutter, and add surprisingly useful features. Here are a few worth checking out, along with some bonus tools that deserve a place on your radar."
-featuredImage: "28_7zip-the-last-archive-tool-you-will-ever-need.webp"
-ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789126882/28_7zip-the-last-archive-tool-you-will-ever-need_m0wrb0.webp"
+featuredImage: "29_5-browser-extensions-i-would-actually-recommend.webp"
+ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789737283/29_5-browser-extensions-i-would-actually-recommend_mjdfhc.webp"
 category: "software"
 tags:
   - browserextensions
@@ -58,6 +58,8 @@ Need it again?
 
 One click.
 
+![A screenshot of Extension Manager](https://res.cloudinary.com/deudsgjbm/image/upload/v1789745471/Extension-manager_oakqky.webp "A screenshot of Extension Manager")
+
 No digging through browser settings, no drama.
 
 >**Pro tip:** Pin this one first, before the others.
@@ -96,6 +98,8 @@ All without leaving the search page.
 And when you finally find the result that actually solves your problem, you can open it in a new tab.
 
 *Boom!*
+
+![A screenshot of Search & Link preview](https://res.cloudinary.com/deudsgjbm/image/upload/v1789744351/Search-and-preview_p8naym.webp "A screenshot of Search & Link preview")
 
 No more tab archaeology.
 
@@ -157,11 +161,13 @@ You can `import` and `export` cookies, `inspect` them, and even `edit` them.
 
 You sign up for a website, hand over your email and a few details, then five minutes later realise the site is absolute trash.
 
-Don't just close the tab and move on. They may already have a cookie sitting in your browser.
+Don't just close the tab and move on.
 
-*Clear them, then move on.* One click away.
+*Clear cookies, then move on.* One click away.
 
 I use it mostly to import and export cookies. 🫶
+
+![A screenshot of Cookie-editor](https://res.cloudinary.com/deudsgjbm/image/upload/v1789744350/Cookie-editor_qocaz7.webp "Cookie-editor screenshot")
 
 Just don't start editing random cookies because the button is there.
 
@@ -241,15 +247,15 @@ Not because I can't spell.
 
 Obviously.
 
-It's just nice having something quietly point out the occasional typo, awkward sentence, or grammatical crime before it escapes into the wild.
+It's just nice having something quietly point out the occasional typo, awkward sentence, or a grammatical crime before it escapes into the wild.
 
->Otherwise, you'd all be reading this in my mother tongue. Habari yako?
+>**NOTE:** Except Grammarly, all the extensions in this list are 100% free. Free as in free cookies!
 
 ## That's It
 
 And that's the list.
 
-For Web Developers... check out: [AITDK SEO,](https://chromewebstore.google.com/detail/aitdk-seo-extension-traff/hhfkpjffbhledfpkhhcoidplcebgdgbk) super useful toolsets there mate.
+For Web Developers... check out: [AITDK SEO,](https://chromewebstore.google.com/detail/aitdk-seo-extension-traff/hhfkpjffbhledfpkhhcoidplcebgdgbk) super useful toolsets there mate. Weird name.
 
 *The rest of my browser extensions come and go.*
 
