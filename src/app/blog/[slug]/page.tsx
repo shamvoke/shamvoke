@@ -1,20 +1,22 @@
-import JsonLd from "@/components/seo/JsonLd"
-import { createBlogPostingSchema, createBreadcrumbSchema } from "@/lib/schema"
-import { Metadata } from "next"
-import { notFound } from "next/navigation"
-import { getAllPosts, getPostBySlug } from "@/lib/api"
-import markdownToHtml from "@/lib/markdownToHtml"
-import FeaturedImage from "@/components/ui/featuredImage"
-import SocialShare from "@/components/ui/socialShare"
-import LikeButton from "@/components/ui/likeButton"
+import JsonLd from "@/components/seo/JsonLd";
+import { createBlogPostingSchema, createBreadcrumbSchema } from "@/lib/schema";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { getAllPosts, getPostBySlug } from "@/lib/api";
+import markdownToHtml from "@/lib/markdownToHtml";
+import FeaturedImage from "@/components/ui/featuredImage";
+import SocialShare from "@/components/ui/socialShare";
+import LikeButton from "@/components/ui/likeButton";
 import { LuCalendar, LuClock } from "react-icons/lu";
 import readingTime from "reading-time";
 import ReadGrid from "@/app/blog/[slug]/readGrid";
 import AdBanner from "@/components/seo/adbanner";
 import AuthorCard from "@/components/ui/authorCard";
-import CommentBox from "@/components/ui/comments"
-import Newsletter from "@/components/ui/newsletter"
-import styles from "./post-body.module.css"
+import CommentBox from "@/components/ui/comments";
+import Newsletter from "@/components/ui/newsletter";
+import KofiPanel from "@/components/widgets/kofipanel";
+import KofiWidget from "@/components/widgets/kofiWidget";
+import styles from "./post-body.module.css";
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -124,6 +126,7 @@ export default async function PostPage({ params }: Props) {
   return (
     <>
     <JsonLd data={[articleSchema, breadcrumbSchema]} />
+    <KofiWidget />
     <div className="max-w-7xl mx-auto px-4 pt-20">
       <div className="flex flex-col lg:flex-row gap-15 items-start">
     <article data-pagefind-body className="flex-1 min-w-0">
@@ -173,6 +176,7 @@ export default async function PostPage({ params }: Props) {
       <AdBanner dataAdSlot="9165861347" />
 
       <div
+        id="post-content"
         className={styles.markdown}
         dangerouslySetInnerHTML={{ __html: content }}
       />
@@ -184,7 +188,9 @@ export default async function PostPage({ params }: Props) {
           title={post.title}
           url={`https://shamvoke.com/blog/${slug}`}
         />
-        <AuthorCard />
+        <div id="author-card">
+          <AuthorCard />
+        </div>
         <CommentBox />
       <div className="lg:hidden mt-12 ">
       <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
@@ -194,9 +200,6 @@ export default async function PostPage({ params }: Props) {
       </div>
     </article>
     <aside className="hidden lg:block w-80 shrink-0 space-y-12 mt-33">
-
-      {/* Sidebar ad unit */}
-      <AdBanner dataAdSlot="3564024180" />
       <div>
         <h3 className="text-xl font-sham font-bold text-sham dark:text-voke">
           Related Posts
@@ -204,6 +207,8 @@ export default async function PostPage({ params }: Props) {
         <hr className="my-6" />
         <ReadGrid posts={relatedPosts} />
       </div>
+            {/* Sidebar ad unit */}
+      <AdBanner dataAdSlot="3564024180" />
       <div>
         <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
           Latest Posts
@@ -211,6 +216,7 @@ export default async function PostPage({ params }: Props) {
         <hr className="my-6" />
         <ReadGrid posts={latestPosts} />
       </div>
+      <KofiPanel />
     </aside>
     </div>
     <Newsletter />
