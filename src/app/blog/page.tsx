@@ -3,6 +3,7 @@ import { createBlogCollectionSchema } from "@/lib/schema"
 import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 import PostsGrid from "@/app/blog/PostsGrid"
+import AdBanner from "@/components/seo/adbanner";
 
 export const metadata = {
   title: "Blog | Web Design, Arch Linux & Digital creativity",
@@ -28,7 +29,15 @@ export default function BlogIndex() {
       </div>
 
       <BlogCategoryFilter activeCategory="all" />
+      {/* Top Listing Banner */}
+        <div className="max-w-5xl mx-auto px-4">
+          <AdBanner dataAdSlot="7395457986" />
+        </div>
       <PostsGrid posts={posts} />
+      {/* Bottom Listing Banner */}
+        <div className="max-w-5xl mx-auto px-4 mt-12">
+          <AdBanner dataAdSlot="7395457986" />
+        </div>
     </main>
     </>
   )

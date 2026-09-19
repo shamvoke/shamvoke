@@ -1,6 +1,8 @@
+import React from "react"
 import Link from "next/link"
 import FeaturedImage from "@/components/ui/featuredImage"
 import { Post } from "@/interfaces/post"
+import AdBanner from "@/components/seo/adbanner";
 
 type PostsGridProps = {
   posts: Post[]
@@ -10,76 +12,82 @@ export default function PostsGrid({ posts }: PostsGridProps) {
   return (
     <section
       id="grid"
-      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4  -mt-6 scroll-mt-20 mb-10"
+      className="grid px-4 sm:px-8 gap-8 gap-y-12 sm:gap-x-2 sm:grid-cols-2 xl:grid-cols-4 -mt-6 scroll-mt-20 mb-10"
     >
-      {posts.map((post) => (
-        <article
-        key={post.slug}
-        className="group relative h-full transition-transform duration-300 hover:-translate-y-1"
-        >
-        {post.category && (
-            <div className="mb-3">
-            <span className="inline-block text-sm font-bold font-sham uppercase tracking-wide text-sham dark:text-voke">
-                {post.category}
-            </span>
-            </div>
-        )}
-
-        <div className="flex h-full flex-col overflow-hidden border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
-            <Link href={`/blog/${post.slug}`} className="block">
-            <div className="relative aspect-40/21 overflow-hidden">
-                <FeaturedImage
-                imageFilename={post.featuredImage}
-                alt={post.title}
-                sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
-                />
-
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />
-
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                <div className="flex items-center justify-center w-16 h-8 rounded-xl border-2 bg-black/20 backdrop-blur-xs">
-                    <span className="text-voke text-sm font-semibold">Read</span>
-                </div>
-                </div>
-            </div>
-            </Link>
-
-            <div className="flex flex-1 flex-col px-3 py-5">
-            <time className="block text-sm font-light text-neutral-500 mb-3">
-                {new Date(post.date).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-                })}
-            </time>
-
-            <Link href={`/blog/${post.slug}`} className="block">
-                <h2 className="text-2xl font-black leading-tight text-black dark:text-white mb-3 capitalize transition-colors group-hover:text-sham dark:group-hover:text-voke">
-                {post.title}
-                </h2>
-            </Link>
-
-            <Link href={`/blog/${post.slug}`} className="block">
-                <p className="text-[16px] leading-7 sm:text-sm sm:leading-5 text-neutral-600 dark:text-neutral-400">
-                {post.excerpt}
-                </p>
-            </Link>
-
-            {post.tags && post.tags.length > 0 && (
-                <div className="mt-auto flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                    <span
-                    key={tag}
-                    className="inline-flex items-center font-sans rounded-full border border-black dark:border-white px-2 py-1 text-xs text-black dark:text-white"
-                    >
-                    #{tag.toLowerCase()}
-                    </span>
-                ))}
-                </div>
+      {posts.map((post, index) => (
+        <React.Fragment key={post.slug}>
+          <article className="group relative h-full transition-transform duration-300 hover:-translate-y-1">
+            {post.category && (
+              <div className="mb-3">
+                <span className="inline-block text-sm font-bold font-sham uppercase tracking-wide text-sham dark:text-voke">
+                  {post.category}
+                </span>
+              </div>
             )}
+
+            <div className="flex h-full flex-col overflow-hidden border border-black/10 dark:border-white/10 bg-white dark:bg-neutral-950 shadow-sm hover:shadow-xl transition-shadow duration-300">
+              <Link href={`/blog/${post.slug}`} className="block">
+                <div className="relative aspect-40/21 overflow-hidden">
+                  <FeaturedImage
+                    imageFilename={post.featuredImage}
+                    alt={post.title}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
+                  />
+
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition duration-300" />
+
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                    <div className="flex items-center justify-center w-16 h-8 rounded-xl border-2 bg-black/20 backdrop-blur-xs">
+                      <span className="text-voke text-sm font-semibold">Read</span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+
+              <div className="flex flex-1 flex-col px-3 py-5">
+                <time className="block text-sm font-light text-neutral-500 mb-3">
+                  {new Date(post.date).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </time>
+
+                <Link href={`/blog/${post.slug}`} className="block">
+                  <h2 className="text-2xl font-black leading-tight text-black dark:text-white mb-3 capitalize transition-colors group-hover:text-sham dark:group-hover:text-voke">
+                    {post.title}
+                  </h2>
+                </Link>
+
+                <Link href={`/blog/${post.slug}`} className="block">
+                  <p className="text-[16px] leading-7 sm:text-sm sm:leading-5 text-neutral-600 dark:text-neutral-400">
+                    {post.excerpt}
+                  </p>
+                </Link>
+
+                {post.tags && post.tags.length > 0 && (
+                  <div className="mt-auto flex flex-wrap gap-2">
+                    {post.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="inline-flex items-center font-sans rounded-full border border-black dark:border-white px-2 py-1 text-xs text-black dark:text-white"
+                      >
+                        #{tag.toLowerCase()}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
-        </div>
-        </article>
+          </article>
+
+          {/* In-feed ad inserted after post 4 */}
+          {index === 3 && posts.length > 4 && (
+            <div className="col-span-full my-4 flex justify-center">
+              <AdBanner dataAdSlot="7395457986" />
+            </div>
+          )}
+        </React.Fragment>
       ))}
     </section>
   )
