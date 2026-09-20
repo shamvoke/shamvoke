@@ -20,6 +20,8 @@ Some are useful. Some are very useful. And a few have earned a permanent spot in
 
 So, instead of dumping my entire extension collection on you, I've picked a few that I actually use and would recommend to someone else.
 
+Quick note: I use two browsers, each with its own set of tools. This list is my Chrome setup.
+
 This isn't one of those "install these 25 extensions and become a productivity master" lists either.
 
 You don't need all of them.
@@ -27,8 +29,6 @@ You don't need all of them.
 In fact, the goal is much simpler:
 
 **By the end of this list, I want you to discover at least one extension that makes you wonder how you ever browsed without it.**
-
-Quick note: I use two browsers, each with its own set of tools. This list is my Chrome setup.
 
 And we're not doing the usual "save the best for last" thing.
 
@@ -47,7 +47,7 @@ The Google rabbit hole, you already know the drill.
 - Click one that looks promising.
 - Scroll the page.
 - No help.
-- Go back to the search results.
+- Back to the search results.
 - Click another.
 - Repeat...
 
