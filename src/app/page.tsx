@@ -1,6 +1,5 @@
 import HeroSection from "@/components/hero-section"
 import { getAllPosts } from "@/lib/api"
-import WebDesignSection from "@/components/webDesign-section"
 import PostsGrid from "@/app/blog/PostsGrid"
 import LogoLoopSection from "@/components/bree-section"
 import Newsletter from "@/components/ui/newsletter"
@@ -16,7 +15,6 @@ export default function Page() {
       <div className="max-w-5xl mx-auto px-4 my-8">
         <AdBanner dataAdSlot="7395457986" />
       </div>
-      <WebDesignSection />
       <LogoLoopSection />
       {/* Lower banner unit */}
       <div className="max-w-5xl mx-auto px-4 my-8">
