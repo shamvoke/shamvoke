@@ -79,12 +79,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
               </li>
             ))}
           </ul>
-          <div className="px-5 pt-4 pb-2 flex items-center gap-2">
-            <p className="text-2xl font-voke text-white/60">
-              Buy <span className="font-bold">yourself</span> a coffee
-            </p>
-            <FiCoffee className="w-4 h-4 text-voke/80" />
-          </div>
+        
 
           <div className="mt-auto border-t border-white/10 px-5 py-4">
             <SocialLinks />
