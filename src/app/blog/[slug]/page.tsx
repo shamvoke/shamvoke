@@ -14,7 +14,7 @@ import AdBanner from "@/components/seo/adbanner";
 import AuthorCard from "@/components/ui/authorCard";
 import CommentBox from "@/components/ui/comments";
 import Newsletter from "@/components/ui/newsletter";
-import KofiPanel from "@/components/widgets/kofipanel";
+import KofiPanel from "@/components/widgets/kofiPanel";
 import KofiWidget from "@/components/widgets/kofiWidget";
 import styles from "./post-body.module.css";
 
