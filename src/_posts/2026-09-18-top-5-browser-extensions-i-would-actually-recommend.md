@@ -28,43 +28,13 @@ In fact, the goal is much simpler:
 
 **By the end of this list, I want you to discover at least one extension that makes you wonder how you ever browsed without it.**
 
+Quick note: I use two browsers, each with its own set of tools. This list is my Chrome setup.
+
 And we're not doing the usual "save the best for last" thing.
 
 We're starting with the best.
 
-### 1. Extension Manager
-
-<small>"Because all those extensions were never going to manage themselves." 😂</small>
-
-<a href="https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco" class="button">Get it on Chrome Web Store →</a>
-
-Well, if you're going to have extra extensions, you better have a way to manage the mess.
-
-The browser's default extension manager is okay.
-
-And by okay, I mean it works.
-
-*Extension Manager is what you install when you want more than okay.*
-
-Its biggest selling point for me is <u>simplicity</u>. You can `enable`, `disable`, or `uninstall` extensions with a single click.
-
-And that's actually more useful than it sounds.
-
-Some extensions don't need to be running all the time. Maybe you only need them once every few weeks. Or when an extension is getting in the way of a particular website.
-
-Disable it.
-
-Need it again?
-
-One click.
-
-![A screenshot of Extension Manager](https://res.cloudinary.com/deudsgjbm/image/upload/v1789745471/Extension-manager_oakqky.webp "A screenshot of Extension Manager")
-
-No digging through browser settings, no drama.
-
->**Pro tip:** Pin this one first, before the others.
-
-### 2. Search & Link Preview
+### 1. Search & Link Preview
 
 <small>"You opened another tab, didn't you?" 👀</small>
 
@@ -109,7 +79,7 @@ That's one of those small features that makes you wonder why browsers don't just
 
 >**Tip:** No need to pin this one. It comes with a 'preview' menu every time you hover over a link.
 
-### 3. GoFullPage
+### 2. GoFullPage
 
 <small>When a screenshot means the whole page.</small>
 
@@ -135,7 +105,7 @@ It's one of those extensions that can sit quietly disabled for weeks, then sudde
 
 A must-have, this one.
 
-### 4. Cookie-Editor
+### 3. Cookie-Editor
 
 <small>Take control of your cookies, no, not those cookies. 🍪😋</small>
 
@@ -157,14 +127,6 @@ But if you want to go beyond simply deleting them, things get interesting.
 
 You can `import` and `export` cookies, `inspect` them, and even `edit` them.
 
-*Here's an example reason to clear cookies.*
-
-You sign up for a website, hand over your email and a few details, then five minutes later realise the site is absolute trash.
-
-Don't just close the tab and move on.
-
-*Clear cookies, then move on.* One click away.
-
 I use it mostly to import and export cookies. 🫶
 
 ![A screenshot of Cookie-editor](https://res.cloudinary.com/deudsgjbm/image/upload/v1789744350/Cookie-editor_qocaz7.webp "Cookie-editor screenshot")
@@ -173,7 +135,7 @@ Just don't start editing random cookies because the button is there.
 
 >This one is like a gun. You don't need to wave it around just because you have it. Use wisely. 😅
 
-### 5. SponsorBlock
+### 4. SponsorBlock
 
 <small>YouTube, minus the parts you didn't come for.</small>
 
@@ -209,6 +171,36 @@ And there's a particularly nice feature if you use YouTube for music.
 
 SponsorBlock can skip sections with no audio. Super useful if you are just listening to the music but not watching the video.
 
+### 5. Extension Manager
+
+<small>"Because all those extensions were never going to manage themselves." 😂</small>
+
+<a href="https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco" class="button">Get it on Chrome Web Store →</a>
+
+Well, if you're going to have extra extensions, you better have a way to manage the mess.
+
+The browser's default extension manager is okay.
+
+And by okay, I mean it works.
+
+*Extension Manager is what you install when you want more than okay.*
+
+Its biggest selling point for me is <u>simplicity</u>. You can `enable`, `disable`, or `uninstall` extensions with a single click.
+
+And that's actually more useful than it sounds.
+
+Some extensions don't need to be running all the time. Maybe you only need them once every few weeks. Or when an extension is getting in the way of a particular website.
+
+Disable it.
+
+Need it again?
+
+One click.
+
+![A screenshot of Extension Manager](https://res.cloudinary.com/deudsgjbm/image/upload/v1789745471/Extension-manager_oakqky.webp "A screenshot of Extension Manager")
+
+No digging through browser settings.
+
 #### Bonus: A Few More Worth Keeping
 
 <small>I bet you have one of these already!</small>
@@ -237,19 +229,7 @@ We need to talk. 😅
 
 I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
 
-**WRITING ASSISTANT** <a href="https://chromewebstore.google.com/detail/grammarly-ai-writing-assi/kbfnbcaeplbcioakkpcpgfkobkghlhen" class="button">Install it →</a>
-
-And finally, something for the ~English~ writing.
-
-<u>Grammarly</u> has been one of those tools I keep around whenever I'm writing online.
-
-Not because I can't spell.
-
-Obviously.
-
-It's just nice having something quietly point out the occasional typo, awkward sentence, or a grammatical crime before it escapes into the wild.
-
->**NOTE:** Except Grammarly, all the extensions in this list are 100% free. Free as in free cookies!
+>**NOTE:** All the extensions in this list are 100% free. Free as in freedom!
 
 ## That's It
 
