@@ -156,3 +156,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
+ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+}

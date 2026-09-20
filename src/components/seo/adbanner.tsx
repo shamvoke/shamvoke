@@ -26,12 +26,12 @@ export default function AdBanner({
   const adRef = useRef<HTMLModElement | null>(null);
 
   useEffect(() => {
+    const el = adRef.current;
+    // Our own flag: survives Strict Mode's double effect on the same DOM node
+    if (!el || el.dataset.adPushed) return;
+    el.dataset.adPushed = "1";
     try {
-      if (typeof window !== "undefined" && adRef.current) {
-        if (adRef.current.innerHTML.trim() === "") {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        }
-      }
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (err) {
       console.error("AdSense push error:", err);
     }
@@ -40,12 +40,12 @@ export default function AdBanner({
   return (
     <div
       key={pathname}
-      className={`ad-wrapper w-full flex justify-center overflow-hidden [&:has(ins[data-ad-status="unfilled"])]:hidden ${className}`}
+      className={`ad-wrapper w-full overflow-hidden [&:has(ins[data-ad-status="unfilled"])]:hidden ${className}`}
     >
       <ins
         ref={adRef}
         className="adsbygoogle"
-        style={{ display: "block" }}
+        style={{ display: "block", width: "100%" }}
         data-ad-client="ca-pub-9337281778223595"
         data-ad-slot={dataAdSlot}
         data-ad-format={dataAdFormat}
