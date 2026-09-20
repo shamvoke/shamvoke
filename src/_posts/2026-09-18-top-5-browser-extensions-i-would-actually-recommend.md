@@ -1,13 +1,13 @@
 ---
 date: "2026-09-18T15:01:58Z"
-title: "5 ChromeExtensions I'd Actually Recommend"
+title: "5 Chrome Extensions I'd Actually Recommend"
 shamthing: "My browser has a problem. I might be the problem."
 excerpt: "Your browser can do more than you probably give it credit for. The right extensions can simplify everyday tasks, save time, reduce clutter, and add surprisingly useful features. Here are a few worth checking out, along with some bonus tools that deserve a place on your radar."
 featuredImage: "29_5-browser-extensions-i-would-actually-recommend.webp"
 ogImage: "https://res.cloudinary.com/deudsgjbm/image/upload/v1789737283/29_5-browser-extensions-i-would-actually-recommend_mjdfhc.webp"
 category: "software"
 tags:
-  - browserextensions
+  - chrome
   - browsing
   - productivity
 ---
@@ -79,63 +79,7 @@ That's one of those small features that makes you wonder why browsers don't just
 
 >**Tip:** No need to pin this one. It comes with a 'preview' menu every time you hover over a link.
 
-### 2. GoFullPage
-
-<small>When a screenshot means the whole page.</small>
-
-<a href="https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl" class="button">Get it on Chrome Web Store →</a>
-
-This one comes in handy a LOT.
-
-It's also a perfect example of an extension you can leave disabled until you actually need it.
-
-*GoFullPage lets you take screenshots of websites.*
-
-But we're not talking about the little rectangle currently visible on your screen.
-
-It captures the **full page**.
-
-Top to bottom.
-
-The extension automatically scrolls through the page and stitches everything together into one long screenshot.
-
-*This is ridiculously useful when you need to save a webpage, share a design, document something, or simply capture a page without taking seventeen separate screenshots.*
-
-It's one of those extensions that can sit quietly disabled for weeks, then suddenly save you a ridiculous amount of time.
-
-A must-have, this one.
-
-### 3. Cookie-Editor
-
-<small>Take control of your cookies, no, not those cookies. 🍪😋</small>
-
-<a href="https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm" class="button">Get it on Chrome Web Store →</a>
-
-Okay...
-
-Tread carefully.
-
-Proceed with this one if you know what browser cookies are.
-
-*Cookie-Editor makes dealing with data stored by websites considerably easier.*
-
-Clearing cookies?
-
-Easy.
-
-But if you want to go beyond simply deleting them, things get interesting.
-
-You can `import` and `export` cookies, `inspect` them, and even `edit` them.
-
-I use it mostly to import and export cookies. 🫶
-
-![A screenshot of Cookie-editor](https://res.cloudinary.com/deudsgjbm/image/upload/v1789744350/Cookie-editor_qocaz7.webp "Cookie-editor screenshot")
-
-Just don't start editing random cookies because the button is there.
-
->This one is like a gun. You don't need to wave it around just because you have it. Use wisely. 😅
-
-### 4. SponsorBlock
+### 2. SponsorBlock
 
 <small>YouTube, minus the parts you didn't come for.</small>
 
@@ -170,6 +114,60 @@ Less filler.
 And there's a particularly nice feature if you use YouTube for music.
 
 SponsorBlock can skip sections with no audio. Super useful if you are just listening to the music but not watching the video.
+
+### 3. GoFullPage
+
+<small>When a screenshot means the whole page.</small>
+
+<a href="https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl" class="button">Get it on Chrome Web Store →</a>
+
+This one comes in handy a LOT.
+
+It's also a perfect example of an extension you can leave disabled until you actually need it.
+
+*GoFullPage lets you take screenshots of websites.*
+
+But we're not talking about the little rectangle currently visible on your screen.
+
+It captures the **full page**.
+
+Top to bottom.
+
+The extension automatically scrolls through the page and stitches everything together into one long screenshot.
+
+*This is ridiculously useful when you need to save a webpage, share a design, document something, or simply capture a page without taking seventeen separate screenshots.*
+
+It's one of those extensions that can sit quietly disabled for weeks, then suddenly save you a ridiculous amount of time.
+
+A must-have, this one.
+
+### 4. Cookie-Editor
+
+<small>Take control of your cookies, no, not those cookies. 🍪😋</small>
+
+<a href="https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm" class="button">Get it on Chrome Web Store →</a>
+
+Okay...
+
+Tread carefully.
+
+Proceed with this one if you know what browser cookies are.
+
+*Cookie-Editor makes dealing with data stored by websites considerably easier.*
+
+Clearing cookies?
+
+Easy.
+
+But if you want to go beyond simply deleting them, things get interesting.
+
+You can `import` and `export` cookies, `inspect` them, and even `edit` them.
+
+I use it mostly to import and export cookies. 🫶
+
+![A screenshot of Cookie-editor](https://res.cloudinary.com/deudsgjbm/image/upload/v1789744350/Cookie-editor_qocaz7.webp "Cookie-editor screenshot")
+
+>Just don't start editing random cookies because the button is there.
 
 ### 5. Extension Manager
 
@@ -229,7 +227,7 @@ We need to talk. 😅
 
 I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
 
->**NOTE:** All the extensions in this list are 100% free. Free as in freedom!
+>**NOTE:** All the extensions in this list are 100% free. free as in no price tag!
 
 ## That's It
 
