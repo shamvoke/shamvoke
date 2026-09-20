@@ -1,6 +1,6 @@
 ---
 date: "2026-09-18T15:01:58Z"
-title: "5 Browser Extensions I'd Actually Recommend"
+title: "5 ChromeExtensions I'd Actually Recommend"
 shamthing: "My browser has a problem. I might be the problem."
 excerpt: "Your browser can do more than you probably give it credit for. The right extensions can simplify everyday tasks, save time, reduce clutter, and add surprisingly useful features. Here are a few worth checking out, along with some bonus tools that deserve a place on your radar."
 featuredImage: "29_5-browser-extensions-i-would-actually-recommend.webp"
