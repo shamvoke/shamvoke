@@ -216,7 +216,12 @@ export default async function PostPage({ params }: Props) {
         <hr className="my-6" />
         <ReadGrid posts={latestPosts} />
       </div>
-      <KofiPanel />
+      <div>
+        <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
+          Fuel The Curiosity!
+        </h3>
+        <KofiPanel />
+      </div>
     </aside>
     </div>
     <Newsletter />
