@@ -40,7 +40,7 @@ We're starting with the best.
 
 <a href="https://chromewebstore.google.com/detail/search-link-preview/mmmfofondapflhgbdidadejnechhjocm" class="button">Get it on Chrome Web Store →</a>
 
-The Google rabbit hole, you already know the drill.
+The search rabbit hole, you already know the drill.
 
 - Search for something.
 - Review the search results.
