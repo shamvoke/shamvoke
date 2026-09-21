@@ -77,7 +77,7 @@ export default function KofiWidget() {
       if (window.kofiWidgetOverlay) {
         window.kofiWidgetOverlay.draw("shamvoke", {
           type: "floating-chat",
-          "floating-chat.donateButton.text": "Fuel the Curiosity",
+          "floating-chat.donateButton.text": "Fuel Next Post",
           "floating-chat.donateButton.background-color": "#00b9fe",
           "floating-chat.donateButton.text-color": "#fff",
         })
