@@ -227,8 +227,6 @@ We need to talk. 😅
 
 I use <u>KeePassXC</u>. I've also written a whole post about KeePassXC and why I switched to it. Find it [here](/blog/a-reason-to-forget-all-your-passwords-keepassxc-vs-bitwarden).
 
->**NOTE:** All the extensions in this list are 100% free. free as in no price tag!
-
 ## That's It
 
 And that's the list.
