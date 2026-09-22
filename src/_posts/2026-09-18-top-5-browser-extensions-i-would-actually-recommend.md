@@ -205,7 +205,7 @@ No digging through browser settings.
 
 Okay, five is enough. But you still need...
 
-**AN AD BLOCKER** <a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh" class="button">Install it →</a>
+**AN AD BLOCKER**
 
 Let's be honest, the web can get a little noisy.
 
@@ -213,13 +213,13 @@ I use <u>uBlock Origin Lite</u> to keep intrusive ads, popups, and other unwante
 
 >**Quick tip:** Whitelist creators and websites you love. If you enjoy their work, letting their ads through is a simple way to support them. 🏆
 
-**A DOWNLOAD MANAGER** <a href="https://chromewebstore.google.com/detail/free-download-manager/ahmpjcflkgiildlgicmcieglgoilbfdp" class="button">Install it →</a>
+**A DOWNLOAD MANAGER**
 
 If you download large files, multiple files, or just want a little more control over how your downloads are handled, a dedicated download manager is worth checking out.
 
 I use <u>Free Download Manager</u>, and I've written about it before. Read the post [here](/blog/free-download-manager-the-answer-to-idm-on-linux).
 
-**A PASSWORD MANAGER** <a href="https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk" class="button">Install it →</a>
+**A PASSWORD MANAGER**
 
 If you're still relying on your memory, your browser, or that one password you've been reusing since 1906...
 
