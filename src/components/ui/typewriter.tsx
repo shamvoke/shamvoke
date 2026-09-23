@@ -7,19 +7,11 @@ export default function HeroTypewriter() {
     <span>
       <Typewriter
         onInit={(typewriter) => {
-          const lines = [
-            "➤ Every Cursor has a point! Hover, <br /> let that click.",
-            "➤ Kindness is free, sprinkle that <br /> stuff everywhere.",
-          ]
-
-          const [first, second] =
-            Math.random() < 0.5 ? lines : [lines[1], lines[0]]
-
           typewriter
-            .typeString(first)
+            .typeString("➤ Every Cursor has a point! Hover, <br /> let that click.")
             .pauseFor(1500)
             .deleteAll()
-            .typeString(second)
+            .typeString("➤ Kindness is free, sprinkle that <br /> stuff everywhere.")
             .pauseFor(1500)
             .deleteAll()
             .typeString("➤ Tools I actually use on Linux, <br /> Windows and Android.")
@@ -27,7 +19,7 @@ export default function HeroTypewriter() {
         }}
         options={{
           autoStart: true,
-          loop: false,
+          loop: true,
           delay: 75,
           deleteSpeed: 50,
         }}
