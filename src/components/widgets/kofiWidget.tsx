@@ -98,14 +98,18 @@ export default function KofiWidget() {
     }
 
     return () => {
-      cancelled = true
-      observer?.disconnect()
-      document.body.classList.remove(VISIBLE_CLASS)
-      document.getElementById(STYLE_ID)?.remove()
-      document.getElementById("kofi-widget-overlay")?.remove()
-      document.querySelector(".floatingchat-container-wrap")?.remove()
-      document.querySelector(".floating-chat-kofi-popup-iframe")?.remove()
-    }
+  cancelled = true
+  observer?.disconnect()
+  document.body.classList.remove(VISIBLE_CLASS)
+  document.getElementById(STYLE_ID)?.remove()
+
+  document
+    .querySelectorAll('[class*="floatingchat-container"], [class*="floating-chat-kofi"]')
+    .forEach((el) => el.remove())
+
+  document.getElementById("kofi-widget-overlay")?.remove()
+  document.getElementById(SCRIPT_ID)?.remove()
+}
   }, [])
 
   return null
