@@ -5,7 +5,6 @@ import { getAllPosts } from "@/lib/api"
 import BlogCategoryFilter from "@/app/blog/BlogCategoryFilter"
 import PostsGrid from "@/app/blog/PostsGrid"
 import { notFound } from "next/navigation"
-import AdBanner from "@/components/seo/adbanner";
 
 type CategoryPageProps = {
   params: Promise<{
@@ -87,15 +86,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       </div>
 
       <BlogCategoryFilter activeCategory={activeCategory} />
-      {/* Top ad unit */}
-      <div className="max-w-5xl mx-auto px-4">
-        <AdBanner dataAdSlot="7395457986" />
-      </div>
       <PostsGrid posts={filteredPosts} />
-      {/* Bottom ad unit */}
-      <div className="max-w-5xl mx-auto px-4 mt-12">
-        <AdBanner dataAdSlot="7395457986" />
-      </div>
     </main>
     </>
   )

@@ -8,7 +8,6 @@ import "highlight.js/styles/monokai-sublime.css";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
-import Script from "next/script";
 
 const titillium = Titillium_Web({
   subsets: ['latin'],
@@ -82,13 +81,6 @@ export default function RootLayout({
       className={cn("antialiased", "font-sans", titillium.variable, nanumpenscript.variable, rampart.variable)}
     >
       <body>
-        <Script
-          async
-          id="adsbygoogle-init"
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9337281778223595"
-        />
 
         <JsonLd
           data={[

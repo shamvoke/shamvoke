@@ -10,7 +10,6 @@ import LikeButton from "@/components/ui/likeButton";
 import { LuCalendar, LuClock } from "react-icons/lu";
 import readingTime from "reading-time";
 import ReadGrid from "@/app/blog/[slug]/readGrid";
-import AdBanner from "@/components/seo/adbanner";
 import AuthorCard from "@/components/ui/authorCard";
 import CommentBox from "@/components/ui/comments";
 import Newsletter from "@/components/ui/newsletter";
@@ -172,17 +171,11 @@ export default async function PostPage({ params }: Props) {
         </div>
       </header>
 
-      {/* Top ad unit */}
-      <AdBanner dataAdSlot="9165861347" />
-
       <div
         id="post-content"
         className={styles.markdown}
         dangerouslySetInnerHTML={{ __html: content }}
       />
-
-      {/* Bottom ad unit */}
-      <AdBanner dataAdSlot="2466564939" />
         <LikeButton />
         <SocialShare
           title={post.title}
@@ -207,8 +200,6 @@ export default async function PostPage({ params }: Props) {
         <hr className="my-6" />
         <ReadGrid posts={relatedPosts} />
       </div>
-            {/* Sidebar ad unit */}
-      <AdBanner dataAdSlot="3564024180" />
       <div>
         <h3 className="text-xl font-sham font-bold mb-6 text-sham dark:text-voke">
           Latest Posts
