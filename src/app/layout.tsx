@@ -54,18 +54,15 @@ export const metadata: Metadata = {
     title: "shamvoke blog",
     description: "Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.",
     url: "https://shamvoke.com",
-    siteName: "Shamvoke blog",
+    siteName: "Sham voke blog",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shamvoke blog',
+    title: 'Sham voke blog',
     description: 'Personal blog of Sham Voke, sharing thoughts on web development, design, creativity, branding, and digital ideas.',
     creator: '@shamvoke',
-  },
-  other: {
-    "google-adsense-account": "ca-pub-9337281778223595"
   },
 }
 
